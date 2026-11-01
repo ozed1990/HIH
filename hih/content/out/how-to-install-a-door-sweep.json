@@ -1,0 +1,66 @@
+{
+  "blog_handle": "doors-windows",
+  "blog_title": "Doors & Windows",
+  "article": {
+    "title": "How to Install a Door Sweep",
+    "handle": "how-to-install-a-door-sweep",
+    "summary": "Close the drafty gap under an exterior door with a screw-on door sweep: measure, cut to width, set the height, and fasten it in under 30 minutes.",
+    "tags": [
+      "Beginner",
+      "Doors",
+      "Energy savings",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">If you can see daylight under your exterior door, you're paying to heat the outdoors. A door sweep is a strip of vinyl, rubber or brush on a metal or plastic carrier that seals that gap. This guide covers the screw-on type that mounts on the inside face of the door, so you don't have to take the door off.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear eye protection when cutting the aluminum carrier, and file sharp cut edges smooth.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Measure the door and the gap</h3><p>Measure the door's width from edge to edge on the inside face. Close the door and check the gap at the threshold at both ends and in the middle. Buy a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">screw-on door sweep</a> that's at least as wide as the door and designed for your gap size.</p><p><strong>Done right:</strong> you have the door width and the largest gap measurement written down.</p></li>\n<li><h3>Cut the sweep to width</h3><p>Mark the door width on the sweep's carrier. Cut it with a hacksaw or a miter box, then trim the flexible seal to match with a utility knife. Cut it about 1/8 in short so it clears the door stop on the latch side.</p><p><strong>Done right:</strong> the sweep fits across the door without rubbing the frame when the door closes.</p></li>\n<li><h3>Set the height</h3><figure><img src=\"hih-media://how-to-install-a-door-sweep-step-3\" alt=\"Side view of a door sweep screwed to the inside face of a door with its seal lightly touching the threshold\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Set the seal to brush the threshold, not crush it.</figcaption></figure><p>Close the door. Hold the sweep against the inside face so the seal lightly touches the threshold along its whole length, and mark the screw holes through its slots. The seal should brush the threshold, not be crushed against it.</p><p><strong>Done right:</strong> the seal touches the threshold evenly from end to end.</p></li>\n<li><h3>Fasten the sweep</h3><p>Make a pilot hole at each mark with an awl or small bit. On metal doors, use the self-tapping screws that came with the sweep. Drive the screws through the slotted holes so you can still fine-tune the height.</p><p><strong>Done right:</strong> the sweep is snug against the door and doesn't move when you push on it.</p></li>\n<li><h3>Test and adjust</h3><p>Open and close the door several times. If it drags or springs back, loosen the screws, raise the sweep slightly, and retighten. At night, check from inside for light under the door.</p><p><strong>Done right:</strong> the door swings freely, latches normally, and no light shows underneath.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the gap is uneven by more than about 1/4 in from end to end (the door may be sagging), the threshold is rotted, or water comes in under the door during rain. Those need door or threshold repair.</p></aside>\n<h2>FAQ</h2>\n<h3>What&#x27;s the best type of door sweep?</h3><p>Screw-on sweeps are the easiest to install and adjust. U-shaped sweeps slide over the door&#x27;s bottom edge and seal better, but you usually have to take the door off to fit them.</p>\n<h3>Do adhesive door sweeps work?</h3><p>They&#x27;re fine for interior doors and light drafts, but adhesive often lets go on exterior doors with temperature swings and daily use.</p>\n<h3>Should a door sweep touch the floor?</h3><p>It should lightly touch the threshold along its full length. Too much pressure makes the door hard to close and wears the seal quickly.</p>\n<h3>How long do door sweeps last?</h3><p>A few years with daily use. Replace one when the seal is torn, flattened, or no longer touches the threshold.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "20–40 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Pencil\", \"Hacksaw or miter box\", \"Drill-driver\", \"Awl or small drill bit\", \"Utility knife\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Screw-on door sweep (or U-shaped sweep)\", \"Screws (usually included)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=nl11XrBAKZY"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-install-a-door-sweep-step-3",
+      "alt": "Side view of a door sweep screwed to the inside face of a door with its seal lightly touching the threshold",
+      "caption": "Set the seal to brush the threshold, not crush it."
+    }
+  ],
+  "hero_slot": "how-to-install-a-door-sweep-hero"
+}

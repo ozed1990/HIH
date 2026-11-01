@@ -1,0 +1,66 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Unclog a Kitchen Sink Without Chemicals",
+    "handle": "how-to-unclog-a-kitchen-sink",
+    "summary": "Clear a clogged kitchen sink in order: check the disposal, plunge correctly, clean the P-trap, then snake the drain, with no harsh chemicals.",
+    "tags": [
+      "Beginner",
+      "Kitchen",
+      "Plumbing",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">Most kitchen clogs are grease, food scraps and coffee grounds caught in the trap or just past it. Work from the easiest fix to the most involved, and skip chemical drain cleaners: they rarely clear grease clogs, can damage pipes, and make the next steps dangerous if they splash.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> if anyone has already poured a chemical drain cleaner into the sink, don't plunge or open the trap. It can splash caustic water. Flush with plenty of cold water first, or call a plumber. Wear gloves and eye protection. Don't pour boiling water into plastic (PVC) drains: hot tap water is enough.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Start with the garbage disposal</h3><p>If only the disposal side is backed up, turn the disposal off, then press the red reset button on its underside. If it hums but won't spin, unplug it or switch off its breaker, and turn the hex socket on the bottom with the wrench that came with it to free the jam.</p><p><strong>Done right:</strong> the disposal spins freely and the water starts to drain.</p></li>\n<li><h3>Plunge the right way</h3><p>With a double sink, seal the other drain with a stopper or a wet rag held down tight. Run 2–3 in of water so the plunger cup is covered. Use a flat-bottomed cup plunger and give 15–20 firm, quick strokes, keeping the seal.</p><p><strong>Done right:</strong> water drains with a gurgle, and the sink empties at normal speed.</p></li>\n<li><h3>Clean out the P-trap</h3><figure><img src=\"hih-media://how-to-unclog-a-kitchen-sink-step-3\" alt=\"Labeled diagram of a kitchen sink P-trap showing slip nuts, trap, trap arm and a bucket underneath\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Loosen the slip nuts by hand; keep a bucket under the trap.</figcaption></figure><p>Bail out the standing water first. Put a bucket under the curved pipe beneath the sink. Loosen the two slip nuts by hand (use pliers only if needed), remove the trap, and clean it out with a toothbrush. Check the washers, reassemble hand-tight plus a quarter turn, and run water to check for leaks.</p><p><strong>Done right:</strong> the trap is clear, and nothing drips from the slip nuts with the water running.</p></li>\n<li><h3>Snake the trap arm</h3><p>If the trap was clear, the clog is further in. With the trap off, feed a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">hand drain auger</a> into the pipe going into the wall. Crank as you push. When you feel resistance, keep cranking to bore through or hook the clog, then pull the cable back and clean it.</p><p><strong>Done right:</strong> the cable passes through without stopping, and water runs freely once the trap is back on.</p></li>\n<li><h3>Flush and prevent the next clog</h3><p>Run hot tap water for a minute. From now on, scrape grease and coffee grounds into the trash, and run cold water while the disposal is on.</p><p><strong>Done right:</strong> the sink drains quickly with no gurgling.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> several drains back up at once (a main-line clog), water comes up in another fixture when you run the sink, the auger can't get through, or the drain pipes are old galvanized steel.</p></aside>\n<h2>FAQ</h2>\n<h3>Do baking soda and vinegar unclog a kitchen sink?</h3><p>They can freshen a slow drain, but they rarely clear a real grease or food clog. Plunging and cleaning the trap work far better.</p>\n<h3>Why shouldn&#x27;t I use chemical drain cleaner?</h3><p>It often doesn&#x27;t dissolve grease clogs, can damage older pipes, and leaves caustic water in the sink that makes plunging or opening the trap dangerous.</p>\n<h3>Why is only one side of my double sink clogged?</h3><p>The clog is usually above the point where both sides join, often in the disposal or the trap on that side.</p>\n<h3>How do I unclog a sink with standing water?</h3><p>Bail most of the water into a bucket first, then plunge with 2–3 in left in the sink, or remove the trap over a bucket.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Cup plunger (flat-bottom sink plunger)\", \"Bucket\", \"Rubber gloves\", \"Channel-lock pliers\", \"Hand drain auger (1/4 in, 15\\u201325 ft)\", \"Old toothbrush\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Wet rag or second sink stopper\", \"Old towels\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=VaCYpv72wzU"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-unclog-a-kitchen-sink-step-3",
+      "alt": "Labeled diagram of a kitchen sink P-trap showing slip nuts, trap, trap arm and a bucket underneath",
+      "caption": "Loosen the slip nuts by hand; keep a bucket under the trap."
+    }
+  ],
+  "hero_slot": "how-to-unclog-a-kitchen-sink-hero"
+}

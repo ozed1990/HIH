@@ -1,0 +1,66 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Replace a Showerhead in 15 Minutes",
+    "handle": "how-to-replace-a-showerhead",
+    "summary": "Swap an old showerhead for a new one: remove it without twisting the pipe, clean the threads, wrap thread tape the right way, and check for leaks.",
+    "tags": [
+      "Beginner",
+      "Bathroom",
+      "Plumbing",
+      "Under 30 minutes"
+    ],
+    "body": "<p class=\"guide-intro\">A new showerhead can improve pressure and spray, and cut hot-water use, in about 15 minutes. Most showerheads fit the standard 1/2 in pipe that comes out of the wall (called the shower arm).</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> cover the drain so small parts can't fall in. Don't twist the shower arm itself. If it turns in the wall, it can break a fitting behind the tile.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Unscrew the old showerhead</h3><p>Grip the nut where the head meets the arm and turn it counter-clockwise. If it won't budge, wrap a cloth around the arm and hold it steady with pliers while you turn the head with a wrench. On a stuck head, spray penetrating oil and wait 10 minutes.</p><p><strong>Done right:</strong> the head is off, and the arm didn't move in the wall.</p></li>\n<li><h3>Clean the threads</h3><p>Remove the old tape and mineral scale from the arm's threads with a toothbrush, and wipe them dry.</p><p><strong>Done right:</strong> the threads are clean and dry.</p></li>\n<li><h3>Wrap new thread tape clockwise</h3><figure><img src=\"hih-media://how-to-replace-a-showerhead-step-3\" alt=\"Diagram of thread seal tape being wrapped clockwise around a shower arm&#x27;s threads\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Wrap clockwise so threading the head on tightens the tape.</figcaption></figure><p>Wrap <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">thread seal tape</a> 3–4 times around the threads, clockwise as you face the end of the arm, so it doesn't unwind when you screw the head on. Skip this if the new head's instructions say not to use tape.</p><p><strong>Done right:</strong> the tape lies flat over the threads, without covering the end of the opening.</p></li>\n<li><h3>Install the new head</h3><p>Check that the head's rubber washer is seated, then screw the head on by hand until snug. Add no more than a quarter turn with a wrench, using a cloth to protect the finish. Overtightening cracks plastic nuts.</p><p><strong>Done right:</strong> the head is snug and points where you want it.</p></li>\n<li><h3>Run the water and check for leaks</h3><p>Turn the shower on full for a minute and watch the connection. If it drips, tighten a little more, or rewrap the tape.</p><p><strong>Done right:</strong> no drips at the connection with the water at full flow.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the shower arm turns in the wall, water leaks behind the tile or trim, or the arm itself is cracked or badly corroded.</p></aside>\n<h2>FAQ</h2>\n<h3>Are all showerheads the same size?</h3><p>Almost all U.S. showerheads fit the standard 1/2 in shower arm, so most replacements screw straight on.</p>\n<h3>Do I need plumber&#x27;s tape on a showerhead?</h3><p>Usually yes, unless the instructions say the washer alone seals it. Tape helps prevent drips at the threads.</p>\n<h3>What flow rate should I choose?</h3><p>Federal rules cap showerheads at 2.5 gallons per minute. WaterSense-labeled models use 2.0 gpm or less and still give good pressure.</p>\n<h3>Why does my new showerhead have low pressure?</h3><p>Check for debris or packing caught in its inlet screen. Also check that a flow restrictor isn&#x27;t clogged with scale from the old pipe.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$150"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Adjustable wrench\", \"Slip-joint pliers\", \"Soft cloth\", \"Old toothbrush\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"New showerhead\", \"Plumber's thread seal tape\", \"Penetrating oil (for stuck heads)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=vkdnGf5XYWI"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-replace-a-showerhead-step-3",
+      "alt": "Diagram of thread seal tape being wrapped clockwise around a shower arm's threads",
+      "caption": "Wrap clockwise so threading the head on tightens the tape."
+    }
+  ],
+  "hero_slot": "how-to-replace-a-showerhead-hero"
+}

@@ -68,5 +68,75 @@
     "title": "How to Clean Your Gutters Safely",
     "figures": 2,
     "steps": 5
+  },
+  {
+    "handle": "how-to-winterize-outdoor-faucets",
+    "blog": "plumbing",
+    "title": "How to Winterize Outdoor Faucets Before a Freeze",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-a-door-sweep",
+    "blog": "doors-windows",
+    "title": "How to Install a Door Sweep",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-change-hvac-air-filter",
+    "blog": "maintenance",
+    "title": "How to Change Your HVAC Air Filter",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-fix-drywall-nail-pops",
+    "blog": "painting-walls",
+    "title": "How to Fix Drywall Nail Pops for Good",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "gfci-outlet-wont-reset",
+    "blog": "electrical",
+    "title": "GFCI Outlet Won't Reset? How to Troubleshoot It",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-unclog-a-kitchen-sink",
+    "blog": "kitchen",
+    "title": "How to Unclog a Kitchen Sink Without Chemicals",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-replace-a-showerhead",
+    "blog": "bathroom",
+    "title": "How to Replace a Showerhead in 15 Minutes",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-fix-squeaky-floors",
+    "blog": "flooring",
+    "title": "How to Fix Squeaky Floors From Above",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-fix-a-sagging-gate",
+    "blog": "outdoor-garden",
+    "title": "How to Fix a Sagging Fence Gate",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-find-a-stud-without-a-stud-finder",
+    "blog": "storage",
+    "title": "How to Find a Stud Without a Stud Finder",
+    "figures": 1,
+    "steps": 5
   }
 ]

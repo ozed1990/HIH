@@ -1,0 +1,66 @@
+{
+  "blog_handle": "plumbing",
+  "blog_title": "Plumbing Basics",
+  "article": {
+    "title": "How to Winterize Outdoor Faucets Before a Freeze",
+    "handle": "how-to-winterize-outdoor-faucets",
+    "summary": "Protect outdoor faucets from burst pipes: disconnect hoses, shut off and drain the line, and insulate the spigot before the first hard freeze.",
+    "tags": [
+      "Beginner",
+      "Plumbing",
+      "Seasonal",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">Water left in an outdoor faucet or its pipe freezes, expands, and can split the pipe inside your wall, where you won't see the leak until spring. Winterizing takes a few minutes per faucet. Do it before the first night forecast below 32°F.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> interior shut-off valves are often in tight basement or crawl-space spots. Use a flashlight and watch for sharp edges and nails. If a valve won't turn by hand, don't force it with a long wrench: old valves can snap.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Disconnect and drain every hose</h3><p>Unscrew hoses, splitters and timers from each outdoor faucet. A hose left attached traps water in the faucet, even on a frost-free model. Drain the hoses and store them indoors.</p><p><strong>Done right:</strong> nothing is attached to any outdoor faucet.</p></li>\n<li><h3>Identify your faucet type</h3><figure><img src=\"hih-media://how-to-winterize-outdoor-faucets-step-2\" alt=\"Cross-section comparing a standard outdoor faucet that seals at the outside wall with a frost-free faucet that seals inside the heated house\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>A frost-free faucet closes inside the warm wall; a standard one closes outside.</figcaption></figure><p>A <em>frost-free</em> faucet has a long body that reaches inside the wall, so its valve closes in the warm part of the house. You can often spot one by a faucet that sits at an angle, or a body that's 6–12 in long when viewed from inside. A <em>standard</em> faucet closes right at the outside wall and needs to be shut off from inside.</p><p><strong>Done right:</strong> you know which type each faucet is.</p></li>\n<li><h3>Shut off the interior valve (standard faucets)</h3><p>Follow the pipe from the faucet inward to find its shut-off valve, usually in the basement or crawl space just inside the wall. Turn it clockwise until it stops.</p><p><strong>Done right:</strong> when you open the outdoor faucet, the water slows to a trickle and stops.</p></li>\n<li><h3>Drain the line</h3><p>Open the outdoor faucet and leave it open. Back inside, place a bucket under the shut-off valve and open its small bleeder cap, if it has one, to let the water trapped between the valve and the faucet drain out. Close the cap again once it stops dripping.</p><p><strong>Done right:</strong> no more water drips from the outdoor faucet or the bleeder cap.</p></li>\n<li><h3>Insulate the faucet</h3><p>Fit an <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">insulated faucet cover</a> over each spigot and tighten its strap or loop. This matters most for standard faucets and on walls that face the wind.</p><p><strong>Done right:</strong> the cover sits flat against the siding with no gaps.</p></li>\n<li><h3>Check after the first hard freeze</h3><p>After the first cold snap, look inside near each faucet's pipe for damp spots or drips. In spring, open the interior valve slowly and watch for leaks before you reconnect the hose.</p><p><strong>Done right:</strong> no dampness near the pipes all winter, and no leaks when you turn the water back on.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> you can't find an interior shut-off, the valve leaks or won't close, you see water inside the wall when the faucet runs, or you want to upgrade to frost-free faucets.</p></aside>\n<h2>FAQ</h2>\n<h3>Do frost-free faucets need to be winterized?</h3><p>Mostly not, but you still must disconnect the hose. A hose left attached traps water inside the faucet body, which can freeze and split it.</p>\n<h3>Should I leave the outdoor faucet open all winter?</h3><p>Yes, for standard faucets with the interior valve shut off. Leaving it open lets any remaining water drain and gives ice room to expand.</p>\n<h3>When should I winterize outdoor faucets?</h3><p>Before the first night forecast below freezing (32°F). In much of the U.S. that&#x27;s October or early November.</p>\n<h3>Do faucet covers alone prevent freezing?</h3><p>They help, but on a standard faucet they don&#x27;t replace shutting off and draining the line. Use both.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes per faucet"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$15"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Flashlight\", \"Bucket\", \"Adjustable wrench (for stuck bleeder caps)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Insulated faucet cover\", \"Rag or towel\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Seto2lJV938"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-winterize-outdoor-faucets-step-2",
+      "alt": "Cross-section comparing a standard outdoor faucet that seals at the outside wall with a frost-free faucet that seals inside the heated house",
+      "caption": "A frost-free faucet closes inside the warm wall; a standard one closes outside."
+    }
+  ],
+  "hero_slot": "how-to-winterize-outdoor-faucets-hero"
+}

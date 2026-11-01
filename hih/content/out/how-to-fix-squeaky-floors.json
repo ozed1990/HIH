@@ -1,0 +1,66 @@
+{
+  "blog_handle": "flooring",
+  "blog_title": "Flooring",
+  "article": {
+    "title": "How to Fix Squeaky Floors From Above",
+    "handle": "how-to-fix-squeaky-floors",
+    "summary": "Stop squeaky floors without tearing anything out: find the joist, then screw the subfloor down through carpet or hardwood and hide the fix.",
+    "tags": [
+      "Beginner",
+      "Flooring",
+      "Repair",
+      "Under 2 hours"
+    ],
+    "body": "<p class=\"guide-intro\">Floors squeak when the subfloor or finished boards rub against nails or joists as you walk. The fix is to pull the subfloor tight to the joist so nothing can move. With a breakaway-screw kit, you can do it from above, even through carpet, and the screws end up invisible.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> before drilling, check below the floor (from a basement, if you have one) for pipes, ducts and wires near the squeak. Don't drive screws near floor vents or heat registers.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Pinpoint the squeak</h3><p>Walk the area slowly and mark each squeak with painter's tape. Have a helper walk while you listen closely at floor level.</p><p><strong>Done right:</strong> every squeaky spot is marked.</p></li>\n<li><h3>Find the joist</h3><figure><img src=\"hih-media://how-to-fix-squeaky-floors-step-2\" alt=\"Section diagram of a floor showing a screw driven through flooring and subfloor into a joist, with joists 16 inches on center\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The screw pulls the subfloor tight to the joist.</figcaption></figure><p>Joists usually run perpendicular to hardwood boards and are typically 16 in apart, center to center. Use a stud finder, or tap the floor: it sounds solid over a joist and hollow between joists. Mark the joist line through the squeak.</p><p><strong>Done right:</strong> you know where the joist runs under each squeak.</p></li>\n<li><h3>Drive breakaway screws through carpet</h3><p>Using the kit's depth-control fixture, drive a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">breakaway screw</a> through the carpet into the joist at the squeak, then snap off the head as the kit directs. The scored screw breaks below the subfloor surface, and the carpet pile closes over it.</p><p><strong>Done right:</strong> the squeak is gone, and you can't feel the screw through the carpet.</p></li>\n<li><h3>On hardwood, pre-drill and fill</h3><p>Drill a small pilot hole through the board into the joist, drive the kit's screw until it snaps below the surface, and fill the hole with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">wood filler crayon</a> that matches the floor.</p><p><strong>Done right:</strong> the squeak is gone, and the hole blends in with the grain.</p></li>\n<li><h3>Re-test and add screws as needed</h3><p>Walk the area again. Large squeaky areas often need a screw every 6–8 in along the joist.</p><p><strong>Done right:</strong> the floor is quiet everywhere you marked.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the floor feels bouncy or sags, a whole room squeaks (the subfloor may be failing), or there's water damage or soft spots. Those need structural repair, not screws.</p></aside>\n<h2>FAQ</h2>\n<h3>Why do floors squeak?</h3><p>Wood shrinks and swells with humidity, which loosens the connection between subfloor and joists. The boards then rub on nails or on each other as you walk.</p>\n<h3>Can you fix squeaky floors without removing carpet?</h3><p>Yes. Breakaway-screw kits are designed to go through carpet into the joist and break off below the surface.</p>\n<h3>Is it better to fix squeaky floors from below?</h3><p>If you can reach the underside (an unfinished basement), gluing shims into gaps or screwing up through the subfloor works well and leaves no trace on top.</p>\n<h3>Why do floors squeak more in winter?</h3><p>Dry winter air shrinks the wood, opening small gaps that let boards move.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–90 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Stud finder or hammer (to tap for joists)\", \"Drill-driver\", \"Tape measure\", \"Painter's tape\", \"Pencil\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Squeak-repair kit with breakaway screws (for carpet or hardwood)\", \"Wood filler crayon matching your floor (hardwood only)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=jfXuuDFNP5U"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-fix-squeaky-floors-step-2",
+      "alt": "Section diagram of a floor showing a screw driven through flooring and subfloor into a joist, with joists 16 inches on center",
+      "caption": "The screw pulls the subfloor tight to the joist."
+    }
+  ],
+  "hero_slot": "how-to-fix-squeaky-floors-hero"
+}

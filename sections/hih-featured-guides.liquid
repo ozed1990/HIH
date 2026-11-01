@@ -1,3 +1,12 @@
+{%- liquid
+  assign shown = 0
+  for block in section.blocks
+    if block.settings.article != blank
+      assign shown = shown | plus: 1
+    endif
+  endfor
+-%}
+{%- if shown > 0 or request.design_mode -%}
 <section class="hih-section{% if section.settings.mist %} hih-section--mist{% endif %}">
   <div class="hih-container">
     <div class="hih-section__head">
@@ -13,6 +22,7 @@
     </div>
   </div>
 </section>
+{%- endif -%}
 
 {% schema %}
 {

@@ -225,7 +225,9 @@ img { max-width: 100%; height: auto; }
 .hih-guide__head { max-width: var(--hih-guide-head); margin-inline: auto; text-align: center; padding-block: var(--hih-space-8) var(--hih-space-6); }
 .hih-guide__head h1 { font-size: var(--hih-text-3xl); margin: var(--hih-space-3) 0 var(--hih-space-5); }
 .hih-guide__head .hih-meta { justify-content: center; font-weight: var(--hih-weight-medium); }
-.hih-crumb { font-size: var(--hih-text-sm); font-weight: var(--hih-weight-bold); }
+.hih-crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: var(--hih-space-2); font-size: var(--hih-text-sm); font-weight: var(--hih-weight-bold); color: var(--hih-color-muted); margin-bottom: var(--hih-space-3); }
+.hih-crumbs a { display: inline-flex; align-items: center; min-height: var(--hih-tap); }
+.hih-crumbs--center { justify-content: center; margin-bottom: 0; }
 .hih-guide__hero { aspect-ratio: 16 / 9; max-height: var(--hih-hero-max-h); width: 100%; }
 .hih-guide__layout {
   display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--hih-space-7);

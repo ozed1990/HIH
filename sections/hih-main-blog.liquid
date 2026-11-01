@@ -1,6 +1,7 @@
 {%- paginate blog.articles by 12 -%}
 <div class="hih-container">
   <header class="hih-blog-head">
+    <nav class="hih-crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span><span aria-current="page">{{ blog.title | escape }}</span></nav>
     <h1>{{ blog.title | escape }}</h1>
     {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
     {%- if blog.all_tags.size > 0 -%}

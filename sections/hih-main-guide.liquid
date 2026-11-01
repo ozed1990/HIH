@@ -19,7 +19,7 @@
 <article class="hih-guide" data-guide-id="{{ article.id }}">
   <div class="hih-container">
     <header class="hih-guide__head">
-      <a class="hih-crumb" href="{{ blog.url }}">{{ blog.title | escape }}</a>
+      <nav class="hih-crumbs hih-crumbs--center" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span><a href="{{ blog.url }}">{{ blog.title | escape }}</a></nav>
       <h1>{{ article.title | escape }}</h1>
       <ul class="hih-meta" aria-label="Guide at a glance">
         {%- if g.difficulty != blank -%}<li><span class="hih-visually-hidden">Difficulty: </span>{{ g.difficulty.value | escape }}</li>{%- endif -%}

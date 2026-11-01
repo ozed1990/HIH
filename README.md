@@ -7,6 +7,7 @@ The repository root **is the Shopify theme** (Dawn 16 + the HIH "Calm Home" laye
 | `assets/hih-*`, `sections/hih-*`, `snippets/hih-*`, `templates/*.json` | hih-theme | The HIH theme layer. Tokens live only in `assets/hih-tokens.css`. |
 | `docs/DECISIONS.md` | hih-theme | Dated design and build decisions |
 | `scripts/check-tokens.sh` | hih-theme | Fails on raw colors or px/ms values outside the tokens file |
+| `scripts/check-schema.py` | hih-theme | Fails on section schemas Shopify silently drops on sync |
 | `hih/content/guides.py` | hih-guide-writer | Source of the guides (Guide contract) |
 | `hih/scripts/build_guides.py` | hih-guide-writer | Renders and validates guides → `hih/content/out/*.json` |
 | `hih/scripts/diagrams.py`, `render_diagrams.js` | hih-media | Original step diagrams → `hih/content/media/*.webp` |
@@ -15,6 +16,7 @@ Checks before every commit:
 
 ```
 scripts/check-tokens.sh
+scripts/check-schema.py
 npx @shopify/cli theme check --fail-level error
 python3 hih/scripts/build_guides.py
 ```

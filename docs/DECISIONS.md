@@ -15,3 +15,5 @@ One dated line per decision, with the reason. Newest last.
 - 2026-11-01: Categories sit in their own header row (horizontal scroll if needed) because 10 categories don't fit beside the logo at 1440px.
 - 2026-11-01: HIH header/footer use their own menu (hih-categories) so the live Gecko theme's main-menu stays untouched.
 - 2026-11-01: Repo layout: theme at the root (what Shopify's GitHub sync expects); HIH content tooling lives in hih/, which Shopify ignores.
+- 2026-11-01: HIH/main is now the LIVE theme (published by the owner). Pushing to main deploys to visitors, so all changes go on a hih/* branch and reach main only through a PR the owner merges.
+- 2026-11-01: The featured-guides section renders nothing on the storefront until at least one selected guide is published (it stays visible in the theme editor).

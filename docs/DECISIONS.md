@@ -21,3 +21,7 @@ One dated line per decision, with the reason. Newest last.
 - 2026-11-01: Owner's rule: commit straight to main (no PRs). Shopify syncs main to the live theme.
 - 2026-11-01: Header/footer were missing on the live site because their link_list defaults were 'hih-categories' (Shopify only accepts main-menu/footer and silently drops the section). Defaults removed; the menu is set in the group JSON. scripts/check-schema.py now catches this.
 - 2026-11-01: 'Home ›' breadcrumb on category and guide pages, in addition to the logo link and the category row in the header.
+- 2026-11-01: All HIH sizes are written in Dawn's 10px rem (Dawn sets html to 62.5%). Previously tokens assumed 16px, so the whole site rendered at 62.5% of design ("thin", "small words"). Only hih-tokens.css may hold rem values; check-tokens.sh enforces it. Previews must load Dawn's base.css and root rule.
+- 2026-11-01: Logo = the owner's house-and-wrench design, traced to vector (hih/brand, hih/scripts/logo_*.py) and recolored to the theme: ink #1f2a26 + leaf #3d7a5e (5.1:1 on paper); footer uses paper + leaf-light #a9cdb9. One inline SVG symbol (hih-logo-defs, rendered in the header) drawn by hih-logo via <use>, colored by tokens. Header image_picker still overrides it.
+- 2026-11-01: Category tiles are a fixed 2-column (phone/tablet) / 5-column (desktop) grid so 10 categories never leave a ragged row.
+- 2026-11-01: Theme favicon assets/hih-favicon.png is used unless one is set in Theme settings.

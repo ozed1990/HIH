@@ -1,11 +1,12 @@
 {%- assign menu = linklists[section.settings.menu] -%}
+{%- render 'hih-logo-defs' -%}
 <header class="hih-header">
   <div class="hih-container hih-header__inner">
     <a class="hih-logo" href="{{ routes.root_url }}">
       {%- if section.settings.logo -%}
         {{- section.settings.logo | image_url: width: 480 | image_tag: widths: '240, 480', sizes: '15rem', alt: shop.name, loading: 'eager' -}}
       {%- else -%}
-        {{- shop.name | escape -}}
+        {%- render 'hih-logo' -%}
       {%- endif -%}
     </a>
 
@@ -40,7 +41,7 @@
   "name": "HIH header",
   "class": "hih-section-header",
   "settings": [
-    { "type": "image_picker", "id": "logo", "label": "Logo (optional, shop name is used otherwise)" },
+    { "type": "image_picker", "id": "logo", "label": "Logo image (optional, replaces the built-in HIH logo)" },
     { "type": "link_list", "id": "menu", "label": "Category menu (use hih-categories)" }
   ]
 }

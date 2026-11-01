@@ -4,7 +4,7 @@
   <div class="hih-container">
     <div class="hih-footer__grid">
       <div>
-        <p class="hih-footer__brand">{{ shop.name | escape }}</p>
+        <a class="hih-logo" href="{{ routes.root_url }}">{%- render 'hih-logo' -%}</a>
         {%- if section.settings.text != blank -%}<div class="hih-footer__text">{{ section.settings.text }}</div>{%- endif -%}
       </div>
       {%- if menu.links.size > 0 -%}

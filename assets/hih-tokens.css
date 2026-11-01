@@ -3,6 +3,10 @@
   This is the ONLY file where raw colors, font stacks, sizes, radii and motion values live.
   Every other HIH stylesheet uses var(--hih-…). A raw hex or px value elsewhere is a bug
   (checked by scripts/check-tokens.sh).
+
+  UNITS: Dawn sets the root font size to 62.5% (1rem = 10px), and HIH runs inside Dawn's
+  layout, so every rem here is a 10px rem: 1.6rem = 16px. Comments give the intended px.
+  Only this file may contain rem values (also checked).
 */
 :root {
   /* Color: Calm Home */
@@ -18,19 +22,21 @@
   --hih-color-brass: #a8782e;          /* decoration only, never text */
   --hih-color-warn-bg: #fbf3e4;        /* safety callout ground */
   --hih-color-warn-ink: #6b4a12;       /* 7.4:1 on warn-bg */
+  --hih-color-leaf: #3d7a5e;           /* logo accent          5.1:1 on paper */
+  --hih-color-leaf-light: #a9cdb9;     /* logo accent on primary 5.6:1 */
   --hih-color-focus: #2e4a40;
   --hih-color-scrim: rgba(28, 48, 41, 0.55);
 
   /* Type */
   --hih-font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
   --hih-font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --hih-text-xs: 0.8125rem;   /* 13 */
-  --hih-text-sm: 0.9375rem;   /* 15 */
-  --hih-text-md: 1.0625rem;   /* 17 body */
-  --hih-text-lg: 1.25rem;     /* 20 */
-  --hih-text-xl: clamp(1.5rem, 1.2rem + 1vw, 2rem);
-  --hih-text-2xl: clamp(2rem, 1.5rem + 2vw, 3rem);
-  --hih-text-3xl: clamp(2.5rem, 1.6rem + 3.6vw, 4rem);
+  --hih-text-xs: 1.3rem;   /* 13 */
+  --hih-text-sm: 1.5rem;   /* 15 */
+  --hih-text-md: 1.7rem;   /* 17 body */
+  --hih-text-lg: 2rem;     /* 20 */
+  --hih-text-xl: clamp(2.4rem, 1.92rem + 1vw, 3.2rem);
+  --hih-text-2xl: clamp(3.2rem, 2.4rem + 2vw, 4.8rem);
+  --hih-text-3xl: clamp(4rem, 2.56rem + 3.6vw, 6.4rem);
   --hih-leading-body: 1.65;
   --hih-leading-tight: 1.06;
   --hih-weight-regular: 400;
@@ -39,23 +45,38 @@
   --hih-measure: 44em;               /* max line length for body paragraphs */
 
   /* Space and shape */
-  --hih-space-1: 0.25rem;
-  --hih-space-2: 0.5rem;
-  --hih-space-3: 0.75rem;
-  --hih-space-4: 1rem;
-  --hih-space-5: 1.5rem;
-  --hih-space-6: 2rem;
-  --hih-space-7: 3rem;
-  --hih-space-8: 4.5rem;
-  --hih-space-9: 6rem;
+  --hih-space-1: 0.4rem;
+  --hih-space-2: 0.8rem;
+  --hih-space-3: 1.2rem;
+  --hih-space-4: 1.6rem;
+  --hih-space-5: 2.4rem;
+  --hih-space-6: 3.2rem;
+  --hih-space-7: 4.8rem;
+  --hih-space-8: 7.2rem;
+  --hih-space-9: 9.6rem;
   /* Layout widths: the single place to widen or narrow the site */
-  --hih-container: 90rem;        /* 1440: page frame for every section */
-  --hih-guide-head: 64rem;       /* guide title block */
-  --hih-guide-aside: 20rem;      /* tools, materials and steps column */
-  --hih-reading: 58rem;          /* guide body: steps, figures, callouts */
-  --hih-hero-card: 40rem;        /* home hero text card */
-  --hih-hero-max-h: 42rem;       /* guide hero image height cap */
-  --hih-gutter: clamp(1rem, 0.5rem + 2vw, 2rem);
+  --hih-container: 144rem;        /* 1440: page frame for every section */
+  --hih-guide-head: 102.4rem;       /* guide title block */
+  --hih-guide-aside: 32rem;      /* tools, materials and steps column */
+  --hih-reading: 92.8rem;          /* guide body: steps, figures, callouts */
+  --hih-hero-card: 64rem;        /* home hero text card */
+  --hih-hero-max-h: 67.2rem;       /* guide hero image height cap */
+  --hih-input-min: 22.4rem;      /* 224: input before wrapping */
+  --hih-icon: 2.2rem;            /* 22: header icons */
+  --hih-hero-min: clamp(44.8rem, 60vh, 60.8rem);
+  --hih-card-min: 27.2rem;       /* 272: guide card column */
+  --hih-form-basis: 38.4rem;     /* newsletter form */
+  --hih-form-max: 51.2rem;
+  --hih-footer-text: 41.6rem;
+  --hih-check-box: 1.8rem;       /* 18: checklist box */
+  --hih-toc-num: 2rem;           /* 20: TOC number column */
+  --hih-logo-ratio: 2013 / 398;  /* must match the viewBox in snippets/hih-logo.liquid */
+  --hih-logo-h: 4.4rem;          /* 44: header logo height */
+  --hih-logo-h-sm: 3.6rem;       /* 36: header logo on phones */
+  --hih-logo-h-footer: 5.6rem;   /* 56 */
+  --hih-play: 6.4rem;            /* 64: video play button */
+  --hih-print-fig: 19.2rem;      /* 192: step figure height in print */
+  --hih-gutter: clamp(1.6rem, 0.8rem + 2vw, 3.2rem);
   --hih-radius: 4px;
   --hih-border: 1px;
   --hih-tap: 44px;

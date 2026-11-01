@@ -29,7 +29,7 @@
     </header>
 
     {%- if article.image -%}
-      <div class="hih-media hih-guide__hero" data-vt-hero>
+      <div class="hih-media hih-guide__hero" data-vt-to="hih-guide-hero">
         {{- article.image | image_url: width: 2400 | image_tag: widths: '800, 1200, 1600, 2000, 2400', sizes: '(min-width: 80em) 77.5rem, 96vw', loading: 'eager', fetchpriority: 'high', alt: article.image.alt | default: '' -}}
       </div>
     {%- endif -%}
@@ -97,7 +97,7 @@
           <h2>More in {{ blog.title | escape }}</h2>
           <a class="hih-link-quiet" href="{{ blog.url }}">All {{ blog.title | escape }} guides</a>
         </div>
-        <div class="hih-cards">{{ related }}</div>
+        <div class="hih-cards" data-hih-spot>{{ related }}</div>
       </div>
     </section>
   {%- endif -%}

@@ -6,18 +6,23 @@
         {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
       </div>
     </div>
-    <div class="hih-tiles">
+    <div class="hih-tiles" data-hih-spot>
       {%- for block in section.blocks -%}
         {%- assign b = block.settings.blog -%}
         {%- if b != blank -%}
           <a class="hih-tile" href="{{ b.url }}" {{ block.shopify_attributes }}>
-            <span class="hih-media">
+            <span class="hih-media{% if block.settings.image %} has-image{% endif %}">
               {%- if block.settings.image -%}
-                {{- block.settings.image | image_url: width: 640 | image_tag: widths: '320, 480, 640', sizes: '(min-width: 62em) 16vw, (min-width: 40em) 30vw, 45vw', loading: 'lazy', class: 'hih-fade', alt: '' -}}
+                {{- block.settings.image | image_url: width: 640 | image_tag: widths: '320, 480, 640', sizes: '(min-width: 62em) 18vw, 45vw', loading: 'lazy', class: 'hih-fade', alt: '' -}}
               {%- endif -%}
+              <span class="hih-tile__icon">{%- render 'hih-category-icon', handle: b.handle -%}</span>
             </span>
-            <span class="hih-tile__name">{{ b.title | escape }}</span>
+            <span class="hih-tile__name" data-vt-href="{{ b.url }}" data-vt-name="hih-cat-title"><span class="hih-underline">{{ b.title | escape }}</span></span>
             {%- if block.settings.description != blank -%}<span class="hih-tile__desc">{{ block.settings.description | escape }}</span>{%- endif -%}
+            <span class="hih-tile__more">
+              {%- if b.articles_count > 0 -%}{{ b.articles_count }} {% if b.articles_count == 1 %}guide{% else %}guides{% endif %}{%- else -%}Guides coming soon{%- endif -%}
+              <span aria-hidden="true"> →</span>
+            </span>
           </a>
         {%- endif -%}
       {%- endfor -%}

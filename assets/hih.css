@@ -171,6 +171,74 @@ img { max-width: 100%; height: auto; }
 .hih-tile__name { font-family: var(--hih-font-serif); font-size: var(--hih-text-xl); line-height: var(--hih-leading-tight); color: var(--hih-color-ink); }
 .hih-tile__desc { font-size: var(--hih-text-sm); color: var(--hih-color-muted); margin-top: calc(var(--hih-space-2) * -1); }
 
+/* ---------- Card and tile interactions ----------
+   One idea: the card you are on comes forward, the rest step back.
+   Hover is mouse/trackpad only; keyboard focus gets the same treatment; touch gets press feedback. */
+.hih-tile, .hih-card { transition: opacity var(--hih-dur-base) var(--hih-ease); }
+.hih-tile .hih-media, .hih-card .hih-media {
+  position: relative;
+  transition: transform var(--hih-dur-base) var(--hih-ease), box-shadow var(--hih-dur-base) var(--hih-ease);
+}
+.hih-underline {
+  background: linear-gradient(currentColor, currentColor) 0 100% / 0 var(--hih-border) no-repeat;
+  transition: background-size var(--hih-dur-base) var(--hih-ease);
+}
+.hih-tile:focus-visible .hih-underline, .hih-card:focus-visible .hih-underline { background-size: 100% var(--hih-border); }
+.hih-tile:focus-visible .hih-media, .hih-card:focus-visible .hih-media { transform: translateY(var(--hih-lift)); box-shadow: var(--hih-shadow-card); }
+[data-hih-spot]:has(> :focus-visible) > :not(:focus-visible) { opacity: var(--hih-dim); }
+.hih-tile:active .hih-media, .hih-card:active .hih-media { transform: scale(var(--hih-press)); transition-duration: var(--hih-dur-fast); }
+
+@media (hover: hover) and (pointer: fine) {
+  .hih-tile:hover .hih-underline, .hih-card:hover .hih-underline { background-size: 100% var(--hih-border); }
+  .hih-tile:hover .hih-media, .hih-card:hover .hih-media { transform: translateY(var(--hih-lift)); box-shadow: var(--hih-shadow-card); }
+  [data-hih-spot]:has(> :hover) > :not(:hover) { opacity: var(--hih-dim); }
+  /* Spotlight: position comes from hih.js (--hih-spot-x / --hih-spot-y). */
+  .hih-tile .hih-media::after, .hih-card .hih-media::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0;
+    background: radial-gradient(circle at var(--hih-spot-x, 50%) var(--hih-spot-y, 50%), var(--hih-color-spot), transparent var(--hih-spot-r));
+    transition: opacity var(--hih-dur-base) var(--hih-ease);
+  }
+  .hih-tile:hover .hih-media::after, .hih-card:hover .hih-media::after { opacity: 1; }
+  /* Guide count slides in under the description. Always visible on touch. */
+  .hih-tile__more { opacity: 0; transform: translateY(calc(var(--hih-rise) * 0.5)); transition: opacity var(--hih-dur-base) var(--hih-ease), transform var(--hih-dur-base) var(--hih-ease); }
+  .hih-tile:hover .hih-tile__more, .hih-tile:focus-visible .hih-tile__more { opacity: 1; transform: none; }
+  .hih-tile:hover .hih-cat-icon path, .hih-tile:focus-visible .hih-cat-icon path { animation: hih-draw var(--hih-dur-draw) var(--hih-ease) both; }
+  .hih-tile:hover .hih-cat-icon path:nth-child(2) { animation-delay: calc(var(--hih-dur-draw) * 0.15); }
+  .hih-tile:hover .hih-cat-icon path:nth-child(3) { animation-delay: calc(var(--hih-dur-draw) * 0.3); }
+  .hih-tile:hover .hih-cat-icon path:nth-child(4) { animation-delay: calc(var(--hih-dur-draw) * 0.45); }
+}
+@keyframes hih-draw { from { stroke-dashoffset: 1; } }
+
+/* Category icons: centered line drawing in an empty tile; a small corner badge once a photo is set. */
+.hih-tile__icon { position: absolute; inset: 0; display: grid; place-items: center; color: var(--hih-color-primary); }
+.hih-cat-icon { width: var(--hih-cat-icon); height: auto; overflow: visible; }
+.hih-cat-icon path { stroke-dasharray: 1; stroke-dashoffset: 0; }
+.hih-media.has-image .hih-tile__icon {
+  inset: var(--hih-space-3) auto auto var(--hih-space-3); z-index: 1;
+  width: var(--hih-cat-badge); height: var(--hih-cat-badge);
+  background: var(--hih-color-paper); border-radius: 50%; box-shadow: var(--hih-shadow-card);
+}
+.hih-media.has-image .hih-cat-icon { width: 60%; }
+.hih-tile__more {
+  display: inline-flex; align-items: center; gap: var(--hih-space-1); margin-top: calc(var(--hih-space-2) * -1);
+  font-size: var(--hih-text-sm); font-weight: var(--hih-weight-bold); color: var(--hih-color-primary);
+}
+
+/* Progress badge on guide cards the reader has started (set by hih.js). */
+.hih-progress-badge {
+  position: absolute; top: var(--hih-space-3); left: var(--hih-space-3); z-index: 1;
+  padding: var(--hih-space-1) var(--hih-space-3); border-radius: var(--hih-pill);
+  font-size: var(--hih-text-xs); font-weight: var(--hih-weight-bold);
+  background: var(--hih-color-paper); color: var(--hih-color-primary); box-shadow: var(--hih-shadow-card);
+  animation: hih-rise var(--hih-dur-base) var(--hih-ease) both;
+}
+.hih-progress-badge.is-finished { background: var(--hih-color-primary); color: var(--hih-color-paper); }
+.hih-progress-bar { position: absolute; inset: auto 0 0 0; z-index: 1; height: var(--hih-bar); background: var(--hih-color-sage-strong); }
+.hih-progress-bar::before {
+  content: ""; position: absolute; inset: 0; background: var(--hih-color-leaf);
+  transform: scaleX(var(--hih-done, 0)); transform-origin: left;
+}
+
 /* Guide cards */
 .hih-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--hih-card-min), 1fr)); gap: var(--hih-space-7) var(--hih-space-5); }
 .hih-card { display: flex; flex-direction: column; gap: var(--hih-space-3); text-decoration: none; color: var(--hih-color-ink); }

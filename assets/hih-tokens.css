@@ -24,6 +24,7 @@
   --hih-color-warn-ink: #6b4a12;       /* 7.4:1 on warn-bg */
   --hih-color-leaf: #3d7a5e;           /* logo accent          5.1:1 on paper */
   --hih-color-leaf-light: #a9cdb9;     /* logo accent on primary 5.6:1 */
+  --hih-color-spot: rgba(255, 255, 255, 0.55); /* pointer spotlight on card media */
   --hih-color-focus: #2e4a40;
   --hih-color-scrim: rgba(28, 48, 41, 0.55);
 
@@ -74,6 +75,11 @@
   --hih-logo-h: 4.4rem;          /* 44: header logo height */
   --hih-logo-h-sm: 3.6rem;       /* 36: header logo on phones */
   --hih-logo-h-footer: 5.6rem;   /* 56 */
+  --hih-cat-icon: 38%;           /* category icon in an empty tile */
+  --hih-cat-badge: 4.4rem;       /* 44: icon badge on a tile with a photo */
+  --hih-spot-r: 65%;             /* spotlight falloff */
+  --hih-bar: 0.4rem;             /* 4: progress bar on guide cards */
+  --hih-pill: 99.9rem;
   --hih-play: 6.4rem;            /* 64: video play button */
   --hih-print-fig: 19.2rem;      /* 192: step figure height in print */
   --hih-gutter: clamp(1.6rem, 0.8rem + 2vw, 3.2rem);
@@ -95,6 +101,10 @@
   --hih-delay-stagger: 180ms;
   --hih-hero-scale-from: 1.06;
   --hih-rise: 16px;
+  --hih-lift: -4px;            /* hovered card */
+  --hih-press: 0.98;           /* tapped card */
+  --hih-dim: 0.55;             /* the other cards while one is hovered */
+  --hih-dur-draw: 700ms;       /* category icon redraw */
   --hih-shadow-card: 0 12px 32px rgba(31, 42, 38, 0.10);
 }
 
@@ -108,6 +118,9 @@
     --hih-delay-stagger: 0ms;
     --hih-hero-scale-from: 1;
     --hih-rise: 0px;
+    --hih-lift: 0px;
+    --hih-press: 1;
+    --hih-dur-draw: 0ms;
   }
 }
 

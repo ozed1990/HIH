@@ -2,7 +2,7 @@
 <div class="hih-container">
   <header class="hih-blog-head">
     <nav class="hih-crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span><span aria-current="page">{{ blog.title | escape }}</span></nav>
-    <h1>{{ blog.title | escape }}</h1>
+    <h1 data-vt-to="hih-cat-title">{{ blog.title | escape }}</h1>
     {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
     {%- if blog.all_tags.size > 0 -%}
       <ul class="hih-chips" aria-label="Filter guides">
@@ -15,7 +15,7 @@
   </header>
 
   {%- if blog.articles.size > 0 -%}
-    <div class="hih-cards">
+    <div class="hih-cards" data-hih-spot data-vt-group="{{ blog.url }}">
       {%- for article in blog.articles -%}
         {% render 'hih-guide-card', article: article, heading_tag: 'h2' %}
       {%- endfor -%}

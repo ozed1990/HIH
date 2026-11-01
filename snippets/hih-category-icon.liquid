@@ -1,0 +1,31 @@
+{%- comment -%}
+  Line icon for a category (blog) handle, drawn in the logo's stroke style.
+  Every stroke has pathLength="1" so CSS can redraw it on hover (see "Category icons" in hih.css).
+  Params: handle (blog handle). Unknown handles get a house.
+{%- endcomment -%}
+<svg class="hih-cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  {%- case handle -%}
+    {%- when 'kitchen' -%}
+      <path pathLength="1" d="M8 40 H30"/><path pathLength="1" d="M15 40 V27 A9 9 0 0 1 24 18 H33 A4 4 0 0 1 37 22 V26"/><path pathLength="1" d="M22 18 V11 M17 11 H27"/><path pathLength="1" d="M37 32 V34"/>
+    {%- when 'bathroom' -%}
+      <path pathLength="1" d="M6 25 H42 V28 A10 10 0 0 1 32 38 H16 A10 10 0 0 1 6 28 Z"/><path pathLength="1" d="M14 38 L12 42 M34 38 L36 42"/><path pathLength="1" d="M12 25 V13 A4 4 0 0 1 20 13 V15"/>
+    {%- when 'flooring' -%}
+      <path pathLength="1" d="M6 10 H42 V38 H6 Z"/><path pathLength="1" d="M6 19.3 H42 M6 28.6 H42"/><path pathLength="1" d="M20 10 V19.3 M32 19.3 V28.6 M16 28.6 V38"/>
+    {%- when 'painting-walls' -%}
+      <path pathLength="1" d="M8 8 H34 V18 H8 Z"/><path pathLength="1" d="M34 13 H40 V24 H22 V30"/><path pathLength="1" d="M20 30 H24 V42 H20 Z"/>
+    {%- when 'plumbing' -%}
+      <path pathLength="1" d="M6 12 H26 A12 12 0 0 1 38 24 V42"/><path pathLength="1" d="M6 22 H26 A2 2 0 0 1 28 24 V42"/><path pathLength="1" d="M6 12 V22 M28 42 H38"/><path pathLength="1" d="M16 30 L18 34 A2 2 0 0 1 14 34 Z"/>
+    {%- when 'electrical' -%}
+      <path pathLength="1" d="M10 6 H38 A4 4 0 0 1 42 10 V38 A4 4 0 0 1 38 42 H10 A4 4 0 0 1 6 38 V10 A4 4 0 0 1 10 6 Z"/><path pathLength="1" d="M19 16 V23 M29 16 V23"/><path pathLength="1" d="M21 34 V31 A3 3 0 0 1 27 31 V34 Z"/>
+    {%- when 'doors-windows' -%}
+      <path pathLength="1" d="M10 6 H38 V40 H10 Z"/><path pathLength="1" d="M24 6 V40 M10 23 H38"/><path pathLength="1" d="M6 40 H42"/>
+    {%- when 'outdoor-garden' -%}
+      <path pathLength="1" d="M24 42 V22"/><path pathLength="1" d="M24 30 C14 30 10 22 10 15 C18 15 24 20 24 30 Z"/><path pathLength="1" d="M24 23 C24 15 30 9 38 9 C38 17 32 23 24 23 Z"/><path pathLength="1" d="M12 42 H36"/>
+    {%- when 'storage' -%}
+      <path pathLength="1" d="M8 17 L24 9 L40 17 V35 L24 43 L8 35 Z"/><path pathLength="1" d="M8 17 L24 25 L40 17 M24 25 V43"/>
+    {%- when 'maintenance' -%}
+      <path pathLength="1" d="M8 10 H40 V40 H8 Z"/><path pathLength="1" d="M8 18 H40 M16 6 V14 M32 6 V14"/><path pathLength="1" d="M17 29 L22 34 L31 24"/>
+    {%- else -%}
+      <path pathLength="1" d="M7 22 L24 8 L41 22"/><path pathLength="1" d="M11 19 V40 H37 V19"/>
+  {%- endcase -%}
+</svg>

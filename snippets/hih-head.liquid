@@ -16,22 +16,44 @@
 {{ 'hih.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'hih.js' | asset_url }}" defer="defer"></script>
 <script>
-  /* Shared-element transition: a guide card's photo morphs into the guide's hero image.
-     Must run before first render, so it is inline and not deferred. */
+  /* Cross-page transitions. Must run before first render, so it is inline and not deferred.
+     1. Shared elements: an element with data-vt-href (the link target) + data-vt-name on the old page
+        morphs into the element with the same name in data-vt-to on the new page
+        (guide card photo -> guide hero, category tile title -> category page title).
+     2. Filter reflow: moving between tag filters of one category, every card present on both pages
+        slides to its new spot (cards carry data-guide-card; the grid carries data-vt-group = blog url). */
   (function () {
-    var NAME = 'hih-guide-hero';
+    function isFilterOf(base, path) { return path === base || path.indexOf(base + '/tagged/') === 0; }
+    function nameCards(on) {
+      document.querySelectorAll('[data-vt-group] [data-guide-card]').forEach(function (c) {
+        c.style.viewTransitionName = on ? 'hih-card-' + c.getAttribute('data-guide-card') : '';
+      });
+    }
     window.addEventListener('pageswap', function (e) {
       if (!e.viewTransition || !e.activation || !e.activation.entry) return;
       var path = new URL(e.activation.entry.url).pathname;
-      var el = document.querySelector('[data-vt-href="' + path + '"]');
-      if (el) el.style.viewTransitionName = NAME;
+      var group = document.querySelector('[data-vt-group]');
+      if (group && isFilterOf(group.getAttribute('data-vt-group'), path)) { nameCards(true); return; }
+      var el = document.querySelector('[data-vt-href="' + path + '"][data-vt-name]');
+      if (el) el.style.viewTransitionName = el.getAttribute('data-vt-name');
     });
     window.addEventListener('pagereveal', function (e) {
       if (!e.viewTransition) return;
-      var hero = document.querySelector('[data-vt-hero]');
-      if (!hero) return;
-      hero.style.viewTransitionName = NAME;
-      e.viewTransition.finished.then(function () { hero.style.viewTransitionName = ''; });
+      var from = window.navigation && navigation.activation && navigation.activation.from;
+      var fromPath = from && from.url ? new URL(from.url).pathname : '';
+      var group = document.querySelector('[data-vt-group]');
+      var named = [];
+      if (group && fromPath && isFilterOf(group.getAttribute('data-vt-group'), fromPath)) {
+        nameCards(true);
+      } else {
+        document.querySelectorAll('[data-vt-to]').forEach(function (t) {
+          t.style.viewTransitionName = t.getAttribute('data-vt-to'); named.push(t);
+        });
+      }
+      e.viewTransition.finished.then(function () {
+        nameCards(false);
+        named.forEach(function (t) { t.style.viewTransitionName = ''; });
+      });
     });
   })();
 </script>

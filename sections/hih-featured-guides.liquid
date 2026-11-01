@@ -13,7 +13,7 @@
       <h2>{{ section.settings.heading | escape }}</h2>
       {%- if section.settings.link != blank -%}<a class="hih-link-quiet" href="{{ section.settings.link }}">{{ section.settings.link_label | escape }}</a>{%- endif -%}
     </div>
-    <div class="hih-cards">
+    <div class="hih-cards" data-hih-spot>
       {%- for block in section.blocks -%}
         {%- if block.settings.article != blank -%}
           <div {{ block.shopify_attributes }}>{% render 'hih-guide-card', article: block.settings.article, label: block.settings.label %}</div>

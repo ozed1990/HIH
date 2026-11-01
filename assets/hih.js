@@ -21,6 +21,57 @@
     new IntersectionObserver(([entry]) => header.classList.toggle('is-scrolled', !entry.isIntersecting)).observe(sentinel);
   }
 
+  /* Spotlight: a soft glow follows the pointer across the card under it (mouse and trackpad only). */
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && !reduceMotion) {
+    document.querySelectorAll('[data-hih-spot]').forEach((grid) => {
+      let frame = 0;
+      grid.addEventListener('pointermove', (e) => {
+        const media = e.target.closest('.hih-tile, .hih-card')?.querySelector('.hih-media');
+        if (!media || frame) return;
+        frame = requestAnimationFrame(() => {
+          frame = 0;
+          const r = media.getBoundingClientRect();
+          media.style.setProperty('--hih-spot-x', `${((e.clientX - r.left) / r.width) * 100}%`);
+          media.style.setProperty('--hih-spot-y', `${((e.clientY - r.top) / r.height) * 100}%`);
+        });
+      });
+    });
+  }
+
+  /* Progress on guide cards: "Step 3 of 7" from the steps marked done on the guide page.
+     In-progress guides move to the front of their grid (DOM order, so keyboard order matches). */
+  const readJSON = (key, fallback) => {
+    try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch (e) { return fallback; }
+  };
+  document.querySelectorAll('[data-guide-card]').forEach((card) => {
+    const id = card.getAttribute('data-guide-card');
+    const total = Number(readJSON(`hih:total:${id}`, 0));
+    const doneSteps = readJSON(`hih:done:${id}`, []);
+    if (!total || !Array.isArray(doneSteps) || !doneSteps.length) return;
+    const count = Math.min(doneSteps.length, total);
+    let next = 1;
+    while (doneSteps.includes(next) && next <= total) next += 1;
+    const finished = count >= total;
+    const media = card.querySelector('.hih-media');
+    if (!media) return;
+    const badge = document.createElement('span');
+    badge.className = `hih-progress-badge${finished ? ' is-finished' : ''}`;
+    badge.textContent = finished ? 'Finished' : `Step ${next} of ${total}`;
+    const bar = document.createElement('span');
+    bar.className = 'hih-progress-bar';
+    bar.setAttribute('aria-hidden', 'true');
+    bar.style.setProperty('--hih-done', String(count / total));
+    media.append(badge, bar);
+    if (!finished) {
+      card.classList.add('is-in-progress');
+      const grid = card.closest('.hih-cards');
+      if (grid) {
+        const lastInProgress = Array.from(grid.querySelectorAll(':scope > .is-in-progress')).filter((c) => c !== card).pop();
+        if (lastInProgress) lastInProgress.after(card); else grid.prepend(card);
+      }
+    }
+  });
+
   /* Guide page */
   const guide = document.querySelector('[data-guide-id]');
   if (!guide) return;
@@ -36,6 +87,7 @@
     try { localStorage.setItem(storeKey, JSON.stringify(Array.from(set))); } catch (e) { /* storage unavailable: progress lasts this visit only */ }
   };
   const done = readDone();
+  try { localStorage.setItem(`hih:total:${guideId}`, String(steps.length)); } catch (e) { /* ignore */ }
   const tocLinks = [];
 
   steps.forEach((li, i) => {

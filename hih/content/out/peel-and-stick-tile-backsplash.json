@@ -1,0 +1,71 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Install a Peel-and-Stick Tile Backsplash",
+    "handle": "peel-and-stick-tile-backsplash",
+    "summary": "Install a peel-and-stick tile backsplash in one afternoon: prep the wall, set a level line, cut around outlets, and seal the edges so it lasts.",
+    "tags": [
+      "Beginner",
+      "Kitchen",
+      "Backsplash",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Peel-and-stick tile gives you the look of a tiled backsplash without mortar, grout or a wet saw. This guide is for a standard kitchen run between countertop and upper cabinets, on painted drywall in good shape.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> you'll remove outlet and switch covers, so switch off the breaker for that circuit and confirm the outlets are dead with a non-contact voltage tester before you start. Keep tiles at least 8 in above a gas cooktop that has no rear metal guard, and 2 in away from countertop toaster ovens.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check the wall and let fresh paint cure</h3><p>Tiles need a smooth, sound, sealed surface. Fill dents with spackle and sand them flat. If you just painted, wait about three weeks before tiling: adhesive grips cured paint, not fresh paint.</p><p><strong>Done right:</strong> you can run your palm over the wall and feel no bumps, flaking or texture ridges.</p></li>\n<li><h3>Degrease and dry the wall</h3><p>Kitchen walls carry an invisible film of cooking grease. Wipe the whole area with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">degreasing cleaner</a>, rinse with a damp cloth, and let it dry for at least an hour.</p><p><strong>Done right:</strong> a strip of painter's tape pressed onto the wall pulls off with firm resistance.</p></li>\n<li><h3>Mark a level start line</h3><figure><img src=\"hih-media://peel-and-stick-tile-backsplash-step-3\" alt=\"Diagram of a level pencil line drawn 1/8 inch above the lowest point of the countertop\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Start from a level line, not from the countertop.</figcaption></figure><p>Countertops are rarely level, so don't use them as your guide. Find the lowest point of the counter along the run, measure 1/8 in up from it, and draw a level line across the whole wall. Your first row sits on this line. The small gap gets caulked at the end.</p><p><strong>Done right:</strong> the line is level end to end, and it is never more than about 1/4 in above the counter at its highest point.</p></li>\n<li><h3>Dry-fit and plan the cuts</h3><p>Hold tiles against the wall (backing still on) to see where the last column lands. If you'd end with a sliver under 2 in wide at a visible edge, shift your starting point so both ends get a wider piece. Start in the most visible spot, usually behind the sink, and work outward.</p><p><strong>Done right:</strong> no visible edge ends in a sliver.</p></li>\n<li><h3>Stick the first tile, then work along the row</h3><p>Peel back half the backing, align the tile with your line, and press lightly from the center outward. Peel off the rest and smooth it down. Overlap or butt the next tile exactly as the manufacturer's instructions show, then press every tile firmly once it's straight. Light pressure lets you reposition; firm pressure sets the bond.</p><p><strong>Done right:</strong> joints line up and pattern lines run straight across the seams.</p></li>\n<li><h3>Cut around outlets and switches</h3><figure><img src=\"hih-media://peel-and-stick-tile-backsplash-step-6\" alt=\"Diagram showing how to mark and cut a tile around an outlet box, cutting slightly inside the box outline\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Cut inside the line; the cover plate hides the edge.</figcaption></figure><p>With the power still off, lay the tile over the box, mark the opening, and cut it with scissors or a utility knife against a straightedge. Cut just inside the line: the cover plate hides the edge. If the tile adds noticeable thickness, add a plastic box extender so the device stays flush and secure.</p><p><strong>Done right:</strong> the cover plate sits flat and covers every cut edge.</p></li>\n<li><h3>Trim the ends and seal the edges</h3><p>Cut end tiles with a fresh blade against a straightedge. Run a thin bead of <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">clear silicone</a> along the countertop gap and any edge near the sink, then smooth it with a wet fingertip. Reinstall cover plates and restore power.</p><p><strong>Done right:</strong> the bottom edge is sealed, and no tile edge lifts when you run a fingernail along it.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the wall is soft, water-stained or crumbling behind the sink (that points to a leak), or an outlet box is loose or scorched. Fix those first, because tile will hide the problem, not solve it.</p></aside>\n<h2>FAQ</h2>\n<h3>Can you put peel-and-stick tile over existing tile?</h3><p>Often yes, if the old tile is flat, glossy-clean and the grout lines are shallow. Deep grout lines show through thin vinyl tiles, so skim them with a thin coat of patching compound first. Check your product&#x27;s instructions.</p>\n<h3>Does peel-and-stick backsplash work behind a stove?</h3><p>Many products allow it, with conditions. A common manufacturer rule is to keep tiles at least 8 in above a gas cooktop that has no rear metal guard. Read the specific product&#x27;s heat guidance before you buy.</p>\n<h3>How long does a peel-and-stick backsplash last?</h3><p>On a well-prepared, degreased wall, quality tiles can last for years. Most early failures come from grease or fresh paint under the adhesive.</p>\n<h3>Can you remove it later without damaging the wall?</h3><p>Usually, if you warm the tiles with a hair dryer and peel slowly at a low angle. Expect some paint touch-up afterward.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "3–5 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$100–$250"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"2 ft level\", \"Pencil\", \"Utility knife with fresh blades\", \"Metal straightedge\", \"Heavy-duty scissors\", \"Non-contact voltage tester\", \"Screwdriver\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Peel-and-stick tiles (area + 10\\u201315%)\", \"Degreasing cleaner\", \"Clean lint-free rags\", \"Outlet box extenders (if needed)\", \"Clear silicone or paintable caulk\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=vLZCdt0OY9o"
+    }
+  ],
+  "media": [
+    {
+      "stem": "peel-and-stick-tile-backsplash-step-3",
+      "alt": "Diagram of a level pencil line drawn 1/8 inch above the lowest point of the countertop",
+      "caption": "Start from a level line, not from the countertop."
+    },
+    {
+      "stem": "peel-and-stick-tile-backsplash-step-6",
+      "alt": "Diagram showing how to mark and cut a tile around an outlet box, cutting slightly inside the box outline",
+      "caption": "Cut inside the line; the cover plate hides the edge."
+    }
+  ],
+  "hero_slot": "peel-and-stick-tile-backsplash-hero"
+}

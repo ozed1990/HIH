@@ -1,0 +1,71 @@
+{
+  "blog_handle": "painting-walls",
+  "blog_title": "Painting & Walls",
+  "article": {
+    "title": "How to Patch a Hole in Drywall (Any Size)",
+    "handle": "how-to-patch-a-hole-in-drywall",
+    "summary": "Patch drywall holes from nail-size to fist-size: pick the right method, apply thin coats, feather the edges, and get a repair that disappears under paint.",
+    "tags": [
+      "Beginner",
+      "Walls",
+      "Drywall",
+      "Under 2 hours"
+    ],
+    "body": "<p class=\"guide-intro\">Doorknob dings, anchor holes and moving-day gouges are a few dollars and a little patience to fix. The secret is matching the method to the hole size and using several thin coats instead of one thick one.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> before cutting into a wall, shine a flashlight into the hole to check for wires and pipes, which usually run along studs. Wear a dust mask while sanding.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Pick the method for your hole size</h3><figure><img src=\"hih-media://how-to-patch-a-hole-in-drywall-step-1\" alt=\"Chart of three drywall hole sizes and matching repair methods: spackle, mesh patch, drywall piece\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Match the method to the hole.</figcaption></figure><p>Small holes up to about 1/2 in (nails, screws, anchors) get <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">spackle</a> alone. Holes from 1/2 in to about 4 in get a self-adhesive mesh patch. Anything larger gets a new piece of drywall.</p><p><strong>Done right:</strong> you know which of the three methods you're using before you open a tub of compound.</p></li>\n<li><h3>Clean up the edges</h3><p>Cut away torn paper and crumbled gypsum with a utility knife, and push in any loose anchor. Lightly sand ridges so the patch sits flat.</p><p><strong>Done right:</strong> the hole has firm edges with no paper fuzz sticking out.</p></li>\n<li><h3>Small holes: fill flush with spackle</h3><p>Press spackle in with a putty knife, then scrape the surface level in a single pass. Overfill very slightly, because spackle shrinks a little as it dries.</p><p><strong>Done right:</strong> after drying and a light sanding, the spot is flush and invisible to your fingertips.</p></li>\n<li><h3>Medium holes: cover with a mesh patch</h3><p>Center the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">self-adhesive patch</a> over the hole and press it flat. Spread a thin coat of compound over it, extending 2 in beyond the patch on every side.</p><p><strong>Done right:</strong> the mesh is fully covered but you can still faintly see its outline. Don't try to hide it in one coat.</p></li>\n<li><h3>Large holes: screw in a drywall patch</h3><p>Cut a square of scrap drywall slightly larger than the hole. Trace it on the wall and cut out the damaged area along the lines. Screw a wood backer strip across the inside of the opening, then screw the patch to the backer. Tape the seams with mesh tape.</p><p><strong>Done right:</strong> the patch sits flush with the wall and doesn't move when you press it.</p></li>\n<li><h3>Apply thin coats and feather the edges</h3><figure><img src=\"hih-media://how-to-patch-a-hole-in-drywall-step-6\" alt=\"Section diagram showing three progressively wider, thinner coats of joint compound feathered over a patch\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Each coat wider and thinner than the last.</figcaption></figure><p>Spread two or three thin coats, letting each dry fully. Each coat should be wider than the last (6 in, then 10 in) and pressed thin at the edges. Wide, thin coats blend in. Thick coats leave a bump you'll see in raking light.</p><p><strong>Done right:</strong> a straightedge held across the patch rocks on nothing.</p></li>\n<li><h3>Sand, prime and paint</h3><p>Sand lightly with a fine sponge, wipe off the dust, and prime the patch so it doesn't flash through the paint as a dull spot. Then paint, feathering out past the primer.</p><p><strong>Done right:</strong> from across the room, and with a flashlight held flat against the wall, you can't find the repair.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the damage is from water (stains, soft or swollen drywall), there's a crack that keeps reopening, or the wall is old plaster rather than drywall. Each needs a different repair.</p></aside>\n<h2>FAQ</h2>\n<h3>Spackle or joint compound?</h3><p>Spackle shrinks less and dries faster, which makes it best for small holes. Joint compound spreads more easily over large areas, which makes it better over patches and tape.</p>\n<h3>How long does joint compound take to dry?</h3><p>Thin coats of premixed compound typically dry in a few hours to overnight, depending on thickness and humidity. Setting-type (powder) compounds harden in a set time printed on the bag.</p>\n<h3>Why can I still see the patch after painting?</h3><p>Usually there was no primer under the paint, the edges weren&#x27;t feathered wide enough, or the wall&#x27;s texture doesn&#x27;t match. Prime the patch, and feather the compound farther out.</p>\n<h3>Do I need to prime before painting a patch?</h3><p>Yes. Compound absorbs paint differently than the wall around it, so unprimed patches show as dull spots.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1 hour + drying time"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"4 in and 6 in drywall knives\", \"Utility knife\", \"Drywall saw\", \"Drill-driver\", \"Sanding sponge (fine)\", \"Pencil and square\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Lightweight spackling or premixed joint compound\", \"Self-adhesive mesh patch (for 1\\u20134 in holes)\", \"Scrap drywall (for larger holes)\", \"Drywall screws\", \"Primer and matching paint\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=PLGmTzEGSIY"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-patch-a-hole-in-drywall-step-1",
+      "alt": "Chart of three drywall hole sizes and matching repair methods: spackle, mesh patch, drywall piece",
+      "caption": "Match the method to the hole."
+    },
+    {
+      "stem": "how-to-patch-a-hole-in-drywall-step-6",
+      "alt": "Section diagram showing three progressively wider, thinner coats of joint compound feathered over a patch",
+      "caption": "Each coat wider and thinner than the last."
+    }
+  ],
+  "hero_slot": "how-to-patch-a-hole-in-drywall-hero"
+}

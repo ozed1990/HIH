@@ -1,0 +1,71 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Recaulk a Bathtub (Clean Lines, No Mold)",
+    "handle": "how-to-recaulk-a-bathtub",
+    "summary": "Remove old caulk, prep the joint, and lay a clean, watertight silicone bead around your tub, using painter's tape for perfectly straight lines.",
+    "tags": [
+      "Beginner",
+      "Bathroom",
+      "Caulking",
+      "Under 3 hours"
+    ],
+    "body": "<p class=\"guide-intro\">Cracked, peeling or moldy caulk lets water behind your tub surround, where it rots framing and grows mold you can't see. Recaulking is one of the highest-value two-hour jobs in the house. This guide covers the joint between a tub and its tile or surround.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> open a window or run the exhaust fan while you use rubbing alcohol and silicone. Wear gloves. Use a plastic blade on acrylic or fiberglass tubs, because metal scratches them.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Protect the tub and cut the old caulk</h3><p>Close the drain and lay a drop cloth in the tub. Score along both edges of the old bead with a utility knife held at a low angle, so you cut the caulk and not the tub.</p><p><strong>Done right:</strong> both edges of the bead are free along the whole joint.</p></li>\n<li><h3>Pull and scrape out every trace</h3><p>Grab the cut bead and pull it out in strips. Scrape the leftovers with a plastic razor or <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">caulk removal tool</a>, and use caulk remover on stubborn film. New silicone won't stick to old silicone.</p><p><strong>Done right:</strong> when you drag a fingernail along the joint, nothing rubbery catches.</p></li>\n<li><h3>Kill mold and dry the joint completely</h3><p>Treat any black spots with mildew cleaner, rinse, then vacuum out the gap. Wipe both surfaces with rubbing alcohol and let the joint dry overnight if you can. Trapped moisture is the main reason fresh caulk fails or mold returns.</p><p><strong>Done right:</strong> the joint is bone dry and spotless.</p></li>\n<li><h3>Tape both sides of the joint</h3><figure><img src=\"hih-media://how-to-recaulk-a-bathtub-step-4\" alt=\"Cross-section diagram of a tub-to-tile joint with painter&#x27;s tape on both sides leaving a 1/4 inch gap\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Tape sets the bead width and keeps the edges straight.</figcaption></figure><p>Run painter's tape along the tub and along the wall, leaving a gap about 1/4 in wide centered on the joint. This sets the width of your finished bead and gives you razor-straight edges.</p><p><strong>Done right:</strong> two parallel tape lines, the same distance from the corner all the way around.</p></li>\n<li><h3>Run one continuous bead</h3><p>Cut the nozzle at a 45° angle to make a small opening. Holding the gun at a steady angle, push the bead along the joint in one smooth pass per side, squeezing evenly. Pushing, rather than pulling, drives silicone into the gap.</p><p><strong>Done right:</strong> the gap is filled with no voids or bubbles, and the bead stays between the tape lines.</p></li>\n<li><h3>Tool the bead, then pull the tape while wet</h3><figure><img src=\"hih-media://how-to-recaulk-a-bathtub-step-6\" alt=\"Diagram comparing a correct concave caulk bead with an incorrect bulging bead\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>A slight concave curve sheds water and grips both surfaces.</figcaption></figure><p>Smooth the bead with a wet fingertip or a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">caulk-finishing tool</a> in one pass per section, pressing it into a slight concave curve. Pull the tape right away, away from the bead at a low angle, before the silicone skins over.</p><p><strong>Done right:</strong> a smooth, concave bead with crisp edges.</p></li>\n<li><h3>Let it cure before using the tub</h3><p>Silicone skins over in about 30 minutes but needs about 24 hours to cure. Keep water off it until then, or follow your product's cure time if it's longer.</p><p><strong>Done right:</strong> after 24 hours the bead is firm and doesn't dent when pressed.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the wall tiles or surround flex when pressed, grout is crumbling, or the subfloor near the tub feels soft. Those are signs water has already gotten behind the wall.</p></aside>\n<h2>FAQ</h2>\n<h3>Can I caulk over old caulk?</h3><p>No. New silicone doesn&#x27;t bond to old caulk or its residue, so it peels quickly. Remove it completely and clean the joint first.</p>\n<h3>Silicone or acrylic caulk for a bathtub?</h3><p>Use 100% silicone rated for kitchen and bath. It stays flexible and waterproof in wet areas. Acrylic latex is easier to tool and paintable, but it doesn&#x27;t last as long in a shower.</p>\n<h3>How long before I can shower after caulking?</h3><p>Most silicone is touch-dry in about 30 minutes and fully cured in about 24 hours. Check your tube; some products are rated for water sooner.</p>\n<h3>Why does mold come back in new caulk?</h3><p>Usually because the joint wasn&#x27;t fully dry or clean, or the bathroom isn&#x27;t ventilated. Run the fan for 20–30 minutes after showers.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "2–3 hours + 24 h cure"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$25–$50"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Plastic razor scraper or caulk removal tool\", \"Utility knife\", \"Caulk gun\", \"Painter's tape\", \"Shop vacuum\", \"Drop cloth\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"100% silicone kitchen-and-bath caulk\", \"Caulk remover (for stubborn residue)\", \"Rubbing alcohol\", \"Clean rags\", \"Mildew cleaner (if there is mold)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=AcgErpZ_D0c"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-recaulk-a-bathtub-step-4",
+      "alt": "Cross-section diagram of a tub-to-tile joint with painter's tape on both sides leaving a 1/4 inch gap",
+      "caption": "Tape sets the bead width and keeps the edges straight."
+    },
+    {
+      "stem": "how-to-recaulk-a-bathtub-step-6",
+      "alt": "Diagram comparing a correct concave caulk bead with an incorrect bulging bead",
+      "caption": "A slight concave curve sheds water and grips both surfaces."
+    }
+  ],
+  "hero_slot": "how-to-recaulk-a-bathtub-hero"
+}

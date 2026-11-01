@@ -1,0 +1,38 @@
+{%- assign menu = linklists[section.settings.menu] -%}
+{%- assign info = linklists[section.settings.info_menu] -%}
+<footer class="hih-footer">
+  <div class="hih-container">
+    <div class="hih-footer__grid">
+      <div>
+        <p class="hih-footer__brand">{{ shop.name | escape }}</p>
+        {%- if section.settings.text != blank -%}<div class="hih-footer__text">{{ section.settings.text }}</div>{%- endif -%}
+      </div>
+      {%- if menu.links.size > 0 -%}
+        <nav aria-label="Categories, footer">
+          <ul>{%- for link in menu.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
+        </nav>
+      {%- endif -%}
+      {%- if info.links.size > 0 -%}
+        <nav aria-label="About">
+          <ul>{%- for link in info.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
+        </nav>
+      {%- endif -%}
+    </div>
+    <div class="hih-footer__base">
+      <span>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</span>
+      {%- if section.settings.disclosure != blank -%}<span>{{ section.settings.disclosure }}</span>{%- endif -%}
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "HIH footer",
+  "settings": [
+    { "type": "richtext", "id": "text", "label": "About text", "default": "<p>Clear, step-by-step home improvement guides for U.S. homeowners.</p>" },
+    { "type": "link_list", "id": "menu", "label": "Category menu", "default": "hih-categories" },
+    { "type": "link_list", "id": "info_menu", "label": "About menu", "default": "footer" },
+    { "type": "inline_richtext", "id": "disclosure", "label": "Affiliate disclosure line", "default": "Some links earn us a commission at no cost to you." }
+  ]
+}
+{% endschema %}

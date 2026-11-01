@@ -1,0 +1,71 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Build a Raised Garden Bed",
+    "handle": "how-to-build-a-raised-garden-bed",
+    "summary": "Build a 4×8 ft cedar raised garden bed: pick a sunny site, assemble a square frame, block weeds and burrowing pests, and fill it with the right soil mix.",
+    "tags": [
+      "Beginner",
+      "Garden",
+      "Outdoor",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">A raised bed warms up earlier in spring, drains better than most yard soil, and keeps your vegetables at a comfortable height. A 4×8 ft bed 11 in deep is a classic first build: everything is in arm's reach and it uses standard lumber lengths.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> call 811 before digging, even shallowly. It's free, and it marks buried utility lines. Don't use old railroad ties or pressure-treated lumber of unknown age for food beds. Wear gloves when cutting hardware cloth.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Pick a sunny, level spot</h3><figure><img src=\"hih-media://how-to-build-a-raised-garden-bed-step-1\" alt=\"Plan diagram of a 4 by 8 foot raised bed showing a 2 foot reach zone from each side\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>At 4 ft wide, every plant is within a 2 ft reach.</figcaption></figure><p>Most vegetables need at least 6–8 hours of direct sun. Choose a spot near a hose bib, away from tree roots, with room to walk around all sides. Keep the bed no wider than 4 ft so you can reach the center from either side.</p><p><strong>Done right:</strong> the site gets full sun most of the day, and the bed's center is within 2 ft of an edge.</p></li>\n<li><h3>Cut the boards and corner posts</h3><p>Cut two of the 8 ft 2×6s in half to make four 4 ft end boards. Cut the 4×4 into four corner blocks 11 in long, matching two stacked 2×6s (each 5.5 in actual).</p><p><strong>Done right:</strong> you have four 8 ft sides, four 4 ft ends, and four 11 in corner blocks.</p></li>\n<li><h3>Assemble the frame</h3><p>Screw the side and end boards into the corner blocks with two 3 in <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">deck screws</a> per board end, stacking two boards per side. Pre-drill near board ends to prevent splitting.</p><p><strong>Done right:</strong> the frame is square: its two diagonal measurements match within 1/4 in.</p></li>\n<li><h3>Level the bed in place</h3><p>Set the frame on the site. Skim off the grass, then dig down under high corners until the frame is level both ways. Don't prop low corners up on blocks.</p><p><strong>Done right:</strong> the level reads true along each side, and the frame touches the soil everywhere.</p></li>\n<li><h3>Block pests and weeds</h3><p>If gophers or moles are a problem where you live, staple 1/2 in <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">hardware cloth</a> across the bottom of the frame. Then lay plain cardboard (tape and labels removed) over the grass. It smothers the weeds and breaks down within a season.</p><p><strong>Done right:</strong> the base is covered edge to edge, with no gaps where grass can poke through.</p></li>\n<li><h3>Fill with a loose, rich mix</h3><figure><img src=\"hih-media://how-to-build-a-raised-garden-bed-step-6\" alt=\"Cross-section of a raised bed showing hardware cloth, cardboard layer and topsoil-compost fill\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Base layers stop pests and weeds; the mix feeds the plants.</figcaption></figure><p>A 4×8 ft bed 11 in deep holds about 29 cubic feet, a bit over 1 cubic yard. A simple mix is about 60% screened topsoil and 40% compost. Fill to an inch or two below the rim, water deeply, and top up after it settles.</p><p><strong>Done right:</strong> the soil is loose enough to push your fingers in to the knuckle, and it settles evenly after watering.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Get help if:</strong> the site has a steep slope (beds need terracing), you're near buried utilities or a septic field, or you want built-in irrigation tied to your house's water supply, which may need a backflow preventer.</p></aside>\n<h2>FAQ</h2>\n<h3>How deep should a raised garden bed be?</h3><p>About 10–12 in suits most vegetables, especially when the bed sits on loosened native soil. Root crops like carrots like more depth.</p>\n<h3>What wood is best for raised beds?</h3><p>Cedar and redwood resist rot naturally and are popular for food gardens. Modern pressure-treated lumber is considered safer than older formulas, but many gardeners still prefer untreated cedar.</p>\n<h3>How much soil do I need for a 4×8 raised bed?</h3><p>Multiply length × width × depth in feet. A 4×8 ft bed 11 in deep needs about 29 cubic feet, or about 1.1 cubic yards.</p>\n<h3>Should I put anything in the bottom of a raised bed?</h3><p>Cardboard smothers grass and weeds, and hardware cloth stops burrowing animals. Skip gravel layers: they don&#x27;t improve drainage in a raised bed.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "3–4 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$150–$350"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Drill-driver\", \"Tape measure\", \"Speed square\", \"4 ft level\", \"Flat shovel\", \"Rake\", \"Staple gun\", \"Utility knife\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Six 2\\u00d76 cedar boards, 8 ft (two are cut in half for the ends)\", \"One 4\\u00d74 cedar post, 8 ft (cut into 4 corner blocks)\", \"3 in exterior deck screws\", \"1/2 in galvanized hardware cloth (optional, for gophers and moles)\", \"Cardboard or landscape fabric\", \"Bed fill: about 1 cu yd of topsoil and compost mix\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=RI184FlM-IM"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-build-a-raised-garden-bed-step-1",
+      "alt": "Plan diagram of a 4 by 8 foot raised bed showing a 2 foot reach zone from each side",
+      "caption": "At 4 ft wide, every plant is within a 2 ft reach."
+    },
+    {
+      "stem": "how-to-build-a-raised-garden-bed-step-6",
+      "alt": "Cross-section of a raised bed showing hardware cloth, cardboard layer and topsoil-compost fill",
+      "caption": "Base layers stop pests and weeds; the mix feeds the plants."
+    }
+  ],
+  "hero_slot": "how-to-build-a-raised-garden-bed-hero"
+}

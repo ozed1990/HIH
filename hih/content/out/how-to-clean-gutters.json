@@ -1,0 +1,71 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "How to Clean Your Gutters Safely",
+    "handle": "how-to-clean-gutters",
+    "summary": "Clean gutters and downspouts safely: set up your ladder with the 4-to-1 rule, scoop out debris, flush the system, and spot problems early.",
+    "tags": [
+      "Beginner",
+      "Maintenance",
+      "Gutters",
+      "Seasonal"
+    ],
+    "body": "<p class=\"guide-intro\">Clogged gutters overflow against your siding and fascia and dump water at the foundation, which is how small problems become wet basements. Clean them at least twice a year, in late spring and after the leaves drop. This guide covers single-story homes. For two stories or steep sites, hire a pro.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> falls from ladders are a leading cause of home-injury deaths. Never work alone, never work in wind or rain, and keep three points of contact at all times. Stay at least 10 ft away from overhead power lines, including the service drop to your house. Don't lean the ladder on the gutter itself.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Set up the ladder with the 4-to-1 rule</h3><figure><img src=\"hih-media://how-to-clean-gutters-step-1\" alt=\"Diagram of an extension ladder set at a 4 to 1 angle against a house with 3 feet extending above the roof edge\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>1 ft out for every 4 ft up; 3 ft above the edge if you&#x27;ll step off.</figcaption></figure><p>Place the ladder on firm, level ground. For every 4 ft of height to the point where the ladder rests, move its feet 1 ft out from the wall. Use a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">stabilizer</a> so the ladder bears on the roof or wall, not the gutter. If you're stepping onto the roof, the ladder must extend 3 ft above the edge.</p><p><strong>Done right:</strong> standing at the base with your toes at the feet, your outstretched arms reach the rungs comfortably.</p></li>\n<li><h3>Scoop out debris by hand</h3><p>Start near a downspout and work away from it. Scoop leaves and grit into a bucket hooked to the ladder or drop them onto a tarp. Move the ladder often. Overreaching is how falls happen. Keep your belt buckle between the rails.</p><p><strong>Done right:</strong> the gutter bottom is visible along the whole run.</p></li>\n<li><h3>Flush the gutters</h3><p>Run a hose from the far end toward the downspout. The water should flow steadily to the outlet without pooling. Standing water marks a low spot where the gutter needs re-pitching (about 1/4 in of drop per 10 ft of gutter is typical).</p><p><strong>Done right:</strong> water reaches the downspout with no puddles left behind.</p></li>\n<li><h3>Clear the downspouts</h3><figure><img src=\"hih-media://how-to-clean-gutters-step-4\" alt=\"Diagram of a gutter and downspout with water flowing to an extension that discharges several feet from the foundation\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Send water at least 4–6 ft away from the foundation.</figcaption></figure><p>If water backs up at the outlet, the downspout is clogged. Flush it from the top with the hose. If that fails, run water up from the bottom, or tap the elbows to loosen packed debris. Make sure the outlet discharges at least 4–6 ft from the foundation, using an extension or splash block.</p><p><strong>Done right:</strong> water exits the bottom at full flow and drains away from the house.</p></li>\n<li><h3>Check hangers, seams and the fascia</h3><p>While you're up there, look for loose hangers, dripping seams, rust holes, and soft or stained fascia boards. Tighten or replace hangers, and seal small seam leaks with <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">gutter sealant</a> on a dry day.</p><p><strong>Done right:</strong> the gutter is firmly attached along its length, and no seams drip during the flush test.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a pro if:</strong> your home is two stories or more, the roof is steep, the ground is uneven, power lines run near the gutters, or the fascia is rotted. A pro clean is far cheaper than a fall or a rebuilt fascia.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should gutters be cleaned?</h3><p>At least twice a year, usually late spring and late fall. Homes under trees may need it more often.</p>\n<h3>Do gutter guards eliminate cleaning?</h3><p>They reduce it but don&#x27;t eliminate it. Fine debris and roof grit still build up, and guards themselves need occasional clearing.</p>\n<h3>Can I clean gutters from the ground?</h3><p>On a single story, telescoping gutter wands and leaf-blower attachments can handle light debris without a ladder. Packed, wet debris usually still needs hand scooping.</p>\n<h3>What&#x27;s the 4-to-1 ladder rule?</h3><p>Set the ladder&#x27;s feet 1 ft away from the wall for every 4 ft of height to where the top rests. It gives a stable angle of about 75°.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "2–4 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Extension ladder rated for your weight plus tools\", \"Ladder stabilizer (standoff)\", \"Gutter scoop or small plastic trowel\", \"Bucket with a hook\", \"Garden hose with spray nozzle\", \"Work gloves\", \"Safety glasses\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tarp for debris\", \"Gutter sealant (for small leaks)\", \"Replacement gutter hangers (if loose)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=IX-pv3cH6Y4"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-clean-gutters-step-1",
+      "alt": "Diagram of an extension ladder set at a 4 to 1 angle against a house with 3 feet extending above the roof edge",
+      "caption": "1 ft out for every 4 ft up; 3 ft above the edge if you'll step off."
+    },
+    {
+      "stem": "how-to-clean-gutters-step-4",
+      "alt": "Diagram of a gutter and downspout with water flowing to an extension that discharges several feet from the foundation",
+      "caption": "Send water at least 4–6 ft away from the foundation."
+    }
+  ],
+  "hero_slot": "how-to-clean-gutters-hero"
+}

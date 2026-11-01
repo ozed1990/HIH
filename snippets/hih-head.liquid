@@ -1,0 +1,33 @@
+{%- comment -%}
+  HIH head: self-hosted fonts, tokens, styles, and the cross-page transition hooks.
+  Rendered from layout/theme.liquid right after base.css so HIH tokens win over Dawn defaults.
+{%- endcomment -%}
+{{ 'hih-instrument-serif-400.woff2' | asset_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
+{{ 'hih-manrope-var.woff2' | asset_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
+<style>
+  @font-face { font-family: "Instrument Serif"; src: url("{{ 'hih-instrument-serif-400.woff2' | asset_url }}") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+  @font-face { font-family: "Manrope"; src: url("{{ 'hih-manrope-var.woff2' | asset_url }}") format("woff2"); font-weight: 200 800; font-style: normal; font-display: swap; }
+</style>
+{{ 'hih-tokens.css' | asset_url | stylesheet_tag }}
+{{ 'hih.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'hih.js' | asset_url }}" defer="defer"></script>
+<script>
+  /* Shared-element transition: a guide card's photo morphs into the guide's hero image.
+     Must run before first render, so it is inline and not deferred. */
+  (function () {
+    var NAME = 'hih-guide-hero';
+    window.addEventListener('pageswap', function (e) {
+      if (!e.viewTransition || !e.activation || !e.activation.entry) return;
+      var path = new URL(e.activation.entry.url).pathname;
+      var el = document.querySelector('[data-vt-href="' + path + '"]');
+      if (el) el.style.viewTransitionName = NAME;
+    });
+    window.addEventListener('pagereveal', function (e) {
+      if (!e.viewTransition) return;
+      var hero = document.querySelector('[data-vt-hero]');
+      if (!hero) return;
+      hero.style.viewTransitionName = NAME;
+      e.viewTransition.finished.then(function () { hero.style.viewTransitionName = ''; });
+    });
+  })();
+</script>

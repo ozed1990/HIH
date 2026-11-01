@@ -1,0 +1,32 @@
+<section class="hih-hero" data-animate>
+  <div class="hih-hero__frame">
+    <div class="hih-hero__image">
+      {%- if section.settings.image -%}
+        {{- section.settings.image | image_url: width: 2400 | image_tag: widths: '800, 1200, 1600, 2000, 2400', sizes: '100vw', loading: 'eager', fetchpriority: 'high', alt: section.settings.image.alt | default: '' -}}
+      {%- endif -%}
+    </div>
+    <div class="hih-hero__card">
+      <h1>{{ section.settings.heading | escape }}</h1>
+      {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
+      <form class="hih-search" action="{{ routes.search_url }}" method="get" role="search">
+        <input type="hidden" name="type" value="article">
+        <label class="hih-visually-hidden" for="hih-hero-q-{{ section.id }}">Search guides</label>
+        <input class="hih-input" id="hih-hero-q-{{ section.id }}" type="search" name="q" placeholder="{{ section.settings.placeholder | escape }}">
+        <button class="hih-btn" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "HIH hero",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Photo" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Make your home feel finished." },
+    { "type": "text", "id": "text", "label": "Text", "default": "Calm, well-photographed guides for the projects you've been putting off." },
+    { "type": "text", "id": "placeholder", "label": "Search placeholder", "default": "Search guides, e.g. running toilet" }
+  ],
+  "presets": [{ "name": "HIH hero" }]
+}
+{% endschema %}

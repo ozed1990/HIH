@@ -1,0 +1,43 @@
+{%- paginate blog.articles by 12 -%}
+<div class="hih-container">
+  <header class="hih-blog-head">
+    <h1>{{ blog.title | escape }}</h1>
+    {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
+    {%- if blog.all_tags.size > 0 -%}
+      <ul class="hih-chips" aria-label="Filter guides">
+        <li><a class="hih-chip" href="{{ blog.url }}"{% if current_tags == blank %} aria-current="page"{% endif %}>All</a></li>
+        {%- for tag in blog.all_tags -%}
+          <li><a class="hih-chip" href="{{ blog.url }}/tagged/{{ tag | handleize }}"{% if current_tags contains tag %} aria-current="page"{% endif %}>{{ tag | escape }}</a></li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </header>
+
+  {%- if blog.articles.size > 0 -%}
+    <div class="hih-cards">
+      {%- for article in blog.articles -%}
+        {% render 'hih-guide-card', article: article, heading_tag: 'h2' %}
+      {%- endfor -%}
+    </div>
+  {%- else -%}
+    <p class="hih-empty">No guides here yet. Try another category or <a href="{{ routes.search_url }}?type=article">search all guides</a>.</p>
+  {%- endif -%}
+
+  {%- if paginate.pages > 1 -%}
+    <nav class="hih-pagination" aria-label="Pages">
+      {%- if paginate.previous -%}<a class="hih-btn hih-btn--ghost" href="{{ paginate.previous.url }}">Newer guides</a>{%- endif -%}
+      {%- if paginate.next -%}<a class="hih-btn hih-btn--ghost" href="{{ paginate.next.url }}">Older guides</a>{%- endif -%}
+    </nav>
+  {%- endif -%}
+</div>
+<div class="hih-section"></div>
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "HIH category page",
+  "settings": [
+    { "type": "text", "id": "text", "label": "Intro under the title (all categories)", "default": "Step-by-step guides, sorted newest first. Filter by difficulty or project." }
+  ]
+}
+{% endschema %}

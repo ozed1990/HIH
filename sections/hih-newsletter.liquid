@@ -1,0 +1,32 @@
+<section class="hih-section hih-section--mist">
+  <div class="hih-container hih-newsletter">
+    <div>
+      <h2>{{ section.settings.heading | escape }}</h2>
+      <p>{{ section.settings.text | escape }}</p>
+    </div>
+    {%- form 'customer', id: 'hih-newsletter' -%}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <div class="hih-search">
+        <label class="hih-visually-hidden" for="hih-news-email">Email address</label>
+        <input class="hih-input" id="hih-news-email" type="email" name="contact[email]" autocomplete="email" placeholder="Email address" required>
+        <button class="hih-btn" type="submit">Subscribe</button>
+      </div>
+      {%- if form.posted_successfully? -%}
+        <p class="hih-form-note" role="status">Subscribed. The next guide will land in your inbox.</p>
+      {%- elsif form.errors -%}
+        <p class="hih-form-note" role="alert">{{ form.errors.translated_fields.email | capitalize }} {{ form.errors.messages.email }}</p>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "HIH newsletter",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "One good project a week" },
+    { "type": "text", "id": "text", "label": "Text", "default": "A new step-by-step guide every week. No spam, unsubscribe anytime." }
+  ],
+  "presets": [{ "name": "HIH newsletter" }]
+}
+{% endschema %}

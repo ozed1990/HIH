@@ -1,0 +1,71 @@
+{
+  "blog_handle": "flooring",
+  "blog_title": "Flooring",
+  "article": {
+    "title": "How to Install Luxury Vinyl Plank Flooring",
+    "handle": "how-to-install-vinyl-plank-flooring",
+    "summary": "Install click-lock luxury vinyl plank (LVP) flooring: prep a flat subfloor, plan the layout, stagger seams, and leave the right expansion gap.",
+    "tags": [
+      "Intermediate",
+      "Flooring",
+      "Vinyl plank",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Click-lock vinyl plank floats over most flat, solid subfloors, needs no glue, and stands up to water better than laminate. This guide covers a typical bedroom or living room. Your product's installation sheet always wins over general advice, especially on gap size and underlayment.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear knee pads and eye protection when cutting. If you're pulling up old sheet vinyl or tile in a home built before the 1980s, don't sand or break it until it has been tested for asbestos.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Prep the room and the subfloor</h3><p>Remove baseboards (number them for reinstallation), old carpet and staples. Vacuum thoroughly. Lay a long straightedge across the floor and fill dips with <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">leveling compound</a>. Grind or sand high spots. Click joints break over humps and hollows.</p><p><strong>Done right:</strong> the floor is clean, solid, and as flat as your product's tolerance requires (often about 3/16 in over 10 ft).</p></li>\n<li><h3>Undercut door jambs</h3><p>Lay a plank on a scrap of underlayment against the door casing and cut the casing along its top with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">jamb saw</a>. The new floor slides underneath, giving you a clean edge without trim.</p><p><strong>Done right:</strong> a plank slides under the casing with a little room to spare.</p></li>\n<li><h3>Plan the layout so both walls get wide boards</h3><figure><img src=\"hih-media://how-to-install-vinyl-plank-flooring-step-3\" alt=\"Floor plan diagram showing balanced first and last rows and end joints staggered at least 6 inches apart\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Balance the edge rows and stagger end joints at least 6 in.</figcaption></figure><p>Measure the room's width and divide by the plank's face width. If the last row would be narrower than half a plank, rip the first row narrower so the first and last rows match. Run planks parallel to the longest wall or toward the main light source.</p><p><strong>Done right:</strong> no row on either side is narrower than half a plank.</p></li>\n<li><h3>Install the first row with spacers</h3><figure><img src=\"hih-media://how-to-install-vinyl-plank-flooring-step-4\" alt=\"Section diagram showing a vinyl plank stopping short of the wall with an expansion gap hidden under the baseboard\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The baseboard hides the expansion gap; never pin the floor to the wall.</figcaption></figure><p>Trim the tongue off the long edge of the first-row planks that face the wall. Set spacers against the wall to hold the expansion gap your manufacturer specifies (commonly about 1/4 in), and click each plank's short end into the last.</p><p><strong>Done right:</strong> the first row is dead straight, so check it with a string line, and the gap is consistent.</p></li>\n<li><h3>Stagger seams and click rows together</h3><p>Start each new row with the offcut from the previous row, as long as it's at least 8 in long and the end joints land at least 6 in from those in the row before. Angle the long edge into the previous row, lower it, and tap the short end closed with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">tapping block</a>.</p><p><strong>Done right:</strong> joints close fully with no gaps or lifted edges, and no seams line up into an obvious pattern.</p></li>\n<li><h3>Fit the last row and tight spots</h3><p>Measure the last row at several points, subtract the expansion gap, and rip planks to width. Use the pull bar where you can't swing a mallet. Mix planks from several boxes as you go to spread out color and pattern repeats.</p><p><strong>Done right:</strong> the last row is snug, with the gap kept all the way around.</p></li>\n<li><h3>Add transitions and reinstall trim</h3><p>Install transition strips at doorways and where the floor meets other flooring. Reinstall baseboards or add quarter round, nailing into the wall, never into the floor.</p><p><strong>Done right:</strong> all edges are covered, and the floor can still move freely under the trim.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the subfloor is bouncy or soft, there's moisture coming up through a concrete slab, or you're laying over radiant heat. Each needs work beyond a standard floating install.</p></aside>\n<h2>FAQ</h2>\n<h3>Do I need underlayment under vinyl plank?</h3><p>Only if the manufacturer allows it. Many planks have a pad already attached, and adding more can void the warranty and stress the locking joints. Over concrete, a vapor barrier may be required.</p>\n<h3>Do I need to acclimate vinyl plank flooring?</h3><p>Follow your product&#x27;s instructions. Many brands recommend leaving the boxes in the room for about 48 hours at normal living temperature before you install.</p>\n<h3>How big should the expansion gap be?</h3><p>It depends on the product. Around 1/4 in is common for rooms of normal size, and larger rooms may need more or a transition break.</p>\n<h3>Can I install vinyl plank over tile?</h3><p>Often, if the tile is solid and flat and the grout lines are shallow. Deep grout lines should be filled first.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 days per room"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$2–$5 per sq ft"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Utility knife\", \"Speed square\", \"Rubber mallet and tapping block\", \"Pull bar\", \"Spacers\", \"Pry bar\", \"Jamb saw or oscillating tool\", \"Knee pads\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Click-lock vinyl plank (area + 10\\u201315%)\", \"Underlayment (only if the manufacturer allows it)\", \"Floor-leveling compound (for low spots)\", \"Transition strips\", \"Quarter round or baseboard\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Qc4crkKnmLU"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-install-vinyl-plank-flooring-step-3",
+      "alt": "Floor plan diagram showing balanced first and last rows and end joints staggered at least 6 inches apart",
+      "caption": "Balance the edge rows and stagger end joints at least 6 in."
+    },
+    {
+      "stem": "how-to-install-vinyl-plank-flooring-step-4",
+      "alt": "Section diagram showing a vinyl plank stopping short of the wall with an expansion gap hidden under the baseboard",
+      "caption": "The baseboard hides the expansion gap; never pin the floor to the wall."
+    }
+  ],
+  "hero_slot": "how-to-install-vinyl-plank-flooring-hero"
+}

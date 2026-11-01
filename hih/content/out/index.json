@@ -1,0 +1,72 @@
+[
+  {
+    "handle": "peel-and-stick-tile-backsplash",
+    "blog": "kitchen",
+    "title": "How to Install a Peel-and-Stick Tile Backsplash",
+    "figures": 2,
+    "steps": 7
+  },
+  {
+    "handle": "how-to-recaulk-a-bathtub",
+    "blog": "bathroom",
+    "title": "How to Recaulk a Bathtub (Clean Lines, No Mold)",
+    "figures": 2,
+    "steps": 7
+  },
+  {
+    "handle": "how-to-install-vinyl-plank-flooring",
+    "blog": "flooring",
+    "title": "How to Install Luxury Vinyl Plank Flooring",
+    "figures": 2,
+    "steps": 7
+  },
+  {
+    "handle": "how-to-patch-a-hole-in-drywall",
+    "blog": "painting-walls",
+    "title": "How to Patch a Hole in Drywall (Any Size)",
+    "figures": 2,
+    "steps": 7
+  },
+  {
+    "handle": "how-to-fix-a-running-toilet",
+    "blog": "plumbing",
+    "title": "How to Fix a Running Toilet",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-replace-a-light-switch",
+    "blog": "electrical",
+    "title": "How to Replace a Light Switch (Single-Pole)",
+    "figures": 2,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-weatherstrip-a-door",
+    "blog": "doors-windows",
+    "title": "How to Weatherstrip an Exterior Door",
+    "figures": 2,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-build-a-raised-garden-bed",
+    "blog": "outdoor-garden",
+    "title": "How to Build a Raised Garden Bed",
+    "figures": 2,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-floating-shelves",
+    "blog": "storage",
+    "title": "How to Install Floating Shelves That Don't Sag",
+    "figures": 2,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-clean-gutters",
+    "blog": "maintenance",
+    "title": "How to Clean Your Gutters Safely",
+    "figures": 2,
+    "steps": 5
+  }
+]

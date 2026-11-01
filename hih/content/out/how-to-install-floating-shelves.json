@@ -1,0 +1,71 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Install Floating Shelves That Don't Sag",
+    "handle": "how-to-install-floating-shelves",
+    "summary": "Install floating shelves level and solid: find the studs, mount the hidden bracket with the right fasteners, and slide on the shelf for a clean look.",
+    "tags": [
+      "Beginner",
+      "Storage",
+      "Shelving",
+      "Under 2 hours"
+    ],
+    "body": "<p class=\"guide-intro\">Floating shelves hide their hardware, so all the strength comes from how the bracket is fastened to the wall. Screwing into studs is the difference between a shelf that holds books and one that slowly droops. This guide covers the common hidden-rod bracket style on drywall.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> scan for wires and pipes before drilling, and avoid drilling directly above or below outlets and switches, where wires usually run. Never rely on anchors alone for heavy loads or over seating or beds.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Decide the height and spacing</h3><p>Mark the shelf height with painter's tape and step back to judge it. Common spacing between stacked shelves is 12–16 in, more for tall items. Over a counter, leave at least 15–18 in of clearance.</p><p><strong>Done right:</strong> the tape line looks right from the doorway and clears what's below.</p></li>\n<li><h3>Find and mark the studs</h3><figure><img src=\"hih-media://how-to-install-floating-shelves-step-2\" alt=\"Wall diagram showing studs at 16 inches on center behind drywall with bracket screw holes aligned to studs\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Line up the bracket&#x27;s screw holes with stud centers.</figcaption></figure><p>Run a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">stud finder</a> along the tape and mark both edges of each stud. Studs are usually 16 in apart, center to center. Confirm each one by driving a finish nail through the tape line where the bracket will cover the hole.</p><p><strong>Done right:</strong> you have at least two confirmed stud centers within the bracket's width.</p></li>\n<li><h3>Level and pre-drill the bracket</h3><p>Hold the bracket on the line, put a level on top, and mark the screw holes that fall on studs. Pre-drill those holes. Many brackets have slotted holes so you can fine-tune the level after the first screw.</p><p><strong>Done right:</strong> the bubble is centered with the bracket held at your marks.</p></li>\n<li><h3>Fasten into studs, anchor only the gaps</h3><figure><img src=\"hih-media://how-to-install-floating-shelves-step-4\" alt=\"Side section of a floating shelf bracket screwed through drywall into a stud with the shelf slid over the rods\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The load hangs on the studs, not the drywall.</figcaption></figure><p>Drive the first screw snug but not tight, re-check the level, then drive the rest. Use the bracket's slotted holes over studs wherever possible. If a hole doesn't land on a stud, use a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">heavy-duty anchor</a> rated for the load, never the plastic plugs in the box.</p><p><strong>Done right:</strong> the bracket doesn't flex or rock when you push down hard on the rods.</p></li>\n<li><h3>Slide on the shelf and secure it</h3><p>Slide the shelf over the rods until it's tight to the wall. Most kits include set screws driven from underneath that lock the shelf to the bracket. Install them so the shelf can't slide off.</p><p><strong>Done right:</strong> no gap between shelf and wall, and the shelf doesn't move when tugged.</p></li>\n<li><h3>Load it gradually and check level</h3><p>Respect the kit's weight rating, which assumes stud mounting. Put the heaviest items near the wall and over the studs. Check the level after a day of use.</p><p><strong>Done right:</strong> the shelf stays level under its load.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Get help if:</strong> you're mounting on plaster and lath, tile, or brick, or the shelf will hold heavy items like stoneware, a TV or an aquarium. Those need different fasteners or added blocking inside the wall.</p></aside>\n<h2>FAQ</h2>\n<h3>How much weight can a floating shelf hold?</h3><p>It depends on the bracket, the shelf depth and what it&#x27;s fastened to. Mounted into studs, sturdy kits are often rated for 30–75 lb or more. On drywall anchors alone, the capacity is far lower.</p>\n<h3>Can I install floating shelves without studs?</h3><p>For light decor, yes, with heavy-duty anchors rated for the load. For books or dishes, catch at least one stud, or add blocking inside the wall.</p>\n<h3>Why is my floating shelf sagging?</h3><p>Usually the bracket is anchored only in drywall, the screws aren&#x27;t fully tightened into studs, or the shelf is loaded past its rating.</p>\n<h3>How far apart are wall studs?</h3><p>Most U.S. homes frame walls with studs 16 in on center, and some use 24 in. Always confirm with a stud finder and a test nail.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$40–$150"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Stud finder\", \"4 ft level (or laser level)\", \"Drill-driver and bits\", \"Tape measure\", \"Pencil\", \"Painter's tape\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Floating shelf with hidden bracket\", \"Structural screws for studs (typically 2.5\\u20133 in)\", \"Heavy-duty drywall anchors rated for the load (only where there's no stud)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=o4nks0K8AQE"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-install-floating-shelves-step-2",
+      "alt": "Wall diagram showing studs at 16 inches on center behind drywall with bracket screw holes aligned to studs",
+      "caption": "Line up the bracket's screw holes with stud centers."
+    },
+    {
+      "stem": "how-to-install-floating-shelves-step-4",
+      "alt": "Side section of a floating shelf bracket screwed through drywall into a stud with the shelf slid over the rods",
+      "caption": "The load hangs on the studs, not the drywall."
+    }
+  ],
+  "hero_slot": "how-to-install-floating-shelves-hero"
+}

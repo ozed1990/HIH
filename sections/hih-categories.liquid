@@ -1,0 +1,50 @@
+<section class="hih-section{% if section.settings.mist %} hih-section--mist{% endif %}">
+  <div class="hih-container">
+    <div class="hih-section__head">
+      <div>
+        <h2>{{ section.settings.heading | escape }}</h2>
+        {%- if section.settings.text != blank -%}<p>{{ section.settings.text | escape }}</p>{%- endif -%}
+      </div>
+    </div>
+    <div class="hih-tiles">
+      {%- for block in section.blocks -%}
+        {%- assign b = block.settings.blog -%}
+        {%- if b != blank -%}
+          <a class="hih-tile" href="{{ b.url }}" {{ block.shopify_attributes }}>
+            <span class="hih-media">
+              {%- if block.settings.image -%}
+                {{- block.settings.image | image_url: width: 640 | image_tag: widths: '320, 480, 640', sizes: '(min-width: 62em) 16vw, (min-width: 40em) 30vw, 45vw', loading: 'lazy', class: 'hih-fade', alt: '' -}}
+              {%- endif -%}
+            </span>
+            <span class="hih-tile__name">{{ b.title | escape }}</span>
+            {%- if block.settings.description != blank -%}<span class="hih-tile__desc">{{ block.settings.description | escape }}</span>{%- endif -%}
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "HIH categories",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Start with a room" },
+    { "type": "text", "id": "text", "label": "Text" },
+    { "type": "checkbox", "id": "mist", "label": "Tinted background", "default": false }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category",
+      "settings": [
+        { "type": "blog", "id": "blog", "label": "Blog (category)" },
+        { "type": "image_picker", "id": "image", "label": "Photo" },
+        { "type": "text", "id": "description", "label": "Short description" }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [{ "name": "HIH categories" }]
+}
+{% endschema %}

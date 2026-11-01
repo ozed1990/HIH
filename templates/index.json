@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hih-hero",
+      "settings": {}
+    },
+    "categories": {
+      "type": "hih-categories",
+      "settings": {
+        "heading": "Start with a room",
+        "text": "Ten categories, each a library of step-by-step guides."
+      },
+      "blocks": {
+        "cat-kitchen": {
+          "type": "category",
+          "settings": {
+            "blog": "kitchen",
+            "description": "Backsplashes, faucets, cabinets"
+          }
+        },
+        "cat-bathroom": {
+          "type": "category",
+          "settings": {
+            "blog": "bathroom",
+            "description": "Caulk, vanities, showers"
+          }
+        },
+        "cat-flooring": {
+          "type": "category",
+          "settings": {
+            "blog": "flooring",
+            "description": "Vinyl plank, squeaks, trim"
+          }
+        },
+        "cat-painting-walls": {
+          "type": "category",
+          "settings": {
+            "blog": "painting-walls",
+            "description": "Drywall, paint, hanging"
+          }
+        },
+        "cat-plumbing": {
+          "type": "category",
+          "settings": {
+            "blog": "plumbing",
+            "description": "Toilets, faucets, drains"
+          }
+        },
+        "cat-electrical": {
+          "type": "category",
+          "settings": {
+            "blog": "electrical",
+            "description": "Switches, outlets, fixtures"
+          }
+        },
+        "cat-doors-windows": {
+          "type": "category",
+          "settings": {
+            "blog": "doors-windows",
+            "description": "Drafts, locks, screens"
+          }
+        },
+        "cat-outdoor-garden": {
+          "type": "category",
+          "settings": {
+            "blog": "outdoor-garden",
+            "description": "Beds, decks, fences"
+          }
+        },
+        "cat-storage": {
+          "type": "category",
+          "settings": {
+            "blog": "storage",
+            "description": "Shelves, closets, garage"
+          }
+        },
+        "cat-maintenance": {
+          "type": "category",
+          "settings": {
+            "blog": "maintenance",
+            "description": "Seasonal upkeep"
+          }
+        }
+      },
+      "block_order": [
+        "cat-kitchen",
+        "cat-bathroom",
+        "cat-flooring",
+        "cat-painting-walls",
+        "cat-plumbing",
+        "cat-electrical",
+        "cat-doors-windows",
+        "cat-outdoor-garden",
+        "cat-storage",
+        "cat-maintenance"
+      ]
+    },
+    "featured": {
+      "type": "hih-featured-guides",
+      "settings": {
+        "heading": "Guides to start with",
+        "mist": true
+      },
+      "blocks": {
+        "g-0": {
+          "type": "guide",
+          "settings": {
+            "label": "Kitchen"
+          }
+        },
+        "g-1": {
+          "type": "guide",
+          "settings": {
+            "label": "Plumbing Basics"
+          }
+        },
+        "g-2": {
+          "type": "guide",
+          "settings": {
+            "label": "Painting & Walls"
+          }
+        },
+        "g-3": {
+          "type": "guide",
+          "settings": {
+            "label": "Storage & Organization"
+          }
+        },
+        "g-4": {
+          "type": "guide",
+          "settings": {
+            "label": "Doors & Windows"
+          }
+        },
+        "g-5": {
+          "type": "guide",
+          "settings": {
+            "label": "Home Maintenance"
+          }
+        }
+      },
+      "block_order": [
+        "g-0",
+        "g-1",
+        "g-2",
+        "g-3",
+        "g-4",
+        "g-5"
+      ]
+    },
+    "newsletter": {
+      "type": "hih-newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "categories",
+    "featured",
+    "newsletter"
+  ]
+}

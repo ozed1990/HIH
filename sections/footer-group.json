@@ -1,0 +1,16 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "hih-footer",
+      "settings": {
+        "menu": "hih-categories",
+        "info_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

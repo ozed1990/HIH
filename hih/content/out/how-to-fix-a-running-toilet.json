@@ -1,0 +1,66 @@
+{
+  "blog_handle": "plumbing",
+  "blog_title": "Plumbing Basics",
+  "article": {
+    "title": "How to Fix a Running Toilet",
+    "handle": "how-to-fix-a-running-toilet",
+    "summary": "Find out why your toilet keeps running with a 10-minute dye test, then fix the flapper, chain or fill valve yourself with basic tools.",
+    "tags": [
+      "Beginner",
+      "Plumbing",
+      "Toilet",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">A running toilet can waste hundreds of gallons a day, and the fix is almost always one of three cheap parts inside the tank: the flapper, the chain, or the fill valve. Diagnose first, then replace only what's actually wrong.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> tank water is clean, but set the lid somewhere it can't fall. It's heavy and porcelain cracks. Turn supply valves gently. If the shut-off under the toilet won't turn or starts leaking, stop and use your home's main shut-off.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Get to know the tank</h3><figure><img src=\"hih-media://how-to-fix-a-running-toilet-step-1\" alt=\"Labeled diagram of a toilet tank showing fill valve, float, overflow tube, flapper, chain and water line\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The water line should sit about 1 in below the top of the overflow tube.</figcaption></figure><p>Lift the lid. The fill valve (left) refills the tank and shuts off when its float rises. The overflow tube (center) drains excess water into the bowl. The flapper (bottom) seals the flush valve and lifts on a chain when you flush.</p><p><strong>Done right:</strong> you can point to the fill valve, float, overflow tube, flapper and chain.</p></li>\n<li><h3>Run the dye test</h3><p>Add a few drops of food coloring to the tank and don't flush for 15–20 minutes. If color appears in the bowl, water is leaking past the flapper. If not, but the toilet still refills by itself, water is probably spilling into the overflow tube from a fill valve set too high.</p><p><strong>Done right:</strong> you know whether you have a flapper problem or a fill-level problem.</p></li>\n<li><h3>Check the water level</h3><p>Look at the water against the overflow tube. If it's running over the top, lower the float by turning the adjustment screw or sliding the clip on the fill valve's float, until the level settles about 1 in below the top of the tube or at the mark inside the tank.</p><p><strong>Done right:</strong> after a flush, the water stops below the top of the overflow tube and stays there.</p></li>\n<li><h3>Adjust the chain</h3><p>A chain that's too tight holds the flapper open slightly. One that's too long can get caught under it. With the flapper closed, the chain should have about 1/2 in of slack.</p><p><strong>Done right:</strong> the flapper drops cleanly and seats flat every time you flush.</p></li>\n<li><h3>Replace a worn flapper</h3><p>Shut off the supply valve and flush to drain the tank. Unhook the chain, slide the flapper's ears off the pegs on the overflow tube, and take it to the store so you can match the size (2 in or 3 in) and style. Install the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">new flapper</a>, hook the chain with the right slack, and turn the water back on.</p><p><strong>Done right:</strong> the dye test now shows no color in the bowl.</p></li>\n<li><h3>Replace the fill valve if it still runs</h3><p>If the fill valve hisses, refills constantly or won't shut off at the right level, replace it. Shut off the water, drain and sponge the tank dry, disconnect the supply line, and unscrew the locknut under the tank. Set the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">new fill valve</a> to the height in its instructions, tighten the locknut hand-tight plus a quarter turn, then reconnect and test.</p><p><strong>Done right:</strong> the tank fills to the right level, shuts off cleanly, and nothing drips under the tank.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the shut-off valve leaks or won't turn, water is leaking where the tank meets the bowl, or the flush valve seat itself is cracked. Those mean taking the tank off.</p></aside>\n<h2>FAQ</h2>\n<h3>How much water does a running toilet waste?</h3><p>A steady leak can waste hundreds of gallons a day, often enough to show up on your water bill.</p>\n<h3>Why does my toilet run every few minutes on its own?</h3><p>That&#x27;s a slow leak past the flapper (called phantom flushing). The tank slowly drains into the bowl until the fill valve kicks on to top it up. The dye test confirms it.</p>\n<h3>Are universal flappers really universal?</h3><p>Not quite. Flappers come in 2 in and 3 in sizes and several mounting styles, and some brands use their own designs. Bring the old one to the store to compare.</p>\n<h3>Should I replace the flapper and fill valve together?</h3><p>Only if both are worn. They&#x27;re cheap, so replacing both on an older toilet saves a second trip, but diagnose first.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$5–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Sponge\", \"Bucket\", \"Adjustable pliers\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Food coloring\", \"Replacement flapper matching your flush valve (2 in or 3 in)\", \"Replacement fill valve (if needed)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=7ePc9cz__FM"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-fix-a-running-toilet-step-1",
+      "alt": "Labeled diagram of a toilet tank showing fill valve, float, overflow tube, flapper, chain and water line",
+      "caption": "The water line should sit about 1 in below the top of the overflow tube."
+    }
+  ],
+  "hero_slot": "how-to-fix-a-running-toilet-hero"
+}

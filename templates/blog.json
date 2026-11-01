@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "hih-main-blog",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

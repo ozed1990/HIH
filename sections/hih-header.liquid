@@ -1,0 +1,47 @@
+{%- assign menu = linklists[section.settings.menu] -%}
+<header class="hih-header">
+  <div class="hih-container hih-header__inner">
+    <a class="hih-logo" href="{{ routes.root_url }}">
+      {%- if section.settings.logo -%}
+        {{- section.settings.logo | image_url: width: 480 | image_tag: widths: '240, 480', sizes: '15rem', alt: shop.name, loading: 'eager' -}}
+      {%- else -%}
+        {{- shop.name | escape -}}
+      {%- endif -%}
+    </a>
+
+
+    <div class="hih-header__actions">
+      <a class="hih-icon-btn" href="{{ routes.search_url }}?type=article" aria-label="Search guides">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </a>
+      <details class="hih-menu">
+        <summary class="hih-icon-btn" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </summary>
+        <nav class="hih-menu__panel" aria-label="Categories, mobile">
+          {%- for link in menu.links -%}
+            <a href="{{ link.url }}"{% if link.active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+          {%- endfor -%}
+        </nav>
+      </details>
+    </div>
+  </div>
+  <div class="hih-header__cats">
+    <nav class="hih-nav hih-container" aria-label="Categories">
+      {%- for link in menu.links -%}
+        <a href="{{ link.url }}"{% if link.active or link.child_active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+      {%- endfor -%}
+    </nav>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "HIH header",
+  "class": "hih-section-header",
+  "settings": [
+    { "type": "image_picker", "id": "logo", "label": "Logo (optional, shop name is used otherwise)" },
+    { "type": "link_list", "id": "menu", "label": "Category menu", "default": "hih-categories" }
+  ]
+}
+{% endschema %}

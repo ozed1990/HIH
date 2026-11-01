@@ -1,0 +1,111 @@
+{%- comment -%}
+  Guide page. Renders the Guide contract owned by hih-guide-writer: article fields, guide.* metafields,
+  and body HTML (guide-intro, callouts, guide-steps, FAQ). It never defines content fields of its own.
+{%- endcomment -%}
+{%- liquid
+  assign g = article.metafields.guide
+  assign video_url = g.video_url.value | default: ''
+  assign yt_id = ''
+  if video_url contains 'youtu.be/'
+    assign yt_id = video_url | split: 'youtu.be/' | last | split: '?' | first
+  elsif video_url contains '/shorts/'
+    assign yt_id = video_url | split: '/shorts/' | last | split: '?' | first
+  elsif video_url contains 'v='
+    assign yt_id = video_url | split: 'v=' | last | split: '&' | first
+  endif
+-%}
+<div class="hih-progress" aria-hidden="true"></div>
+
+<article class="hih-guide" data-guide-id="{{ article.id }}">
+  <div class="hih-container">
+    <header class="hih-guide__head">
+      <a class="hih-crumb" href="{{ blog.url }}">{{ blog.title | escape }}</a>
+      <h1>{{ article.title | escape }}</h1>
+      <ul class="hih-meta" aria-label="Guide at a glance">
+        {%- if g.difficulty != blank -%}<li><span class="hih-visually-hidden">Difficulty: </span>{{ g.difficulty.value | escape }}</li>{%- endif -%}
+        {%- if g.time_required != blank -%}<li><span class="hih-visually-hidden">Time: </span>{{ g.time_required.value | escape }}</li>{%- endif -%}
+        {%- if g.cost_range != blank -%}<li><span class="hih-visually-hidden">Cost: </span>{{ g.cost_range.value | escape }}</li>{%- endif -%}
+      </ul>
+    </header>
+
+    {%- if article.image -%}
+      <div class="hih-media hih-guide__hero" data-vt-hero>
+        {{- article.image | image_url: width: 2400 | image_tag: widths: '800, 1200, 1600, 2000, 2400', sizes: '(min-width: 80em) 77.5rem, 96vw', loading: 'eager', fetchpriority: 'high', alt: article.image.alt | default: '' -}}
+      </div>
+    {%- endif -%}
+
+    <div class="hih-guide__layout">
+      <aside class="hih-guide__aside" aria-label="Guide tools">
+        {%- assign tools = g.tools.value -%}
+        {%- assign materials = g.materials.value -%}
+        {%- if tools.size > 0 or materials.size > 0 -%}
+          <div class="hih-panel">
+            {%- if tools.size > 0 -%}
+              <h2>Tools</h2>
+              <ul class="hih-checklist">
+                {%- for item in tools -%}<li><label><input type="checkbox"><span>{{ item | escape }}</span></label></li>{%- endfor -%}
+              </ul>
+            {%- endif -%}
+            {%- if materials.size > 0 -%}
+              <h2>Materials</h2>
+              <ul class="hih-checklist">
+                {%- for item in materials -%}<li><label><input type="checkbox"><span>{{ item | escape }}</span></label></li>{%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        <nav class="hih-panel hih-toc-panel" aria-label="Steps">
+          <h2>Steps</h2>
+          <ol class="hih-toc" data-toc></ol>
+        </nav>
+      </aside>
+
+      <div>
+        {%- if yt_id != blank -%}
+          <figure class="hih-video">
+            <div class="hih-video__frame" data-youtube-id="{{ yt_id | escape }}" data-title="{{ article.title | escape }} video">
+              {%- # theme-check-disable RemoteAsset -%}
+              <img src="https://i.ytimg.com/vi/{{ yt_id | escape }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" class="hih-fade">
+              {%- # theme-check-enable RemoteAsset -%}
+              <button class="hih-video__play" type="button">
+                <span class="hih-video__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+                <span>Watch the video</span>
+              </button>
+            </div>
+            <figcaption>Video plays from YouTube when you press play.</figcaption>
+          </figure>
+        {%- endif -%}
+
+        <div class="hih-rte">{{ article.content }}</div>
+      </div>
+    </div>
+  </div>
+
+  {%- assign shown = 0 -%}
+  {%- capture related -%}
+    {%- for a in blog.articles -%}
+      {%- if a.id != article.id and shown < 3 -%}
+        {% render 'hih-guide-card', article: a %}
+        {%- assign shown = shown | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if shown > 0 -%}
+    <section class="hih-section hih-related" aria-label="More guides">
+      <div class="hih-container">
+        <div class="hih-section__head">
+          <h2>More in {{ blog.title | escape }}</h2>
+          <a class="hih-link-quiet" href="{{ blog.url }}">All {{ blog.title | escape }} guides</a>
+        </div>
+        <div class="hih-cards">{{ related }}</div>
+      </div>
+    </section>
+  {%- endif -%}
+</article>
+
+{% schema %}
+{
+  "name": "HIH guide page",
+  "settings": []
+}
+{% endschema %}

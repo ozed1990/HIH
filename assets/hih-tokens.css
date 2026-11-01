@@ -1,0 +1,92 @@
+/*
+  Home Improvement Hub: design tokens.
+  This is the ONLY file where raw colors, font stacks, sizes, radii and motion values live.
+  Every other HIH stylesheet uses var(--hih-…). A raw hex or px value elsewhere is a bug
+  (checked by scripts/check-tokens.sh).
+*/
+:root {
+  /* Color: Calm Home */
+  --hih-color-ink: #1f2a26;            /* body text            15.0:1 on paper */
+  --hih-color-primary: #2e4a40;        /* eucalyptus, headings 9.6:1 on paper  */
+  --hih-color-primary-deep: #1c3029;   /* hover / pressed */
+  --hih-color-muted: #5e6863;          /* secondary text       5.8:1 on paper, 5.1:1 on mist */
+  --hih-color-paper: #ffffff;
+  --hih-color-mist: #eef2ef;           /* quiet section ground */
+  --hih-color-sage: #d7dfda;           /* image placeholder, tiles */
+  --hih-color-sage-strong: #c9d4cd;
+  --hih-color-line: #cbd3ce;
+  --hih-color-brass: #a8782e;          /* decoration only, never text */
+  --hih-color-warn-bg: #fbf3e4;        /* safety callout ground */
+  --hih-color-warn-ink: #6b4a12;       /* 7.4:1 on warn-bg */
+  --hih-color-focus: #2e4a40;
+  --hih-color-scrim: rgba(28, 48, 41, 0.55);
+
+  /* Type */
+  --hih-font-serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --hih-font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --hih-text-xs: 0.8125rem;   /* 13 */
+  --hih-text-sm: 0.9375rem;   /* 15 */
+  --hih-text-md: 1.0625rem;   /* 17 body */
+  --hih-text-lg: 1.25rem;     /* 20 */
+  --hih-text-xl: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  --hih-text-2xl: clamp(2rem, 1.5rem + 2vw, 3rem);
+  --hih-text-3xl: clamp(2.5rem, 1.6rem + 3.6vw, 4rem);
+  --hih-leading-body: 1.65;
+  --hih-leading-tight: 1.06;
+  --hih-weight-regular: 400;
+  --hih-weight-medium: 500;
+  --hih-weight-bold: 700;
+  --hih-measure: 38em;
+
+  /* Space and shape */
+  --hih-space-1: 0.25rem;
+  --hih-space-2: 0.5rem;
+  --hih-space-3: 0.75rem;
+  --hih-space-4: 1rem;
+  --hih-space-5: 1.5rem;
+  --hih-space-6: 2rem;
+  --hih-space-7: 3rem;
+  --hih-space-8: 4.5rem;
+  --hih-space-9: 6rem;
+  --hih-container: 77.5rem;     /* 1240 */
+  --hih-gutter: clamp(1rem, 0.5rem + 2vw, 2rem);
+  --hih-radius: 4px;
+  --hih-border: 1px;
+  --hih-tap: 44px;
+  --hih-focus-width: 2px;
+  --hih-focus-offset: 3px;
+  --hih-header-h: 72px;
+
+  /* Motion: one easing family, three durations */
+  --hih-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --hih-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --hih-dur-fast: 160ms;
+  --hih-dur-base: 320ms;
+  --hih-dur-slow: 900ms;
+  --hih-zoom-hover: 1.03;
+  --hih-zoom-press: 1.08;
+  --hih-delay-stagger: 180ms;
+  --hih-hero-scale-from: 1.06;
+  --hih-rise: 16px;
+  --hih-shadow-card: 0 12px 32px rgba(31, 42, 38, 0.10);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --hih-dur-fast: 0ms;
+    --hih-dur-base: 0ms;
+    --hih-dur-slow: 0ms;
+    --hih-zoom-hover: 1;
+    --hih-zoom-press: 1;
+    --hih-delay-stagger: 0ms;
+    --hih-hero-scale-from: 1;
+    --hih-rise: 0px;
+  }
+}
+
+/* Map Dawn's base variables onto HIH tokens so cart/search/system pages match. */
+:root {
+  --font-body-family: var(--hih-font-sans);
+  --font-heading-family: var(--hih-font-serif);
+  --font-heading-weight: var(--hih-weight-regular);
+}

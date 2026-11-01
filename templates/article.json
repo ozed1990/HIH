@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "hih-main-guide",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

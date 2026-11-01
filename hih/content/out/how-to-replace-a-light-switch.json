@@ -1,0 +1,71 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "How to Replace a Light Switch (Single-Pole)",
+    "handle": "how-to-replace-a-light-switch",
+    "summary": "Safely replace a standard single-pole light switch: kill and verify power, label wires, connect ground and terminals correctly, and test.",
+    "tags": [
+      "Intermediate",
+      "Electrical",
+      "Switches",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">A single-pole switch is the one-switch-one-light type. It has two brass terminals and a green ground screw, and replacing one is a manageable first electrical job. If your box holds a switch with three or more terminals (not counting ground), it's a 3-way or 4-way. That's a different guide.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> this job is only safe with the power off <em>and verified off</em>. Switch off the breaker, then test the wires with a non-contact voltage tester you've just checked on a known live outlet. Never work on aluminum wiring (dull silver conductors) yourself. Check your local rules: some areas require a permit or licensed electrician even for like-for-like replacements.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Turn off the breaker and verify the power is off</h3><p>Switch off the breaker for the circuit, then flip the light switch. The light should stay off. Remove the cover plate, and hold your <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">tester</a> near each wire and terminal. Test the tester on a live outlet first, so you know it works.</p><p><strong>Done right:</strong> the tester stays silent on every wire in the box, and it beeped on the known live outlet.</p></li>\n<li><h3>Pull the switch out and label the wires</h3><p>Remove the two mounting screws and gently pull the switch out. Before disconnecting anything, take a photo and put a tape label on each wire: the two wires on the brass screws, plus the bare or green ground. If there are extra wires spliced at the back of the box with a wire nut, leave them alone.</p><p><strong>Done right:</strong> you have a photo, and every wire attached to the switch is labeled.</p></li>\n<li><h3>Check the new switch&#x27;s terminals</h3><figure><img src=\"hih-media://how-to-replace-a-light-switch-step-3\" alt=\"Diagram of a single-pole light switch showing two brass terminals and a green ground screw\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Two brass terminals for the hot wires, green screw for ground.</figcaption></figure><p>On a single-pole switch, the two brass terminals are interchangeable, and the green screw is for ground. Match the new switch's amp rating (stamped on it) to the old one's.</p><p><strong>Done right:</strong> the new switch has the same terminal layout and rating as the old one.</p></li>\n<li><h3>Connect the ground first</h3><figure><img src=\"hih-media://how-to-replace-a-light-switch-step-4\" alt=\"Diagram showing a wire hook wrapped clockwise around a terminal screw versus counter-clockwise\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Wrap clockwise so tightening pulls the wire in.</figcaption></figure><p>Loosen the green screw, wrap the bare copper ground wire clockwise around it, and tighten. Clockwise matters: tightening the screw then pulls the loop in instead of pushing it off.</p><p><strong>Done right:</strong> the ground is snug under the screw head, with no copper strands sticking out.</p></li>\n<li><h3>Connect the two hot wires</h3><p>Bend a hook in each labeled wire (strip to about 5/8 in if needed) and wrap one around each brass terminal clockwise. Tighten firmly. Use the screw terminals rather than the push-in holes on the back of the switch, because screws make a more reliable connection.</p><p><strong>Done right:</strong> each wire is tight under its screw, insulation reaches close to the screw, and no bare copper extends past the screw head.</p></li>\n<li><h3>Fold it in, mount it, and test</h3><p>Fold the wires neatly into the box, screw the switch in straight with \"OFF\" reading right side up, and add the cover plate. Turn the breaker back on and test the switch.</p><p><strong>Done right:</strong> the light works, the switch sits flush and doesn't feel warm after several minutes of use.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a licensed electrician if:</strong> you find aluminum wiring, scorched or brittle insulation, no ground wire where you expected one, a box that's loose in the wall, or more wires than this guide describes. Also call one if a breaker trips when you restore power.</p></aside>\n<h2>FAQ</h2>\n<h3>Which wire goes on which screw on a single-pole switch?</h3><p>On a standard single-pole switch, the two hot wires can go on either brass screw. They&#x27;re interchangeable. The bare copper or green wire always goes on the green ground screw.</p>\n<h3>Do I need a permit to replace a light switch?</h3><p>It depends on where you live. Many U.S. jurisdictions allow homeowners to replace a switch like-for-like without a permit, and others don&#x27;t. Check with your local building department.</p>\n<h3>What if there&#x27;s a white wire on the switch?</h3><p>In some older switch loops, a white wire is used as a hot and should be marked with black or red tape. Reconnect it exactly as it was, and consider asking an electrician to confirm the wiring.</p>\n<h3>Why does my new switch feel warm?</h3><p>A dimmer can run slightly warm, but a standard switch shouldn&#x27;t. Turn off the power and check for loose connections. If it&#x27;s still warm, call an electrician.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–45 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$5–$25"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Non-contact voltage tester\", \"Screwdrivers (flat and Phillips)\", \"Wire strippers\", \"Needle-nose pliers\", \"Masking tape and marker\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Single-pole switch rated for your circuit (15 A or 20 A)\", \"Cover plate\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=ro3DSQQHfbM"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-replace-a-light-switch-step-3",
+      "alt": "Diagram of a single-pole light switch showing two brass terminals and a green ground screw",
+      "caption": "Two brass terminals for the hot wires, green screw for ground."
+    },
+    {
+      "stem": "how-to-replace-a-light-switch-step-4",
+      "alt": "Diagram showing a wire hook wrapped clockwise around a terminal screw versus counter-clockwise",
+      "caption": "Wrap clockwise so tightening pulls the wire in."
+    }
+  ],
+  "hero_slot": "how-to-replace-a-light-switch-hero"
+}

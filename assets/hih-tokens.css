@@ -36,7 +36,7 @@
   --hih-weight-regular: 400;
   --hih-weight-medium: 500;
   --hih-weight-bold: 700;
-  --hih-measure: 38em;
+  --hih-measure: 44em;               /* max line length for body paragraphs */
 
   /* Space and shape */
   --hih-space-1: 0.25rem;
@@ -48,7 +48,13 @@
   --hih-space-7: 3rem;
   --hih-space-8: 4.5rem;
   --hih-space-9: 6rem;
-  --hih-container: 77.5rem;     /* 1240 */
+  /* Layout widths: the single place to widen or narrow the site */
+  --hih-container: 90rem;        /* 1440: page frame for every section */
+  --hih-guide-head: 64rem;       /* guide title block */
+  --hih-guide-aside: 20rem;      /* tools, materials and steps column */
+  --hih-reading: 58rem;          /* guide body: steps, figures, callouts */
+  --hih-hero-card: 40rem;        /* home hero text card */
+  --hih-hero-max-h: 42rem;       /* guide hero image height cap */
   --hih-gutter: clamp(1rem, 0.5rem + 2vw, 2rem);
   --hih-radius: 4px;
   --hih-border: 1px;

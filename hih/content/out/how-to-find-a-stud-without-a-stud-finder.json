@@ -1,0 +1,66 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Find a Stud Without a Stud Finder",
+    "handle": "how-to-find-a-stud-without-a-stud-finder",
+    "summary": "Find wall studs with no stud finder: use outlets, trim nails, measuring and a magnet, then confirm with a hidden test nail before you hang anything.",
+    "tags": [
+      "Beginner",
+      "Storage",
+      "Walls",
+      "Under 15 minutes"
+    ],
+    "body": "<p class=\"guide-intro\">You can find studs reliably with what's in a junk drawer, because houses are framed on a predictable pattern. Use two or three of these clues together, then always confirm with a small test hole that your shelf or mount will cover.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wires and pipes often run along studs and up from outlets and switches. Don't drive test nails directly above or below an outlet or switch.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Start at an outlet or switch</h3><p>Electrical boxes are usually nailed to one side of a stud. Remove the cover plate, keeping fingers and tools out of the box, and look with a flashlight to see which side of the box is fastened to the framing.</p><p><strong>Done right:</strong> you know which side of the box the stud is on. Mark about 3/4 in past that edge on the wall.</p></li>\n<li><h3>Measure on 16 in centers</h3><figure><img src=\"hih-media://how-to-find-a-stud-without-a-stud-finder-step-2\" alt=\"Wall diagram showing studs at 16 inches on center, an outlet box fastened to one stud, and trim nails marking stud locations\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Outlets, trim nails and the 16 in pattern all point to studs.</figcaption></figure><p>From your first stud, measure along the wall in 16 in steps: most U.S. walls have studs 16 in apart, center to center (some are 24 in). Mark each spot lightly on painter's tape.</p><p><strong>Done right:</strong> you have a row of likely stud marks across the wall.</p></li>\n<li><h3>Find the fasteners with a magnet</h3><p>Slide a strong <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">magnet</a> slowly up and down near your marks. It sticks where drywall screws or nails go into the stud. You'll find a vertical line of them on each stud.</p><p><strong>Done right:</strong> the magnet sticks at two or more spots in a vertical line.</p></li>\n<li><h3>Read the trim and the light</h3><p>Baseboard and crown nails usually go into studs, so look for filled nail holes in the trim. Then shine a flashlight flat across the wall: screw dimples often show as faint dots in a vertical line.</p><p><strong>Done right:</strong> the trim nails and dimples line up with your 16 in marks.</p></li>\n<li><h3>Confirm with a hidden test nail</h3><p>Where your shelf or bracket will cover the hole, tap in a thin finish nail. Over a stud, it stops hard after about 1/2 in. If it slides through easily, you're between studs: try 3/4 in to either side.</p><p><strong>Done right:</strong> the nail hits solid wood, and you've marked the stud's center.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Get help if:</strong> the wall is plaster and lath (studs are harder to find and walls crack easily), you're mounting a TV or anything very heavy, or the wall is masonry.</p></aside>\n<h2>FAQ</h2>\n<h3>How far apart are studs?</h3><p>Usually 16 in from center to center in U.S. homes, sometimes 24 in, especially in newer homes and garages.</p>\n<h3>Does knocking on the wall work?</h3><p>It helps a bit: the wall sounds duller and more solid over a stud. It&#x27;s unreliable on its own, so combine it with other clues.</p>\n<h3>Is there an app that finds studs?</h3><p>Phone magnetometer apps can find screws, much like a magnet does. They don&#x27;t see the wood itself.</p>\n<h3>How wide is a stud?</h3><p>Standard 2×4 studs are 1-1/2 in wide, so aim for the center to give screws the most wood.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "5–15 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Strong magnet\", \"Flashlight\", \"Finish nail and hammer\", \"Painter's tape\", \"Pencil\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=SffnRcXVzxg"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-find-a-stud-without-a-stud-finder-step-2",
+      "alt": "Wall diagram showing studs at 16 inches on center, an outlet box fastened to one stud, and trim nails marking stud locations",
+      "caption": "Outlets, trim nails and the 16 in pattern all point to studs."
+    }
+  ],
+  "hero_slot": "how-to-find-a-stud-without-a-stud-finder-hero"
+}

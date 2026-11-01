@@ -1,0 +1,66 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "GFCI Outlet Won't Reset? How to Troubleshoot It",
+    "handle": "gfci-outlet-wont-reset",
+    "summary": "A GFCI outlet that won't reset usually has no power or is tripped upstream. Check these causes in order, safely and without opening the box.",
+    "tags": [
+      "Beginner",
+      "Electrical",
+      "Troubleshooting",
+      "Under 30 minutes"
+    ],
+    "body": "<p class=\"guide-intro\">GFCI outlets (the ones with TEST and RESET buttons) cut power in a fraction of a second when they sense current leaking somewhere it shouldn't. When one won't reset, it's usually not broken. Most often it has no power reaching it, or another GFCI upstream has tripped. This guide covers the checks you can do without removing any cover plates.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> never bypass or tape down a GFCI. It's protecting you from shock in wet areas. If you see scorch marks, smell burning, or the outlet is hot, stop and turn off that circuit's breaker. If an outdoor outlet is wet, let it dry before you try again.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Press TEST, then RESET firmly</h3><p>Press TEST until it clicks, then press RESET hard until it clicks and stays in. A half-pressed RESET is common.</p><p><strong>Done right:</strong> RESET stays in, and a lamp or <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">plug-in outlet tester</a> shows power. If it won't stay in, go to the next step.</p></li>\n<li><h3>Check the breaker</h3><p>Most GFCIs won't reset without power. At the panel, look for a breaker that's in the middle position or off. Push it fully OFF, then back ON. Don't hold a breaker on if it trips again immediately.</p><p><strong>Done right:</strong> every breaker is firmly in the ON position.</p></li>\n<li><h3>Look for another GFCI upstream</h3><figure><img src=\"hih-media://gfci-outlet-wont-reset-step-3\" alt=\"Diagram of one GFCI outlet protecting several downstream outlets in other rooms\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>One tripped GFCI can kill outlets in other rooms.</figcaption></figure><p>One GFCI often protects several outlets downstream, sometimes in another room: a bathroom GFCI might protect the outlets in a second bathroom, or a garage GFCI the outdoor outlets. Check every GFCI in the house and press RESET on any that has tripped.</p><p><strong>Done right:</strong> you've checked every GFCI in the bathrooms, kitchen, garage, basement and outside.</p></li>\n<li><h3>Unplug everything on the circuit</h3><p>A faulty appliance or a wet extension cord can trip a GFCI as soon as it resets. Unplug everything from the GFCI and the outlets downstream of it, then press RESET again.</p><p><strong>Done right:</strong> if RESET now holds, plug items back in one at a time. The one that trips it is the problem.</p></li>\n<li><h3>Know when the outlet itself has failed</h3><p>GFCIs wear out, often after 10 or more years. Newer models are designed to refuse to reset once their protection fails. If the outlet still won't reset after the steps above, it likely needs replacing.</p><p><strong>Done right:</strong> you've ruled out power, upstream GFCIs and plugged-in devices before replacing the outlet.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a licensed electrician if:</strong> the breaker trips again right away, the GFCI or cover plate is warm or scorched, outdoor outlets keep tripping in dry weather, or you aren't comfortable replacing the GFCI yourself.</p></aside>\n<h2>FAQ</h2>\n<h3>Why won&#x27;t my GFCI reset?</h3><p>Most often there&#x27;s no power reaching it: a tripped breaker or another GFCI upstream. Less often, a connected device has a fault, or the GFCI itself has reached the end of its life.</p>\n<h3>Can a GFCI go bad?</h3><p>Yes. They wear out, and newer ones are designed to stop resetting when their protection fails. Test them monthly with the TEST button.</p>\n<h3>Why do my outdoor outlets have no power?</h3><p>Outdoor outlets are often protected by a GFCI in the garage, a bathroom or the basement. Find and reset that one.</p>\n<h3>Is it safe to replace a GFCI myself?</h3><p>It&#x27;s an intermediate job that needs the power off and verified off, plus correct LINE and LOAD wiring. Many jurisdictions allow it, but if you&#x27;re unsure, hire an electrician.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "10–30 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Plug-in outlet tester or a lamp you know works\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Lk1aHR4a4vE"
+    }
+  ],
+  "media": [
+    {
+      "stem": "gfci-outlet-wont-reset-step-3",
+      "alt": "Diagram of one GFCI outlet protecting several downstream outlets in other rooms",
+      "caption": "One tripped GFCI can kill outlets in other rooms."
+    }
+  ],
+  "hero_slot": "gfci-outlet-wont-reset-hero"
+}

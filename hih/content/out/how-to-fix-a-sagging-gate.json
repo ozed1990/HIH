@@ -1,0 +1,66 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Fix a Sagging Fence Gate",
+    "handle": "how-to-fix-a-sagging-gate",
+    "summary": "Fix a wooden gate that drags: tighten the hinges, square it back up, and add an anti-sag cable or brace so the latch lines up again.",
+    "tags": [
+      "Beginner",
+      "Outdoor",
+      "Fences",
+      "Under 2 hours"
+    ],
+    "body": "<p class=\"guide-intro\">Wooden gates sag because gravity pulls the latch corner down until the frame racks out of square, or because hinge screws loosen in soft wood. The fix is to lift the gate back to square and keep it there with a cable in tension or a brace in compression.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> gates are heavier than they look. Support the gate on blocks while you work so it can't swing or drop on your feet.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check the post first</h3><p>Hold a level against the hinge post. If the post leans or wobbles, no gate repair will last. The post has to be fixed or reset first.</p><p><strong>Done right:</strong> the hinge post is plumb and solid when you push on it.</p></li>\n<li><h3>Tighten or upgrade the hinge screws</h3><p>Tighten every hinge screw. Replace any that spin in place with longer exterior screws that reach solid wood in the post and the gate frame.</p><p><strong>Done right:</strong> the hinges don't move at all when you lift the latch end of the gate.</p></li>\n<li><h3>Lift the gate back to square</h3><p>Close the gate and wedge shims or blocks under the latch corner until the latch lines up and the top rail reads level.</p><p><strong>Done right:</strong> the latch engages easily, and the gate's diagonals measure within about 1/4 in of each other.</p></li>\n<li><h3>Install the anti-sag cable</h3><figure><img src=\"hih-media://how-to-fix-a-sagging-gate-step-4\" alt=\"Diagram of a gate with an anti-sag cable running from the top hinge corner to the bottom latch corner and a wood brace running the opposite way\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>A cable pulls from the high hinge corner; a wood brace pushes from the low hinge corner.</figcaption></figure><p>Fasten one bracket of the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">anti-sag kit</a> at the top corner on the hinge side, and the other at the bottom corner on the latch side. Connect the cable and turnbuckle, then tighten the turnbuckle until the cable is taut. The cable pulls the low corner up.</p><p><strong>Done right:</strong> when you remove the shims, the gate holds its square position.</p></li>\n<li><h3>Fine-tune and maintain</h3><p>Swing the gate several times and adjust the turnbuckle a half-turn at a time until it latches without lifting. Check the tension each spring and fall.</p><p><strong>Done right:</strong> the gate swings clear of the ground and latches on its own.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> the hinge post is rotted at the ground or leans, the gate wood is soft or split, or the gate is wider than about 5 ft, where a steel frame kit or a rebuild may be the better fix.</p></aside>\n<h2>FAQ</h2>\n<h3>Which way does an anti-sag cable go?</h3><p>From the top corner on the hinge side down to the bottom corner on the latch side. In tension, it pulls the low latch corner up.</p>\n<h3>Which way does a wood brace go on a gate?</h3><p>The opposite way: from the bottom corner on the hinge side up to the top corner on the latch side, so it pushes the latch corner up.</p>\n<h3>Why does my gate keep sagging after I fix it?</h3><p>Usually the hinge post is leaning or loose, or the hinge screws are in soft or rotted wood. Fix the post and hinges first.</p>\n<h3>Can I fix a sagging gate without a kit?</h3><p>Yes. A diagonal 2×4 brace running from the bottom hinge corner to the top latch corner does the same job.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$15–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Drill-driver\", \"Level\", \"Tape measure\", \"Wood shims or scrap blocks\", \"Adjustable wrench\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Anti-sag gate kit (cable and turnbuckle)\", \"Exterior screws, longer than the old hinge screws\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=IweVBCbXJJw"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-fix-a-sagging-gate-step-4",
+      "alt": "Diagram of a gate with an anti-sag cable running from the top hinge corner to the bottom latch corner and a wood brace running the opposite way",
+      "caption": "A cable pulls from the high hinge corner; a wood brace pushes from the low hinge corner."
+    }
+  ],
+  "hero_slot": "how-to-fix-a-sagging-gate-hero"
+}

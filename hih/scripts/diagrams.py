@@ -243,6 +243,88 @@ D["how-to-clean-gutters-step-4"] = svg(
     + DIM(360, 700, 1060, 700, "4–6 ft minimum", 710, 685)
     + T(500, 172, "Gutter pitches toward the downspout", 24, 700, BRASS), "Downspout extension diagram")
 
+# ─────────────── Batch 2
+D["how-to-winterize-outdoor-faucets-step-2"] = svg(
+    HEAD("Where each faucet type closes")
+    + R(560, 150, 80, 330, "url(#hatch)", MUTED, 3) + T(600, 140, "Wall", 24, 700, MUTED, "middle") + T(330, 140, "Outside (freezing)", 26, 700, INK, "middle") + T(880, 140, "Inside (heated)", 26, 700, INK, "middle")
+    + R(440, 230, 130, 40, SAGE2, PRI, 4) + R(630, 238, 440, 24, SAGE, PRI, 3) + f'<circle cx="575" cy="250" r="20" fill="{WARN}"/>' + T(330, 320, "Standard: closes here", 26, 700, WARN, "middle") + T(330, 355, "water sits at the cold wall", 24, 500, MUTED, "middle")
+    + R(440, 560, 130, 40, SAGE2, PRI, 4) + R(570, 568, 260, 24, SAGE2, PRI, 3) + R(830, 568, 240, 24, SAGE, PRI, 3) + f'<circle cx="830" cy="580" r="20" fill="{PRI}"/>'
+    + R(560, 500, 80, 160, "url(#hatch)", MUTED, 3) + T(330, 650, "Frost-free: closes here", 26, 700, PRI, "middle") + T(330, 685, "long body reaches inside", 24, 500, MUTED, "middle")
+    + T(60, 800, "Either way: disconnect the hose so the faucet body can drain.", 28, 600, INK), "Standard versus frost-free outdoor faucet")
+D["how-to-install-a-door-sweep-step-3"] = svg(
+    HEAD("Set the sweep height")
+    + R(420, 140, 120, 560, PAPER, PRI, 5) + T(480, 130, "Door", 26, 700, PRI, "middle")
+    + R(540, 560, 40, 120, SAGE2, PRI, 4) + f'<path d="M560 680 q10 30 30 34" stroke="{BRASS}" stroke-width="10" fill="none" stroke-linecap="round"/>'
+    + '<circle cx="560" cy="590" r="6" fill="' + PRI + '"/><circle cx="560" cy="640" r="6" fill="' + PRI + '"/>'
+    + R(300, 712, 600, 36, SAGE, PRI, 4) + T(600, 790, "Threshold", 26, 600, MUTED, "middle")
+    + T(620, 600, "Screw-on sweep", 28, 700) + T(620, 640, "on the inside face", 24, 500, MUTED) + T(640, 700, "Seal brushes the threshold", 26, 700, BRASS)
+    + T(60, 860, "Use the slotted holes so you can raise it if the door drags.", 26, 500), "Door sweep height diagram")
+D["how-to-change-hvac-air-filter-step-4"] = svg(
+    HEAD("Point the arrow toward the furnace")
+    + R(700, 180, 300, 560, SAGE2, PRI, 5) + T(850, 460, "Furnace /", 30, 700, PRI, "middle") + T(850, 500, "air handler", 30, 700, PRI, "middle")
+    + R(160, 380, 470, 160, SAGE, PRI, 4) + T(300, 580, "Return duct (from the room)", 26, 600, PRI, "middle")
+    + R(630, 360, 40, 200, PAPER, BRASS, 5) + T(650, 600, "Filter", 26, 700, BRASS, "middle")
+    + f'<path d="M520 300 h300" stroke="{BRASS}" stroke-width="6" marker-end="url(#a)"/>' + T(670, 280, "Arrow on filter frame", 26, 700, BRASS, "middle")
+    + "".join(f'<path d="M{x} 460 h60" stroke="{PRI}" stroke-width="4" marker-end="url(#p)"/>' for x in (200, 360, 520))
+    + T(60, 820, "Air flows from the room, through the filter, into the furnace.", 28, 500), "Air filter arrow direction")
+D["how-to-fix-drywall-nail-pops-step-2"] = svg(
+    HEAD("Lock the panel to the stud")
+    + R(500, 140, 200, 640, SAGE2, PRI, 4) + T(600, 130, "Stud (behind drywall)", 26, 700, PRI, "middle")
+    + f'<circle cx="600" cy="460" r="22" fill="{PAPER}" stroke="{WARN}" stroke-width="5"/>' + T(740, 470, "Popped nail: set it", 28, 700, WARN)
+    + f'<circle cx="600" cy="340" r="14" fill="{PRI}"/><circle cx="600" cy="580" r="14" fill="{PRI}"/>' + T(740, 350, "New screw", 28, 700) + T(740, 590, "New screw", 28, 700)
+    + DIM(460, 340, 460, 460, "", 0, 0) + T(440, 410, "1½ in", 28, 700, BRASS, "end") + DIM(460, 460, 460, 580, "", 0, 0) + T(440, 530, "1½ in", 28, 700, BRASS, "end")
+    + T(60, 850, "Press the drywall tight, then dimple each screw just below the surface.", 28, 500), "Nail pop screw placement")
+D["gfci-outlet-wont-reset-step-3"] = svg(
+    HEAD("One GFCI can protect other rooms")
+    + R(100, 340, 220, 260, PAPER, PRI, 5, 16) + T(210, 320, "GFCI (garage)", 26, 700, PRI, "middle") + R(150, 400, 120, 40, BRASS, None, 0, 6) + T(210, 428, "RESET", 20, 700, PAPER, "middle") + R(150, 460, 120, 40, SAGE, PRI, 2, 6) + T(210, 488, "TEST", 20, 700, PRI, "middle")
+    + "".join(R(x, 380, 160, 200, PAPER, MUTED, 3, 14) + T(x+80, 360, lbl, 24, 600, MUTED, "middle") for x, lbl in ((430, "Outdoor"), (660, "Bathroom 2"), (890, "Garage wall")))
+    + L(320, 480, 430, 480, PRI, 5) + L(590, 480, 660, 480, PRI, 5) + L(820, 480, 890, 480, PRI, 5)
+    + T(100, 700, "If any of these outlets is dead, reset the GFCI upstream first.", 28, 600)
+    + T(100, 745, "Check every GFCI: bathrooms, kitchen, garage, basement, outside.", 26, 500, MUTED), "GFCI upstream protection")
+D["how-to-unclog-a-kitchen-sink-step-3"] = svg(
+    HEAD("Parts of a sink P-trap")
+    + R(300, 150, 600, 120, SAGE, PRI, 4) + T(600, 220, "Sink basin", 28, 700, PRI, "middle")
+    + R(570, 270, 60, 180, SAGE2, PRI, 4) + T(540, 360, "Tailpiece", 26, 700, INK, "end")
+    + f'<path d="M570 450 v80 a70 70 0 0 0 140 0 v-60" fill="none" stroke="{PRI}" stroke-width="40"/>' + T(640, 650, "Trap", 28, 700, INK, "middle")
+    + R(690, 450, 300, 40, SAGE2, PRI, 4) + T(1000, 440, "Trap arm → wall", 26, 700, INK, "end")
+    + R(555, 440, 90, 20, BRASS) + R(680, 460, 20, 60, BRASS) + T(480, 470, "Slip nut", 26, 700, BRASS, "end") + T(730, 560, "Slip nut", 26, 700, BRASS)
+    + f'<path d="M540 680 h200 l-20 120 h-160z" fill="none" stroke="{MUTED}" stroke-width="4"/>' + T(640, 760, "Bucket", 24, 600, MUTED, "middle"), "Kitchen sink P-trap parts")
+D["how-to-replace-a-showerhead-step-3"] = svg(
+    HEAD("Wrap thread tape clockwise")
+    + R(140, 380, 520, 90, SAGE2, PRI, 5) + T(300, 520, "Shower arm (from wall)", 26, 600, MUTED, "middle")
+    + "".join(L(660 + i*28, 372, 660 + i*28 + 14, 478, PRI, 4) for i in range(6)) + R(660, 380, 170, 90, "none", PRI, 4)
+    + f'<path d="M700 360 a70 70 0 1 1 -10 140" fill="none" stroke="{BRASS}" stroke-width="5" marker-end="url(#a)"/>'
+    + T(880, 300, "3–4 wraps", 26, 700, INK) + f'<circle cx="1000" cy="470" r="70" fill="{SAGE2}" stroke="{PRI}" stroke-width="4"/><circle cx="1000" cy="470" r="26" fill="{MIST}" stroke="{PRI}" stroke-width="3"/>' + f'<path d="M1000 380 a90 90 0 0 1 88 108" fill="none" stroke="{BRASS}" stroke-width="6" marker-end="url(#a)"/>' + T(1000, 590, "End view: clockwise", 24, 700, BRASS, "middle")
+    + T(140, 680, "Wrapping this way means screwing the head on tightens the tape", 28, 500) + T(140, 720, "instead of peeling it off.", 28, 500), "Thread tape wrap direction")
+D["how-to-fix-squeaky-floors-step-2"] = svg(
+    HEAD("Pull the subfloor tight to the joist")
+    + R(100, 300, 1000, 40, SAGE, PRI, 3) + T(1090, 290, "Carpet or hardwood", 24, 600, MUTED, "end")
+    + R(100, 340, 1000, 50, SAGE2, PRI, 4) + T(1090, 420, "Subfloor", 24, 600, MUTED, "end")
+    + "".join(R(x, 390, 60, 260, PAPER, PRI, 4) for x in (200, 520, 840)) + T(550, 700, "Joists", 26, 700, PRI, "middle")
+    + L(550, 250, 550, 520, BRASS, 8) + f'<path d="M538 250 h24" stroke="{BRASS}" stroke-width="8"/>' + T(580, 240, "Breakaway screw", 26, 700, BRASS)
+    + DIM(230, 760, 550, 760, "16 in on center", 390, 745)
+    + T(100, 850, "Tap the floor: it sounds solid over a joist and hollow between.", 26, 500), "Squeaky floor screw into joist")
+D["how-to-fix-a-sagging-gate-step-4"] = svg(
+    HEAD("Cable pulls, brace pushes")
+    + R(100, 180, 60, 600, SAGE2, PRI, 4) + T(130, 170, "Hinge post", 22, 700, PRI, "middle")
+    + R(180, 220, 440, 480, PAPER, PRI, 5) + R(190, 230, 420, 30, SAGE) + R(190, 660, 420, 30, SAGE)
+    + L(200, 250, 600, 680, BRASS, 6) + f'<rect x="385" y="450" width="40" height="16" fill="{PRI}" transform="rotate(47 405 458)"/>'
+    + T(390, 820, "Cable: top hinge corner → bottom latch", 24, 700, BRASS, "middle")
+    + R(720, 180, 60, 600, SAGE2, PRI, 4)
+    + R(800, 220, 340, 480, PAPER, PRI, 5) + R(810, 230, 320, 30, SAGE) + R(810, 660, 320, 30, SAGE)
+    + f'<polygon points="815,660 845,690 1130,262 1100,232" fill="{SAGE2}" stroke="{PRI}" stroke-width="3"/>'
+    + T(960, 820, "Brace: bottom hinge → top latch", 24, 700, PRI, "middle")
+    + T(600, 870, "Hinges are on the left of each gate.", 24, 500, MUTED, "middle"), "Anti-sag cable and brace directions")
+D["how-to-find-a-stud-without-a-stud-finder-step-2"] = svg(
+    HEAD("Clues that point to studs")
+    + R(100, 150, 1000, 560, None, LINE, 3)
+    + "".join(R(150 + i*240, 150, 40, 560, SAGE2, PRI, 3) for i in range(4))
+    + R(190, 420, 60, 90, PAPER, PRI, 4, 6) + T(260, 470, "Outlet box", 22, 700, INK)
+    + R(100, 680, 1000, 30, SAGE, PRI, 3) + "".join(f'<circle cx="{170 + i*240}" cy="695" r="6" fill="{BRASS}"/>' for i in range(4)) + T(1095, 670, "Trim nails", 22, 700, BRASS, "end")
+    + "".join(f'<circle cx="{170 + i*240}" cy="{y}" r="5" fill="{PRI}"/>' for i in range(4) for y in (220, 340, 580))
+    + DIM(170, 760, 410, 760, "16 in on center", 290, 745)
+    + T(100, 850, "Combine two or three clues, then confirm with a hidden test nail.", 26, 500), "Stud finding clues")
+
 for stem, s in D.items():
     (OUT / f"{stem}.svg").write_text(s)
 print(f"wrote {len(D)} diagrams")

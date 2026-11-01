@@ -1,0 +1,66 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "How to Change Your HVAC Air Filter",
+    "handle": "how-to-change-hvac-air-filter",
+    "summary": "Change your furnace or AC filter the right way: find the slot, match the size, point the airflow arrow correctly, and know how often to swap it.",
+    "tags": [
+      "Beginner",
+      "Maintenance",
+      "HVAC",
+      "Under 15 minutes"
+    ],
+    "body": "<p class=\"guide-intro\">A clogged filter makes your furnace and AC work harder, raises energy bills, and lets more dust circulate. Swapping it is a five-minute job. The two things people get wrong are the size and the direction.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> turn the system off at the thermostat before pulling the filter, so the blower doesn't pull dust into the system while the slot is open.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Turn off the system</h3><p>Set the thermostat to off. Wait a minute for the blower to stop.</p><p><strong>Done right:</strong> no air is moving through the vents.</p></li>\n<li><h3>Find the filter</h3><p>Most filters sit in a slot where the return duct meets the furnace or air handler, or behind a large return-air grille in a wall or ceiling. Some homes have more than one return grille, each with its own filter.</p><p><strong>Done right:</strong> you've found every filter location in the house.</p></li>\n<li><h3>Read the size and remove the old filter</h3><p>The dimensions are printed on the filter's frame (for example 16×25×1). Note them, along with the direction the airflow arrow points, then slide the old filter out. Buy a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">replacement filter</a> in exactly that size.</p><p><strong>Done right:</strong> you have the exact size written down, including the thickness.</p></li>\n<li><h3>Insert the new filter with the arrow toward the furnace</h3><figure><img src=\"hih-media://how-to-change-hvac-air-filter-step-4\" alt=\"Diagram of a furnace with return air flowing through a filter whose arrow points toward the blower\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The arrow follows the air: toward the furnace.</figcaption></figure><p>The arrow on the frame shows the direction air flows. Point it toward the furnace or blower, away from the return duct you're facing.</p><p><strong>Done right:</strong> the arrow points toward the equipment, and the filter sits flat in its slot with no gaps around the edges.</p></li>\n<li><h3>Write the date and restart</h3><p>Write today's date on the new filter's frame, close the slot or grille, and turn the system back on. Set a reminder for the next change.</p><p><strong>Done right:</strong> air is flowing at the vents, and the date is visible on the filter.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call an HVAC technician if:</strong> the filter turns black quickly, you see dust blowing from vents even with a new filter, there's no filter slot at all, or the system makes new noises after a change.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should I change my air filter?</h3><p>For standard 1 in filters, every 1–3 months. Change it monthly if you have pets, allergies or construction dust. Thicker 4–5 in media filters often last 6–12 months.</p>\n<h3>Which way does the arrow go on an air filter?</h3><p>Toward the furnace or air handler, in the direction the air is moving.</p>\n<h3>What MERV rating should I buy?</h3><p>Many homes do well with MERV 8–11. Higher ratings trap more particles but can restrict airflow in some systems, so check your equipment manual.</p>\n<h3>Can I use a filter that&#x27;s slightly smaller?</h3><p>No. Air bypasses a filter that doesn&#x27;t fill the slot, and the dust goes straight into the system.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "5–10 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$5–$30 per filter"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Flashlight\", \"Screwdriver (some return grilles)\", \"Marker\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Replacement air filter in the exact size printed on the old one\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=sOcfx5o9-B4"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-change-hvac-air-filter-step-4",
+      "alt": "Diagram of a furnace with return air flowing through a filter whose arrow points toward the blower",
+      "caption": "The arrow follows the air: toward the furnace."
+    }
+  ],
+  "hero_slot": "how-to-change-hvac-air-filter-hero"
+}

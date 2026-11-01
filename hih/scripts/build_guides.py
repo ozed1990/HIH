@@ -17,6 +17,9 @@ DISCLOSURE = ("<strong>Affiliate disclosure:</strong> some links in this guide a
 def linkify(g):
     """Turn the first occurrence of each affiliate phrase in the step text into a sponsored placeholder link."""
     missing = []
+    for s in g['steps']:
+        if '<a ' in s['body']:
+            missing.append(f"inline <a> in step '{s['title']}' (affiliate links come only from AFFILIATE)")
     for phrase in AFFILIATE.get(g['handle'], []):
         for s in g['steps']:
             if phrase in s['body']:
@@ -80,7 +83,7 @@ index = []
 for g in GUIDES:
     missing = linkify(g)
     body = body_html(g)
-    errs = validate(g, body) + [f"affiliate phrase not found in steps: {m}" for m in missing]
+    errs = validate(g, body) + [m if m.startswith("inline") else f"affiliate phrase not found in steps: {m}" for m in missing]
     if errs:
         failed = True
         print(f"✗ {g['handle']}: " + "; ".join(errs))

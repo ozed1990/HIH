@@ -1,0 +1,66 @@
+{
+  "blog_handle": "painting-walls",
+  "blog_title": "Painting & Walls",
+  "article": {
+    "title": "How to Fix Drywall Nail Pops for Good",
+    "handle": "how-to-fix-drywall-nail-pops",
+    "summary": "Fix drywall nail pops so they don't come back: secure the panel with new screws, set the old nail, then fill, sand and touch up the paint.",
+    "tags": [
+      "Beginner",
+      "Walls",
+      "Drywall",
+      "Under 2 hours"
+    ],
+    "body": "<p class=\"guide-intro\">Nail pops are small round bumps or cracks where a drywall nail has worked loose, usually as the framing shrinks and swells with the seasons. Just spackling over them doesn't last. You need to lock the drywall to the stud first.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> nail pops are on studs, but wires sometimes run nearby. Don't drive screws near outlets or switches. Wear eye protection when setting nails.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Press to find loose drywall</h3><p>Push on the wall around the pop. If the panel moves, it's loose against the stud. Check above and below too: pops often run in a vertical line along one stud.</p><p><strong>Done right:</strong> you've marked every pop and loose spot along that stud.</p></li>\n<li><h3>Drive new screws above and below</h3><figure><img src=\"hih-media://how-to-fix-drywall-nail-pops-step-2\" alt=\"Diagram of a popped drywall nail with new screws driven 1.5 inches above and below it into the stud\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>New screws hold the panel; the old nail just gets set.</figcaption></figure><p>Press the drywall tight to the stud and drive a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">drywall screw</a> about 1-1/2 in above and another about 1-1/2 in below the popped nail. Set each one just below the surface so it leaves a shallow dimple without tearing the paper. A dimpler bit does this automatically.</p><p><strong>Done right:</strong> the panel no longer moves when pressed, and the screw heads sit in dimples with the paper intact.</p></li>\n<li><h3>Set or remove the old nail</h3><p>Tap the popped nail below the surface with a nail set. If it's loose enough to pull out with pliers, remove it instead.</p><p><strong>Done right:</strong> nothing sticks out above the wall surface.</p></li>\n<li><h3>Fill the dimples</h3><p>Spread spackle over each screw and the old nail hole with a putty knife, then scrape it flush. Let it dry, then apply a second thin coat slightly wider than the first.</p><p><strong>Done right:</strong> the dimples are filled level with the wall.</p></li>\n<li><h3>Sand, prime and paint</h3><p>Sand lightly, wipe off the dust, prime each spot, and paint, feathering out past the patch.</p><p><strong>Done right:</strong> under a flashlight held flat against the wall, you can't see the repairs.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> pops come with large cracks, sagging ceilings, or doors that suddenly stick. Those can point to structural movement or moisture, not just normal wood shrinkage.</p></aside>\n<h2>FAQ</h2>\n<h3>What causes drywall nail pops?</h3><p>Usually framing lumber shrinking and swelling with humidity changes, which pushes nails outward over time. They&#x27;re most common in newer homes during their first few years.</p>\n<h3>Can I just spackle over a nail pop?</h3><p>It will look fixed for a while, but the loose drywall keeps moving and the pop comes back. Secure the panel with screws first.</p>\n<h3>Should I use screws or nails to fix nail pops?</h3><p>Screws. Drywall screws grip the stud far better than nails and don&#x27;t back out the same way.</p>\n<h3>Are nail pops a sign of a structural problem?</h3><p>Usually not. A few scattered pops are normal. Many pops together with cracks, sloping floors or sticking doors are worth a professional look.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30 minutes + drying time"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$25"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Drill-driver with a drywall dimpler bit\", \"Hammer and nail set\", \"4 in putty knife\", \"Fine sanding sponge\", \"Stud finder\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"1-5/8 in coarse-thread drywall screws\", \"Lightweight spackling or joint compound\", \"Primer and matching paint\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Pyf1o1nbTao"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-fix-drywall-nail-pops-step-2",
+      "alt": "Diagram of a popped drywall nail with new screws driven 1.5 inches above and below it into the stud",
+      "caption": "New screws hold the panel; the old nail just gets set."
+    }
+  ],
+  "hero_slot": "how-to-fix-drywall-nail-pops-hero"
+}

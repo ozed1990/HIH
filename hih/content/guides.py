@@ -636,3 +636,66 @@ AFFILIATE.update({'how-to-winterize-outdoor-faucets': ['insulated faucet cover']
  'how-to-fix-squeaky-floors': ['breakaway screw', 'wood filler crayon'],
  'how-to-fix-a-sagging-gate': ['anti-sag kit'],
  'how-to-find-a-stud-without-a-stud-finder': ['magnet']})
+
+# ── Doors & Windows: decision guide (affiliate: Renewal by Andersen, link given by the owner 2026-11-01)
+GUIDES += [
+{
+ "blog": "doors-windows", "blog_title": "Doors & Windows",
+ "handle": "are-replacement-windows-worth-it",
+ "title": "Are Replacement Windows Worth It? Benefits and Costs",
+ "summary": "Find out if new windows are worth it for your home: check your old windows, weigh energy, comfort and resale benefits, and compare quotes the smart way.",
+ "tags": ["Beginner", "Doors & Windows", "Windows", "Buying guide"],
+ "difficulty": "Beginner",
+ "time": "1–2 hours to assess",
+ "cost": "$450–$2,600 per window installed",
+ "tools": ["Tape measure", "Flashlight", "Strip of tissue (draft test)", "Phone camera"],
+ "materials": ["Last 12 months of energy bills", "Notepad or a notes app"],
+ "video": "https://www.youtube.com/watch?v=RwlKDZwMwwc",
+ "intro": "New windows can make a home quieter, more comfortable and cheaper to heat and cool, but they are a big purchase. This guide helps you check whether yours actually need replacing, what you'd gain, and how to get a fair quote.",
+ "safety": None,
+ "steps": [
+  step("Identify what you have now",
+   "<p>Walk through the house and note each window's glass and frame. Hold a small flashlight close to the glass at an angle and count the reflected dots: two means single-pane, four means double-pane. Look for a date or manufacturer stamp on the metal spacer between the panes, and note the frame material: wood, aluminum or vinyl.</p>"
+   "<p><strong>Done right:</strong> you have a list with every window's room, size, glass type, frame material and rough age.</p>"),
+  step("Test for drafts, fog and wear",
+   "<p>On a windy day, hold a strip of tissue and move it slowly around the edges of each closed sash. If it flutters, air is getting through. Also look for fog or haze between the panes (a failed seal), soft or rotting wood, sashes that stick or won't stay up, and locks that don't pull the sashes tight.</p>"
+   "<p><strong>Done right:</strong> each window on your list is marked fine, repairable (new weatherstripping or a sash lock) or failing.</p>"),
+  step("Estimate the energy savings honestly",
+   "<p>ENERGY STAR estimates that replacing single-pane windows with certified ones lowers household energy bills by up to 13% on average. Savings from replacing older double-pane windows are much smaller. Multiply your yearly heating and cooling spend by that percentage to get a realistic ceiling, and treat energy as one benefit, not the whole case.</p>"
+   "<p><strong>Done right:</strong> you have a yearly savings figure in dollars based on your own bills, not a salesperson's.</p>"),
+  step("Weigh the benefits beyond energy",
+   "<p>Rank what matters to you. <strong>Comfort:</strong> no cold zone by the sofa in winter or hot glass in summer. <strong>Quiet:</strong> laminated or thicker double-pane glass cuts street noise. <strong>Less fading:</strong> low-E coatings block much of the UV that bleaches floors and furniture. <strong>Less upkeep:</strong> no scraping and painting, and tilt-in sashes you can clean from inside. <strong>Safety:</strong> windows that open easily for escape and lock tightly. <strong>Resale:</strong> national cost-versus-value surveys put the payback on window replacement at roughly two-thirds of its cost.</p>"
+   "<p><strong>Done right:</strong> you can name your top two or three reasons for new windows, so you can judge every quote against them.</p>"),
+  step("Read the energy label before comparing products",
+   "<p>Every certified window carries an energy performance label. <strong>U-factor</strong> measures heat loss: lower is better, and it matters most in cold climates. <strong>Solar heat gain coefficient</strong> measures how much sun heat comes through: choose lower in hot climates. <strong>Visible transmittance</strong> is daylight: higher is brighter. Check ENERGY STAR's climate-zone map so you buy for your region.</p>"
+   "<p><strong>Done right:</strong> for each quote you can write down the U-factor and solar heat gain number and confirm the window is ENERGY STAR certified for your zone.</p>",
+   fig("are-replacement-windows-worth-it-step-5", "Diagram of a window energy performance label with U-factor, solar heat gain coefficient, visible transmittance and air leakage explained", "Lower U-factor keeps heat in; lower solar heat gain keeps sun heat out.")),
+  step("Choose a frame material",
+   "<p>Vinyl is the most common and usually the least expensive, but quality varies a lot, so ask about wall thickness and reinforcement. Fiberglass is stiff and stable. Composite frames, such as <strong>Fibrex composite windows</strong> from Renewal by Andersen, blend wood fiber and polymer for a narrow, low-maintenance frame. Wood and clad-wood look the most traditional but cost more and need care. Aluminum is strong and slim but conducts heat unless it has a thermal break.</p>"
+   "<p><strong>Done right:</strong> you have one or two frame materials you want quoted, chosen for your climate, budget and style.</p>"),
+  step("Get two or three written quotes",
+   "<p>Book in-home estimates from at least two companies so you can compare. A good place to start is a <strong>free in-home consultation with Renewal by Andersen</strong>, a full-service company that measures, builds custom windows and installs them with its own installers. Its transferable limited warranty covers glass and Fibrex material for 20 years, other components for 10 years and installation for 2 years. For every quote, ask for the total installed price, the exact window model and its label numbers, who does the installation, and what the warranty covers for labor.</p>"
+   "<p><strong>Done right:</strong> you have quotes in writing with matching details, and you never sign the same day under pressure.</p>"),
+  step("Check incentives and rebates",
+   "<p>The federal tax credit for energy-efficient windows ended for windows installed after December 31, 2025, so don't count on it in 2026, even if older articles still mention it. Some utilities and states still offer rebates, often only for ENERGY STAR Most Efficient windows replacing single-pane glass. Search your utility's website and the DSIRE incentives database before you sign.</p>"
+   "<p><strong>Done right:</strong> you know which rebates, if any, apply, and their rules (approved models, pre-inspection, deadlines) are written into your quote.</p>"),
+ ],
+ "pro": "<strong>Hire a pro for the installation:</strong> replacement windows must be measured and installed precisely to seal and to keep the warranty valid. Use a certified installer, and always if the house was built before 1978 (lead-safe work rules apply), if there is rot in the wall around the window, or for bedroom windows that must meet egress code. Glass near doors, tubs and showers usually must be tempered, and many towns require a permit.",
+ "faq": [
+  ["Do new windows really lower energy bills?",
+   "Yes, most when you replace single-pane glass: ENERGY STAR puts the average bill drop at up to 13%. Replacing decent double-pane windows saves much less, so comfort, noise and upkeep usually matter more in that case."],
+  ["Is there a tax credit for replacement windows in 2026?",
+   "No. The federal energy-efficient home improvement credit ended for windows installed after December 31, 2025. Check your utility and state for rebates instead."],
+  ["Do replacement windows increase home value?",
+   "They add value and buyer appeal, but not dollar for dollar. National cost-versus-value surveys show window replacement recovering roughly two-thirds of its cost at resale."],
+  ["Is Renewal by Andersen worth it?",
+   "It is a premium, full-service option: custom Fibrex composite windows, its own installers and a transferable warranty that covers installation. It often costs more than basic vinyl, so get a comparison quote and decide on value, not price alone."],
+  ["Should I replace all my windows at once?",
+   "Not necessarily. Replace the failing ones first if budget is tight. Doing the whole house at once often lowers the per-window price and gives a matching look."],
+ ],
+},
+]
+AFFILIATE["are-replacement-windows-worth-it"] = [
+ ("Fibrex composite windows", "https://www.cont2cart.com/2G26NGLR6/KPPJ8M4/"),
+ ("free in-home consultation with Renewal by Andersen", "https://www.cont2cart.com/2G26NGLR6/KPPJ8M4/"),
+]

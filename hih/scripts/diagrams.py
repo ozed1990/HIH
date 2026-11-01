@@ -325,6 +325,20 @@ D["how-to-find-a-stud-without-a-stud-finder-step-2"] = svg(
     + DIM(170, 760, 410, 760, "16 in on center", 290, 745)
     + T(100, 850, "Combine two or three clues, then confirm with a hidden test nail.", 26, 500), "Stud finding clues")
 
+def CELL(x, y, name, val, hint, good):
+    return (R(x, y, 470, 230, PAPER, PRI, 4, 10) + T(x+30, y+55, name, 28, 700, PRI) + T(x+30, y+130, val, 56, 700, INK)
+            + T(x+30, y+180, hint, 24, 600, MUTED) + T(x+440, y+130, good, 26, 700, BRASS, "end"))
+D["are-replacement-windows-worth-it-step-5"] = svg(
+    HEAD("Reading a window's energy label")
+    + T(60, 135, "Example values. Compare the same four numbers on every quote.", 26, 500, MUTED)
+    + CELL(100, 180, "U-factor", "0.27", "Heat loss through the window", "Lower = warmer")
+    + CELL(630, 180, "Solar heat gain", "0.25", "Sun heat that comes through", "Lower = cooler")
+    + CELL(100, 450, "Visible light", "0.48", "Daylight that comes through", "Higher = brighter")
+    + CELL(630, 450, "Air leakage", "0.1", "Drafts through the frame", "Lower = tighter")
+    + T(100, 760, "Cold climate: focus on a low U-factor.", 28, 600)
+    + T(100, 805, "Hot, sunny climate: focus on a low solar heat gain number.", 28, 600)
+    + T(100, 850, "Then check ENERGY STAR certification for your climate zone.", 26, 500, MUTED), "Window energy label explained")
+
 for stem, s in D.items():
     (OUT / f"{stem}.svg").write_text(s)
 print(f"wrote {len(D)} diagrams")

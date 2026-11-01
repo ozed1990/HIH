@@ -15,15 +15,21 @@ DISCLOSURE = ("<strong>Affiliate disclosure:</strong> some links in this guide a
               "We only recommend products we'd use ourselves.")
 
 def linkify(g):
-    """Turn the first occurrence of each affiliate phrase in the step text into a sponsored placeholder link."""
+    """Turn the first occurrence of each affiliate phrase in the step text into a sponsored link.
+    AFFILIATE[handle] entries: "phrase" (placeholder href, the owner pastes the link in Shopify)
+    or ("phrase", "https://...") when the owner has given the affiliate URL."""
     missing = []
     for s in g['steps']:
         if '<a ' in s['body']:
             missing.append(f"inline <a> in step '{s['title']}' (affiliate links come only from AFFILIATE)")
-    for phrase in AFFILIATE.get(g['handle'], []):
+    for entry in AFFILIATE.get(g['handle'], []):
+        phrase, href = (entry, AFFILIATE_HREF) if isinstance(entry, str) else entry
+        if not (href == AFFILIATE_HREF or href.startswith("https://")):
+            missing.append(f"bad affiliate URL for '{phrase}' (must be https)")
+            continue
         for s in g['steps']:
             if phrase in s['body']:
-                s['body'] = s['body'].replace(phrase, f'<a href="{AFFILIATE_HREF}" rel="sponsored noopener" target="_blank">{phrase}</a>', 1)
+                s['body'] = s['body'].replace(phrase, f'<a href="{html.escape(href)}" rel="sponsored noopener" target="_blank">{phrase}</a>', 1)
                 break
         else:
             missing.append(phrase)
@@ -83,7 +89,7 @@ index = []
 for g in GUIDES:
     missing = linkify(g)
     body = body_html(g)
-    errs = validate(g, body) + [m if m.startswith("inline") else f"affiliate phrase not found in steps: {m}" for m in missing]
+    errs = validate(g, body) + [m if m.startswith(("inline", "bad affiliate")) else f"affiliate phrase not found in steps: {m}" for m in missing]
     if errs:
         failed = True
         print(f"✗ {g['handle']}: " + "; ".join(errs))
@@ -106,7 +112,7 @@ for g in GUIDES:
     }
     (OUT / f"{g['handle']}.json").write_text(json.dumps(record, indent=2, ensure_ascii=False))
     index.append({"handle": g["handle"], "blog": g["blog"], "title": g["title"], "figures": len(media), "steps": len(g["steps"])})
-    print(f"✓ {g['handle']}: {len(g['steps'])} steps, {len(media)} diagrams, {len(g['faq'])} FAQ, {body.count(AFFILIATE_HREF)} affiliate placeholders")
+    print(f"✓ {g['handle']}: {len(g['steps'])} steps, {len(media)} diagrams, {len(g['faq'])} FAQ, {body.count(AFFILIATE_HREF)} affiliate placeholders, {body.count('rel="sponsored') - body.count(AFFILIATE_HREF)} live affiliate links")
 
 (OUT / "index.json").write_text(json.dumps(index, indent=2))
 sys.exit(1 if failed else 0)

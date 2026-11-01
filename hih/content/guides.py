@@ -699,3 +699,65 @@ AFFILIATE["are-replacement-windows-worth-it"] = [
  ("Fibrex composite windows", "https://www.cont2cart.com/2G26NGLR6/KPPJ8M4/"),
  ("free in-home consultation with Renewal by Andersen", "https://www.cont2cart.com/2G26NGLR6/KPPJ8M4/"),
 ]
+
+# ── Home Maintenance: roof check (affiliate: Professional Roofing Solutions, link given by the owner 2026-11-01; local to northern Indiana / SW Michigan)
+GUIDES += [
+{
+ "blog": "maintenance", "blog_title": "Home Maintenance",
+ "handle": "signs-your-roof-needs-replacement",
+ "title": "How to Tell If Your Roof Needs Repair or Replacement",
+ "summary": "Check your roof safely from the ground and the attic, spot the signs of a failing roof, handle storm damage, and hire a roofer you can trust.",
+ "tags": ["Beginner", "Home Maintenance", "Roofing", "Exterior"],
+ "difficulty": "Beginner",
+ "time": "1 hour",
+ "cost": "Free to check",
+ "tools": ["Binoculars", "Flashlight", "Phone camera", "Dust mask (for the attic)"],
+ "materials": ["Notepad or a notes app", "Your roof's install date or old receipts, if you have them"],
+ "video": "https://www.youtube.com/watch?v=PXCyCK2xUTY",
+ "intro": "A roof rarely fails overnight; it sends warning signs for years. This guide shows you how to read them from the ground and the attic, decide between a repair and a new roof, and hire a roofer without getting oversold.",
+ "safety": "<strong>Safety:</strong> stay off the roof. Every check here is done from the ground, from a window or from inside the attic. In the attic, step only on joists or boards laid across them (never between, or you'll go through the ceiling), wear a dust mask, watch for roofing nails poking through overhead, and don't touch wiring.",
+ "steps": [
+  step("Find out how old the roof is",
+   "<p>Check your closing papers, home inspection report, old receipts or your town's building permit records for the install year. A standard asphalt shingle roof usually lasts about 20 to 30 years, and less where there's strong sun or frequent hail. A \"30-year\" or \"50-year\" shingle refers to the warranty, not a promise of how long it will last.</p>"
+   "<p><strong>Done right:</strong> you know the roof's install year, or at least whether it's older than 20 years.</p>"),
+  step("Scan the roof from the ground with binoculars",
+   "<p>Walk all the way around the house on a clear day and look at every slope. Look for shingles that are missing, cracked or curling at the edges; dark or bald patches where the gritty surface has worn off; a ridge line that dips or sags; and gaps or rust where metal flashing meets the chimney, walls and vent pipes. Take photos of anything odd.</p>"
+   "<p><strong>Done right:</strong> you have photos of each slope and a list of any problems, with where on the roof they are.</p>",
+   fig("signs-your-roof-needs-replacement-step-2", "Diagram of a house roof seen from the ground, pointing out curling shingles, a missing shingle, a bald patch of worn granules, a sagging ridge and loose chimney flashing", "What to look for from the ground. Several of these at once usually means a roof near the end of its life.")),
+  step("Check the downspouts for shingle granules",
+   "<p>Look at the ground where each downspout empties, and at the splash blocks. Coarse, sand-like grit is granules washing off the shingles. A little is normal on a roof less than two years old; a lot on an older roof means the shingles are wearing out.</p>"
+   "<p><strong>Done right:</strong> you've checked every downspout and noted whether there's little, some or a lot of grit.</p>"),
+  step("Inspect the attic with a flashlight",
+   "<p>Go up on a bright day, turn off the attic light and look for daylight coming through the roof boards. Then use the flashlight to look for dark water stains on the underside of the boards and rafters, damp or flattened insulation, mold, and boards that sag between rafters. Going up again during or right after a heavy rain shows active leaks best.</p>"
+   "<p><strong>Done right:</strong> you've checked the whole underside of the roof, especially around the chimney and vent pipes, and photographed any stains.</p>"),
+  step("Look for leak signs inside the house",
+   "<p>Check top-floor ceilings and the tops of exterior walls for brown rings, bubbling paint or soft drywall, especially below the chimney, skylights and roof valleys. A musty smell in an upstairs closet is another clue.</p>"
+   "<p><strong>Done right:</strong> any stains are marked on your list and matched to the spot on the roof above them.</p>"),
+  step("After a storm, photograph damage and call your insurer first",
+   "<p>After hail or high wind, look for dented gutters, downspouts and metal roof vents, shingles in the yard, and dents on outdoor AC units. These are easy clues that the roof was hit too. Photograph everything with the date, then call your insurance company before signing anything with a contractor. Be wary of anyone who knocks on your door right after a storm, pushes you to sign that day, or offers to \"cover\" your deductible.</p>"
+   "<p><strong>Done right:</strong> you have dated photos and a claim number, and you haven't signed a contract with a door-to-door crew.</p>"),
+  step("Decide between a repair and a new roof",
+   "<p>A few missing shingles, a cracked vent boot or one leak on a younger roof is usually a repair. Plan on a new roof when the problems are spread across the whole roof: curling or brittle shingles, heavy granule loss, leaks in several places, or a sagging deck, especially on a roof around 20 years old or more. For scale, the 2025 national average cost of an asphalt shingle roof replacement was about $31,900, and it recovers roughly two-thirds of that at resale.</p>"
+   "<p><strong>Done right:</strong> you can say whether your roof has a single problem or widespread wear, and you know which to ask roofers to quote.</p>"),
+  step("Hire a local, insured roofer",
+   "<p>Get at least two written estimates from roofers with a real local address. Ask each one for a certificate of insurance (liability and workers' comp) sent directly from their insurance agent, not a copy they hand you. The written quote should spell out tear-off or overlay, the shingle brand and line, underlayment, flashing and ventilation, the permit, cleanup, and both the manufacturer and workmanship warranties. Never pay the full price up front. If you live in northern Indiana or southwest Michigan, you can book a <strong>free roof inspection from Professional Roofing Solutions</strong>, a local roofer with offices in Warsaw, Fort Wayne and South Bend, Indiana, and Portage, Michigan. They also handle storm and hail damage and offer financing.</p>"
+   "<p><strong>Done right:</strong> you have matching written quotes, insurance certificates you've confirmed with the insurer, and no full payment made before the work is done.</p>"),
+ ],
+ "pro": "<strong>Leave the roof to a pro:</strong> don't climb onto the roof to inspect, patch or tarp it. A fall from a roof or ladder can cause life-changing injuries, and roofers have the gear and training to work up there safely. Call a roofer for anything on the roof itself, including emergency tarping after storm damage, and call right away if you see sagging, active water coming in, or a tree or limb on the roof.",
+ "faq": [
+  ["How long does a roof last?",
+   "A typical asphalt shingle roof lasts about 20 to 30 years, and less in harsh sun or hail-prone areas. Metal, tile and slate roofs last much longer. The warranty length printed on the shingle bundle is not the same as the roof's real lifespan."],
+  ["Can I just replace a few shingles?",
+   "Yes, if the damage is limited and the rest of the roof is in good shape. If the shingles are brittle, repairs tend to break the shingles around them, and frequent repairs on an old roof often cost more than they're worth."],
+  ["Will homeowners insurance pay for a new roof?",
+   "Usually only for sudden damage your policy covers, such as hail or wind, not for normal wear and age. Coverage, deductibles and depreciation rules vary by policy, so call your insurer and read your declarations page."],
+  ["How much does a new roof cost?",
+   "The 2025 Cost vs. Value report puts the national average for an asphalt shingle roof replacement at about $31,900, but your price depends on roof size, steepness, layers to tear off and local labor costs. Get at least two written quotes."],
+  ["Is a free roof inspection really free?",
+   "From an established local roofer it usually is, and it's a good way to get a professional opinion. Ask for photos of any problem they find, and get a second opinion before agreeing to a full replacement."],
+ ],
+},
+]
+AFFILIATE["signs-your-roof-needs-replacement"] = [
+ ("free roof inspection from Professional Roofing Solutions", "https://www.cont2cart.com/2G26NGLR6/KZZ983Q/"),
+]

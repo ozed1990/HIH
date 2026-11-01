@@ -339,6 +339,39 @@ D["are-replacement-windows-worth-it-step-5"] = svg(
     + T(100, 805, "Hot, sunny climate: focus on a low solar heat gain number.", 28, 600)
     + T(100, 850, "Then check ENERGY STAR certification for your climate zone.", 26, 500, MUTED), "Window energy label explained")
 
+def SH(x, y, w=70, h=34): return R(x, y, w, h, SAGE2, PRI, 2, 2)
+_rows = "".join(SH(270 + c*74 - (r % 2)*37, 240 + r*38) for r in range(9) for c in range(9) if 270 + c*74 - (r % 2)*37 >= 240 and 270 + c*74 - (r % 2)*37 <= 860)
+_S, _DX, _DY = 0.72, -60, 70          # house drawn at 1:1 below, then scaled into the left of the canvas
+def _p(x, y): return round(_DX + x * _S), round(_DY + y * _S)
+_house = (
+    f'<clipPath id="roof"><polygon points="200,590 280,230 900,230 980,590"/></clipPath>'
+    + f'<polygon points="200,590 280,230 900,230 980,590" fill="{SAGE}" stroke="{PRI}" stroke-width="5"/>'
+    + f'<g clip-path="url(#roof)">{_rows}</g>'
+    + f'<path d="M280 230 Q590 262 900 230" fill="none" stroke="{BRASS}" stroke-width="6"/>'           # sagging ridge
+    + R(568, 316, 70, 34, MIST, PRI, 2, 2)                                                              # missing shingle
+    + f'<path d="M642 392 h70 v34 h-70 z" fill="{SAGE2}" stroke="{PRI}" stroke-width="2"/><path d="M642 392 q35 -30 70 0" fill="{SAGE2}" stroke="{PRI}" stroke-width="3"/>'  # curling
+    + f'<ellipse cx="800" cy="520" rx="80" ry="34" fill="{MUTED}" opacity="0.55"/>'                     # bald patch
+    + R(770, 150, 70, 120, SAGE2, PRI, 4) + L(762, 270, 848, 270, BRASS, 6, "10 8")                     # chimney flashing
+    + R(230, 590, 720, 220, PAPER, PRI, 5) + R(330, 650, 110, 110, MIST, PRI, 4) + R(740, 650, 110, 110, MIST, PRI, 4) + R(540, 670, 90, 140, SAGE, PRI, 4)
+    + R(950, 600, 22, 200, SAGE2, PRI, 3) + "".join(f'<circle cx="{960 + dx}" cy="{818 + dy}" r="5" fill="{MUTED}"/>' for dx, dy in ((-20, 0), (-8, 6), (4, -2), (16, 5), (28, 1), (-30, 6), (40, 4)))
+)
+_LX = 760
+def _lab(pt, y, text):
+    x, yy = _p(*pt); return LEAD(x, yy, _LX, y, text)
+D["signs-your-roof-needs-replacement-step-2"] = svg(
+    HEAD("What to look for from the ground")
+    + f'<g transform="translate({_DX} {_DY}) scale({_S})">{_house}</g>'
+    + _lab((450, 240), 210, "Sagging ridge")
+    + _lab((808, 270), 265, "Loose flashing")
+    + _lab((603, 333), 320, "Missing shingle")
+    + _lab((677, 395), 375, "Curling edges")
+    + _lab((800, 520), 430, "Bald patch (granules gone)")
+    + _lab((985, 818), 640, "Grit at the downspout")
+    + T(60, 760, "One sign alone is often a repair.", 28, 600)
+    + T(60, 805, "Several across the roof usually means it's near the end of its life.", 28, 600)
+    + T(60, 850, "Use binoculars and stay on the ground.", 26, 500, MUTED),
+    "Roof warning signs seen from the ground")
+
 for stem, s in D.items():
     (OUT / f"{stem}.svg").write_text(s)
 print(f"wrote {len(D)} diagrams")

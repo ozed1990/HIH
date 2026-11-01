@@ -17,3 +17,4 @@ One dated line per decision, with the reason. Newest last.
 - 2026-11-01: Repo layout: theme at the root (what Shopify's GitHub sync expects); HIH content tooling lives in hih/, which Shopify ignores.
 - 2026-11-01: HIH/main is now the LIVE theme (published by the owner). Pushing to main deploys to visitors, so all changes go on a hih/* branch and reach main only through a PR the owner merges.
 - 2026-11-01: The featured-guides section renders nothing on the storefront until at least one selected guide is published (it stays visible in the theme editor).
+- 2026-11-01: Widened the layout at the owner's request ("looks thin"). Page frame is 1440px (was 1240), guide body 58rem (was 44rem), guide sidebar 20rem (was 17rem), paragraph measure 44em (was 38em). All widths are tokens in hih-tokens.css under "Layout widths".

@@ -25,6 +25,7 @@
           "type": "category",
           "settings": {
             "blog": "kitchen",
+            "image": "shopify://shop_images/Modern_kitchen_with_oak_cabinets_88e3a8cb.webp",
             "description": "Backsplashes, faucets, cabinets"
           }
         },
@@ -32,6 +33,7 @@
           "type": "category",
           "settings": {
             "blog": "bathroom",
+            "image": "shopify://shop_images/Modern_walk-in_shower_design_04f63a6a.webp",
             "description": "Caulk, vanities, showers"
           }
         },
@@ -39,6 +41,7 @@
           "type": "category",
           "settings": {
             "blog": "flooring",
+            "image": "shopify://shop_images/Installing_oak_flooring_in_room_7ff6a2ee.webp",
             "description": "Vinyl plank, squeaks, trim"
           }
         },
@@ -46,6 +49,7 @@
           "type": "category",
           "settings": {
             "blog": "painting-walls",
+            "image": "shopify://shop_images/Painter_using_a_roller_f288cfc5.webp",
             "description": "Drywall, paint, hanging"
           }
         },
@@ -53,6 +57,7 @@
           "type": "category",
           "settings": {
             "blog": "plumbing",
+            "image": "shopify://shop_images/Modern_sink_and_faucet_plumbing_ce158a5c.webp",
             "description": "Toilets, faucets, drains"
           }
         },
@@ -60,6 +65,7 @@
           "type": "category",
           "settings": {
             "blog": "electrical",
+            "image": "shopify://shop_images/Modern_wall_switches_and_outlets_4ed786f3.webp",
             "description": "Switches, outlets, fixtures"
           }
         },
@@ -67,6 +73,7 @@
           "type": "category",
           "settings": {
             "blog": "doors-windows",
+            "image": "shopify://shop_images/Modern_windows_and_entrance_door_86bc155b.webp",
             "description": "Drafts, locks, screens"
           }
         },
@@ -74,6 +81,7 @@
           "type": "category",
           "settings": {
             "blog": "outdoor-garden",
+            "image": "shopify://shop_images/Wooden_backyard_deck_garden_328d8ff7.webp",
             "description": "Beds, decks, fences"
           }
         },
@@ -81,6 +89,7 @@
           "type": "category",
           "settings": {
             "blog": "storage",
+            "image": "shopify://shop_images/Organized_garage_shelving_and_cl__3b94682f.webp",
             "description": "Shelves, closets, garage"
           }
         },
@@ -88,6 +97,7 @@
           "type": "category",
           "settings": {
             "blog": "maintenance",
+            "image": "shopify://shop_images/Handyman_inspecting_home_mainten__aca0bd4f.webp",
             "description": "Seasonal upkeep"
           }
         }

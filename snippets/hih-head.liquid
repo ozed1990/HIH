@@ -12,6 +12,7 @@
   <link rel="icon" type="image/png" href="{{ 'hih-favicon.png' | asset_url }}">
   <link rel="apple-touch-icon" href="{{ 'hih-favicon.png' | asset_url }}">
 {%- endif -%}
+{%- render 'hih-schema' -%}
 {{ 'hih-tokens.css' | asset_url | stylesheet_tag }}
 {{ 'hih.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'hih.js' | asset_url }}" defer="defer"></script>

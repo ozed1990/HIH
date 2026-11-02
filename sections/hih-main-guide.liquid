@@ -16,7 +16,7 @@
 -%}
 <div class="hih-progress" aria-hidden="true"></div>
 
-<article class="hih-guide" data-guide-id="{{ article.id }}">
+<article class="hih-guide" data-guide-id="{{ article.id }}" data-guide-title="{{ article.title | escape }}" data-guide-url="{{ article.url }}" data-guide-blog="{{ blog.title | escape }}"{% if article.image %} data-guide-image="{{ article.image | image_url: width: 600 }}"{% endif %}>
   <div class="hih-container">
     <header class="hih-guide__head">
       <nav class="hih-crumbs hih-crumbs--center" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span><a href="{{ blog.url }}">{{ blog.title | escape }}</a></nav>
@@ -77,6 +77,35 @@
         {%- endif -%}
 
         <div class="hih-rte">{{ article.content }}</div>
+        {%- liquid
+          assign next_guide = nil
+          assign found = false
+          for a in blog.articles
+            if found and next_guide == nil
+              assign next_guide = a
+            endif
+            if a.id == article.id
+              assign found = true
+            endif
+          endfor
+          if next_guide == nil
+            for a in blog.articles
+              if a.id != article.id and next_guide == nil
+                assign next_guide = a
+              endif
+            endfor
+          endif
+        -%}
+        {%- if next_guide -%}
+          <aside class="hih-upnext" data-upnext aria-label="Up next">
+            <p class="hih-upnext__done" data-upnext-done hidden>Nice work, every step is done.</p>
+            <p class="hih-upnext__label">Up next in {{ blog.title | escape }}</p>
+            <a class="hih-upnext__link" href="{{ next_guide.url }}">
+              <span class="hih-upnext__title">{{ next_guide.title | escape }}</span>
+              <span class="hih-upnext__go" aria-hidden="true">→</span>
+            </a>
+          </aside>
+        {%- endif -%}
       </div>
     </div>
   </div>
@@ -84,7 +113,7 @@
   {%- assign shown = 0 -%}
   {%- capture related -%}
     {%- for a in blog.articles -%}
-      {%- if a.id != article.id and shown < 3 -%}
+      {%- if a.id != article.id and a.id != next_guide.id and shown < 3 -%}
         {% render 'hih-guide-card', article: a %}
         {%- assign shown = shown | plus: 1 -%}
       {%- endif -%}

@@ -43,6 +43,40 @@
   const readJSON = (key, fallback) => {
     try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch (e) { return fallback; }
   };
+  /* "Pick up where you left off": the last guides opened in this browser (saved by the guide page). */
+  const continueSection = document.querySelector('[data-hih-continue]');
+  if (continueSection) {
+    const recent = readJSON('hih:recent', []);
+    const grid = continueSection.querySelector('[data-hih-continue-grid]');
+    if (Array.isArray(recent) && recent.length && grid) {
+      recent.slice(0, 3).forEach((g) => {
+        const card = document.createElement('a');
+        card.className = 'hih-card';
+        card.href = g.u;
+        card.setAttribute('data-guide-card', g.id);
+        const media = document.createElement('span');
+        media.className = 'hih-media';
+        if (g.img) {
+          const img = document.createElement('img');
+          img.src = g.img; img.alt = ''; img.loading = 'lazy';
+          media.append(img);
+        }
+        const label = document.createElement('span');
+        label.className = 'hih-card__blog';
+        label.textContent = g.b || '';
+        const title = document.createElement('h3');
+        title.className = 'hih-card__title';
+        const titleText = document.createElement('span');
+        titleText.className = 'hih-underline';
+        titleText.textContent = g.t || '';
+        title.append(titleText);
+        card.append(media, label, title);
+        grid.append(card);
+      });
+      continueSection.hidden = false;
+    }
+  }
+
   document.querySelectorAll('[data-guide-card]').forEach((card) => {
     const id = card.getAttribute('data-guide-card');
     const total = Number(readJSON(`hih:total:${id}`, 0));
@@ -88,6 +122,21 @@
   };
   const done = readDone();
   try { localStorage.setItem(`hih:total:${guideId}`, String(steps.length)); } catch (e) { /* ignore */ }
+  try {
+    const entry = { id: guideId, u: guide.getAttribute('data-guide-url'), t: guide.getAttribute('data-guide-title'), b: guide.getAttribute('data-guide-blog'), img: guide.getAttribute('data-guide-image') || '' };
+    const list = readJSON('hih:recent', []).filter((g) => g && g.id !== guideId);
+    localStorage.setItem('hih:recent', JSON.stringify([entry, ...list].slice(0, 6)));
+  } catch (e) { /* ignore */ }
+
+  /* When every step is done: say so and point to the next guide. */
+  const upnext = guide.querySelector('[data-upnext]');
+  const syncComplete = () => {
+    const complete = steps.length > 0 && steps.every((_, i) => done.has(i + 1));
+    if (!upnext) return;
+    upnext.classList.toggle('is-complete', complete);
+    const msg = upnext.querySelector('[data-upnext-done]');
+    if (msg) msg.hidden = !complete;
+  };
   const tocLinks = [];
 
   steps.forEach((li, i) => {
@@ -122,32 +171,64 @@
       if (done.has(n)) done.delete(n); else done.add(n);
       writeDone(done);
       render();
+      syncComplete();
       if (done.has(n) && steps[i + 1]) {
         steps[i + 1].scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      } else if (done.has(n) && upnext && upnext.classList.contains('is-complete')) {
+        upnext.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
       }
     });
     li.append(btn);
     render();
   });
 
+  syncComplete();
+
   if (toc && !steps.length) {
     const panel = toc.closest('.hih-toc-panel');
     if (panel) panel.hidden = true;
   }
 
-  /* Active step in the table of contents */
-  if (tocLinks.length) {
+  /* Active step: highlights the TOC (desktop) and drives the step bar (phones). */
+  let stepbar = null;
+  let active = -1;
+  if (steps.length) {
+    stepbar = document.createElement('div');
+    stepbar.className = 'hih-stepbar';
+    stepbar.hidden = true;
+    stepbar.innerHTML = '<span class="hih-stepbar__text" aria-live="polite"></span><button type="button" class="hih-stepbar__next"></button>';
+    document.body.append(stepbar);
+    const barText = stepbar.querySelector('.hih-stepbar__text');
+    const barNext = stepbar.querySelector('.hih-stepbar__next');
+    const titles = steps.map((li, i) => (li.querySelector('h3') ? li.querySelector('h3').textContent.trim() : `Step ${i + 1}`));
+    const setActive = (idx) => {
+      active = idx;
+      tocLinks.forEach((a, j) => {
+        a.classList.toggle('is-active', j === idx);
+        if (j === idx) a.setAttribute('aria-current', 'step'); else a.removeAttribute('aria-current');
+      });
+      if (idx < 0) { stepbar.hidden = true; return; }
+      stepbar.hidden = false;
+      barText.textContent = `Step ${idx + 1} of ${steps.length}: ${titles[idx]}`;
+      barNext.textContent = idx < steps.length - 1 ? 'Next step' : 'Finish';
+    };
+    barNext.addEventListener('click', () => {
+      const target = steps[active + 1] || upnext;
+      if (target) target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    });
     const io = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        const idx = steps.indexOf(entry.target);
-        tocLinks.forEach((a, j) => {
-          a.classList.toggle('is-active', j === idx);
-          if (j === idx) a.setAttribute('aria-current', 'step'); else a.removeAttribute('aria-current');
-        });
+        if (entry.isIntersecting) setActive(steps.indexOf(entry.target));
       });
     }, { rootMargin: '-30% 0px -60% 0px' });
     steps.forEach((li) => io.observe(li));
+    /* Hide the bar before the first step and once the reader is past the steps. */
+    const list = guide.querySelector('.guide-steps');
+    if (list) {
+      new IntersectionObserver(([entry]) => {
+        if (!entry.isIntersecting) setActive(-1);
+      }).observe(list);
+    }
   }
 
   /* Tools and materials checklist remembers ticks */

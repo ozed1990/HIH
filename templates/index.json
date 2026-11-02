@@ -187,10 +187,18 @@
         "heading": "One good project a week",
         "text": "A new step-by-step guide every week. No spam, unsubscribe anytime."
       }
+    },
+    "continue": {
+      "type": "hih-continue",
+      "settings": {
+        "heading": "Pick up where you left off",
+        "text": "Guides you opened recently, with your progress saved on this device."
+      }
     }
   },
   "order": [
     "hero",
+    "continue",
     "categories",
     "featured",
     "newsletter"

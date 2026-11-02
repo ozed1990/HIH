@@ -46,6 +46,7 @@
           "type": "category",
           "settings": {
             "blog": "painting-walls",
+            "image": "shopify://shop_images/Painter_painting_living_room_wall_17a9a76b.webp",
             "description": "Drywall, paint, hanging"
           }
         },

@@ -1,0 +1,65 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "How to Test and Replace Smoke Alarms",
+    "handle": "how-to-test-and-replace-smoke-alarms",
+    "summary": "Make sure your smoke alarms will wake you: where they belong, how to test them monthly, when to change batteries, and how to tell when an alarm is too old.",
+    "tags": [
+      "Beginner",
+      "Home Maintenance",
+      "Safety"
+    ],
+    "body": "<p class=\"guide-intro\">Working smoke alarms give you the time you need to get out in a fire. This guide covers placement, monthly testing, batteries and the 10-year replacement rule, in about an hour.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> use a stable step ladder and have someone steady it. For hardwired alarms, switch off the circuit at the breaker before you disconnect one.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check you have alarms in the right places</h3><figure><img src=\"hih-media://how-to-test-and-replace-smoke-alarms-step-1\" alt=\"Floor plan diagram showing smoke alarms in each bedroom, in the hallway outside the bedrooms, and on each level, kept at least 10 feet from the kitchen stove\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Every bedroom, outside sleeping areas, every level.</figcaption></figure><p>NFPA recommends a smoke alarm inside every bedroom, outside each sleeping area, and on every level of the home, including the basement. Keep alarms at least 10 ft from cooking appliances to cut down on false alarms. Interconnected alarms, which all sound when one does, are best.</p><p><strong>Done right:</strong> you have a list of every spot that needs an alarm and which ones are missing.</p></li>\n<li><h3>Test every alarm</h3><p>Press and hold the test button on each alarm until it sounds. Have someone listen from the bedrooms to make sure it would wake a sleeper with the doors closed. Test monthly.</p><p><strong>Done right:</strong> every alarm sounds loudly when tested.</p></li>\n<li><h3>Check each alarm&#x27;s age</h3><p>Take each alarm down and look for the manufacture date on the back. Replace any alarm that is 10 years old or older, even if it still beeps when you test it.</p><p><strong>Done right:</strong> you've written down the date of every alarm and marked the ones to replace.</p></li>\n<li><h3>Replace batteries where needed</h3><p>For alarms with replaceable batteries, put in fresh ones from the type listed in the manual at least once a year, or right away if it chirps. Alarms with a sealed 10-year battery don't take new batteries: replace the whole alarm when it chirps or reaches its end-of-life warning.</p><p><strong>Done right:</strong> every alarm has fresh batteries or a sealed battery that's still in date, and none of them chirp.</p></li>\n<li><h3>Clean the alarms</h3><p>Gently vacuum the vents with a soft brush attachment to remove dust and cobwebs, following the manufacturer's cleaning instructions. Never paint over an alarm.</p><p><strong>Done right:</strong> the vents are clear and the alarm passes the test again.</p></li>\n<li><h3>Replace old or missing alarms</h3><p>For a battery alarm, screw the new mounting plate up and twist the alarm on. A <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">10-year sealed battery smoke alarm</a></strong> saves you yearly battery changes. For a hardwired alarm, switch off the breaker, twist the old alarm off, and unplug its connector; a same-brand replacement often plugs into the existing connector or comes with an adapter. Test every new alarm.</p><p><strong>Done right:</strong> every location on your list has a working alarm that passes the test.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call an electrician if:</strong> a hardwired alarm's wiring is damaged, there's no plug-in connector, or you want to add new hardwired or interconnected alarms where none exist.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should I test my smoke alarms?</h3><p>At least once a month, using the test button.</p>\n<h3>How often do smoke alarms need to be replaced?</h3><p>Every 10 years from the date of manufacture printed on the back, even if they still test fine.</p>\n<h3>Why is my smoke alarm chirping?</h3><p>Usually a low battery. Replace the battery, or the whole unit if it has a sealed 10-year battery. Some alarms also chirp when they reach end of life.</p>\n<h3>When should I change smoke alarm batteries?</h3><p>At least once a year for replaceable batteries, or as soon as the alarm chirps. Many people do it when the clocks change.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$40 per alarm"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Step ladder\", \"Vacuum with a soft brush attachment\", \"Screwdriver\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Batteries listed in your alarm's manual\", \"New smoke alarms with a testing-lab label (if replacing)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=zi1G291Fohc"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-test-and-replace-smoke-alarms-step-1",
+      "alt": "Floor plan diagram showing smoke alarms in each bedroom, in the hallway outside the bedrooms, and on each level, kept at least 10 feet from the kitchen stove",
+      "caption": "Every bedroom, outside sleeping areas, every level."
+    }
+  ],
+  "hero_slot": "how-to-test-and-replace-smoke-alarms-hero"
+}

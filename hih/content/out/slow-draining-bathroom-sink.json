@@ -1,0 +1,66 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Fix a Slow-Draining Bathroom Sink",
+    "handle": "slow-draining-bathroom-sink",
+    "summary": "Most slow bathroom sinks are clogged at the pop-up stopper. Pull it, clean out the hair, clear the trap if needed, and get your sink draining fast again.",
+    "tags": [
+      "Beginner",
+      "Bathroom",
+      "Plumbing",
+      "Troubleshooting"
+    ],
+    "body": "<p class=\"guide-intro\">A bathroom sink that drains slowly is almost always clogged with hair and soap scum on the pop-up stopper or just below it. This guide shows you how to clear it without harsh chemicals.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear rubber gloves. If you already poured a chemical drain cleaner in, also wear eye protection, because the standing water may contain it. Never mix drain cleaners or follow one with another.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Clear the cabinet and set up</h3><figure><img src=\"hih-media://slow-draining-bathroom-sink-step-1\" alt=\"Diagram of a bathroom sink pop-up drain showing the stopper, the pivot rod and nut on the back of the drain pipe, the lift rod strap and the P-trap\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Loosen the pivot nut to release the stopper.</figcaption></figure><p>Empty the cabinet under the sink, lay down a towel, and put a bucket under the drain pipe. Use the flashlight to find the pivot rod: a horizontal rod sticking out of the back of the drain pipe, held by a small nut.</p><p><strong>Done right:</strong> you can see and reach the pivot nut behind the drain pipe.</p></li>\n<li><h3>Remove the pop-up stopper</h3><p>Unscrew the pivot nut by hand or with pliers and pull the pivot rod partway out. Now lift the stopper straight out of the drain from above. (Some stoppers just twist and lift out without touching the rod.)</p><p><strong>Done right:</strong> the stopper is out of the sink and the pivot rod is still attached to the lift strap.</p></li>\n<li><h3>Clean the stopper</h3><p>Pull off the wad of hair and gunk, then scrub the stopper with an old toothbrush, dish soap and hot water.</p><p><strong>Done right:</strong> the stopper is clean down to the metal or plastic, with nothing wrapped around its post.</p></li>\n<li><h3>Pull hair from the drain</h3><p>Push a <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">plastic drain-cleaning tool</a></strong> (the barbed strip) down the drain, twist it, and pull it out slowly. Repeat until it comes out clean. Then run hot water for a minute.</p><p><strong>Done right:</strong> the tool comes out clean and water runs down the open drain without pooling.</p></li>\n<li><h3>Clean the P-trap if it&#x27;s still slow</h3><p>With the bucket underneath, loosen the two slip nuts on the U-shaped trap by hand or with pliers and remove the trap. Clean it out, check the pipe going into the wall, then reattach it and hand-tighten the nuts, plus a quarter turn with pliers.</p><p><strong>Done right:</strong> the trap is clear and its nuts don't drip when water runs.</p></li>\n<li><h3>Put the stopper back and test</h3><p>Drop the stopper in with its slot or hole facing the pivot rod, push the rod through it, and hand-tighten the pivot nut. Check that the stopper opens and closes with the lift rod. Fill the sink and let it drain.</p><p><strong>Done right:</strong> the sink empties quickly, the stopper seals when closed, and nothing drips under the cabinet.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> several drains in the house are slow or gurgle at the same time, which points to a clog further down the main line, or if water backs up into the tub when you drain the sink.</p></aside>\n<h2>FAQ</h2>\n<h3>Does baking soda and vinegar unclog a sink?</h3><p>It can loosen light buildup, but it won&#x27;t pull out a hair clog. Removing the stopper and using a barbed drain tool works far better.</p>\n<h3>Should I use a chemical drain cleaner?</h3><p>Try mechanical cleaning first. Chemical cleaners can be hard on old pipes and dangerous if they splash or mix with other products.</p>\n<h3>Why does my bathroom sink drain smell?</h3><p>Gunk on the stopper and in the trap is the usual cause. Cleaning both, then running hot water, typically clears the smell.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$20"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Adjustable pliers\", \"Flashlight\", \"Bucket\", \"Old towel\", \"Plastic drain-cleaning tool\", \"Old toothbrush\", \"Rubber gloves\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Dish soap and hot water\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=iyiGJ-uwmKU"
+    }
+  ],
+  "media": [
+    {
+      "stem": "slow-draining-bathroom-sink-step-1",
+      "alt": "Diagram of a bathroom sink pop-up drain showing the stopper, the pivot rod and nut on the back of the drain pipe, the lift rod strap and the P-trap",
+      "caption": "Loosen the pivot nut to release the stopper."
+    }
+  ],
+  "hero_slot": "slow-draining-bathroom-sink-hero"
+}

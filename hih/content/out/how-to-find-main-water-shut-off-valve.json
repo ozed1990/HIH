@@ -1,0 +1,66 @@
+{
+  "blog_handle": "plumbing",
+  "blog_title": "Plumbing Basics",
+  "article": {
+    "title": "How to Find and Shut Off Your Main Water Valve",
+    "handle": "how-to-find-main-water-shut-off-valve",
+    "summary": "Find your home's main water shut-off before an emergency: where to look, how to tell the valve type, how to test it safely, and what to do if it's stuck.",
+    "tags": [
+      "Beginner",
+      "Plumbing Basics",
+      "Emergency",
+      "Maintenance"
+    ],
+    "body": "<p class=\"guide-intro\">When a pipe bursts, every minute counts. Spend 15 minutes now finding and testing your main water shut-off so you can stop a flood in seconds later.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> don't force a valve that won't turn. Old valves can crack or start leaking if you strain them. If it's stuck, stop and call a plumber or your water utility.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Look where the water line enters the house</h3><p>The main line usually comes in on the side of the house facing the street. Check the basement or crawl space wall on that side, the garage, a utility closet, or near the water heater. In warm climates it's often outside, low on an exterior wall near a hose spigot.</p><p><strong>Done right:</strong> you've found the pipe where water enters the house, or ruled out the inside spots.</p></li>\n<li><h3>Check at the water meter</h3><p>If the valve isn't inside, find the water meter. It may be in the basement or in a covered box in the ground near the street. Your shut-off is the valve on the house side of the meter. A separate valve on the street side, or the buried curb stop near the sidewalk, belongs to the water utility.</p><p><strong>Done right:</strong> you know which valve is yours, the one between the meter and the house.</p></li>\n<li><h3>Identify the valve type</h3><figure><img src=\"hih-media://how-to-find-main-water-shut-off-valve-step-3\" alt=\"Diagram comparing a ball valve, off when the lever is across the pipe, and a gate valve, closed by turning the wheel clockwise\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Ball valve: a quarter turn. Gate valve: clockwise until it stops.</figcaption></figure><p>A <strong>ball valve</strong> has a lever handle: a quarter turn closes it, and the water is off when the lever sits across the pipe. A <strong>gate or globe valve</strong> has a round wheel: turn it clockwise until it stops to close it.</p><p><strong>Done right:</strong> you know which way and how far your valve turns to shut off.</p></li>\n<li><h3>Test the valve</h3><p>Close the valve, then open a faucet on the lowest floor. The flow should slow to a stop within a few seconds. If water keeps running, the valve isn't sealing.</p><p><strong>Done right:</strong> the faucet stops running with the valve closed.</p></li>\n<li><h3>Turn the water back on slowly</h3><p>Open the valve slowly to avoid a pressure surge. Let the open faucet run until it flows smoothly without sputtering, then close it. Check the valve stem for drips.</p><p><strong>Done right:</strong> the water is back on, the faucet runs steadily, and the valve isn't dripping.</p></li>\n<li><h3>Label it and show everyone</h3><p>Hang a bright tag on the valve that says \"MAIN WATER SHUT-OFF\". Show everyone in the house where it is and how to turn it. If your valve is in a meter box, keep a <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">water meter key</a></strong> nearby.</p><p><strong>Done right:</strong> anyone in the house could find and close the valve without you.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the valve is stuck, leaks at the stem when you use it, or doesn't stop the water. Replacing a faulty main valve is worth doing before an emergency. If you can't find any valve, your water utility can show you or shut off service at the curb.</p></aside>\n<h2>FAQ</h2>\n<h3>Where is the main water shut-off valve usually located?</h3><p>Usually where the water line enters the house, on the street side: in the basement, crawl space, garage, utility closet or near the water heater. In warm climates it&#x27;s often outside or in a meter box near the street.</p>\n<h3>Can I turn off the water at the curb?</h3><p>The curb stop belongs to the water utility. Many utilities ask homeowners not to operate it, so call them first unless it&#x27;s an emergency and they allow it.</p>\n<h3>My main valve drips after I used it. What should I do?</h3><p>A small drip at the stem can sometimes be stopped by gently snugging the packing nut just under the handle. If it keeps leaking, have a plumber service or replace the valve.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Flashlight\", \"Tag or label and marker\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"None\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=fFMBzVv-5Zs"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-find-main-water-shut-off-valve-step-3",
+      "alt": "Diagram comparing a ball valve, off when the lever is across the pipe, and a gate valve, closed by turning the wheel clockwise",
+      "caption": "Ball valve: a quarter turn. Gate valve: clockwise until it stops."
+    }
+  ],
+  "hero_slot": "how-to-find-main-water-shut-off-valve-hero"
+}

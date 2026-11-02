@@ -1,0 +1,65 @@
+{
+  "blog_handle": "flooring",
+  "blog_title": "Flooring",
+  "article": {
+    "title": "How to Install Floor Transition Strips",
+    "handle": "how-to-install-floor-transition-strips",
+    "summary": "Pick the right transition molding for each doorway, leave room for a floating floor to move, and fasten the track so the strip sits flat and stays put.",
+    "tags": [
+      "Beginner",
+      "Flooring",
+      "Installation"
+    ],
+    "body": "<p class=\"guide-intro\">Transition strips cover the gap where two floors meet, in doorways or between rooms. This guide covers choosing the right profile and installing it so a floating floor can still expand and contract.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear safety glasses when cutting, and check for pipes or radiant heat tubing in the floor before drilling into it.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Choose the right profile</h3><figure><img src=\"hih-media://how-to-install-floor-transition-strips-step-1\" alt=\"Cross-section diagram of a T-molding between two equal floors, a reducer stepping down to a lower floor, and an end cap at an edge, each with a track fastened to the subfloor\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The track is fastened to the subfloor in the gap, never through the floating floor.</figcaption></figure><p>A <strong>T-molding</strong> joins two floors of the same height. A <strong>reducer</strong> steps down from a thicker floor to a thinner one, such as vinyl plank to sheet vinyl. An <strong>end cap</strong> finishes an edge against a sliding door, fireplace or carpet. Many brands sell a <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">3-in-1 transition molding</a></strong> that can be set up as any of these.</p><p><strong>Done right:</strong> for each doorway you know which profile you need and how high each floor sits.</p></li>\n<li><h3>Check the expansion gap</h3><p>A floating floor (vinyl plank or laminate) has to move. Leave the gap your flooring maker specifies between the two floors, often around 1/4 in on each side of where the track goes. The molding covers this gap and must never be screwed or glued down through the floating floor.</p><p><strong>Done right:</strong> there's an even gap along the whole doorway, wide enough for the track plus the expansion space.</p></li>\n<li><h3>Measure and cut the track and molding</h3><p>Measure the doorway from jamb to jamb at floor level. Cut the track and the molding to that length with a fine-tooth saw. Test-fit both.</p><p><strong>Done right:</strong> the molding fits between the door jambs with no gap at either end.</p></li>\n<li><h3>Fasten the track to the subfloor</h3><p>Center the track in the gap. On a wood subfloor, screw it down through the pre-drilled holes. On concrete, use construction adhesive or the anchors the kit specifies.</p><p><strong>Done right:</strong> the track is centered, straight and doesn't move when you push on it.</p></li>\n<li><h3>Press the molding into place</h3><p>Line the molding up over the track and press it down. Lay a scrap of wood on top and tap it with a rubber mallet along its length until it snaps in fully. For a reducer, make sure the low edge rests on the lower floor.</p><p><strong>Done right:</strong> the strip sits flat with no rocking, and the door swings over it without catching.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Get help if:</strong> the floors differ in height by more than your reducer can cover, or the subfloor in the doorway is uneven or soft. A custom-cut threshold or subfloor repair may be needed first.</p></aside>\n<h2>FAQ</h2>\n<h3>Do I need a transition strip between rooms?</h3><p>For floating floors, usually yes at doorways and long runs, because the floor needs expansion gaps. Check your flooring&#x27;s instructions for the maximum run without a break.</p>\n<h3>Can I glue a transition strip to vinyl plank flooring?</h3><p>Not to a floating floor. Fasten the track or adhesive to the subfloor in the gap so the floor can still move under the strip.</p>\n<h3>What transition goes between vinyl plank and carpet?</h3><p>Use an end cap or a carpet-to-hard-surface transition so the carpet edge tucks under or meets it neatly.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes per doorway"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$15–$40 per strip"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Fine-tooth saw or miter saw\", \"Drill/driver\", \"Pencil\", \"Rubber mallet\", \"Safety glasses\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Transition molding (T-molding, reducer, end cap or 3-in-1)\", \"Metal or plastic track\", \"Screws (wood subfloor) or construction adhesive (concrete)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=yxp_GvBxcVI"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-install-floor-transition-strips-step-1",
+      "alt": "Cross-section diagram of a T-molding between two equal floors, a reducer stepping down to a lower floor, and an end cap at an edge, each with a track fastened to the subfloor",
+      "caption": "The track is fastened to the subfloor in the gap, never through the floating floor."
+    }
+  ],
+  "hero_slot": "how-to-install-floor-transition-strips-hero"
+}

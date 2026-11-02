@@ -1,0 +1,65 @@
+{
+  "blog_handle": "painting-walls",
+  "blog_title": "Painting & Walls",
+  "article": {
+    "title": "How to Paint a Room Like a Pro",
+    "handle": "how-to-paint-a-room",
+    "summary": "Paint a room with clean edges and even coverage: buy the right amount, prep the walls, cut in, roll in sections, and finish with a smooth second coat.",
+    "tags": [
+      "Beginner",
+      "Painting & Walls",
+      "Painting"
+    ],
+    "body": "<p class=\"guide-intro\">A fresh coat of paint is the cheapest way to change a room. This guide walks you through doing it in a day with sharp edges, no roller marks and no wasted paint.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> if your home was built before 1978, old paint may contain lead. Don't sand, scrape or strip it until it's tested; use a lead test kit or hire a lead-safe certified painter. Keep windows open for ventilation while you work.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Measure the walls and buy the right amount</h3><figure><img src=\"hih-media://how-to-paint-a-room-step-1\" alt=\"Worked example of a paint calculation for a 12 by 12 foot room with 8 foot ceilings, one door and one window, coming to about 2 gallons for two coats\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Divide by 350 sq ft per gallon to be safe, then round up.</figcaption></figure><p>Add up the width of all walls, multiply by the ceiling height, and subtract about 20 sq ft per door and 15 sq ft per window. Most interior paints cover about 350 to 400 sq ft per gallon per coat, so divide by 350 to be safe and multiply by two coats.</p><p><strong>Done right:</strong> you know how many gallons you need, rounded up, and you've bought it all at once from the same batch.</p></li>\n<li><h3>Clear and protect the room</h3><p>Move furniture to the middle and cover it. Lay drop cloths along the walls. Remove switch plates and outlet covers and put the screws in a bag.</p><p><strong>Done right:</strong> every wall is reachable, the floor is covered along the edges, and no cover plates are left on.</p></li>\n<li><h3>Patch, sand and clean the walls</h3><p>Fill nail holes and dents with spackle, let it dry, and sand it flush. Wipe the walls with a damp cloth to remove dust, and clean greasy spots with a little dish soap.</p><p><strong>Done right:</strong> the walls are smooth, clean and dry, with no dust on your fingertips.</p></li>\n<li><h3>Tape and prime where needed</h3><p>Run painter's tape along the trim and ceiling if you want extra insurance. Spot-prime patches and stains, and use a full coat of primer if you're covering a dark color or bare drywall.</p><p><strong>Done right:</strong> tape is pressed down firmly along its whole edge, and every patch has primer on it.</p></li>\n<li><h3>Cut in the edges with a brush</h3><p>Load an <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">angled sash brush</a></strong> about a third of the way and paint a 2 to 3 in band along the ceiling, corners, trim and around outlets. Work one wall at a time so the cut-in band is still wet when you roll next to it.</p><p><strong>Done right:</strong> a neat, even band runs along every edge of the wall you're about to roll.</p></li>\n<li><h3>Roll the walls in sections</h3><p>Load the <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">roller cover</a></strong> evenly in the tray, roll a large W about 3 ft wide, then fill it in without lifting the roller. Overlap into the wet paint as you move along, and finish each section with light top-to-bottom strokes.</p><p><strong>Done right:</strong> the wall has even color with no thin spots, drips or roller-edge lines when you look at it from an angle.</p></li>\n<li><h3>Apply the second coat and clean up</h3><p>Wait the recoat time on the can, then repeat cutting in and rolling. Pull the tape off at a 45° angle once the final coat is dry to the touch. Reinstall the cover plates when the paint is dry.</p><p><strong>Done right:</strong> the color is solid and even, the edges are clean, and no tape or paint is left on the trim.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a painter if:</strong> you have high ceilings or stairwells that need scaffolding or tall ladders, peeling paint over large areas, or old paint that tests positive for lead.</p></aside>\n<h2>FAQ</h2>\n<h3>How much paint do I need for a 12x12 room?</h3><p>For 8 ft ceilings with one door and one window, plan on about 2 gallons for two coats of wall paint. Measure your own room to be sure.</p>\n<h3>Do I need primer before painting?</h3><p>Prime patched spots, stains, bare drywall and big color changes. Over clean, previously painted walls in a similar color, a quality paint usually doesn&#x27;t need separate primer.</p>\n<h3>How long should I wait between coats?</h3><p>Follow the recoat time on the can. Many latex wall paints list a few hours, but humidity and temperature can make it longer.</p>\n<h3>Should I paint the ceiling or the walls first?</h3><p>Ceiling first, then walls, then trim. That way drips land on surfaces you haven&#x27;t painted yet.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1 day"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$100–$250"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Roller frame and 3/8 in nap cover\", \"2\\u20132.5 in angled sash brush\", \"Paint tray\", \"Extension pole\", \"Drop cloths\", \"Painter's tape\", \"Putty knife\", \"Sanding sponge\", \"Step ladder\", \"Screwdriver\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Interior wall paint\", \"Primer (if needed)\", \"Spackle\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=8JCoJvYPKBE"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-paint-a-room-step-1",
+      "alt": "Worked example of a paint calculation for a 12 by 12 foot room with 8 foot ceilings, one door and one window, coming to about 2 gallons for two coats",
+      "caption": "Divide by 350 sq ft per gallon to be safe, then round up."
+    }
+  ],
+  "hero_slot": "how-to-paint-a-room-hero"
+}

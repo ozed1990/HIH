@@ -1,0 +1,65 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Choose and Install the Right Drywall Anchor",
+    "handle": "how-to-choose-and-install-drywall-anchors",
+    "summary": "Match the anchor to the weight: when to find a stud, which anchor type to use for light, medium and heavy items, and how to install it so it holds.",
+    "tags": [
+      "Beginner",
+      "Storage & Organization",
+      "Wall mounting"
+    ],
+    "body": "<p class=\"guide-intro\">The right anchor turns a hollow wall into a solid hanging spot. This guide helps you pick the right type for what you're hanging and install it so it stays put.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wires and pipes often run straight up and down from outlets and switches, so don't drill directly above or below them. If you're unsure, check with a stud finder that detects live wires.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Weigh the item and look for a stud</h3><p>Weigh what you're hanging. For anything heavy, and always for TV mounts, screw into a wall stud: run a stud finder across the wall and mark the edges. Use anchors when the spot you need falls between studs.</p><p><strong>Done right:</strong> you know the item's weight and whether a stud is where you need to hang it.</p></li>\n<li><h3>Choose the anchor type</h3><figure><img src=\"hih-media://how-to-choose-and-install-drywall-anchors-step-2\" alt=\"Diagram comparing a plastic expansion anchor for light loads, a self-drilling threaded anchor for medium loads and a toggle bolt for heavy loads, each shown in a cross-section of drywall\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Heavier loads need anchors that spread out behind the drywall.</figcaption></figure><p><strong>Plastic expansion anchors</strong> suit light items like small frames. <strong>Self-drilling threaded anchors</strong> handle medium loads such as shelves with light items. <strong>Toggle bolts</strong>, including <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">snap toggle anchors</a></strong>, spread the load behind the drywall and are best for heavy items. Use the weight rating on the package, and stay well under it.</p><p><strong>Done right:</strong> you've picked an anchor rated comfortably above your item's weight, and you have enough for at least two hanging points.</p></li>\n<li><h3>Mark and drill</h3><p>Mark the spots with a level so they line up. Drill a hole with the bit size printed on the anchor package. Self-drilling anchors screw straight in without a pilot hole.</p><p><strong>Done right:</strong> the holes are level, clean and the exact size the package calls for.</p></li>\n<li><h3>Set the anchor</h3><p>Tap a plastic anchor in until it's flush, or screw a threaded anchor in until its head sits flat against the wall. For a toggle, fold the wings or channel, push it through the hole, and let it open behind the wall before tightening.</p><p><strong>Done right:</strong> the anchor is flush with the wall and doesn't spin in the hole.</p></li>\n<li><h3>Attach the item and test</h3><p>Drive the screw through your bracket into the anchor until it's snug, without over-tightening, which can crush the drywall. Pull down gently on the item before letting go.</p><p><strong>Done right:</strong> the item hangs level and doesn't shift when you tug on it.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Get help for:</strong> very heavy or valuable items such as large mirrors, wall cabinets or TVs, plaster or masonry walls, and ceilings. These often need studs, special anchors or blocking behind the wall.</p></aside>\n<h2>FAQ</h2>\n<h3>How much weight can a drywall anchor hold?</h3><p>It depends on the type and size. Check the rating on the package and stay well under it, since ratings are measured in ideal conditions.</p>\n<h3>Can I use drywall anchors in the ceiling?</h3><p>Only anchors rated for ceilings, and only for light items. For anything heavy, like a ceiling fan or a hanging plant, attach to a joist or approved box.</p>\n<h3>What&#x27;s the strongest drywall anchor?</h3><p>Toggle-style anchors, which open up behind the drywall, generally hold the most. A screw into a stud is stronger still.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$5–$20"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Stud finder\", \"Drill and bits\", \"Screwdriver\", \"Level\", \"Tape measure\", \"Pencil\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Drywall anchors rated for your item\", \"Screws (usually included)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=LnZm1cMklMM"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-choose-and-install-drywall-anchors-step-2",
+      "alt": "Diagram comparing a plastic expansion anchor for light loads, a self-drilling threaded anchor for medium loads and a toggle bolt for heavy loads, each shown in a cross-section of drywall",
+      "caption": "Heavier loads need anchors that spread out behind the drywall."
+    }
+  ],
+  "hero_slot": "how-to-choose-and-install-drywall-anchors-hero"
+}

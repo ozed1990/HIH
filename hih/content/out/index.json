@@ -152,5 +152,75 @@
     "title": "How to Tell If Your Roof Needs Repair or Replacement",
     "figures": 1,
     "steps": 8
+  },
+  {
+    "handle": "garbage-disposal-humming-not-working",
+    "blog": "kitchen",
+    "title": "How to Fix a Garbage Disposal That Hums but Won't Spin",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "slow-draining-bathroom-sink",
+    "blog": "bathroom",
+    "title": "How to Fix a Slow-Draining Bathroom Sink",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-floor-transition-strips",
+    "blog": "flooring",
+    "title": "How to Install Floor Transition Strips",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-paint-a-room",
+    "blog": "painting-walls",
+    "title": "How to Paint a Room Like a Pro",
+    "figures": 1,
+    "steps": 7
+  },
+  {
+    "handle": "how-to-find-main-water-shut-off-valve",
+    "blog": "plumbing",
+    "title": "How to Find and Shut Off Your Main Water Valve",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-reset-a-tripped-breaker",
+    "blog": "electrical",
+    "title": "How to Reset a Tripped Circuit Breaker Safely",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-fix-a-door-that-sticks",
+    "blog": "doors-windows",
+    "title": "How to Fix a Door That Sticks or Rubs",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-low-voltage-path-lights",
+    "blog": "outdoor-garden",
+    "title": "How to Install Low-Voltage Path Lights",
+    "figures": 1,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-choose-and-install-drywall-anchors",
+    "blog": "storage",
+    "title": "How to Choose and Install the Right Drywall Anchor",
+    "figures": 1,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-test-and-replace-smoke-alarms",
+    "blog": "maintenance",
+    "title": "How to Test and Replace Smoke Alarms",
+    "figures": 1,
+    "steps": 6
   }
 ]

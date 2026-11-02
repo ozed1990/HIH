@@ -761,3 +761,419 @@ GUIDES += [
 AFFILIATE["signs-your-roof-needs-replacement"] = [
  ("free roof inspection from Professional Roofing Solutions", "https://www.cont2cart.com/2G26NGLR6/KZZ983Q/"),
 ]
+
+# ── Batch 3 (2026-11-02): one more guide per category
+GUIDES += [
+{
+ "blog": "kitchen", "blog_title": "Kitchen",
+ "handle": "garbage-disposal-humming-not-working",
+ "title": "How to Fix a Garbage Disposal That Hums but Won't Spin",
+ "summary": "A humming disposal is usually jammed, not broken. Cut the power, free the flywheel with a hex wrench, press reset and get it grinding again in minutes.",
+ "tags": ["Beginner", "Kitchen", "Repair", "Troubleshooting"],
+ "difficulty": "Beginner", "time": "15–30 minutes", "cost": "$0–$15",
+ "tools": ["1/4 in hex (Allen) wrench", "Flashlight", "Tongs or long pliers"],
+ "materials": ["Cold water", "A few ice cubes (optional, for cleaning)"],
+ "video": "https://www.youtube.com/watch?v=J0OByRuoYM0",
+ "intro": "When a disposal hums but doesn't grind, the motor is getting power but something has locked the spinning plate. This guide shows you how to free it safely, reset the motor, and tell when the unit is actually worn out.",
+ "safety": "<strong>Safety:</strong> never put your hand into a disposal, even with the switch off. Turn the wall switch off and unplug the unit under the sink (or switch off its breaker) before you reach under or into it.",
+ "steps": [
+  step("Cut the power",
+   "<p>Turn off the wall switch, then unplug the disposal's cord under the sink. If it's hardwired, switch off its breaker at the panel. Leaving a humming motor on can burn it out, so don't keep flipping the switch to \"try again.\"</p>"
+   "<p><strong>Done right:</strong> you flip the wall switch on and nothing happens at all, not even a hum. Then switch it back off.</p>"),
+  step("Remove whatever is jammed inside",
+   "<p>Shine a flashlight down the drain opening. Pull out anything you can see, such as a bottle cap, bone, fruit pit or utensil, with tongs or long pliers.</p>"
+   "<p><strong>Done right:</strong> you can see the grinding plate and there is nothing hard sitting on it.</p>"),
+  step("Free the flywheel from underneath",
+   "<p>Find the hex-shaped hole in the center of the disposal's bottom. Insert a 1/4 in hex wrench (many disposals come with a <strong>disposal wrench</strong>) and work it back and forth like a crank. It may take some force at first; keep going until it turns in full circles both ways.</p>"
+   "<p><strong>Done right:</strong> the wrench spins smoothly in complete circles in both directions.</p>",
+   fig("garbage-disposal-humming-not-working-step-3", "Diagram of the underside of a garbage disposal showing the center hex socket for the wrench and the red reset button", "The hex socket is in the center of the bottom; the reset button is nearby.")),
+  step("Press the reset button",
+   "<p>Find the small red button on the bottom of the disposal and press it until it clicks and stays in. If it pops back out, the motor's overload protector needs to cool down: wait about 10 minutes and press it again.</p>"
+   "<p><strong>Done right:</strong> the button stays pushed in.</p>"),
+  step("Restore power and test",
+   "<p>Plug the disposal back in (or switch the breaker on). Run cold water, then turn the disposal on. If it jams again, switch it off, unplug it and repeat the hex wrench step. Grind a handful of ice cubes with cold water to help clean the chamber.</p>"
+   "<p><strong>Done right:</strong> the disposal spins up with a steady whir and drains the water.</p>"),
+  step("Know when the motor is done",
+   "<p>If the wrench turns freely but the disposal still only hums, or it's silent and the reset button won't stay in after cooling down, the motor has likely failed. A unit that leaks from its body also needs replacing.</p>"
+   "<p><strong>Done right:</strong> you know whether you have a fixed disposal or one that needs replacing.</p>"),
+ ],
+ "pro": "<strong>Call a plumber if:</strong> water leaks from the bottom or sides of the disposal, you smell burning, or the sink won't drain even with the disposal running. Replacing a disposal is doable for a confident DIYer, but if it's hardwired, the electrical connection must be handled with the breaker off.",
+ "faq": [
+  ["Where is the reset button on a garbage disposal?", "On most models it's a small red button on the bottom of the unit, under the sink. If it has tripped, it sticks out slightly. Press it until it clicks and stays in."],
+  ["Why does my garbage disposal hum but not spin?", "The motor has power but the spinning plate is jammed, usually by a hard object or packed food waste. Freeing it with a 1/4 in hex wrench from below fixes most cases."],
+  ["Can I use drain cleaner in a garbage disposal?", "It's best not to. Harsh chemical drain cleaners can damage disposal parts and splash back on you. Free the jam mechanically and clear clogs in the drain pipe instead."],
+  ["What if I don't have the disposal wrench?", "Any standard 1/4 in hex (Allen) key fits the socket on most disposals."],
+ ],
+},
+{
+ "blog": "bathroom", "blog_title": "Bathroom",
+ "handle": "slow-draining-bathroom-sink",
+ "title": "How to Fix a Slow-Draining Bathroom Sink",
+ "summary": "Most slow bathroom sinks are clogged at the pop-up stopper. Pull it, clean out the hair, clear the trap if needed, and get your sink draining fast again.",
+ "tags": ["Beginner", "Bathroom", "Plumbing", "Troubleshooting"],
+ "difficulty": "Beginner", "time": "30–60 minutes", "cost": "$0–$20",
+ "tools": ["Adjustable pliers", "Flashlight", "Bucket", "Old towel", "Plastic drain-cleaning tool", "Old toothbrush", "Rubber gloves"],
+ "materials": ["Dish soap and hot water"],
+ "video": "https://www.youtube.com/watch?v=iyiGJ-uwmKU",
+ "intro": "A bathroom sink that drains slowly is almost always clogged with hair and soap scum on the pop-up stopper or just below it. This guide shows you how to clear it without harsh chemicals.",
+ "safety": "<strong>Safety:</strong> wear rubber gloves. If you already poured a chemical drain cleaner in, also wear eye protection, because the standing water may contain it. Never mix drain cleaners or follow one with another.",
+ "steps": [
+  step("Clear the cabinet and set up",
+   "<p>Empty the cabinet under the sink, lay down a towel, and put a bucket under the drain pipe. Use the flashlight to find the pivot rod: a horizontal rod sticking out of the back of the drain pipe, held by a small nut.</p>"
+   "<p><strong>Done right:</strong> you can see and reach the pivot nut behind the drain pipe.</p>",
+   fig("slow-draining-bathroom-sink-step-1", "Diagram of a bathroom sink pop-up drain showing the stopper, the pivot rod and nut on the back of the drain pipe, the lift rod strap and the P-trap", "Loosen the pivot nut to release the stopper.")),
+  step("Remove the pop-up stopper",
+   "<p>Unscrew the pivot nut by hand or with pliers and pull the pivot rod partway out. Now lift the stopper straight out of the drain from above. (Some stoppers just twist and lift out without touching the rod.)</p>"
+   "<p><strong>Done right:</strong> the stopper is out of the sink and the pivot rod is still attached to the lift strap.</p>"),
+  step("Clean the stopper",
+   "<p>Pull off the wad of hair and gunk, then scrub the stopper with an old toothbrush, dish soap and hot water.</p>"
+   "<p><strong>Done right:</strong> the stopper is clean down to the metal or plastic, with nothing wrapped around its post.</p>"),
+  step("Pull hair from the drain",
+   "<p>Push a <strong>plastic drain-cleaning tool</strong> (the barbed strip) down the drain, twist it, and pull it out slowly. Repeat until it comes out clean. Then run hot water for a minute.</p>"
+   "<p><strong>Done right:</strong> the tool comes out clean and water runs down the open drain without pooling.</p>"),
+  step("Clean the P-trap if it's still slow",
+   "<p>With the bucket underneath, loosen the two slip nuts on the U-shaped trap by hand or with pliers and remove the trap. Clean it out, check the pipe going into the wall, then reattach it and hand-tighten the nuts, plus a quarter turn with pliers.</p>"
+   "<p><strong>Done right:</strong> the trap is clear and its nuts don't drip when water runs.</p>"),
+  step("Put the stopper back and test",
+   "<p>Drop the stopper in with its slot or hole facing the pivot rod, push the rod through it, and hand-tighten the pivot nut. Check that the stopper opens and closes with the lift rod. Fill the sink and let it drain.</p>"
+   "<p><strong>Done right:</strong> the sink empties quickly, the stopper seals when closed, and nothing drips under the cabinet.</p>"),
+ ],
+ "pro": "<strong>Call a plumber if:</strong> several drains in the house are slow or gurgle at the same time, which points to a clog further down the main line, or if water backs up into the tub when you drain the sink.",
+ "faq": [
+  ["Does baking soda and vinegar unclog a sink?", "It can loosen light buildup, but it won't pull out a hair clog. Removing the stopper and using a barbed drain tool works far better."],
+  ["Should I use a chemical drain cleaner?", "Try mechanical cleaning first. Chemical cleaners can be hard on old pipes and dangerous if they splash or mix with other products."],
+  ["Why does my bathroom sink drain smell?", "Gunk on the stopper and in the trap is the usual cause. Cleaning both, then running hot water, typically clears the smell."],
+ ],
+},
+{
+ "blog": "flooring", "blog_title": "Flooring",
+ "handle": "how-to-install-floor-transition-strips",
+ "title": "How to Install Floor Transition Strips",
+ "summary": "Pick the right transition molding for each doorway, leave room for a floating floor to move, and fasten the track so the strip sits flat and stays put.",
+ "tags": ["Beginner", "Flooring", "Installation"],
+ "difficulty": "Beginner", "time": "30–60 minutes per doorway", "cost": "$15–$40 per strip",
+ "tools": ["Tape measure", "Fine-tooth saw or miter saw", "Drill/driver", "Pencil", "Rubber mallet", "Safety glasses"],
+ "materials": ["Transition molding (T-molding, reducer, end cap or 3-in-1)", "Metal or plastic track", "Screws (wood subfloor) or construction adhesive (concrete)"],
+ "video": "https://www.youtube.com/watch?v=yxp_GvBxcVI",
+ "intro": "Transition strips cover the gap where two floors meet, in doorways or between rooms. This guide covers choosing the right profile and installing it so a floating floor can still expand and contract.",
+ "safety": "<strong>Safety:</strong> wear safety glasses when cutting, and check for pipes or radiant heat tubing in the floor before drilling into it.",
+ "steps": [
+  step("Choose the right profile",
+   "<p>A <strong>T-molding</strong> joins two floors of the same height. A <strong>reducer</strong> steps down from a thicker floor to a thinner one, such as vinyl plank to sheet vinyl. An <strong>end cap</strong> finishes an edge against a sliding door, fireplace or carpet. Many brands sell a <strong>3-in-1 transition molding</strong> that can be set up as any of these.</p>"
+   "<p><strong>Done right:</strong> for each doorway you know which profile you need and how high each floor sits.</p>",
+   fig("how-to-install-floor-transition-strips-step-1", "Cross-section diagram of a T-molding between two equal floors, a reducer stepping down to a lower floor, and an end cap at an edge, each with a track fastened to the subfloor", "The track is fastened to the subfloor in the gap, never through the floating floor.")),
+  step("Check the expansion gap",
+   "<p>A floating floor (vinyl plank or laminate) has to move. Leave the gap your flooring maker specifies between the two floors, often around 1/4 in on each side of where the track goes. The molding covers this gap and must never be screwed or glued down through the floating floor.</p>"
+   "<p><strong>Done right:</strong> there's an even gap along the whole doorway, wide enough for the track plus the expansion space.</p>"),
+  step("Measure and cut the track and molding",
+   "<p>Measure the doorway from jamb to jamb at floor level. Cut the track and the molding to that length with a fine-tooth saw. Test-fit both.</p>"
+   "<p><strong>Done right:</strong> the molding fits between the door jambs with no gap at either end.</p>"),
+  step("Fasten the track to the subfloor",
+   "<p>Center the track in the gap. On a wood subfloor, screw it down through the pre-drilled holes. On concrete, use construction adhesive or the anchors the kit specifies.</p>"
+   "<p><strong>Done right:</strong> the track is centered, straight and doesn't move when you push on it.</p>"),
+  step("Press the molding into place",
+   "<p>Line the molding up over the track and press it down. Lay a scrap of wood on top and tap it with a rubber mallet along its length until it snaps in fully. For a reducer, make sure the low edge rests on the lower floor.</p>"
+   "<p><strong>Done right:</strong> the strip sits flat with no rocking, and the door swings over it without catching.</p>"),
+ ],
+ "pro": "<strong>Get help if:</strong> the floors differ in height by more than your reducer can cover, or the subfloor in the doorway is uneven or soft. A custom-cut threshold or subfloor repair may be needed first.",
+ "faq": [
+  ["Do I need a transition strip between rooms?", "For floating floors, usually yes at doorways and long runs, because the floor needs expansion gaps. Check your flooring's instructions for the maximum run without a break."],
+  ["Can I glue a transition strip to vinyl plank flooring?", "Not to a floating floor. Fasten the track or adhesive to the subfloor in the gap so the floor can still move under the strip."],
+  ["What transition goes between vinyl plank and carpet?", "Use an end cap or a carpet-to-hard-surface transition so the carpet edge tucks under or meets it neatly."],
+ ],
+},
+{
+ "blog": "painting-walls", "blog_title": "Painting & Walls",
+ "handle": "how-to-paint-a-room",
+ "title": "How to Paint a Room Like a Pro",
+ "summary": "Paint a room with clean edges and even coverage: buy the right amount, prep the walls, cut in, roll in sections, and finish with a smooth second coat.",
+ "tags": ["Beginner", "Painting & Walls", "Painting"],
+ "difficulty": "Beginner", "time": "1 day", "cost": "$100–$250",
+ "tools": ["Roller frame and 3/8 in nap cover", "2–2.5 in angled sash brush", "Paint tray", "Extension pole", "Drop cloths", "Painter's tape", "Putty knife", "Sanding sponge", "Step ladder", "Screwdriver"],
+ "materials": ["Interior wall paint", "Primer (if needed)", "Spackle"],
+ "video": "https://www.youtube.com/watch?v=8JCoJvYPKBE",
+ "intro": "A fresh coat of paint is the cheapest way to change a room. This guide walks you through doing it in a day with sharp edges, no roller marks and no wasted paint.",
+ "safety": "<strong>Safety:</strong> if your home was built before 1978, old paint may contain lead. Don't sand, scrape or strip it until it's tested; use a lead test kit or hire a lead-safe certified painter. Keep windows open for ventilation while you work.",
+ "steps": [
+  step("Measure the walls and buy the right amount",
+   "<p>Add up the width of all walls, multiply by the ceiling height, and subtract about 20 sq ft per door and 15 sq ft per window. Most interior paints cover about 350 to 400 sq ft per gallon per coat, so divide by 350 to be safe and multiply by two coats.</p>"
+   "<p><strong>Done right:</strong> you know how many gallons you need, rounded up, and you've bought it all at once from the same batch.</p>",
+   fig("how-to-paint-a-room-step-1", "Worked example of a paint calculation for a 12 by 12 foot room with 8 foot ceilings, one door and one window, coming to about 2 gallons for two coats", "Divide by 350 sq ft per gallon to be safe, then round up.")),
+  step("Clear and protect the room",
+   "<p>Move furniture to the middle and cover it. Lay drop cloths along the walls. Remove switch plates and outlet covers and put the screws in a bag.</p>"
+   "<p><strong>Done right:</strong> every wall is reachable, the floor is covered along the edges, and no cover plates are left on.</p>"),
+  step("Patch, sand and clean the walls",
+   "<p>Fill nail holes and dents with spackle, let it dry, and sand it flush. Wipe the walls with a damp cloth to remove dust, and clean greasy spots with a little dish soap.</p>"
+   "<p><strong>Done right:</strong> the walls are smooth, clean and dry, with no dust on your fingertips.</p>"),
+  step("Tape and prime where needed",
+   "<p>Run painter's tape along the trim and ceiling if you want extra insurance. Spot-prime patches and stains, and use a full coat of primer if you're covering a dark color or bare drywall.</p>"
+   "<p><strong>Done right:</strong> tape is pressed down firmly along its whole edge, and every patch has primer on it.</p>"),
+  step("Cut in the edges with a brush",
+   "<p>Load an <strong>angled sash brush</strong> about a third of the way and paint a 2 to 3 in band along the ceiling, corners, trim and around outlets. Work one wall at a time so the cut-in band is still wet when you roll next to it.</p>"
+   "<p><strong>Done right:</strong> a neat, even band runs along every edge of the wall you're about to roll.</p>"),
+  step("Roll the walls in sections",
+   "<p>Load the <strong>roller cover</strong> evenly in the tray, roll a large W about 3 ft wide, then fill it in without lifting the roller. Overlap into the wet paint as you move along, and finish each section with light top-to-bottom strokes.</p>"
+   "<p><strong>Done right:</strong> the wall has even color with no thin spots, drips or roller-edge lines when you look at it from an angle.</p>"),
+  step("Apply the second coat and clean up",
+   "<p>Wait the recoat time on the can, then repeat cutting in and rolling. Pull the tape off at a 45° angle once the final coat is dry to the touch. Reinstall the cover plates when the paint is dry.</p>"
+   "<p><strong>Done right:</strong> the color is solid and even, the edges are clean, and no tape or paint is left on the trim.</p>"),
+ ],
+ "pro": "<strong>Hire a painter if:</strong> you have high ceilings or stairwells that need scaffolding or tall ladders, peeling paint over large areas, or old paint that tests positive for lead.",
+ "faq": [
+  ["How much paint do I need for a 12x12 room?", "For 8 ft ceilings with one door and one window, plan on about 2 gallons for two coats of wall paint. Measure your own room to be sure."],
+  ["Do I need primer before painting?", "Prime patched spots, stains, bare drywall and big color changes. Over clean, previously painted walls in a similar color, a quality paint usually doesn't need separate primer."],
+  ["How long should I wait between coats?", "Follow the recoat time on the can. Many latex wall paints list a few hours, but humidity and temperature can make it longer."],
+  ["Should I paint the ceiling or the walls first?", "Ceiling first, then walls, then trim. That way drips land on surfaces you haven't painted yet."],
+ ],
+},
+{
+ "blog": "plumbing", "blog_title": "Plumbing Basics",
+ "handle": "how-to-find-main-water-shut-off-valve",
+ "title": "How to Find and Shut Off Your Main Water Valve",
+ "summary": "Find your home's main water shut-off before an emergency: where to look, how to tell the valve type, how to test it safely, and what to do if it's stuck.",
+ "tags": ["Beginner", "Plumbing Basics", "Emergency", "Maintenance"],
+ "difficulty": "Beginner", "time": "15–30 minutes", "cost": "$0",
+ "tools": ["Flashlight", "Tag or label and marker"],
+ "materials": ["None"],
+ "video": "https://www.youtube.com/watch?v=fFMBzVv-5Zs",
+ "intro": "When a pipe bursts, every minute counts. Spend 15 minutes now finding and testing your main water shut-off so you can stop a flood in seconds later.",
+ "safety": "<strong>Safety:</strong> don't force a valve that won't turn. Old valves can crack or start leaking if you strain them. If it's stuck, stop and call a plumber or your water utility.",
+ "steps": [
+  step("Look where the water line enters the house",
+   "<p>The main line usually comes in on the side of the house facing the street. Check the basement or crawl space wall on that side, the garage, a utility closet, or near the water heater. In warm climates it's often outside, low on an exterior wall near a hose spigot.</p>"
+   "<p><strong>Done right:</strong> you've found the pipe where water enters the house, or ruled out the inside spots.</p>"),
+  step("Check at the water meter",
+   "<p>If the valve isn't inside, find the water meter. It may be in the basement or in a covered box in the ground near the street. Your shut-off is the valve on the house side of the meter. A separate valve on the street side, or the buried curb stop near the sidewalk, belongs to the water utility.</p>"
+   "<p><strong>Done right:</strong> you know which valve is yours, the one between the meter and the house.</p>"),
+  step("Identify the valve type",
+   "<p>A <strong>ball valve</strong> has a lever handle: a quarter turn closes it, and the water is off when the lever sits across the pipe. A <strong>gate or globe valve</strong> has a round wheel: turn it clockwise until it stops to close it.</p>"
+   "<p><strong>Done right:</strong> you know which way and how far your valve turns to shut off.</p>",
+   fig("how-to-find-main-water-shut-off-valve-step-3", "Diagram comparing a ball valve, off when the lever is across the pipe, and a gate valve, closed by turning the wheel clockwise", "Ball valve: a quarter turn. Gate valve: clockwise until it stops.")),
+  step("Test the valve",
+   "<p>Close the valve, then open a faucet on the lowest floor. The flow should slow to a stop within a few seconds. If water keeps running, the valve isn't sealing.</p>"
+   "<p><strong>Done right:</strong> the faucet stops running with the valve closed.</p>"),
+  step("Turn the water back on slowly",
+   "<p>Open the valve slowly to avoid a pressure surge. Let the open faucet run until it flows smoothly without sputtering, then close it. Check the valve stem for drips.</p>"
+   "<p><strong>Done right:</strong> the water is back on, the faucet runs steadily, and the valve isn't dripping.</p>"),
+  step("Label it and show everyone",
+   "<p>Hang a bright tag on the valve that says \"MAIN WATER SHUT-OFF\". Show everyone in the house where it is and how to turn it. If your valve is in a meter box, keep a <strong>water meter key</strong> nearby.</p>"
+   "<p><strong>Done right:</strong> anyone in the house could find and close the valve without you.</p>"),
+ ],
+ "pro": "<strong>Call a plumber if:</strong> the valve is stuck, leaks at the stem when you use it, or doesn't stop the water. Replacing a faulty main valve is worth doing before an emergency. If you can't find any valve, your water utility can show you or shut off service at the curb.",
+ "faq": [
+  ["Where is the main water shut-off valve usually located?", "Usually where the water line enters the house, on the street side: in the basement, crawl space, garage, utility closet or near the water heater. In warm climates it's often outside or in a meter box near the street."],
+  ["Can I turn off the water at the curb?", "The curb stop belongs to the water utility. Many utilities ask homeowners not to operate it, so call them first unless it's an emergency and they allow it."],
+  ["My main valve drips after I used it. What should I do?", "A small drip at the stem can sometimes be stopped by gently snugging the packing nut just under the handle. If it keeps leaking, have a plumber service or replace the valve."],
+ ],
+},
+{
+ "blog": "electrical", "blog_title": "Electrical Basics",
+ "handle": "how-to-reset-a-tripped-breaker",
+ "title": "How to Reset a Tripped Circuit Breaker Safely",
+ "summary": "Lost power in part of the house? Find the tripped breaker, reset it the right way, find the overload, and know when repeated trips need an electrician.",
+ "tags": ["Beginner", "Electrical Basics", "Troubleshooting", "Safety"],
+ "difficulty": "Beginner", "time": "10–20 minutes", "cost": "$0",
+ "tools": ["Flashlight"],
+ "materials": ["None"],
+ "video": "https://www.youtube.com/watch?v=ls72zWWe0_g",
+ "intro": "A tripped breaker is your electrical system doing its job. This guide shows you how to reset it safely and figure out why it tripped, so it doesn't happen again.",
+ "safety": "<strong>Safety:</strong> never remove the panel's cover; you only touch the breaker handles. Make sure your hands are dry and you're standing on a dry floor. If you smell burning, see scorch marks, or the panel feels hot or buzzes, don't touch it: call an electrician.",
+ "steps": [
+  step("Switch off what's on the dead circuit",
+   "<p>Turn off or unplug lights and appliances in the rooms that lost power, especially heaters, hair dryers, microwaves and other high-wattage items. This prevents an instant re-trip when you reset.</p>"
+   "<p><strong>Done right:</strong> nothing on that circuit will start up the moment power comes back.</p>"),
+  step("Find the tripped breaker",
+   "<p>Open the panel door and look for a breaker handle that's in the middle position or pointing the opposite way from the others. Some breakers also show an orange or red flag when tripped. Check the labels on the door for the affected rooms.</p>"
+   "<p><strong>Done right:</strong> you've found the one breaker that isn't fully on.</p>",
+   fig("how-to-reset-a-tripped-breaker-step-2", "Diagram of breaker handles in the ON, tripped (middle) and OFF positions, with the reset motion: push firmly to OFF, then back to ON", "A tripped breaker rests in the middle. Push it to OFF first, then ON.")),
+  step("Reset it: off, then on",
+   "<p>Push the handle firmly all the way to OFF until it clicks, then push it back to ON. Going straight from the middle position to ON usually won't reset it.</p>"
+   "<p><strong>Done right:</strong> the handle stays in the ON position, lined up with the others, and power is back.</p>"),
+  step("Check GFCI outlets and special breakers",
+   "<p>If power didn't come back to a bathroom, kitchen, garage or outdoor outlet, look for a GFCI outlet with TEST and RESET buttons on that circuit and press RESET. Breakers with a TEST button (AFCI or GFCI breakers) reset the same way as standard ones.</p>"
+   "<p><strong>Done right:</strong> every outlet on the circuit has power again.</p>"),
+  step("Find the overload",
+   "<p>Plug things back in one at a time. If the breaker trips when a particular appliance starts, move it to a different circuit or run fewer big appliances at once on that circuit. A <strong>plug-in outlet tester</strong> helps you check outlets as you go.</p>"
+   "<p><strong>Done right:</strong> everything you normally use is running and the breaker stays on.</p>"),
+  step("Stop if it trips with nothing plugged in",
+   "<p>If the breaker trips again immediately, even with everything unplugged, there may be a short circuit or ground fault in the wiring. Leave it OFF and call a licensed electrician.</p>"
+   "<p><strong>Done right:</strong> you've either fixed an overload or left a faulty circuit off for a pro.</p>"),
+ ],
+ "pro": "<strong>Call a licensed electrician if:</strong> a breaker trips repeatedly, trips immediately with nothing connected, won't stay on, feels hot, or you notice burning smells, flickering lights or scorch marks on outlets. Don't replace breakers or open the panel yourself.",
+ "faq": [
+  ["Why does my breaker keep tripping?", "Usually too many high-wattage appliances on one circuit. If it trips with only light use, or immediately after reset, a short or ground fault is likely, which needs an electrician."],
+  ["Is it dangerous to keep resetting a breaker?", "Yes. A breaker that keeps tripping is warning you of a problem. Resetting it over and over can overheat wiring. Find the cause or call a pro."],
+  ["What does an AFCI breaker tripping mean?", "AFCI breakers trip when they detect arcing, which can come from damaged cords, loose connections or some appliances. If it keeps happening, have an electrician check the circuit."],
+ ],
+},
+{
+ "blog": "doors-windows", "blog_title": "Doors & Windows",
+ "handle": "how-to-fix-a-door-that-sticks",
+ "title": "How to Fix a Door That Sticks or Rubs",
+ "summary": "Fix a sticking door without taking it off: find where it rubs, tighten and lengthen hinge screws, repair stripped holes, and only plane as a last resort.",
+ "tags": ["Beginner", "Doors & Windows", "Doors", "Repair"],
+ "difficulty": "Beginner", "time": "30–60 minutes", "cost": "$5–$15",
+ "tools": ["Screwdriver", "Drill/driver", "Pencil", "Sanding block or block plane", "Paintbrush"],
+ "materials": ["3-inch wood screws to match your hinges", "Wood glue and wooden toothpicks or golf tees", "Primer or paint for bare edges"],
+ "video": "https://www.youtube.com/watch?v=yhS0-WJN19Q",
+ "intro": "Most sticking doors aren't warped, they're sagging on loose hinges. This guide shows you how to pull the door back into line, step by step, before you ever reach for a plane.",
+ "safety": None,
+ "steps": [
+  step("Find where it rubs",
+   "<p>Close the door slowly and watch the gap around it. Look for shiny, worn paint on the door edge or frame, or slide a sheet of paper around the closed door to find tight spots. A door that rubs at the top on the latch side is usually sagging from the top hinge.</p>"
+   "<p><strong>Done right:</strong> you've marked exactly where the door rubs with a light pencil line.</p>"),
+  step("Tighten every hinge screw",
+   "<p>Open the door and tighten all the screws in each hinge, on both the door and the frame. Test the door.</p>"
+   "<p><strong>Done right:</strong> no screw turns any further, and you've tested the door again.</p>"),
+  step("Drive a long screw into the top hinge",
+   "<p>Remove one of the short screws from the top hinge on the frame side, ideally the one closest to the doorstop, and replace it with a <strong>3-inch wood screw</strong>. It reaches the wall framing and pulls the hinge, and the door, up and back toward the frame.</p>"
+   "<p><strong>Done right:</strong> the gap at the top of the latch side has opened up and the door closes without rubbing.</p>",
+   fig("how-to-fix-a-door-that-sticks-step-3", "Diagram of a sagging door with a long screw driven through the top hinge into the wall framing, pulling the door back into square", "A long screw in the top hinge reaches the framing and pulls the door back up.")),
+  step("Repair stripped screw holes",
+   "<p>If a screw just spins, remove it, fill the hole with wood glue and a few wooden toothpicks or a golf tee, let the glue set, and trim the wood flush with a utility knife. Drive the screw back in.</p>"
+   "<p><strong>Done right:</strong> every hinge screw tightens firmly and holds.</p>"),
+  step("Sand or plane only what's left",
+   "<p>If the door still rubs, and especially if it only sticks in humid weather, sand or plane just the marked spot, a little at a time, testing often. For the top or bottom edge, take the door off its hinges first.</p>"
+   "<p><strong>Done right:</strong> the door closes and latches smoothly with an even gap around it.</p>"),
+  step("Seal any bare wood",
+   "<p>Prime and paint, or seal, any edge you sanded or planed. Bare wood soaks up moisture, swells, and the door will stick again.</p>"
+   "<p><strong>Done right:</strong> no bare wood is showing on any edge of the door.</p>"),
+ ],
+ "pro": "<strong>Get it checked if:</strong> several doors start sticking at once, or you see new diagonal cracks in the drywall above door frames. That can mean the house is settling, which a contractor or structural engineer should look at.",
+ "faq": [
+  ["Why does my door stick in summer but not in winter?", "Wood absorbs moisture in humid weather and swells. Sealing every edge of the door, including the top and bottom, reduces seasonal sticking."],
+  ["How do I fix a door that won't latch?", "First tighten the hinges and add a long screw to the top hinge. If the latch still misses, file the strike plate opening slightly or move the strike plate."],
+  ["Can I plane a door without taking it off?", "You can lightly sand or plane the latch-side edge in place. Take the door off its hinges to work on the top or bottom edge."],
+ ],
+},
+{
+ "blog": "outdoor-garden", "blog_title": "Outdoor & Garden",
+ "handle": "how-to-install-low-voltage-path-lights",
+ "title": "How to Install Low-Voltage Path Lights",
+ "summary": "Light a walkway safely with a plug-in low-voltage system: plan the layout, size the transformer, connect fixtures, test at dusk, then bury the cable.",
+ "tags": ["Beginner", "Outdoor & Garden", "Lighting", "Installation"],
+ "difficulty": "Beginner", "time": "2–4 hours", "cost": "$150–$400",
+ "tools": ["Flat shovel or edging spade", "Tape measure", "Screwdriver", "Wire stripper (if your connectors need it)"],
+ "materials": ["Plug-in low-voltage transformer with photocell or timer", "Low-voltage landscape cable", "Path light fixtures", "Wire connectors rated for outdoor burial"],
+ "video": "https://www.youtube.com/watch?v=Pn2Bh6dNP_w",
+ "intro": "Low-voltage path lights are brighter and more reliable than most solar stakes, and the system plugs into an outdoor outlet, so there's no wiring into your house. This guide takes you from plan to lit path in an afternoon.",
+ "safety": "<strong>Safety:</strong> plug the transformer only into an outdoor GFCI outlet with a weatherproof in-use cover, and unplug it whenever you make or change connections. Call 811 a few days before you dig so buried utility lines are marked. Never connect landscape cable to household 120-volt wiring.",
+ "steps": [
+  step("Plan the layout and the load",
+   "<p>Sketch the path and mark a light every 8 to 10 ft, staggering them on alternate sides for an even look. Add up the wattage of all fixtures and choose a transformer rated well above that total, keeping the load to about 80% of its rating.</p>"
+   "<p><strong>Done right:</strong> you have a sketch with fixture spots, a total wattage, and a transformer size that covers it with room to spare.</p>",
+   fig("how-to-install-low-voltage-path-lights-step-1", "Plan view of a garden path with staggered path lights about 8 to 10 feet apart, cable running along the edge of the path, and a plug-in transformer at an outdoor GFCI outlet", "Stagger lights 8–10 ft apart and run the cable along the path edge.")),
+  step("Call 811 before you dig",
+   "<p>Call 811 or use your state's online request a few days before you start. Utilities mark their buried lines for free, so you know where it's safe to dig a shallow trench.</p>"
+   "<p><strong>Done right:</strong> the utility marks are in your yard, or you've been told it's clear to dig.</p>"),
+  step("Mount the transformer",
+   "<p>Mount the <strong>low-voltage transformer</strong> on a wall or post next to the outdoor GFCI outlet, at the height its instructions call for (often at least 12 in above the ground). Don't plug it in yet.</p>"
+   "<p><strong>Done right:</strong> the transformer is firmly mounted within cord reach of the outlet, and still unplugged.</p>"),
+  step("Lay the cable and connect the fixtures",
+   "<p>Run the cable from the transformer along the edge of the path, past each fixture spot. Connect the cable to the transformer's terminals, then attach each fixture with the connectors from your <strong>path light kit</strong>, following its instructions.</p>"
+   "<p><strong>Done right:</strong> every fixture is connected and the cable lies loosely along the path, with a little slack at each light.</p>"),
+  step("Test at dusk before burying",
+   "<p>Plug in the transformer and switch it on (or cover the photocell). Walk the path at dusk and move fixtures to fix dark gaps or glare.</p>"
+   "<p><strong>Done right:</strong> every light works and the path is evenly lit with no dark stretches.</p>"),
+  step("Bury the cable and set the timer",
+   "<p>Unplug the transformer. Cut a slot about 6 in deep along the path edge with a flat shovel, tuck the cable in, and press the soil back. Push the fixture stakes in firmly. Set the photocell or timer so the lights run when you want them.</p>"
+   "<p><strong>Done right:</strong> no cable is visible, the fixtures stand straight, and the lights come on by themselves at dusk.</p>"),
+ ],
+ "pro": "<strong>Hire an electrician if:</strong> you don't have an outdoor GFCI outlet with a weatherproof cover where the transformer goes. Adding or upgrading an outdoor outlet is electrical work for a licensed pro.",
+ "faq": [
+  ["Are low-voltage path lights better than solar?", "Usually brighter and more consistent, especially in shady spots or winter, because they don't depend on a full day of sun. Solar is simpler to install but dimmer."],
+  ["How deep should low-voltage landscape cable be buried?", "A shallow trench about 6 in deep along the path edge is common. Follow your kit's instructions and your local rules."],
+  ["How many lights can one transformer run?", "Add up the fixture wattages and keep the total to about 80% of the transformer's rating."],
+ ],
+},
+{
+ "blog": "storage", "blog_title": "Storage & Organization",
+ "handle": "how-to-choose-and-install-drywall-anchors",
+ "title": "How to Choose and Install the Right Drywall Anchor",
+ "summary": "Match the anchor to the weight: when to find a stud, which anchor type to use for light, medium and heavy items, and how to install it so it holds.",
+ "tags": ["Beginner", "Storage & Organization", "Wall mounting"],
+ "difficulty": "Beginner", "time": "15–30 minutes", "cost": "$5–$20",
+ "tools": ["Stud finder", "Drill and bits", "Screwdriver", "Level", "Tape measure", "Pencil"],
+ "materials": ["Drywall anchors rated for your item", "Screws (usually included)"],
+ "video": "https://www.youtube.com/watch?v=LnZm1cMklMM",
+ "intro": "The right anchor turns a hollow wall into a solid hanging spot. This guide helps you pick the right type for what you're hanging and install it so it stays put.",
+ "safety": "<strong>Safety:</strong> wires and pipes often run straight up and down from outlets and switches, so don't drill directly above or below them. If you're unsure, check with a stud finder that detects live wires.",
+ "steps": [
+  step("Weigh the item and look for a stud",
+   "<p>Weigh what you're hanging. For anything heavy, and always for TV mounts, screw into a wall stud: run a stud finder across the wall and mark the edges. Use anchors when the spot you need falls between studs.</p>"
+   "<p><strong>Done right:</strong> you know the item's weight and whether a stud is where you need to hang it.</p>"),
+  step("Choose the anchor type",
+   "<p><strong>Plastic expansion anchors</strong> suit light items like small frames. <strong>Self-drilling threaded anchors</strong> handle medium loads such as shelves with light items. <strong>Toggle bolts</strong>, including <strong>snap toggle anchors</strong>, spread the load behind the drywall and are best for heavy items. Use the weight rating on the package, and stay well under it.</p>"
+   "<p><strong>Done right:</strong> you've picked an anchor rated comfortably above your item's weight, and you have enough for at least two hanging points.</p>",
+   fig("how-to-choose-and-install-drywall-anchors-step-2", "Diagram comparing a plastic expansion anchor for light loads, a self-drilling threaded anchor for medium loads and a toggle bolt for heavy loads, each shown in a cross-section of drywall", "Heavier loads need anchors that spread out behind the drywall.")),
+  step("Mark and drill",
+   "<p>Mark the spots with a level so they line up. Drill a hole with the bit size printed on the anchor package. Self-drilling anchors screw straight in without a pilot hole.</p>"
+   "<p><strong>Done right:</strong> the holes are level, clean and the exact size the package calls for.</p>"),
+  step("Set the anchor",
+   "<p>Tap a plastic anchor in until it's flush, or screw a threaded anchor in until its head sits flat against the wall. For a toggle, fold the wings or channel, push it through the hole, and let it open behind the wall before tightening.</p>"
+   "<p><strong>Done right:</strong> the anchor is flush with the wall and doesn't spin in the hole.</p>"),
+  step("Attach the item and test",
+   "<p>Drive the screw through your bracket into the anchor until it's snug, without over-tightening, which can crush the drywall. Pull down gently on the item before letting go.</p>"
+   "<p><strong>Done right:</strong> the item hangs level and doesn't shift when you tug on it.</p>"),
+ ],
+ "pro": "<strong>Get help for:</strong> very heavy or valuable items such as large mirrors, wall cabinets or TVs, plaster or masonry walls, and ceilings. These often need studs, special anchors or blocking behind the wall.",
+ "faq": [
+  ["How much weight can a drywall anchor hold?", "It depends on the type and size. Check the rating on the package and stay well under it, since ratings are measured in ideal conditions."],
+  ["Can I use drywall anchors in the ceiling?", "Only anchors rated for ceilings, and only for light items. For anything heavy, like a ceiling fan or a hanging plant, attach to a joist or approved box."],
+  ["What's the strongest drywall anchor?", "Toggle-style anchors, which open up behind the drywall, generally hold the most. A screw into a stud is stronger still."],
+ ],
+},
+{
+ "blog": "maintenance", "blog_title": "Home Maintenance",
+ "handle": "how-to-test-and-replace-smoke-alarms",
+ "title": "How to Test and Replace Smoke Alarms",
+ "summary": "Make sure your smoke alarms will wake you: where they belong, how to test them monthly, when to change batteries, and how to tell when an alarm is too old.",
+ "tags": ["Beginner", "Home Maintenance", "Safety"],
+ "difficulty": "Beginner", "time": "30–60 minutes", "cost": "$20–$40 per alarm",
+ "tools": ["Step ladder", "Vacuum with a soft brush attachment", "Screwdriver"],
+ "materials": ["Batteries listed in your alarm's manual", "New smoke alarms with a testing-lab label (if replacing)"],
+ "video": "https://www.youtube.com/watch?v=zi1G291Fohc",
+ "intro": "Working smoke alarms give you the time you need to get out in a fire. This guide covers placement, monthly testing, batteries and the 10-year replacement rule, in about an hour.",
+ "safety": "<strong>Safety:</strong> use a stable step ladder and have someone steady it. For hardwired alarms, switch off the circuit at the breaker before you disconnect one.",
+ "steps": [
+  step("Check you have alarms in the right places",
+   "<p>NFPA recommends a smoke alarm inside every bedroom, outside each sleeping area, and on every level of the home, including the basement. Keep alarms at least 10 ft from cooking appliances to cut down on false alarms. Interconnected alarms, which all sound when one does, are best.</p>"
+   "<p><strong>Done right:</strong> you have a list of every spot that needs an alarm and which ones are missing.</p>",
+   fig("how-to-test-and-replace-smoke-alarms-step-1", "Floor plan diagram showing smoke alarms in each bedroom, in the hallway outside the bedrooms, and on each level, kept at least 10 feet from the kitchen stove", "Every bedroom, outside sleeping areas, every level.")),
+  step("Test every alarm",
+   "<p>Press and hold the test button on each alarm until it sounds. Have someone listen from the bedrooms to make sure it would wake a sleeper with the doors closed. Test monthly.</p>"
+   "<p><strong>Done right:</strong> every alarm sounds loudly when tested.</p>"),
+  step("Check each alarm's age",
+   "<p>Take each alarm down and look for the manufacture date on the back. Replace any alarm that is 10 years old or older, even if it still beeps when you test it.</p>"
+   "<p><strong>Done right:</strong> you've written down the date of every alarm and marked the ones to replace.</p>"),
+  step("Replace batteries where needed",
+   "<p>For alarms with replaceable batteries, put in fresh ones from the type listed in the manual at least once a year, or right away if it chirps. Alarms with a sealed 10-year battery don't take new batteries: replace the whole alarm when it chirps or reaches its end-of-life warning.</p>"
+   "<p><strong>Done right:</strong> every alarm has fresh batteries or a sealed battery that's still in date, and none of them chirp.</p>"),
+  step("Clean the alarms",
+   "<p>Gently vacuum the vents with a soft brush attachment to remove dust and cobwebs, following the manufacturer's cleaning instructions. Never paint over an alarm.</p>"
+   "<p><strong>Done right:</strong> the vents are clear and the alarm passes the test again.</p>"),
+  step("Replace old or missing alarms",
+   "<p>For a battery alarm, screw the new mounting plate up and twist the alarm on. A <strong>10-year sealed battery smoke alarm</strong> saves you yearly battery changes. For a hardwired alarm, switch off the breaker, twist the old alarm off, and unplug its connector; a same-brand replacement often plugs into the existing connector or comes with an adapter. Test every new alarm.</p>"
+   "<p><strong>Done right:</strong> every location on your list has a working alarm that passes the test.</p>"),
+ ],
+ "pro": "<strong>Call an electrician if:</strong> a hardwired alarm's wiring is damaged, there's no plug-in connector, or you want to add new hardwired or interconnected alarms where none exist.",
+ "faq": [
+  ["How often should I test my smoke alarms?", "At least once a month, using the test button."],
+  ["How often do smoke alarms need to be replaced?", "Every 10 years from the date of manufacture printed on the back, even if they still test fine."],
+  ["Why is my smoke alarm chirping?", "Usually a low battery. Replace the battery, or the whole unit if it has a sealed 10-year battery. Some alarms also chirp when they reach end of life."],
+  ["When should I change smoke alarm batteries?", "At least once a year for replaceable batteries, or as soon as the alarm chirps. Many people do it when the clocks change."],
+ ],
+},
+]
+AFFILIATE.update({
+ "garbage-disposal-humming-not-working": ["disposal wrench"],
+ "slow-draining-bathroom-sink": ["plastic drain-cleaning tool"],
+ "how-to-install-floor-transition-strips": ["3-in-1 transition molding"],
+ "how-to-paint-a-room": ["angled sash brush", "roller cover"],
+ "how-to-find-main-water-shut-off-valve": ["water meter key"],
+ "how-to-reset-a-tripped-breaker": ["plug-in outlet tester"],
+ "how-to-fix-a-door-that-sticks": ["3-inch wood screw"],
+ "how-to-install-low-voltage-path-lights": ["low-voltage transformer", "path light kit"],
+ "how-to-choose-and-install-drywall-anchors": ["snap toggle anchors"],
+ "how-to-test-and-replace-smoke-alarms": ["10-year sealed battery smoke alarm"],
+})

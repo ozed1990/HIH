@@ -1,0 +1,66 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Install Low-Voltage Path Lights",
+    "handle": "how-to-install-low-voltage-path-lights",
+    "summary": "Light a walkway safely with a plug-in low-voltage system: plan the layout, size the transformer, connect fixtures, test at dusk, then bury the cable.",
+    "tags": [
+      "Beginner",
+      "Outdoor & Garden",
+      "Lighting",
+      "Installation"
+    ],
+    "body": "<p class=\"guide-intro\">Low-voltage path lights are brighter and more reliable than most solar stakes, and the system plugs into an outdoor outlet, so there's no wiring into your house. This guide takes you from plan to lit path in an afternoon.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> plug the transformer only into an outdoor GFCI outlet with a weatherproof in-use cover, and unplug it whenever you make or change connections. Call 811 a few days before you dig so buried utility lines are marked. Never connect landscape cable to household 120-volt wiring.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Plan the layout and the load</h3><figure><img src=\"hih-media://how-to-install-low-voltage-path-lights-step-1\" alt=\"Plan view of a garden path with staggered path lights about 8 to 10 feet apart, cable running along the edge of the path, and a plug-in transformer at an outdoor GFCI outlet\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>Stagger lights 8–10 ft apart and run the cable along the path edge.</figcaption></figure><p>Sketch the path and mark a light every 8 to 10 ft, staggering them on alternate sides for an even look. Add up the wattage of all fixtures and choose a transformer rated well above that total, keeping the load to about 80% of its rating.</p><p><strong>Done right:</strong> you have a sketch with fixture spots, a total wattage, and a transformer size that covers it with room to spare.</p></li>\n<li><h3>Call 811 before you dig</h3><p>Call 811 or use your state's online request a few days before you start. Utilities mark their buried lines for free, so you know where it's safe to dig a shallow trench.</p><p><strong>Done right:</strong> the utility marks are in your yard, or you've been told it's clear to dig.</p></li>\n<li><h3>Mount the transformer</h3><p>Mount the <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">low-voltage transformer</a></strong> on a wall or post next to the outdoor GFCI outlet, at the height its instructions call for (often at least 12 in above the ground). Don't plug it in yet.</p><p><strong>Done right:</strong> the transformer is firmly mounted within cord reach of the outlet, and still unplugged.</p></li>\n<li><h3>Lay the cable and connect the fixtures</h3><p>Run the cable from the transformer along the edge of the path, past each fixture spot. Connect the cable to the transformer's terminals, then attach each fixture with the connectors from your <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">path light kit</a></strong>, following its instructions.</p><p><strong>Done right:</strong> every fixture is connected and the cable lies loosely along the path, with a little slack at each light.</p></li>\n<li><h3>Test at dusk before burying</h3><p>Plug in the transformer and switch it on (or cover the photocell). Walk the path at dusk and move fixtures to fix dark gaps or glare.</p><p><strong>Done right:</strong> every light works and the path is evenly lit with no dark stretches.</p></li>\n<li><h3>Bury the cable and set the timer</h3><p>Unplug the transformer. Cut a slot about 6 in deep along the path edge with a flat shovel, tuck the cable in, and press the soil back. Push the fixture stakes in firmly. Set the photocell or timer so the lights run when you want them.</p><p><strong>Done right:</strong> no cable is visible, the fixtures stand straight, and the lights come on by themselves at dusk.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire an electrician if:</strong> you don't have an outdoor GFCI outlet with a weatherproof cover where the transformer goes. Adding or upgrading an outdoor outlet is electrical work for a licensed pro.</p></aside>\n<h2>FAQ</h2>\n<h3>Are low-voltage path lights better than solar?</h3><p>Usually brighter and more consistent, especially in shady spots or winter, because they don&#x27;t depend on a full day of sun. Solar is simpler to install but dimmer.</p>\n<h3>How deep should low-voltage landscape cable be buried?</h3><p>A shallow trench about 6 in deep along the path edge is common. Follow your kit&#x27;s instructions and your local rules.</p>\n<h3>How many lights can one transformer run?</h3><p>Add up the fixture wattages and keep the total to about 80% of the transformer&#x27;s rating.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "2–4 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$150–$400"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Flat shovel or edging spade\", \"Tape measure\", \"Screwdriver\", \"Wire stripper (if your connectors need it)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Plug-in low-voltage transformer with photocell or timer\", \"Low-voltage landscape cable\", \"Path light fixtures\", \"Wire connectors rated for outdoor burial\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Pn2Bh6dNP_w"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-install-low-voltage-path-lights-step-1",
+      "alt": "Plan view of a garden path with staggered path lights about 8 to 10 feet apart, cable running along the edge of the path, and a plug-in transformer at an outdoor GFCI outlet",
+      "caption": "Stagger lights 8–10 ft apart and run the cable along the path edge."
+    }
+  ],
+  "hero_slot": "how-to-install-low-voltage-path-lights-hero"
+}

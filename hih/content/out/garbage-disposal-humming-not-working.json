@@ -1,0 +1,66 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Fix a Garbage Disposal That Hums but Won't Spin",
+    "handle": "garbage-disposal-humming-not-working",
+    "summary": "A humming disposal is usually jammed, not broken. Cut the power, free the flywheel with a hex wrench, press reset and get it grinding again in minutes.",
+    "tags": [
+      "Beginner",
+      "Kitchen",
+      "Repair",
+      "Troubleshooting"
+    ],
+    "body": "<p class=\"guide-intro\">When a disposal hums but doesn't grind, the motor is getting power but something has locked the spinning plate. This guide shows you how to free it safely, reset the motor, and tell when the unit is actually worn out.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> never put your hand into a disposal, even with the switch off. Turn the wall switch off and unplug the unit under the sink (or switch off its breaker) before you reach under or into it.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Cut the power</h3><p>Turn off the wall switch, then unplug the disposal's cord under the sink. If it's hardwired, switch off its breaker at the panel. Leaving a humming motor on can burn it out, so don't keep flipping the switch to \"try again.\"</p><p><strong>Done right:</strong> you flip the wall switch on and nothing happens at all, not even a hum. Then switch it back off.</p></li>\n<li><h3>Remove whatever is jammed inside</h3><p>Shine a flashlight down the drain opening. Pull out anything you can see, such as a bottle cap, bone, fruit pit or utensil, with tongs or long pliers.</p><p><strong>Done right:</strong> you can see the grinding plate and there is nothing hard sitting on it.</p></li>\n<li><h3>Free the flywheel from underneath</h3><figure><img src=\"hih-media://garbage-disposal-humming-not-working-step-3\" alt=\"Diagram of the underside of a garbage disposal showing the center hex socket for the wrench and the red reset button\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>The hex socket is in the center of the bottom; the reset button is nearby.</figcaption></figure><p>Find the hex-shaped hole in the center of the disposal's bottom. Insert a 1/4 in hex wrench (many disposals come with a <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">disposal wrench</a></strong>) and work it back and forth like a crank. It may take some force at first; keep going until it turns in full circles both ways.</p><p><strong>Done right:</strong> the wrench spins smoothly in complete circles in both directions.</p></li>\n<li><h3>Press the reset button</h3><p>Find the small red button on the bottom of the disposal and press it until it clicks and stays in. If it pops back out, the motor's overload protector needs to cool down: wait about 10 minutes and press it again.</p><p><strong>Done right:</strong> the button stays pushed in.</p></li>\n<li><h3>Restore power and test</h3><p>Plug the disposal back in (or switch the breaker on). Run cold water, then turn the disposal on. If it jams again, switch it off, unplug it and repeat the hex wrench step. Grind a handful of ice cubes with cold water to help clean the chamber.</p><p><strong>Done right:</strong> the disposal spins up with a steady whir and drains the water.</p></li>\n<li><h3>Know when the motor is done</h3><p>If the wrench turns freely but the disposal still only hums, or it's silent and the reset button won't stay in after cooling down, the motor has likely failed. A unit that leaks from its body also needs replacing.</p><p><strong>Done right:</strong> you know whether you have a fixed disposal or one that needs replacing.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> water leaks from the bottom or sides of the disposal, you smell burning, or the sink won't drain even with the disposal running. Replacing a disposal is doable for a confident DIYer, but if it's hardwired, the electrical connection must be handled with the breaker off.</p></aside>\n<h2>FAQ</h2>\n<h3>Where is the reset button on a garbage disposal?</h3><p>On most models it&#x27;s a small red button on the bottom of the unit, under the sink. If it has tripped, it sticks out slightly. Press it until it clicks and stays in.</p>\n<h3>Why does my garbage disposal hum but not spin?</h3><p>The motor has power but the spinning plate is jammed, usually by a hard object or packed food waste. Freeing it with a 1/4 in hex wrench from below fixes most cases.</p>\n<h3>Can I use drain cleaner in a garbage disposal?</h3><p>It&#x27;s best not to. Harsh chemical drain cleaners can damage disposal parts and splash back on you. Free the jam mechanically and clear clogs in the drain pipe instead.</p>\n<h3>What if I don&#x27;t have the disposal wrench?</h3><p>Any standard 1/4 in hex (Allen) key fits the socket on most disposals.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$15"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"1/4 in hex (Allen) wrench\", \"Flashlight\", \"Tongs or long pliers\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Cold water\", \"A few ice cubes (optional, for cleaning)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=J0OByRuoYM0"
+    }
+  ],
+  "media": [
+    {
+      "stem": "garbage-disposal-humming-not-working-step-3",
+      "alt": "Diagram of the underside of a garbage disposal showing the center hex socket for the wrench and the red reset button",
+      "caption": "The hex socket is in the center of the bottom; the reset button is nearby."
+    }
+  ],
+  "hero_slot": "garbage-disposal-humming-not-working-hero"
+}

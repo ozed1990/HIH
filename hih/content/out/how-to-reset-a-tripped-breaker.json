@@ -1,0 +1,66 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "How to Reset a Tripped Circuit Breaker Safely",
+    "handle": "how-to-reset-a-tripped-breaker",
+    "summary": "Lost power in part of the house? Find the tripped breaker, reset it the right way, find the overload, and know when repeated trips need an electrician.",
+    "tags": [
+      "Beginner",
+      "Electrical Basics",
+      "Troubleshooting",
+      "Safety"
+    ],
+    "body": "<p class=\"guide-intro\">A tripped breaker is your electrical system doing its job. This guide shows you how to reset it safely and figure out why it tripped, so it doesn't happen again.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> never remove the panel's cover; you only touch the breaker handles. Make sure your hands are dry and you're standing on a dry floor. If you smell burning, see scorch marks, or the panel feels hot or buzzes, don't touch it: call an electrician.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Switch off what&#x27;s on the dead circuit</h3><p>Turn off or unplug lights and appliances in the rooms that lost power, especially heaters, hair dryers, microwaves and other high-wattage items. This prevents an instant re-trip when you reset.</p><p><strong>Done right:</strong> nothing on that circuit will start up the moment power comes back.</p></li>\n<li><h3>Find the tripped breaker</h3><figure><img src=\"hih-media://how-to-reset-a-tripped-breaker-step-2\" alt=\"Diagram of breaker handles in the ON, tripped (middle) and OFF positions, with the reset motion: push firmly to OFF, then back to ON\" width=\"1200\" height=\"900\" loading=\"lazy\"><figcaption>A tripped breaker rests in the middle. Push it to OFF first, then ON.</figcaption></figure><p>Open the panel door and look for a breaker handle that's in the middle position or pointing the opposite way from the others. Some breakers also show an orange or red flag when tripped. Check the labels on the door for the affected rooms.</p><p><strong>Done right:</strong> you've found the one breaker that isn't fully on.</p></li>\n<li><h3>Reset it: off, then on</h3><p>Push the handle firmly all the way to OFF until it clicks, then push it back to ON. Going straight from the middle position to ON usually won't reset it.</p><p><strong>Done right:</strong> the handle stays in the ON position, lined up with the others, and power is back.</p></li>\n<li><h3>Check GFCI outlets and special breakers</h3><p>If power didn't come back to a bathroom, kitchen, garage or outdoor outlet, look for a GFCI outlet with TEST and RESET buttons on that circuit and press RESET. Breakers with a TEST button (AFCI or GFCI breakers) reset the same way as standard ones.</p><p><strong>Done right:</strong> every outlet on the circuit has power again.</p></li>\n<li><h3>Find the overload</h3><p>Plug things back in one at a time. If the breaker trips when a particular appliance starts, move it to a different circuit or run fewer big appliances at once on that circuit. A <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">plug-in outlet tester</a></strong> helps you check outlets as you go.</p><p><strong>Done right:</strong> everything you normally use is running and the breaker stays on.</p></li>\n<li><h3>Stop if it trips with nothing plugged in</h3><p>If the breaker trips again immediately, even with everything unplugged, there may be a short circuit or ground fault in the wiring. Leave it OFF and call a licensed electrician.</p><p><strong>Done right:</strong> you've either fixed an overload or left a faulty circuit off for a pro.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a licensed electrician if:</strong> a breaker trips repeatedly, trips immediately with nothing connected, won't stay on, feels hot, or you notice burning smells, flickering lights or scorch marks on outlets. Don't replace breakers or open the panel yourself.</p></aside>\n<h2>FAQ</h2>\n<h3>Why does my breaker keep tripping?</h3><p>Usually too many high-wattage appliances on one circuit. If it trips with only light use, or immediately after reset, a short or ground fault is likely, which needs an electrician.</p>\n<h3>Is it dangerous to keep resetting a breaker?</h3><p>Yes. A breaker that keeps tripping is warning you of a problem. Resetting it over and over can overheat wiring. Find the cause or call a pro.</p>\n<h3>What does an AFCI breaker tripping mean?</h3><p>AFCI breakers trip when they detect arcing, which can come from damaged cords, loose connections or some appliances. If it keeps happening, have an electrician check the circuit.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "10–20 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"None\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=ls72zWWe0_g"
+    }
+  ],
+  "media": [
+    {
+      "stem": "how-to-reset-a-tripped-breaker-step-2",
+      "alt": "Diagram of breaker handles in the ON, tripped (middle) and OFF positions, with the reset motion: push firmly to OFF, then back to ON",
+      "caption": "A tripped breaker rests in the middle. Push it to OFF first, then ON."
+    }
+  ],
+  "hero_slot": "how-to-reset-a-tripped-breaker-hero"
+}

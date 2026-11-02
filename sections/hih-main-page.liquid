@@ -1,0 +1,19 @@
+{%- comment -%}
+  Standard page (About, Privacy Policy, Affiliate Disclosure…): Home › title breadcrumb, title, page content in the HIH reading style.
+  Page content source of truth: hih/content/pages/<handle>.html (pushed to Shopify by hih-guide-writer).
+{%- endcomment -%}
+<div class="hih-container hih-page">
+  <header class="hih-blog-head">
+    <nav class="hih-crumbs" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">›</span><span aria-current="page">{{ page.title | escape }}</span></nav>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+  <div class="hih-rte">{{ page.content }}</div>
+</div>
+<div class="hih-section"></div>
+
+{% schema %}
+{
+  "name": "HIH page",
+  "settings": []
+}
+{% endschema %}

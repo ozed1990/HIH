@@ -351,6 +351,12 @@ img { max-width: 100%; height: auto; }
 .hih-video__play:hover span.hih-video__icon { transform: scale(var(--hih-zoom-press)); }
 .hih-video figcaption { font-size: var(--hih-text-sm); color: var(--hih-color-muted); margin-top: var(--hih-space-2); }
 
+/* Standard pages (hih-main-page): long-form reading, lists and a muted "last updated" line */
+.hih-page .hih-rte p, .hih-page .hih-rte li { max-width: var(--hih-measure); }
+.hih-page .hih-rte ul, .hih-page .hih-rte ol { padding-left: var(--hih-space-5); }
+.hih-page .hih-rte li + li { margin-top: var(--hih-space-2); }
+.hih-page .hih-rte .page-updated { color: var(--hih-color-muted); font-size: var(--hih-text-sm); }
+
 /* Guide body: classes from the Guide contract (hih-guide-writer) */
 .hih-rte { max-width: var(--hih-reading); }
 .hih-rte > * + * { margin-top: var(--hih-space-5); }

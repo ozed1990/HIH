@@ -1,15 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "hih-hero",
-      "settings": {}
+      "settings": {
+        "image": "shopify://shop_images/home-improvement-hub-hero.jpg",
+        "heading": "Make your home feel finished.",
+        "text": "Calm, well-photographed guides for the projects you've been putting off.",
+        "placeholder": "Search guides, e.g. running toilet"
+      }
     },
     "categories": {
       "type": "hih-categories",
-      "settings": {
-        "heading": "Start with a room",
-        "text": "Ten categories, each a library of step-by-step guides."
-      },
       "blocks": {
         "cat-kitchen": {
           "type": "category",
@@ -93,48 +103,55 @@
         "cat-outdoor-garden",
         "cat-storage",
         "cat-maintenance"
-      ]
+      ],
+      "settings": {
+        "heading": "Start with a room",
+        "text": "Ten categories, each a library of step-by-step guides.",
+        "mist": false
+      }
     },
     "featured": {
       "type": "hih-featured-guides",
-      "settings": {
-        "heading": "Guides to start with",
-        "mist": true
-      },
       "blocks": {
         "g-0": {
           "type": "guide",
           "settings": {
+            "article": "",
             "label": "Kitchen"
           }
         },
         "g-1": {
           "type": "guide",
           "settings": {
+            "article": "",
             "label": "Plumbing Basics"
           }
         },
         "g-2": {
           "type": "guide",
           "settings": {
+            "article": "",
             "label": "Painting & Walls"
           }
         },
         "g-3": {
           "type": "guide",
           "settings": {
+            "article": "",
             "label": "Storage & Organization"
           }
         },
         "g-4": {
           "type": "guide",
           "settings": {
+            "article": "",
             "label": "Doors & Windows"
           }
         },
         "g-5": {
           "type": "guide",
           "settings": {
+            "article": "",
             "label": "Home Maintenance"
           }
         }
@@ -146,11 +163,20 @@
         "g-3",
         "g-4",
         "g-5"
-      ]
+      ],
+      "settings": {
+        "heading": "Guides to start with",
+        "link": "",
+        "link_label": "All guides",
+        "mist": true
+      }
     },
     "newsletter": {
       "type": "hih-newsletter",
-      "settings": {}
+      "settings": {
+        "heading": "One good project a week",
+        "text": "A new step-by-step guide every week. No spam, unsubscribe anytime."
+      }
     }
   },
   "order": [

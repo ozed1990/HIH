@@ -40,7 +40,7 @@
       "namespace": "guide",
       "key": "tools",
       "type": "list.single_line_text_field",
-      "value": "[\"Screwdriver\", \"Drill/driver\", \"Pencil\", \"Sanding block or block plane\", \"Paintbrush\"]"
+      "value": "[\"Screwdriver\", \"Drill/driver\", \"Pencil\", \"Utility knife\", \"Sanding block or block plane\", \"Paintbrush\"]"
     },
     {
       "namespace": "guide",

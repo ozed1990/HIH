@@ -1013,7 +1013,7 @@ GUIDES += [
  "summary": "Fix a sticking door without taking it off: find where it rubs, tighten and lengthen hinge screws, repair stripped holes, and only plane as a last resort.",
  "tags": ["Beginner", "Doors & Windows", "Doors", "Repair"],
  "difficulty": "Beginner", "time": "30–60 minutes", "cost": "$5–$15",
- "tools": ["Screwdriver", "Drill/driver", "Pencil", "Sanding block or block plane", "Paintbrush"],
+ "tools": ["Screwdriver", "Drill/driver", "Pencil", "Utility knife", "Sanding block or block plane", "Paintbrush"],
  "materials": ["3-inch wood screws to match your hinges", "Wood glue and wooden toothpicks or golf tees", "Primer or paint for bare edges"],
  "video": "https://www.youtube.com/watch?v=yhS0-WJN19Q",
  "intro": "Most sticking doors aren't warped, they're sagging on loose hinges. This guide shows you how to pull the door back into line, step by step, before you ever reach for a plane.",

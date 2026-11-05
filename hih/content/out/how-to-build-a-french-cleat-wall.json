@@ -1,0 +1,60 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Build a French Cleat Wall for Garage Storage",
+    "handle": "how-to-build-a-french-cleat-wall",
+    "summary": "Build a French cleat wall that holds tools you can rearrange anytime: rip 45-degree cleats from plywood, screw them into studs and make matching holders.",
+    "tags": [
+      "Intermediate",
+      "Storage & Organization",
+      "Garage",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">A French cleat wall is rows of angled wooden strips screwed to the studs. Tool holders with a matching angled strip hook onto them and can be moved anywhere. It's stronger and more flexible than pegboard. This guide covers a garage or shop wall.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> ripping plywood at an angle on a table saw is an advanced cut: use a push stick, keep the blade guard on if possible, and never stand directly behind the blade. If you're not comfortable, ask the lumber store to rip strips for you or use a circular saw with a clamped guide.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Rip the cleats</h3><p>Rip 3/4 in plywood into strips about 3-1/2 to 4 in wide with the blade tilted to 45 degrees, so each strip has one beveled edge. Cut more than you think you need; leftovers become cleats on tool holders.</p><p><strong>Done right:</strong> every strip has a clean 45-degree bevel along one long edge.</p></li>\n<li><h3>Mark studs and a level start line</h3><p>Mark every stud along the wall. Draw a level line for the lowest cleat, usually 24 to 36 in off the floor or just above your workbench.</p><p><strong>Done right:</strong> studs are marked and the first line is level end to end.</p></li>\n<li><h3>Screw the wall cleats into studs</h3><p>Hold the first cleat on the line with the bevel facing up and sloping toward the wall, so it forms a pocket. Drive two 2-1/2 to 3 in screws into every stud. Add more rows above, spacing them about 6 to 8 in apart.</p><p><strong>Done right:</strong> each cleat is level, screwed into every stud, and the bevels all slope down toward the wall.</p></li>\n<li><h3>Build the tool holders</h3><p>Glue and screw a short cleat to the back of each holder with its bevel facing down and toward the wall, so it hooks into the wall cleat. Build simple shelves, hooks or tool racks from scrap plywood.</p><p><strong>Done right:</strong> each holder drops onto a wall cleat and locks in without wobbling.</p></li>\n<li><h3>Load the wall</h3><p>Hang the holders and tools, putting heavier items on the lower rows and near the center of a stud. Rearrange whenever your tools change.</p><p><strong>Done right:</strong> holders stay put when you take tools off them, and the wall cleats don't flex.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a carpenter if:</strong> the wall is concrete or block and you don't have a hammer drill, or you want a full built-in workshop system.</p></aside>\n<h2>FAQ</h2>\n<h3>What angle should French cleats be?</h3><p>45 degrees is standard and makes the cleats easy to cut and strong.</p>\n<h3>How far apart should French cleats be?</h3><p>About 6 to 8 in apart vertically works for most tool holders. Some people space them closer for small items.</p>\n<h3>What wood is best for French cleats?</h3><p>3/4 in plywood is strong and stable and won&#x27;t split like solid boards can.</p>\n<h3>How much weight can a French cleat hold?</h3><p>When the wall cleats are screwed into every stud, they hold heavy tools well. Strength depends on the screws, studs and the holder&#x27;s construction.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "4–8 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$60–$150"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Table saw or circular saw with a guide\", \"Stud finder\", \"Level or laser level\", \"Drill/driver\", \"Tape measure\", \"Clamps\", \"Safety glasses and hearing protection\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"3/4 in plywood (one 4 x 8 ft sheet makes many cleats)\", \"2-1/2 to 3 in wood screws\", \"1-1/4 in screws and wood glue (for holders)\", \"Scrap plywood for holders\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=E-vpLAvUt_Q"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-build-a-french-cleat-wall-hero"
+}

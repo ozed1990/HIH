@@ -1,0 +1,60 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "How to Install a Smart Light Switch (With Neutral)",
+    "handle": "how-to-install-a-smart-switch",
+    "summary": "Install a Wi-Fi smart switch on an existing single-pole switch: check for a neutral, kill the power, identify line and load, wire it and set up the app.",
+    "tags": [
+      "Intermediate",
+      "Electrical",
+      "Smart home",
+      "Upgrade"
+    ],
+    "body": "<p class=\"guide-intro\">A smart switch lets you control a light from your phone, a voice assistant or a schedule, while still working like a normal switch. Most Wi-Fi smart switches need a neutral wire in the switch box. This guide covers replacing a standard single-pole switch.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> switch off the breaker and verify the wires are dead with a non-contact tester before touching anything. Smart switches are bulkier than regular switches; if the box is crowded, it can overheat or damage wires. Check your local rules on homeowner electrical work.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check for a neutral wire</h3><p>With the breaker off, remove the cover plate and switch screws and pull the switch out gently. Look in the back of the box for a bundle of white wires joined by a wire nut, not connected to the switch. That's the neutral.</p><p><strong>Done right:</strong> you've found a neutral bundle, or you know you need a no-neutral smart switch instead.</p></li>\n<li><h3>Confirm the power is off</h3><p>Touch a non-contact tester to every wire in the box, including the neutral bundle, after confirming the tester works on a live outlet. Boxes can hold more than one circuit.</p><p><strong>Done right:</strong> the tester stays silent on every wire in the box.</p></li>\n<li><h3>Identify the line and load wires</h3><p>A smart switch has separate line (power in) and load (to the light) terminals. If the box has only one cable, see the switch's instructions. If you can't tell which black wire brings power, separate and cap both, turn the breaker on briefly, test which one is hot with the non-contact tester, label it \"line\", and turn the breaker back off.</p><p><strong>Done right:</strong> the line wire is labeled and the power is off again.</p></li>\n<li><h3>Wire the smart switch</h3><p>Connect the line wire to the switch's line terminal and the other black wire to load. Join the switch's neutral lead to the neutral bundle with a short pigtail under the wire nut. Connect the ground wire to the green screw. Follow the color codes in the instructions, which vary between brands.</p><p><strong>Done right:</strong> every connection is tight, no bare copper shows, and each wire stays put when tugged.</p></li>\n<li><h3>Mount it and set it up</h3><p>Fold the wires carefully into the box, screw the switch in straight and attach the plate. Turn the breaker on, and follow the app to connect the switch to your Wi-Fi. Many switches need a 2.4 GHz network.</p><p><strong>Done right:</strong> the light works from the switch and from the app.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a licensed electrician if:</strong> there's no neutral and you don't want a no-neutral model, the box is too crowded, you find aluminum wiring, or the light is controlled from two or more switches and the wiring doesn't match the 3-way kit's instructions.</p></aside>\n<h2>FAQ</h2>\n<h3>Do smart switches need a neutral wire?</h3><p>Most Wi-Fi smart switches do. Some brands make no-neutral models that work in older homes without a neutral in the switch box.</p>\n<h3>How do I know if I have a neutral wire?</h3><p>With the power off, look for a bundle of white wires joined in the back of the switch box that isn&#x27;t connected to the switch.</p>\n<h3>Can I install a smart switch on a 3-way circuit?</h3><p>Yes, with a 3-way smart switch kit, usually one smart switch plus a companion switch. Follow the kit&#x27;s wiring diagram exactly.</p>\n<h3>Why won&#x27;t my smart switch connect to Wi-Fi?</h3><p>Many need a 2.4 GHz network. Check the app&#x27;s requirements and that the switch is within range of your router.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$60"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Non-contact voltage tester\", \"Insulated screwdrivers\", \"Wire stripper\", \"Needle-nose pliers\", \"Painter's tape and marker (to label wires)\", \"Phone with the switch's app\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Smart switch (single-pole, or a 3-way kit for two-switch circuits)\", \"Wire nuts and a short pigtail of matching wire\", \"New wall plate (if needed)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=dyglyuk4bzo"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-a-smart-switch-hero"
+}

@@ -432,5 +432,75 @@
     "title": "Fall Home Maintenance Checklist (Before Winter)",
     "figures": 0,
     "steps": 7
+  },
+  {
+    "handle": "how-to-paint-kitchen-cabinets",
+    "blog": "kitchen",
+    "title": "How to Paint Kitchen Cabinets That Last",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-replace-a-bathroom-vanity",
+    "blog": "bathroom",
+    "title": "How to Replace a Bathroom Vanity",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "best-flooring-for-basement",
+    "blog": "flooring",
+    "title": "Best Flooring for a Basement: How to Choose",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-remove-wallpaper",
+    "blog": "painting-walls",
+    "title": "How to Remove Wallpaper (Without Wrecking the Wall)",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-fix-a-leaky-faucet",
+    "blog": "plumbing",
+    "title": "How to Fix a Leaky Faucet by Replacing the Cartridge",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-a-smart-switch",
+    "blog": "electrical",
+    "title": "How to Install a Smart Light Switch (With Neutral)",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-install-a-smart-lock",
+    "blog": "doors-windows",
+    "title": "How to Install a Smart Lock Deadbolt",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-replace-a-deck-board",
+    "blog": "outdoor-garden",
+    "title": "How to Replace a Rotted Deck Board",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-build-a-french-cleat-wall",
+    "blog": "storage",
+    "title": "How to Build a French Cleat Wall for Garage Storage",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "spring-home-maintenance-checklist",
+    "blog": "maintenance",
+    "title": "Spring Home Maintenance Checklist (After Winter)",
+    "figures": 0,
+    "steps": 7
   }
 ]

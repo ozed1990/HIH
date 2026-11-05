@@ -1,0 +1,60 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Paint Kitchen Cabinets That Last",
+    "handle": "how-to-paint-kitchen-cabinets",
+    "summary": "Paint kitchen cabinets with a hard, smooth finish: label and remove doors, degrease, scuff-sand, apply a bonding primer, then thin coats of enamel.",
+    "tags": [
+      "Intermediate",
+      "Kitchen",
+      "Cabinets",
+      "Painting"
+    ],
+    "body": "<p class=\"guide-intro\">Painted cabinets can transform a kitchen for a fraction of the cost of new ones, but they get handled every day, so prep and paint choice decide how long they last. This guide covers wood and MDF cabinets with a factory or old painted finish.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear a dust mask while sanding and ventilate while priming and painting. If your home was built before 1978 and the cabinets have old paint, test for lead before sanding.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Label and remove doors, drawers and hardware</h3><p>Number each door and its cabinet opening with tape before you take anything off. Remove doors, hinges, drawer fronts and pulls, and keep each set of screws in a labeled bag.</p><p><strong>Done right:</strong> every door and drawer has a number that matches its opening, and no hardware is loose.</p></li>\n<li><h3>Degrease every surface</h3><p>Kitchen cabinets carry a film of cooking grease, especially near the stove. Scrub all surfaces with a degreasing cleaner, rinse with clean water and let them dry. Paint won't bond to grease.</p><p><strong>Done right:</strong> the surfaces feel squeaky clean, not tacky.</p></li>\n<li><h3>Repair, scuff-sand and clean the dust</h3><p>Fill dents and old hardware holes you won't reuse with wood filler. Scuff-sand everything with a 180 to 220 grit sponge to dull the existing finish; you don't need to sand to bare wood. Vacuum, then wipe with a tack cloth or damp microfiber.</p><p><strong>Done right:</strong> the old finish is dull all over and no dust comes off on a dark cloth.</p></li>\n<li><h3>Prime with a bonding primer</h3><p>Apply a thin, even coat of <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">bonding primer</a></strong> made for glossy surfaces. Brush the profiles first, then roll the flat panels. Lay doors flat on racks and do the backs first, then the fronts. Lightly sand any rough spots once it's dry.</p><p><strong>Done right:</strong> the primer coat is even, with no bare spots, drips or puddles in corners.</p></li>\n<li><h3>Apply two thin coats of enamel</h3><p>Use a cabinet and trim enamel, which levels out brush marks and dries hard. Brush the recessed edges, roll the flat areas, and finish each panel with light strokes in one direction. Respect the recoat time on the can. Apply a second coat after a light sanding with 220 grit.</p><p><strong>Done right:</strong> the finish is smooth and even, with no brush ridges you can feel.</p></li>\n<li><h3>Let it cure before heavy use</h3><p>Rehang doors once they're dry to the touch and the can's recoat time has passed, and add small bumpers so doors don't stick to the frames. Most enamels take several weeks to fully cure: open and close doors gently and avoid scrubbing until then.</p><p><strong>Done right:</strong> doors close without sticking and the finish doesn't show fingernail marks.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a cabinet painter if:</strong> you want a sprayed factory-smooth finish, the cabinets are laminate or thermofoil that's peeling, or you can't be without a working kitchen for a week.</p></aside>\n<h2>FAQ</h2>\n<h3>Do I need to sand cabinets before painting?</h3><p>A scuff-sand to dull the old finish is enough when you use a bonding primer. Sanding to bare wood isn&#x27;t necessary.</p>\n<h3>What paint is best for kitchen cabinets?</h3><p>A cabinet and trim enamel, such as a waterborne alkyd or urethane-modified acrylic, which levels well and dries hard.</p>\n<h3>Should I paint cabinet doors on or off?</h3><p>Off. Painting doors flat gives a smoother finish, lets you do both sides, and avoids paint in the hinges.</p>\n<h3>How long does painted cabinet finish take to cure?</h3><p>It&#x27;s dry to handle within a day, but most enamels take several weeks to reach full hardness. Be gentle until then.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "3–5 days (including drying)"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$150–$400"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Screwdriver or drill\", \"Painter's tape and marker (for labels)\", \"Sanding sponges (180 and 220 grit)\", \"Tack cloth or microfiber\", \"2 in angled brush\", \"4 in foam or microfiber mini roller\", \"Drying racks or painter's pyramids\", \"Vacuum\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Degreasing cleaner (TSP substitute)\", \"Bonding primer\", \"Cabinet and trim enamel (waterborne alkyd or urethane-modified acrylic)\", \"Wood filler\", \"Paintable caulk\", \"Cabinet door bumpers\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=ZY4634tikUY"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-paint-kitchen-cabinets-hero"
+}

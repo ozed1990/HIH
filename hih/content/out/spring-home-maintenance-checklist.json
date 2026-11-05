@@ -1,0 +1,60 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "Spring Home Maintenance Checklist (After Winter)",
+    "handle": "spring-home-maintenance-checklist",
+    "summary": "Check your home after winter with this spring checklist: roof, gutters, foundation, AC, outdoor water, deck, windows, attic and safety alarms.",
+    "tags": [
+      "Beginner",
+      "Home Maintenance",
+      "Checklist",
+      "Seasonal"
+    ],
+    "body": "<p class=\"guide-intro\">Winter is hard on a house: ice, wind and freeze-thaw cycles cause damage you won't notice until it leaks. A spring walk-through catches it early. Work through this list once the ground thaws, before the summer heat.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> inspect the roof from the ground with binoculars rather than climbing on it. Use a stable ladder on firm ground for gutters.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Inspect the roof from the ground</h3><p>Scan the roof with binoculars for missing, curled or cracked shingles, damaged flashing around the chimney and vents, and debris in the valleys. Our <a href=\"/blogs/maintenance/signs-your-roof-needs-replacement\">roof warning signs guide</a> shows what to look for.</p><p><strong>Done right:</strong> you've noted any damage to show a roofer.</p></li>\n<li><h3>Clean gutters and check drainage</h3><p>Clear what winter left in the gutters and confirm downspouts send water at least 4 to 6 ft away from the house. Look for low spots in the soil next to the foundation where water pools. See our <a href=\"/blogs/maintenance/how-to-clean-gutters\">gutter cleaning guide</a>.</p><p><strong>Done right:</strong> water flows away from the foundation on every side.</p></li>\n<li><h3>Check the foundation and basement</h3><p>Walk around the foundation looking for new cracks, and check the basement for damp spots, efflorescence (white powder) or musty smells. Pour a bucket of water into the sump pit to test that the pump starts.</p><p><strong>Done right:</strong> the basement is dry and the sump pump runs and shuts off on its own.</p></li>\n<li><h3>Get the AC ready</h3><p>Replace the air filter, clear leaves and debris from around the outdoor unit, and test the cooling before the first hot day. Schedule a tune-up if it hasn't been serviced in a year. See our <a href=\"/blogs/maintenance/how-to-change-hvac-air-filter\">HVAC filter guide</a>.</p><p><strong>Done right:</strong> cool air flows from the vents and the outdoor unit has at least 2 ft of clear space around it.</p></li>\n<li><h3>Test outdoor faucets and irrigation</h3><p>Turn outdoor faucets back on and check for leaks, both outside and on the pipe inside the wall. A pipe that froze over winter may only leak once the faucet is opened. Start irrigation zones one at a time and look for broken heads.</p><p><strong>Done right:</strong> no water drips inside the house when outdoor faucets run.</p></li>\n<li><h3>Check the deck, windows and screens</h3><p>Look for loose railings, popped fasteners and soft boards on the deck, and do the water test to see whether it needs sealing. Repair torn window screens and recaulk gaps in exterior trim. Our <a href=\"/blogs/outdoor-garden/how-to-seal-a-deck\">deck sealing guide</a> and <a href=\"/blogs/doors-windows/how-to-rescreen-a-window\">rescreening guide</a> can help.</p><p><strong>Done right:</strong> railings are solid, screens are intact and the deck repels water.</p></li>\n<li><h3>Look in the attic and test alarms</h3><p>With a flashlight, check the attic for water stains, wet insulation and signs of pests. Test every smoke and CO alarm and replace batteries if they're not sealed 10-year units. See our <a href=\"/blogs/maintenance/how-to-test-and-replace-smoke-alarms\">smoke alarm guide</a>.</p><p><strong>Done right:</strong> the attic is dry and every alarm sounds when tested.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro for:</strong> roof damage, new or widening foundation cracks, water in the basement, AC tune-ups, and leaks inside walls from outdoor faucets.</p></aside>\n<h2>FAQ</h2>\n<h3>When should I do spring home maintenance?</h3><p>Once the ground has thawed and freezing nights are over, usually March to May depending on where you live.</p>\n<h3>What should I check after winter?</h3><p>The roof, gutters, foundation and basement, outdoor water lines, the AC, the deck and windows, the attic, and your safety alarms.</p>\n<h3>How do I know if an outdoor faucet pipe froze?</h3><p>Turn it on and check inside the house where the pipe comes through the wall. A split pipe often only leaks while the faucet is running.</p>\n<h3>How often should I test my sump pump?</h3><p>At least once a year, ideally in spring before heavy rains, by pouring water into the pit.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 weekends"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$50–$300 + any service calls"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Binoculars\", \"Ladder\", \"Flashlight\", \"Garden hose\", \"Screwdriver set\", \"Work gloves\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"HVAC air filters\", \"Exterior caulk\", \"Replacement window screen and spline (if needed)\", \"Smoke and CO alarm batteries\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=3merrzo5PIU"
+    }
+  ],
+  "media": [],
+  "hero_slot": "spring-home-maintenance-checklist-hero"
+}

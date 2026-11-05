@@ -1,0 +1,60 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Replace a Rotted Deck Board",
+    "handle": "how-to-replace-a-deck-board",
+    "summary": "Replace a rotted or cracked deck board: check the joists underneath, remove the fasteners, cut new boards to land on joists and screw them down.",
+    "tags": [
+      "Intermediate",
+      "Outdoor & Garden",
+      "Deck",
+      "Repair"
+    ],
+    "body": "<p class=\"guide-intro\">One soft or split deck board is a trip hazard and a sign to check what's underneath. Replacing a board is a few hours' work. This guide covers wood decks with boards nailed or screwed to wood joists.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear safety glasses and gloves. Set the circular saw depth to the board thickness so you don't cut into the joist. Treated lumber dust is irritating; wear a dust mask and don't burn the scraps.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check the joists under the board</h3><p>Before cutting anything, push a screwdriver into the joists under the damaged board and the boards around it. If the tip sinks in easily, the joist is rotted and needs repair first.</p><p><strong>Done right:</strong> the joists are solid, or you've identified which need a pro's repair.</p></li>\n<li><h3>Remove the fasteners</h3><p>Back out screws with a drill. Pull nails with a cat's paw and pry bar, or cut them with an oscillating tool slipped between the boards if they won't budge.</p><p><strong>Done right:</strong> the damaged board is loose and the neighboring boards aren't damaged.</p></li>\n<li><h3>Cut out the damaged section</h3><p>If only part of a long board is bad, cut it out so each new end lands over the center of a joist. If the cut falls next to a joist, screw a 2x cleat to the side of the joist to support the new board's end.</p><p><strong>Done right:</strong> every board end will rest on a joist or cleat.</p></li>\n<li><h3>Fit the new board</h3><p>Cut the new board to length and brush <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">end-cut preservative</a> on any cut ends of treated lumber. Match the gap between boards: dry boards get about 1/8 in, while wet pressure-treated boards can be laid tight because they shrink as they dry.</p><p><strong>Done right:</strong> the board sits flat, its ends are tight to the neighbors, and the spacing matches the rest of the deck.</p></li>\n<li><h3>Screw it down</h3><p>Drive two exterior deck screws at each joist, about 3/4 in from each edge, slightly below the surface. Pre-drill near board ends so they don't split.</p><p><strong>Done right:</strong> the board doesn't move or squeak when you walk on it, and no screw heads stick up.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a deck contractor if:</strong> the joists, beams, posts or the ledger board where the deck attaches to the house are soft, or many boards are failing at once. Those are structural safety problems.</p></aside>\n<h2>FAQ</h2>\n<h3>Can I replace just one deck board?</h3><p>Yes. Remove the fasteners, cut the board so its ends land on joists, and screw the new one down.</p>\n<h3>What screws should I use for deck boards?</h3><p>Exterior deck screws coated or made of stainless steel and rated for pressure-treated lumber.</p>\n<h3>How far apart should deck boards be?</h3><p>Usually about 1/8 in for dry boards. Wet pressure-treated boards can go tight because they shrink as they dry. Follow the board maker&#x27;s spacing for composites.</p>\n<h3>Will a new board match the old ones?</h3><p>Not right away. New wood weathers over months; sealing or staining the whole deck helps it blend.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–3 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$60 per board"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Circular saw\", \"Oscillating multi-tool\", \"Pry bar and cat's paw\", \"Drill/driver\", \"Tape measure and speed square\", \"Screwdriver or awl (to test for rot)\", \"Safety glasses\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Replacement deck board (match the size and species)\", \"Exterior deck screws rated for treated lumber\", \"2x lumber for cleats (if needed)\", \"End-cut wood preservative\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=vGKuQbH_wIQ"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-a-deck-board-hero"
+}

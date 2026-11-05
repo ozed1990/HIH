@@ -1,0 +1,60 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Replace a Bathroom Vanity",
+    "handle": "how-to-replace-a-bathroom-vanity",
+    "summary": "Replace a bathroom vanity yourself: measure plumbing, shut off water, remove the old unit, level and secure the new cabinet, then reconnect and seal.",
+    "tags": [
+      "Intermediate",
+      "Bathroom",
+      "Plumbing",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">A new vanity is one of the biggest visual upgrades in a bathroom, and with the plumbing already in place it's a weekend job. This guide covers swapping a freestanding vanity for one of similar size on existing supply and drain lines.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> vanity tops, especially stone, are heavy; lift with a helper. Wear eye protection when cutting and prying. Check for wires in the wall before driving screws.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Measure before you buy</h3><p>Measure the width, depth and height you have, plus the positions of the water lines and drain from the floor and from the side wall. Check that the new cabinet's open back or cutouts line up with them. Note door swing and toilet clearance; many codes call for at least 15 in from the toilet's center to the vanity side.</p><p><strong>Done right:</strong> the new vanity fits the space and its back clears the pipes.</p></li>\n<li><h3>Disconnect the old vanity</h3><p>Close the shut-off valves and open the faucet to relieve pressure. Disconnect the supply lines at the valves and loosen the P-trap slip nuts over a bucket. Stuff a rag in the drain arm to block sewer gas.</p><p><strong>Done right:</strong> the valves are closed and dry, and the drain is plugged with a rag.</p></li>\n<li><h3>Remove the top and cabinet</h3><p>Cut the caulk between the top and the wall with a utility knife, and lift the top off with a helper. Find and remove the screws holding the cabinet to the wall, then pull it out. Check the floor and wall for soft spots or water damage.</p><p><strong>Done right:</strong> the space is clear, and the floor and wall are solid and dry.</p></li>\n<li><h3>Set and level the new cabinet</h3><p>Mark the studs. If the cabinet has a solid back, cut holes for the pipes with a hole saw or jigsaw. Slide the cabinet in, shim it level front to back and side to side, and screw it to at least two studs through its back rail.</p><p><strong>Done right:</strong> the level reads true in both directions and the cabinet doesn't rock.</p></li>\n<li><h3>Install the faucet and top</h3><p>Mount the faucet and drain assembly on the top while it's on a table; it's much easier than working under the sink. Apply adhesive or silicone to the cabinet's top edges as the maker says, then lower the top in place with a helper.</p><p><strong>Done right:</strong> the top sits flat with an even overhang and doesn't shift.</p></li>\n<li><h3>Reconnect, test and caulk</h3><p>Connect new supply lines from the valves to the faucet, and assemble the P-trap. Open the valves slowly, run water hot and cold, fill and drain the sink, and check every joint with a paper towel. Run a bead of silicone where the top meets the wall.</p><p><strong>Done right:</strong> every joint stays dry after several fills, and the backsplash joint is sealed.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the shut-off valves won't close, the new vanity needs the drain or supply lines moved, or you find rot or mold in the floor or wall. Moving plumbing usually needs a permit.</p></aside>\n<h2>FAQ</h2>\n<h3>Can I replace a vanity without a plumber?</h3><p>Yes, if the new one fits the existing water and drain lines. If the pipes need moving, hire a plumber.</p>\n<h3>How do I attach a vanity to the wall?</h3><p>Screw through the cabinet&#x27;s back rail into at least two studs, after leveling it with shims.</p>\n<h3>Do I need new supply lines?</h3><p>It&#x27;s a good idea. Braided stainless lines are inexpensive and much less likely to fail than old ones.</p>\n<h3>How much clearance does a vanity need from a toilet?</h3><p>Many codes require at least 15 in from the toilet&#x27;s centerline to the side of the vanity. Check your local code.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "4–8 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$250–$1,200 (vanity) + $30 parts"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Adjustable wrenches (2)\", \"Channel-lock pliers\", \"Utility knife\", \"Pry bar\", \"Drill/driver\", \"Stud finder\", \"4 ft level\", \"Jigsaw or hole saw\", \"Bucket and towels\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"New vanity cabinet and top\", \"Faucet (if not included)\", \"Two braided supply lines\", \"P-trap kit and tailpiece\", \"Wood shims\", \"2-1/2 in cabinet screws\", \"Silicone caulk\", \"Construction adhesive or silicone for the top (per maker)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Oq1pkZD7DGo"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-a-bathroom-vanity-hero"
+}

@@ -1,0 +1,60 @@
+{
+  "blog_handle": "painting-walls",
+  "blog_title": "Painting & Walls",
+  "article": {
+    "title": "How to Remove Wallpaper (Without Wrecking the Wall)",
+    "handle": "how-to-remove-wallpaper",
+    "summary": "Remove wallpaper cleanly: find out what type you have, peel the face, soak the backing, scrape at a low angle, then wash off every trace of glue.",
+    "tags": [
+      "Intermediate",
+      "Painting & Walls",
+      "Wallpaper",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Removing wallpaper is mostly patience: getting the glue wet enough that the paper slides off instead of tearing the wall. This guide covers strippable, peelable and traditional wallpaper on drywall or plaster.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> you'll be using water near outlets and switches: switch off the breaker for the room's outlets, remove the cover plates and tape over the boxes. If the house was built before 1978, the paint under the paper may contain lead.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Prep the room</h3><p>Move furniture out, lay drop cloths and tape plastic along the baseboards. Switch off power to the walls you'll wet, remove cover plates and tape over outlets and switches.</p><p><strong>Done right:</strong> floors are covered and no electrical box is exposed to water.</p></li>\n<li><h3>Find out what kind of wallpaper you have</h3><p>Lift a corner with a putty knife and pull. Strippable paper comes off in whole sheets with little residue. Peelable paper lets the vinyl face come off but leaves a paper backing. Traditional paper tears and needs soaking.</p><p><strong>Done right:</strong> you know whether the paper peels off dry or needs soaking.</p></li>\n<li><h3>Peel the face layer</h3><p>Peel off as much of the top layer as you can, pulling slowly at a low angle. Removing the face lets water reach the glue underneath.</p><p><strong>Done right:</strong> only the paper backing or bare paper remains on the wall.</p></li>\n<li><h3>Soak the backing</h3><p>Spray a section with hot water, optionally mixed with wallpaper remover or a little white vinegar. Keep it wet for about 15 minutes, re-spraying so it never dries. The paper is ready when it turns dark and soft.</p><p><strong>Done right:</strong> a corner of the backing slides off with light pressure from the scraper.</p></li>\n<li><h3>Scrape at a low angle</h3><p>Hold the scraper almost flat to the wall and push gently under the paper. If you're gouging the wall, the paper isn't wet enough: soak it again. For stubborn paper, use a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">wallpaper steamer</a>, holding the plate on one spot until the paper softens.</p><p><strong>Done right:</strong> the paper comes off in large pieces and the wall surface isn't torn.</p></li>\n<li><h3>Wash off the glue and repair</h3><p>Wash the walls with hot water and a sponge until they no longer feel slippery or sticky. Glue left on the wall causes paint to crack. Let the wall dry for a day. If the drywall's paper face tore, seal it with an oil-based or shellac primer before patching, so it doesn't bubble.</p><p><strong>Done right:</strong> the wall feels smooth and not tacky, and torn spots are sealed and patched.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a painter if:</strong> there are several layers of old paper, the paper was hung directly on unprimed drywall and the wall is tearing badly, or you suspect lead paint underneath.</p></aside>\n<h2>FAQ</h2>\n<h3>What is the easiest way to remove wallpaper?</h3><p>Peel off the top layer, then soak the backing with hot water until it softens, and scrape at a low angle. Strippable paper may come off dry.</p>\n<h3>Does vinegar remove wallpaper?</h3><p>A mix of hot water and white vinegar can help soften the glue. Plain hot water often works as well if you keep the paper wet long enough.</p>\n<h3>Should I use a wallpaper scoring tool?</h3><p>Use it gently, if at all. Scoring helps water reach the glue through vinyl paper, but pressing hard can damage the drywall underneath.</p>\n<h3>Can you paint over wallpaper glue?</h3><p>No. Remaining glue causes paint to crack and peel. Wash it off completely and prime before painting.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "4–8 hours per room"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$60"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Wide flexible putty knife or wallpaper scraper\", \"Garden pump sprayer or spray bottle\", \"Wallpaper steamer (for stubborn paper)\", \"Sponges and buckets\", \"Drop cloths and painter's tape\", \"Screwdriver\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Hot water\", \"Wallpaper remover solution or white vinegar (optional)\", \"Oil-based or shellac primer (for torn drywall paper)\", \"Joint compound\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=37oM46zhivo"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-remove-wallpaper-hero"
+}

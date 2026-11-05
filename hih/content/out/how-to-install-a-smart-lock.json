@@ -1,0 +1,60 @@
+{
+  "blog_handle": "doors-windows",
+  "blog_title": "Doors & Windows",
+  "article": {
+    "title": "How to Install a Smart Lock Deadbolt",
+    "handle": "how-to-install-a-smart-lock",
+    "summary": "Install a smart deadbolt on your existing door: check the bore and backset, make sure the bolt throws freely, mount both halves and set up codes.",
+    "tags": [
+      "Beginner",
+      "Doors & Windows",
+      "Smart home",
+      "Security"
+    ],
+    "body": "<p class=\"guide-intro\">A smart deadbolt replaces your existing deadbolt and adds a keypad, phone access or both. Most fit standard U.S. door holes with just a screwdriver. The most common cause of problems is a bolt that drags in the strike, so this guide covers alignment first.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> keep the physical key or a backup entry method until the lock is fully set up and tested, so you can't lock yourself out.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check that your door fits</h3><p>Measure the bore hole (usually 2-1/8 in), the backset from the door edge to the hole's center (2-3/8 or 2-3/4 in), and the door thickness (most smart locks fit about 1-3/8 to 2-1/4 in). Compare with the lock's specifications.</p><p><strong>Done right:</strong> your door's measurements fall within the lock's listed range.</p></li>\n<li><h3>Make sure the bolt throws freely</h3><p>With the old lock still on and the door closed, turn the deadbolt by hand. It should slide fully in and out without you pushing or pulling on the door. If it drags, adjust the strike plate or deepen the strike hole with a chisel. A motorized lock will jam on a bolt that drags.</p><p><strong>Done right:</strong> the bolt extends and retracts with two fingers while the door is closed.</p></li>\n<li><h3>Remove the old deadbolt</h3><p>Unscrew the interior thumb-turn, pull both halves off, and remove the bolt from the door edge. While you're there, replace the short strike plate screws with 3 in screws that reach the framing, for better security.</p><p><strong>Done right:</strong> the door holes are empty and the strike is secured with long screws.</p></li>\n<li><h3>Install the bolt and both halves</h3><p>Insert the new bolt with the side marked \"up\" facing up. Feed the exterior keypad's cable under or through the bolt as the instructions show, and mount the interior unit so its spindle engages the bolt. Tighten the screws evenly.</p><p><strong>Done right:</strong> the cable isn't pinched and both halves sit flush against the door.</p></li>\n<li><h3>Add batteries, set up and test</h3><p>Install the batteries and follow the app or manual to calibrate the door's handing, pair the lock and add user codes. Lock and unlock it with the door open, then closed, using the keypad, app and key.</p><p><strong>Done right:</strong> every method locks and unlocks smoothly with the door closed.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a locksmith if:</strong> the door has no deadbolt hole yet, it's a metal or glass door, the door sags so the bolt can't be aligned, or you have a mortise lock.</p></aside>\n<h2>FAQ</h2>\n<h3>Will a smart lock fit my door?</h3><p>Most fit standard U.S. deadbolt holes: a 2-1/8 in bore with a 2-3/8 or 2-3/4 in backset, on doors about 1-3/8 to 2-1/4 in thick. Check the lock&#x27;s specs.</p>\n<h3>Why does my smart lock jam?</h3><p>Usually the bolt is dragging in the strike plate. Adjust the strike until the bolt moves freely by hand with the door closed.</p>\n<h3>What happens if the smart lock battery dies?</h3><p>Most give low-battery warnings well ahead of time and include a backup key or external battery contacts.</p>\n<h3>Do smart locks need Wi-Fi?</h3><p>Some connect directly over Wi-Fi; others use Bluetooth or a hub. Check which your lock uses and what features need a connection.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$100–$300"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"#2 Phillips screwdriver\", \"Tape measure\", \"Chisel and hammer (only if the strike needs adjusting)\", \"Phone with the lock's app\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Smart deadbolt\", \"Fresh batteries (usually AA, included)\", \"3 in strike plate screws (often included)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=MSG2yPSAB40"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-a-smart-lock-hero"
+}

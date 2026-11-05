@@ -1,0 +1,60 @@
+{
+  "blog_handle": "flooring",
+  "blog_title": "Flooring",
+  "article": {
+    "title": "How to Screen and Recoat Hardwood Floors",
+    "handle": "screen-and-recoat-hardwood-floors",
+    "summary": "Refresh dull, lightly scratched hardwood without sanding: check the finish, deep-clean, abrade with a screen, then roll on new polyurethane.",
+    "tags": [
+      "Intermediate",
+      "Flooring",
+      "Hardwood",
+      "Refinishing"
+    ],
+    "body": "<p class=\"guide-intro\">Screening and recoating lightly abrades the existing finish and adds a fresh coat of polyurethane on top. It brings back the shine and protection for a fraction of the cost of full sanding. It works when the wear is in the finish, not into the wood.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> ventilate well and follow the finish label. A rental buffer can jerk sideways when you start it: keep it level and hold on with both hands. Rags with oil-based finish can catch fire on their own: lay them flat to dry outdoors.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check that the floor is a candidate</h3><p>Screen and recoat works on floors with an intact polyurethane finish and surface scratches. It won't fix gray, worn-through spots, deep gouges, or water stains in the wood, which need sanding. If the floor was waxed or treated with a polish, a new finish won't stick: drop a little water on it; if white spots appear after a few minutes, there may be wax.</p><p><strong>Done right:</strong> the wear is in the finish only and the floor has no wax.</p></li>\n<li><h3>Empty the room and deep-clean</h3><p>Remove everything, including floor vents. Vacuum, then clean with a hardwood floor cleaner, not a soap or oil product. Let it dry.</p><p><strong>Done right:</strong> the floor is clean, dry and free of grit.</p></li>\n<li><h3>Abrade the finish</h3><p>Run a buffer with a screen pad over the floor in overlapping passes, moving with the grain. Hand-sand the edges and corners the buffer can't reach. You're only dulling the finish so the new coat sticks, not removing it.</p><p><strong>Done right:</strong> the whole floor looks evenly dull, with no shiny spots left.</p></li>\n<li><h3>Remove every bit of dust</h3><p>Vacuum thoroughly, including gaps between boards, then wipe the floor with a slightly damp microfiber tack pad. Dust left behind ends up in the finish.</p><p><strong>Done right:</strong> a dark cloth wiped across the floor picks up no dust.</p></li>\n<li><h3>Roll on the new finish</h3><p>Starting at the far wall and working toward the exit, cut in a band along the edges, then apply a thin, even coat with an applicator pad or roller, keeping a wet edge and following the grain. Apply a second coat after the recoat time on the can, if the product calls for it.</p><p><strong>Done right:</strong> the finish is even, with no puddles, lap marks or missed spots.</p></li>\n<li><h3>Let it cure</h3><p>Walk on it in socks only after the time on the label. Wait longer before bringing back furniture, and at least a week or as the label says before putting rugs down. Use felt pads under furniture legs.</p><p><strong>Done right:</strong> the floor has an even sheen and no tacky spots.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a flooring refinisher if:</strong> the finish is worn through to bare wood, the floor has deep scratches or pet stains, you're changing the color, or the floor is engineered with a thin wear layer.</p></aside>\n<h2>FAQ</h2>\n<h3>What is screen and recoat?</h3><p>It means lightly abrading the existing floor finish and applying a fresh coat of polyurethane, without sanding down to bare wood.</p>\n<h3>How often should hardwood floors be recoated?</h3><p>Often every 3 to 5 years in busy homes, before the finish wears through.</p>\n<h3>Can you recoat a floor with scratches?</h3><p>Surface scratches in the finish usually disappear. Scratches into the wood need sanding.</p>\n<h3>Can you recoat a waxed floor?</h3><p>Not with polyurethane. The wax must be removed first, which usually means professional sanding.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 days"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$100–$300 (with rental buffer)"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Floor buffer with screen pads (rental) or a hand sanding block for small rooms\", \"Vacuum with soft floor brush\", \"Microfiber tack pads\", \"Finish applicator pad or 3/8 in nap roller\", \"Painter's tape\", \"Knee pads\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Hardwood floor cleaner\", \"Waterborne polyurethane floor finish (or a recoat system)\", \"Abrasive screen pads (about 120\\u2013150 grit)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=TpFqsLMakm8"
+    }
+  ],
+  "media": [],
+  "hero_slot": "screen-and-recoat-hardwood-floors-hero"
+}

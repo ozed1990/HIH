@@ -1,0 +1,60 @@
+{
+  "blog_handle": "painting-walls",
+  "blog_title": "Painting & Walls",
+  "article": {
+    "title": "Paint Sheen Guide: Which Finish for Each Room",
+    "handle": "paint-sheen-guide",
+    "summary": "Choose the right paint sheen for every room: flat, matte, eggshell, satin, semi-gloss and gloss, and how each one handles light, dirt and wear.",
+    "tags": [
+      "Beginner",
+      "Painting & Walls",
+      "Painting",
+      "Buying guide"
+    ],
+    "body": "<p class=\"guide-intro\">The same color looks and wears very differently in flat or semi-gloss. Sheen decides how much light the wall reflects, how much it hides flaws and how well it stands up to scrubbing. This guide walks through each sheen and where it works best.</p>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Know the sheen scale</h3><p>From least to most shine: <strong>flat</strong>, <strong>matte</strong>, <strong>eggshell</strong>, <strong>satin</strong>, <strong>semi-gloss</strong>, <strong>gloss</strong>. More shine means easier cleaning and more durability, but also more visible bumps, patches and roller marks. Names vary a little between brands.</p><p><strong>Done right:</strong> you can list the sheens in order from flattest to shiniest.</p></li>\n<li><h3>Use flat or matte where you want to hide flaws</h3><p>Flat and matte reflect the least light, so they hide patches and uneven drywall best. Use them on ceilings and in low-traffic rooms like adult bedrooms and formal living rooms. Many newer matte paints are scrubbable; check the label.</p><p><strong>Done right:</strong> ceilings and low-traffic walls are marked flat or matte on your plan.</p></li>\n<li><h3>Use eggshell or satin for most walls</h3><p>Eggshell has a soft glow and wipes clean; it suits living rooms, bedrooms and dining rooms. Satin is a bit shinier and tougher, which makes it a good choice for kitchens, bathrooms, hallways and kids' rooms.</p><p><strong>Done right:</strong> each main room has eggshell or satin chosen by how much wear it gets.</p></li>\n<li><h3>Use semi-gloss or gloss on trim and doors</h3><p>Semi-gloss is hard-wearing and easy to wipe, so it's the usual choice for trim, doors, cabinets and baseboards. Gloss is the toughest and most reflective, for railings, furniture and accents, but shows every flaw underneath.</p><p><strong>Done right:</strong> trim and doors are marked semi-gloss or gloss.</p></li>\n<li><h3>Test the sheen in the room</h3><p>Paint a sample board with your color in the sheen you've picked and hold it on the wall in morning and evening light. Shine a flashlight across it at a low angle: that shows how much it will highlight wall flaws.</p><p><strong>Done right:</strong> you've seen the sample in both daylight and lamplight and you're happy with the shine.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Ask a paint store or painter if:</strong> you're painting over a very glossy existing finish, an exterior surface, or a damp area like a basement, where special primers or paints may be needed.</p></aside>\n<h2>FAQ</h2>\n<h3>What paint sheen is best for walls?</h3><p>Eggshell or satin for most rooms. Eggshell for living spaces and bedrooms, satin for kitchens, bathrooms and hallways.</p>\n<h3>What sheen should trim be?</h3><p>Semi-gloss is the most common choice for trim, doors and baseboards because it&#x27;s durable and easy to clean.</p>\n<h3>Is flat or matte paint good for ceilings?</h3><p>Yes. Flat paint hides flaws and reduces glare, which is why it&#x27;s the standard ceiling finish.</p>\n<h3>Can I use satin in a bathroom?</h3><p>Yes. Satin, or a paint labeled for bathrooms, handles humidity and wiping better than flatter sheens.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes to decide"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$10 (sample pots)"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Sample pots\", \"Sample boards or poster board\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Nothing else\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=5pL2GdKMZe4"
+    }
+  ],
+  "media": [],
+  "hero_slot": "paint-sheen-guide-hero"
+}

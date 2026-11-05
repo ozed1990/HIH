@@ -502,5 +502,75 @@
     "title": "Spring Home Maintenance Checklist (After Winter)",
     "figures": 0,
     "steps": 7
+  },
+  {
+    "handle": "how-to-regrout-a-backsplash",
+    "blog": "kitchen",
+    "title": "How to Regrout a Tile Backsplash",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-replace-a-bathroom-exhaust-fan",
+    "blog": "bathroom",
+    "title": "How to Replace a Bathroom Exhaust Fan (Upgrade Kit)",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "screen-and-recoat-hardwood-floors",
+    "blog": "flooring",
+    "title": "How to Screen and Recoat Hardwood Floors",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "paint-sheen-guide",
+    "blog": "painting-walls",
+    "title": "Paint Sheen Guide: Which Finish for Each Room",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-flush-a-water-heater",
+    "blog": "plumbing",
+    "title": "How to Flush a Tank Water Heater",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-hire-an-electrician",
+    "blog": "electrical",
+    "title": "Hiring an Electrician: Costs and What to Expect",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "fix-a-sliding-door-that-sticks",
+    "blog": "doors-windows",
+    "title": "How to Fix a Sliding Patio Door That Drags",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-edge-a-flower-bed",
+    "blog": "outdoor-garden",
+    "title": "How to Edge a Flower Bed (Clean Natural Edge)",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-add-attic-storage",
+    "blog": "storage",
+    "title": "How to Add Attic Storage Without Crushing Insulation",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "water-softener-maintenance",
+    "blog": "maintenance",
+    "title": "Water Softener Maintenance: Salt, Bridges and Cleaning",
+    "figures": 0,
+    "steps": 5
   }
 ]

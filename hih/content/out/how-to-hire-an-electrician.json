@@ -1,0 +1,60 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "Hiring an Electrician: Costs and What to Expect",
+    "handle": "how-to-hire-an-electrician",
+    "summary": "Know when to call an electrician, what it typically costs, how to check licenses and permits, and the questions to ask before you hire one.",
+    "tags": [
+      "Beginner",
+      "Electrical",
+      "Hire a pro",
+      "Costs"
+    ],
+    "body": "<p class=\"guide-intro\">Many electrical jobs are not DIY, and some can't legally be done by a homeowner. This guide covers when to call an electrician, what you're likely to pay, and how to choose one you can trust.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> if you smell burning, see sparks or scorch marks, or a breaker keeps tripping, switch off that circuit at the panel and call an electrician right away. For a burning smell you can't trace, or smoke, leave the house and call 911.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Know which jobs need an electrician</h3><p>Call a licensed electrician for panel work and breaker replacements, new circuits and outlets, aluminum wiring, flickering lights throughout the house, warm outlets or switch plates, repeated breaker trips, and anything with burning smells. Larger jobs like adding circuits or a panel upgrade usually need a permit.</p><p><strong>Done right:</strong> you know whether your job is a DIY task or a pro job.</p></li>\n<li><h3>Understand typical costs</h3><p>National cost guides put most residential electricians at roughly $40 to $120 per hour, with many small to medium jobs landing around $150 to $600. Many charge a service call fee or a one-hour minimum. Rates are higher in big cities, for master electricians, and for emergencies.</p><p><strong>Done right:</strong> you have a realistic budget range before calling.</p></li>\n<li><h3>Check license and insurance</h3><p>Ask for the electrician's state or local license number and look it up on your state's licensing board website. Ask for proof of liability insurance and, if they have employees, workers' compensation.</p><p><strong>Done right:</strong> the license is active and you've seen the insurance certificate.</p></li>\n<li><h3>Get two or three written quotes</h3><p>Describe the job the same way to each electrician and send photos. Ask each quote to list the scope of work, materials, permit fees, timeline and warranty on labor.</p><p><strong>Done right:</strong> you have comparable written quotes, not just verbal numbers.</p></li>\n<li><h3>Confirm permits and inspection</h3><p>Ask who pulls the permit. A licensed electrician usually does it for you and arranges the inspection. Don't agree to skip a required permit to save money; it can cause problems with insurance and when you sell the house.</p><p><strong>Done right:</strong> the quote says who pulls the permit, and the inspection is scheduled.</p></li>\n<li><h3>Prepare for the visit</h3><p>Clear access to the panel and work area, label any breakers you know, and write down when the problem happens. Ask the electrician to explain what they found and to note any other safety issues they see.</p><p><strong>Done right:</strong> the electrician can get straight to work, and you get a clear explanation of what was done.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Always use a licensed electrician for:</strong> panel and service upgrades, new circuits, EV chargers, generators and transfer switches, rewiring, and any job your local building department says requires a licensed contractor.</p></aside>\n<h2>FAQ</h2>\n<h3>How much does an electrician cost per hour?</h3><p>National cost guides put most residential rates at roughly $40 to $120 per hour, often with a service call fee. Local prices vary.</p>\n<h3>Do I need a permit for electrical work?</h3><p>New circuits, panel work and many other jobs require a permit. Simple like-for-like replacements often don&#x27;t. Check with your local building department.</p>\n<h3>How do I check an electrician&#x27;s license?</h3><p>Ask for the license number and look it up on your state or city licensing board&#x27;s website.</p>\n<h3>Is it cheaper to buy my own fixtures?</h3><p>Often yes. Many electricians will install fixtures you supply. Ask first, and buy UL- or ETL-listed products.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours to get quotes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "About $40–$120 per hour (national range)"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Phone or laptop\", \"Notepad\", \"Photos of the problem\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Nothing else\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=NGqx7FpguRQ"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-hire-an-electrician-hero"
+}

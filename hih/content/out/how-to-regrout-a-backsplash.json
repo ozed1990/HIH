@@ -1,0 +1,60 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Regrout a Tile Backsplash",
+    "handle": "how-to-regrout-a-backsplash",
+    "summary": "Refresh a stained or cracked backsplash: rake out the old grout, choose sanded or unsanded, pack new grout at an angle, sponge, buff and seal.",
+    "tags": [
+      "Intermediate",
+      "Kitchen",
+      "Tile",
+      "Repair"
+    ],
+    "body": "<p class=\"guide-intro\">Stained, cracked or crumbling grout makes even good tile look tired. You can remove the old grout and pack in fresh grout without touching the tile. This guide covers wall tile backsplashes with standard cement grout joints.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> removing grout makes fine silica dust: wear safety glasses and a dust mask, and vacuum as you go. Switch off the breaker for backsplash outlets and remove the cover plates before you work around them.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Protect the counter and outlets</h3><p>Tape paper or plastic over the countertop. Switch off the outlets' breaker, remove the cover plates and tape over the boxes.</p><p><strong>Done right:</strong> the counter is covered and no outlet box is open.</p></li>\n<li><h3>Remove the old grout</h3><p>Run a <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">grout saw</a></strong> or a multi-tool with a carbide grout blade down the center of each joint. Remove at least two-thirds of the grout's depth, keeping the blade off the tile edges. Vacuum the dust out of the joints.</p><p><strong>Done right:</strong> the joints are evenly deep and clean, and no tile edges are chipped.</p></li>\n<li><h3>Pick the right grout</h3><p>Use unsanded grout for joints 1/8 in or narrower and sanded grout for wider joints. Premixed urethane or acrylic grouts are easier to work with and resist stains, but follow their specific instructions. Match the color to a dry sample.</p><p><strong>Done right:</strong> the grout type matches your joint width.</p></li>\n<li><h3>Pack the grout in</h3><p>Mix grout to a peanut-butter consistency if it's powder. Hold the float at about 45 degrees and push grout diagonally across the joints, pressing it in firmly. Work in a section of a few square feet, then scrape off the excess with the float held almost upright.</p><p><strong>Done right:</strong> every joint is full and flush, with no gaps or pinholes.</p></li>\n<li><h3>Sponge and buff</h3><p>Wait until the grout firms up, usually 15 to 30 minutes. Wipe diagonally with a damp, well-wrung sponge to shape the joints, rinsing it often. Once it dries, buff the light haze off the tile with a dry microfiber cloth.</p><p><strong>Done right:</strong> the joints are smooth and slightly below the tile face, and the tile is haze-free.</p></li>\n<li><h3>Caulk the corners and seal</h3><p>Where the backsplash meets the countertop and at inside corners, use silicone caulk instead of grout; those joints move and grout cracks there. Seal cement grout once it has cured, usually after about 48 to 72 hours.</p><p><strong>Done right:</strong> the countertop joint is caulked, and water beads on the grout after sealing.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a tile setter if:</strong> tiles are loose or hollow-sounding, the wall behind them is soft or water-stained, or the grout is epoxy, which is much harder to remove.</p></aside>\n<h2>FAQ</h2>\n<h3>Can you regrout over old grout?</h3><p>Not reliably. A thin layer over old grout cracks and pops out. Remove at least two-thirds of the old grout depth first.</p>\n<h3>Sanded or unsanded grout for a backsplash?</h3><p>Unsanded for joints 1/8 in or narrower, which covers most backsplashes; sanded for wider joints.</p>\n<h3>Should the joint at the countertop be grouted?</h3><p>No. Use flexible silicone caulk at the countertop and in inside corners, where movement would crack grout.</p>\n<h3>When can I seal new grout?</h3><p>Usually after about 48 to 72 hours, once it has cured. Check the grout package.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "4–6 hours + cure time"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$25–$60"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Grout saw or oscillating multi-tool with a carbide grout blade\", \"Rubber grout float\", \"Grout sponges (2) and a bucket\", \"Margin trowel\", \"Vacuum\", \"Painter's tape\", \"Microfiber cloths\", \"Safety glasses and dust mask\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Grout (sanded or unsanded, or premixed)\", \"Grout sealer (for cement grout)\", \"100% silicone caulk in a matching color\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=DytsjSHlCWU"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-regrout-a-backsplash-hero"
+}

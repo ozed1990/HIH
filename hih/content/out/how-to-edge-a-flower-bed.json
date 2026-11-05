@@ -1,0 +1,60 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Edge a Flower Bed (Clean Natural Edge)",
+    "handle": "how-to-edge-a-flower-bed",
+    "summary": "Cut a crisp, natural edge between lawn and flower bed with a spade: mark the line, cut a vertical edge, bevel the bed side, then mulch and maintain.",
+    "tags": [
+      "Beginner",
+      "Outdoor & Garden",
+      "Landscaping",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">A clean edge between lawn and bed makes a whole yard look cared for, and it slows grass from creeping into the bed. A natural spade-cut edge costs nothing but time. This guide covers new beds and overgrown edges.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear sturdy shoes. Call 811 a few days before digging so buried utility lines can be marked, even for shallow edging.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Mark the line</h3><p>Lay a garden hose along the edge you want, adjusting it until curves look smooth from the house and street. Mark it with marking paint or by cutting a shallow line with the edger along the hose.</p><p><strong>Done right:</strong> the line has smooth, deliberate curves and no awkward kinks.</p></li>\n<li><h3>Cut a vertical edge on the lawn side</h3><p>Stand on the lawn side. Push the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">half-moon edger</a> or spade straight down about 3 to 4 in deep along the line, overlapping each cut slightly. Keep the blade vertical so the lawn edge stays crisp.</p><p><strong>Done right:</strong> a continuous vertical cut runs the full length of the line.</p></li>\n<li><h3>Bevel the bed side</h3><p>From the bed side, cut at about a 45-degree angle toward the bottom of your vertical cut, making a V-shaped trench. Lift out the wedge of sod and soil.</p><p><strong>Done right:</strong> a clean V-trench, about 3 to 4 in deep, separates lawn from bed.</p></li>\n<li><h3>Tidy up and mulch</h3><p>Shake soil from the removed sod back into the bed, and compost or discard the grass. Rake the bed smooth and spread 2 to 3 in of mulch, keeping its top just below the edge and away from plant stems.</p><p><strong>Done right:</strong> the mulch sits below the lawn edge, so the line stays visible.</p></li>\n<li><h3>Maintain the edge</h3><p>Recut the vertical edge with the edger or a string trimmer turned on its side every few weeks in the growing season. Light, frequent touch-ups keep it sharp.</p><p><strong>Done right:</strong> grass isn't growing over the trench a month later.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a landscaper if:</strong> you want stone, brick or steel edging set in concrete, the beds are on a steep slope, or the yard has extensive tree roots along the edge.</p></aside>\n<h2>FAQ</h2>\n<h3>How deep should a flower bed edge be?</h3><p>About 3 to 4 in deep is enough to stop most lawn grass runners.</p>\n<h3>What tool is best for edging flower beds?</h3><p>A half-moon edger makes clean, curved cuts. A flat spade also works well.</p>\n<h3>How often should I re-edge my beds?</h3><p>Touch up the edge every few weeks during the growing season to keep it crisp.</p>\n<h3>Should mulch be higher than the edge?</h3><p>No. Keep mulch just below the lawn edge so the line stays visible and mulch doesn&#x27;t spill onto the grass.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–3 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$60"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Half-moon edger or flat garden spade\", \"Garden hose or marking paint\", \"Garden rake\", \"Wheelbarrow\", \"Work gloves\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Mulch (enough for a 2\\u20133 in layer)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=svsw4Tqg2A4"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-edge-a-flower-bed-hero"
+}

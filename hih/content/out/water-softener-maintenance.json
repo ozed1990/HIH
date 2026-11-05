@@ -1,0 +1,60 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "Water Softener Maintenance: Salt, Bridges and Cleaning",
+    "handle": "water-softener-maintenance",
+    "summary": "Keep your water softener working: check and add the right salt, break up salt bridges, clean the brine tank and test your water hardness.",
+    "tags": [
+      "Beginner",
+      "Home Maintenance",
+      "Water",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">A water softener needs only a little attention, but when it runs out of salt or forms a salt bridge, hard water comes right back. This guide covers the routine checks for a standard salt-based softener with a separate brine tank.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> salt bags are heavy; lift with your legs. Put the softener in bypass mode before cleaning the brine tank, and follow your softener's manual.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check the salt level monthly</h3><p>Lift the brine tank lid. Keep the tank at least one-third to half full of salt, and keep the salt above the water level. Many softeners have a fill line marked inside.</p><p><strong>Done right:</strong> you can't see standing water above the salt.</p></li>\n<li><h3>Use the right salt</h3><p>Use softener salt pellets or crystals labeled for water softeners. Avoid rock salt, which has more insoluble material that builds up as sludge. Stick to one type if you can; mixing can encourage bridging.</p><p><strong>Done right:</strong> the bag says it's made for water softeners.</p></li>\n<li><h3>Break up any salt bridge</h3><p>A salt bridge is a hard crust that forms above the water, so the salt looks full but isn't dissolving. Push a broom handle down through the salt in a few spots. If it hits a hard layer with empty space below, break it up gently without hitting the tank walls.</p><p><strong>Done right:</strong> the handle slides down to the bottom of the tank without hitting a crust.</p></li>\n<li><h3>Clean the brine tank once a year</h3><p>Put the softener in bypass mode. Let the salt run low, scoop or vacuum out the remaining salt and water, scrub the tank with mild soap and water, and rinse. Refill with a few inches of water and fresh salt, as the manual says.</p><p><strong>Done right:</strong> the tank is free of sludge, and the softener is back out of bypass mode.</p></li>\n<li><h3>Test your water</h3><p>Use hardness <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">test strips</a> on water from a cold kitchen faucet a day after the softener regenerates. If your water has iron, use a resin cleaner as the maker recommends to keep the resin working.</p><p><strong>Done right:</strong> the test shows soft water, and you have no new spotting on glasses or fixtures.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a water treatment technician if:</strong> the water stays hard with plenty of salt and no bridge, the brine tank stays full of water, the control valve leaks, or the softener runs constantly.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should I add salt to my water softener?</h3><p>Check monthly and keep the tank at least one-third to half full. How often you add depends on your water hardness and use.</p>\n<h3>What is a salt bridge?</h3><p>A hard crust of salt that forms above the water in the brine tank, so the salt looks full but can&#x27;t dissolve. Break it up with a broom handle.</p>\n<h3>Pellets or crystals?</h3><p>Both work. Pellets are popular for tall tanks; crystals suit some two-tank systems. Avoid rock salt.</p>\n<h3>How do I know my softener is working?</h3><p>Use water hardness test strips. Signs of trouble include spotty dishes, scale on fixtures and soap that doesn&#x27;t lather well.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$5–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Broom handle or long wooden dowel\", \"Bucket or wet-dry vacuum\", \"Scrub brush\", \"Water hardness test strips\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Water softener salt (pellets or crystals)\", \"Resin cleaner (if your water has iron)\", \"Mild dish soap\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=wqJ_Vv9w4_o"
+    }
+  ],
+  "media": [],
+  "hero_slot": "water-softener-maintenance-hero"
+}

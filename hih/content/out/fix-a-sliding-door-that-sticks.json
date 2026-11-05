@@ -1,0 +1,60 @@
+{
+  "blog_handle": "doors-windows",
+  "blog_title": "Doors & Windows",
+  "article": {
+    "title": "How to Fix a Sliding Patio Door That Drags",
+    "handle": "fix-a-sliding-door-that-sticks",
+    "summary": "Make a sliding patio door glide again: clean and straighten the track, lubricate it with silicone, and raise the rollers with their adjustment screws.",
+    "tags": [
+      "Intermediate",
+      "Doors & Windows",
+      "Repair",
+      "Troubleshooting"
+    ],
+    "body": "<p class=\"guide-intro\">A sliding glass door that drags, grinds or needs two hands usually has a dirty track or rollers that have dropped. Both are quick fixes. This guide covers standard sliding patio doors with adjustable bottom rollers.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> sliding glass panels are very heavy. Don't lift a panel off its track by yourself; that's a two-person job, and roller replacement usually requires it.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Clean the track thoroughly</h3><p>Open the door fully and vacuum the bottom track, then scrub it with a stiff brush and an all-purpose cleaner. Close the door and clean the other half of the track. Dirt packed into the track is the most common cause of dragging.</p><p><strong>Done right:</strong> the track is clean along its full length on both sides of the door.</p></li>\n<li><h3>Check the track for dents</h3><p>Run a fingertip along the raised rail the rollers ride on. A dent or bent spot makes the door bump. Gently straighten small bends with pliers, using a block of wood to protect the rail.</p><p><strong>Done right:</strong> the rail feels straight and smooth along its whole length.</p></li>\n<li><h3>Lubricate with silicone, not grease</h3><p>Spray a light coat of dry <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">silicone lubricant</a> on the track rail and the rollers you can reach. Wipe off excess. Oil and grease attract dirt and make the problem come back.</p><p><strong>Done right:</strong> the track feels slick, not sticky.</p></li>\n<li><h3>Adjust the rollers</h3><p>Look for small holes or caps on the bottom edge of the door panel at each end; behind them are the roller adjustment screws. Turn each screw a quarter turn at a time, usually clockwise to raise the door, and slide the door between adjustments. Raise both ends until the door glides and the gap at the top is even.</p><p><strong>Done right:</strong> the door slides with one finger and the gap along the frame is even top to bottom.</p></li>\n<li><h3>Check the lock and latch</h3><p>Close the door and test the lock. Raising the door can change where the latch hits the strike. Adjust the strike on the frame if the lock doesn't catch easily.</p><p><strong>Done right:</strong> the door locks without lifting or pushing it.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a door technician if:</strong> the rollers are cracked or seized and the panel needs to come out, the glass is damaged, or the door frame is out of square. Replacing rollers means lifting a very heavy glass panel.</p></aside>\n<h2>FAQ</h2>\n<h3>Why is my sliding door so hard to open?</h3><p>Most often the track is dirty or the rollers have dropped so the door rides on the frame. Cleaning and adjusting the rollers fixes most cases.</p>\n<h3>What lubricant is best for sliding doors?</h3><p>A dry silicone spray. Avoid oil and grease, which attract dirt.</p>\n<h3>Where are the adjustment screws on a sliding door?</h3><p>Usually in small holes, often under caps, on the bottom edge of the door panel at each end.</p>\n<h3>Can I replace sliding door rollers myself?</h3><p>It&#x27;s possible, but the panel must be lifted out of the frame, which takes two people. Many homeowners hire a door technician.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–90 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Vacuum with crevice tool\", \"Stiff brush or old toothbrush\", \"#2 Phillips screwdriver\", \"Flathead screwdriver\", \"Pliers (to straighten a bent track)\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Silicone spray lubricant (dry type)\", \"All-purpose cleaner and rags\", \"Replacement rollers (only if worn)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=SztWDe0vtJI"
+    }
+  ],
+  "media": [],
+  "hero_slot": "fix-a-sliding-door-that-sticks-hero"
+}

@@ -1,0 +1,60 @@
+{
+  "blog_handle": "plumbing",
+  "blog_title": "Plumbing Basics",
+  "article": {
+    "title": "How to Flush a Tank Water Heater",
+    "handle": "how-to-flush-a-water-heater",
+    "summary": "Flush sediment from a gas or electric tank water heater: turn off the heat, drain through a hose, flush until clear, and refill before restoring power.",
+    "tags": [
+      "Intermediate",
+      "Plumbing",
+      "Water heater",
+      "Maintenance"
+    ],
+    "body": "<p class=\"guide-intro\">Minerals in the water settle to the bottom of a tank water heater as sediment, which makes it noisy, less efficient and shorter-lived. Flushing it once a year clears that out. This guide covers standard gas and electric tank heaters, not tankless units.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> the water in the tank is hot enough to scald: let it cool for a few hours or route the hose to a drain where no one can touch the flow. On an electric heater, switch off the breaker before draining; turning it back on with an empty tank burns out the heating elements.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Turn off the heat</h3><p>For an electric heater, switch off its breaker. For a gas heater, turn the control knob to PILOT or VACATION so the burner doesn't fire while the tank drains.</p><p><strong>Done right:</strong> the breaker is off (electric) or the gas control is on pilot or vacation (gas).</p></li>\n<li><h3>Shut off the cold water and connect a hose</h3><p>Close the cold-water supply valve on the pipe going into the top of the heater. Screw a garden hose onto the drain valve at the bottom of the tank, and run the other end to a floor drain or outside, downhill from the tank.</p><p><strong>Done right:</strong> the hose is tight on the drain valve and its end is at a safe drain.</p></li>\n<li><h3>Open a hot tap and drain the tank</h3><p>Open a hot water faucet somewhere in the house so air can enter and the tank can drain. Open the heater's drain valve. Let it drain until the flow slows; it can take 20 minutes or more.</p><p><strong>Done right:</strong> water flows steadily out of the hose end.</p></li>\n<li><h3>Flush out the sediment</h3><p>With the drain valve still open, open the cold-water supply valve for a minute to stir up sediment and push it out, then close it again. Repeat a few times until the water coming out of the hose runs clear.</p><p><strong>Done right:</strong> a bucket filled from the hose shows clear water with no grit at the bottom.</p></li>\n<li><h3>Refill before restoring the heat</h3><p>Close the drain valve and disconnect the hose. Open the cold-water supply fully and leave the hot faucet open until water flows from it steadily with no sputtering, which means the tank is full. Close the faucet. Only then turn the breaker back on or set the gas control back to its normal setting.</p><p><strong>Done right:</strong> the hot faucet runs without air, the drain valve doesn't drip, and hot water returns within an hour or so.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the drain valve won't open or won't close and keeps dripping, the tank is leaking from its body, the heater is over 10 to 12 years old and very noisy, or you smell gas.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should you flush a water heater?</h3><p>Once a year is common, more often if you have hard water.</p>\n<h3>Can flushing an old water heater cause leaks?</h3><p>On an old tank that has never been flushed, sediment can sometimes be all that&#x27;s sealing a weak spot, and old plastic drain valves can fail. If your heater is very old, consider having a plumber check it.</p>\n<h3>Why do I have to turn the power off on an electric water heater?</h3><p>If the heating elements turn on without water around them, they burn out within seconds.</p>\n<h3>How long does it take to flush a water heater?</h3><p>About 1 to 2 hours including draining, flushing and refilling.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$20"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Garden hose\", \"Flathead screwdriver (for some drain valves)\", \"Bucket\", \"Work gloves\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Replacement brass drain valve (optional, if the plastic one is worn)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=PjwENIksoWE"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-flush-a-water-heater-hero"
+}

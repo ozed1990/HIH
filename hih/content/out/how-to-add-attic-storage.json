@@ -1,0 +1,60 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Add Attic Storage Without Crushing Insulation",
+    "handle": "how-to-add-attic-storage",
+    "summary": "Add a safe attic storage platform: check the joists, keep insulation at full depth with raised supports, screw down plywood and keep the load light.",
+    "tags": [
+      "Intermediate",
+      "Storage & Organization",
+      "Attic",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Attic storage is valuable, but most attic floors are just ceiling joists covered in insulation. Laying plywood straight on top crushes the insulation, raises energy bills, and can overload joists not built for storage. This guide shows how to add a modest, safe platform.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> only step on joists or boards, never between them; you'll go through the ceiling. Wear a dust mask, eye protection and long sleeves around insulation. Work in cooler morning hours; summer attics can get dangerously hot. If you see loose, gray-brown or shiny insulation that may be vermiculite, don't disturb it: it can contain asbestos.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check the joists and the attic&#x27;s purpose</h3><p>Measure the joist size and spacing. Many attics are framed only for light storage, and some trusses aren't meant to carry any. If you see web members crossing the space or plan to store anything heavy, ask a structural engineer or contractor before you add a floor.</p><p><strong>Done right:</strong> you know the joist size and spacing, and whether the framing is meant for storage.</p></li>\n<li><h3>Plan a small platform near the hatch</h3><p>Keep the platform close to the access hatch and over the strongest area, often near a bearing wall in the center. Leave clear space around recessed lights, bathroom fan housings, chimneys, flues and the soffit vents at the eaves.</p><p><strong>Done right:</strong> the platform is near the hatch and clear of lights, vents and flues.</p></li>\n<li><h3>Raise the deck above the insulation</h3><p>Screw <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">raised storage supports</a> or 2x lumber on edge to the tops of the joists, so the plywood sits above the full depth of the insulation. Crushed insulation loses much of its value.</p><p><strong>Done right:</strong> the supports are tall enough that insulation underneath stays at full height.</p></li>\n<li><h3>Screw down the panels</h3><p>Cut plywood or OSB panels small enough to fit through the hatch. Lay them across the supports with joints landing on a support, and screw them down.</p><p><strong>Done right:</strong> the panels don't flex or rock when you kneel on them.</p></li>\n<li><h3>Store light, and keep a path</h3><p>Store lightweight items like holiday decorations and empty luggage, in labeled plastic bins. Keep heavy items on lower floors. Leave a clear path from the hatch and good light.</p><p><strong>Done right:</strong> bins are light enough to lift with one hand and nothing blocks the hatch.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a contractor or engineer if:</strong> the attic has trusses, you want to store heavy items, you're thinking of turning it into living space, or you find vermiculite, mold, roof leaks or damaged wiring.</p></aside>\n<h2>FAQ</h2>\n<h3>Can I put plywood directly on my attic joists?</h3><p>Not over insulation. It compresses the insulation and cuts its effectiveness. Raise the floor above the insulation with supports.</p>\n<h3>How much weight can attic joists hold?</h3><p>It depends on the framing. Many attic floors are designed only for light storage. Ask a structural engineer before storing anything heavy.</p>\n<h3>Can I add storage to an attic with trusses?</h3><p>Trusses are engineered for specific loads. Talk to an engineer or the truss manufacturer before adding a floor or storage.</p>\n<h3>What should not be stored in an attic?</h3><p>Heavy items, anything heat-sensitive like candles, photos, electronics and paint, and anything you need often.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "4–8 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$100–$400"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Drill/driver\", \"Circular saw\", \"Headlamp or work light\", \"Kneeling board\", \"Dust mask, safety glasses, gloves and long sleeves\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Raised attic storage supports or 2x lumber\", \"1/2 to 3/4 in plywood or OSB panels (sized to fit through the hatch)\", \"Construction screws\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=1t4r8shnwDw"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-add-attic-storage-hero"
+}

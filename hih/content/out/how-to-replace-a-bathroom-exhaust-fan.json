@@ -1,0 +1,60 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Replace a Bathroom Exhaust Fan (Upgrade Kit)",
+    "handle": "how-to-replace-a-bathroom-exhaust-fan",
+    "summary": "Quiet a noisy bathroom fan with an upgrade kit or new motor in the existing housing: kill the power, remove the old motor, install the new one and test.",
+    "tags": [
+      "Intermediate",
+      "Bathroom",
+      "Electrical",
+      "Ventilation"
+    ],
+    "body": "<p class=\"guide-intro\">A loud, weak bathroom fan lets moisture linger and mold grow. If the metal housing in the ceiling is sound, an upgrade kit or replacement motor fits into it from below, with no attic work and no new wiring. This guide covers that swap.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> switch off the fan's breaker, not just the wall switch, and confirm the wires are dead with a non-contact tester. Wear eye protection; ceiling fans drop years of dust.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Find your fan&#x27;s model</h3><p>Pull the grille down a few inches and squeeze the spring clips to release it. Find the label inside the housing with the brand and model number. Buy an upgrade kit or motor listed for that housing.</p><p><strong>Done right:</strong> the new kit lists your housing's model as compatible.</p></li>\n<li><h3>Turn off the power and verify it</h3><p>Switch off the breaker for the bathroom. Turn the fan switch on to confirm it's dead, then check the wires or the receptacle inside the housing with a non-contact tester.</p><p><strong>Done right:</strong> the fan doesn't run and the tester stays silent.</p></li>\n<li><h3>Remove the old motor</h3><p>Most fan motors plug into a small receptacle inside the housing; unplug it. Remove the screws or tabs that hold the motor plate, and lift it out. Vacuum the dust out of the housing and check that the damper flap at the duct opening swings freely.</p><p><strong>Done right:</strong> the housing is empty and clean, and the damper moves freely.</p></li>\n<li><h3>Install the new motor or kit</h3><p>Mount the new motor plate with the kit's screws or brackets, and plug it into the housing receptacle. If the kit is hardwired, connect it as its instructions show, matching black to black, white to white and ground to ground under wire nuts.</p><p><strong>Done right:</strong> the motor sits square and the fan blade spins freely by hand without touching the housing.</p></li>\n<li><h3>Attach the grille and test</h3><p>Clip the new grille's springs into the housing slots and push it up flush. Turn the breaker on and run the fan. Hold a square of toilet paper near the grille; it should be pulled up and held against it.</p><p><strong>Done right:</strong> the fan runs quietly and holds a sheet of toilet paper against the grille.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call an electrician or HVAC contractor if:</strong> you need a larger fan or a new housing, the fan vents into the attic instead of outside, there's no duct at all, or you want to add a timer or humidity switch with new wiring. Those jobs often need a permit.</p></aside>\n<h2>FAQ</h2>\n<h3>What size bathroom fan do I need?</h3><p>A common guideline is at least 1 CFM per square foot of floor area for bathrooms up to 100 sq ft. Larger bathrooms need more.</p>\n<h3>What is a quiet bathroom fan?</h3><p>Fans are rated in sones. Around 1.0 sone or less is considered quiet.</p>\n<h3>Can I replace a bathroom fan without attic access?</h3><p>Yes, if you use an upgrade kit or motor that fits the existing housing. Replacing the whole housing usually needs access from above.</p>\n<h3>Should a bathroom fan vent into the attic?</h3><p>No. It should vent outdoors through a duct. Venting into the attic puts moisture where it can cause mold and rot.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–90 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$30–$120"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Non-contact voltage tester\", \"Sturdy step ladder\", \"Screwdrivers and nut driver\", \"Flashlight\", \"Vacuum\", \"Safety glasses and dust mask\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Fan upgrade kit or exact replacement motor for your housing\", \"Foil tape (if the duct connection is loose)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=AvxB4qpEW6s"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-a-bathroom-exhaust-fan-hero"
+}

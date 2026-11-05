@@ -1,0 +1,60 @@
+{
+  "blog_handle": "plumbing",
+  "blog_title": "Plumbing Basics",
+  "article": {
+    "title": "How to Replace a Sink P-Trap",
+    "handle": "how-to-replace-a-p-trap",
+    "summary": "Replace a leaky or cracked sink P-trap in under an hour: measure the size, take the old trap apart, assemble the new one and seal the slip joints.",
+    "tags": [
+      "Beginner",
+      "Plumbing",
+      "Drains",
+      "Repair"
+    ],
+    "body": "<p class=\"guide-intro\">The U-shaped P-trap under a sink holds a little water to block sewer gas. When it cracks, leaks at the nuts or clogs for good, replacing it is a simple job with a $15 kit. This guide covers plastic and metal traps with slip-joint nuts.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear gloves and eye protection, since old trap water is dirty. If you've recently used chemical drain cleaner, flush the drain with plenty of water first, because the trap may hold caustic liquid.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Measure the drain size</h3><p>Bathroom sinks usually use 1-1/4 in traps and kitchen sinks 1-1/2 in. The size is often printed on the old trap. Buy a kit that matches, or one with a reducing washer for both sizes.</p><p><strong>Done right:</strong> the kit's size matches the sink tailpiece and the pipe going into the wall.</p></li>\n<li><h3>Remove the old trap</h3><p>Put a bucket underneath. Loosen the two slip nuts on the U-bend by hand or with pliers, and let the water drain into the bucket. Then loosen the nut at the wall and pull the trap arm out. Clean any gunk out of the wall pipe opening.</p><p><strong>Done right:</strong> the tailpiece and the wall pipe are bare and clean.</p></li>\n<li><h3>Dry-fit the new trap</h3><p>Slide a nut and then a washer onto the tailpiece and onto the trap arm, with the washer's bevel facing the joint. Push the trap arm into the wall pipe and hold the U-bend up to both pieces. If the pieces don't meet, swivel the U-bend, or add an <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">extension tailpiece</a>. The trap arm should slope gently down toward the wall, about 1/4 in per foot.</p><p><strong>Done right:</strong> all pieces line up without forcing, and the trap arm slopes toward the wall.</p></li>\n<li><h3>Tighten the slip nuts</h3><p>Hand-tighten every nut, then give plastic nuts about a quarter turn more with pliers. Overtightening cracks plastic nuts and distorts washers. Slip joints don't need pipe dope or thread tape.</p><p><strong>Done right:</strong> every nut is snug and the trap doesn't move when you push it.</p></li>\n<li><h3>Test for leaks</h3><p>Fill the sink with a few inches of water, then pull the stopper so a full flow rushes through. Run a dry paper towel around each joint. Tighten any joint that weeps by an eighth of a turn.</p><p><strong>Done right:</strong> the paper towel stays dry at every joint after a full sink drains.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the pipe coming out of the wall is cracked or corroded, the drain has an S-shaped trap with no trap arm into the wall (not allowed by modern code), or the sink still drains slowly after the new trap is in, which points to a clog farther down.</p></aside>\n<h2>FAQ</h2>\n<h3>What size P-trap do I need?</h3><p>Usually 1-1/4 in for bathroom sinks and 1-1/2 in for kitchen sinks. Check the old trap or measure the tailpiece.</p>\n<h3>Which way does the slip-joint washer go?</h3><p>The beveled side faces the fitting it seals against, with the nut behind it.</p>\n<h3>Do P-trap joints need plumber&#x27;s tape?</h3><p>No. Slip joints seal with the washer. Tape can actually stop the nut from seating properly.</p>\n<h3>Why does my sink smell like sewage?</h3><p>A dry or leaking trap lets sewer gas in. Run water to refill a trap that hasn&#x27;t been used, and fix any leaks.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Channel-lock pliers\", \"Bucket\", \"Towels\", \"Hacksaw or PVC cutter (if cutting a tailpiece)\", \"Tape measure\", \"Flashlight\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"P-trap kit (1-1/4 in for bathroom sinks, 1-1/2 in for kitchen sinks)\", \"Slip-joint washers (included with most kits)\", \"Extension tailpiece (if needed)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=HkFTnnFbh-s"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-a-p-trap-hero"
+}

@@ -1,0 +1,60 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Install a Pegboard Wall in a Garage",
+    "handle": "how-to-install-pegboard",
+    "summary": "Hang a pegboard that holds tools without sagging: mount furring strips to studs for hook clearance, screw the pegboard on and lay out your tools.",
+    "tags": [
+      "Beginner",
+      "Storage & Organization",
+      "Garage",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Pegboard turns a blank garage or workshop wall into tool storage you can rearrange anytime. It needs a gap behind it so hooks can seat, which is why it goes on furring strips, not flat against the wall. This guide covers drywall or open-stud walls.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear safety glasses when cutting and drilling, and check for wiring near outlets and switches before you drive screws.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Plan the layout</h3><p>Lay your tools on the floor in the arrangement you want, so you know how much pegboard you need. Standard panels are 2 x 4 ft or 4 x 8 ft. Leave the bottom edge at least 2 to 3 ft off the floor so it clears a workbench.</p><p><strong>Done right:</strong> you know the panel size and the height of its bottom edge.</p></li>\n<li><h3>Mount furring strips into studs</h3><p>Find and mark the studs. Screw horizontal 1x2 or 1x3 furring strips into every stud along the top edge, the bottom edge and across the middle of where the panel will go, with 2-1/2 in screws. Check each strip with a level.</p><p><strong>Done right:</strong> the strips are level, screwed to every stud, and spaced so the panel has support at the top, middle and bottom.</p></li>\n<li><h3>Cut the panels to size</h3><p>If needed, cut pegboard with a circular saw or jigsaw, finished side down for a circular saw. Plan cuts so that panel edges land on a furring strip.</p><p><strong>Done right:</strong> every panel edge will rest on a strip.</p></li>\n<li><h3>Screw the pegboard to the strips</h3><p>Hold the panel level against the strips. Drive 1-1/4 in screws with washers through the existing holes into the strips, about every 12 to 16 in along each strip. The washers stop the screw heads from pulling through.</p><p><strong>Done right:</strong> the panel is flat and tight, and doesn't flex when you push in its center.</p></li>\n<li><h3>Hang hooks and lock them</h3><p>Add hooks, shelves and bins in the layout you planned. Use <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">locking hooks</a> or pegboard hook locks for tools you grab often, so the hooks don't come out with the tool. Hang the heaviest items near a furring strip.</p><p><strong>Done right:</strong> hooks stay put when you lift a tool off them.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a handyman if:</strong> you're mounting to masonry and don't have a hammer drill, or you want a full slatwall or track system across a whole garage.</p></aside>\n<h2>FAQ</h2>\n<h3>Do you need spacers behind pegboard?</h3><p>Yes. Hooks need about 1/2 to 3/4 in of space behind the board to seat. Furring strips create that gap and give you something solid to screw into.</p>\n<h3>How much weight can pegboard hold?</h3><p>It depends on the board, the hooks and how it&#x27;s mounted. Mounted on strips screwed into studs, standard hardboard pegboard handles typical hand tools well. Put heavy items on shelves.</p>\n<h3>1/4 in or 1/8 in pegboard?</h3><p>1/4 in hardboard with 1/4 in holes is stronger and takes heavier-duty hooks. 1/8 in board is for light craft storage.</p>\n<h3>How do I stop pegboard hooks from falling out?</h3><p>Use locking hooks, plastic hook locks or zip ties to hold the hooks to the board.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "2–3 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$40–$120"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Stud finder\", \"Level\", \"Tape measure\", \"Drill/driver\", \"Circular saw or jigsaw (if cutting panels)\", \"Pencil\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"1/4 in pegboard panels (hardboard or metal)\", \"1x2 or 1x3 furring strips\", \"2-1/2 in screws (for strips into studs)\", \"1-1/4 in screws with washers (for pegboard)\", \"Pegboard hooks and bins\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=ZLwOGZGy-B0"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-pegboard-hero"
+}

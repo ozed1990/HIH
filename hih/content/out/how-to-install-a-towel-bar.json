@@ -1,0 +1,60 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Install a Towel Bar That Won't Pull Out",
+    "handle": "how-to-install-a-towel-bar",
+    "summary": "Install a bathroom towel bar that stays put: choose the height, find studs or use the right anchors, mount the brackets level, and set the bar.",
+    "tags": [
+      "Beginner",
+      "Bathroom",
+      "Hardware",
+      "Quick fix"
+    ],
+    "body": "<p class=\"guide-intro\">Most towel bars fail because the anchors in the box can't handle a wet towel being yanked every day. Mounting into a stud or using stronger anchors fixes that. This guide covers drywall, with notes for tile.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> check for pipes and wires before drilling, especially near sinks, showers and switches. Wear safety glasses.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Pick the height and spot</h3><p>A common height is about 48 in from the floor to the bar, or about 42 in for a hand towel. Center the bar over the space it serves, and make sure a towel won't hang onto a light switch or block a door.</p><p><strong>Done right:</strong> you've marked a center point and a height, and a towel held there doesn't block anything.</p></li>\n<li><h3>Find a stud for at least one bracket</h3><p>Scan with a stud finder. If one bracket can land on a stud, adjust the bar position slightly so it does; a screw into a stud is the strongest mount. Most bars are long enough that both brackets rarely hit studs.</p><p><strong>Done right:</strong> you know which bracket goes into a stud and which needs an anchor.</p></li>\n<li><h3>Mark level bracket holes</h3><p>Use the paper template if one is included, or measure the bar's bracket spacing. Draw a level line and mark both brackets on it.</p><p><strong>Done right:</strong> both bracket marks sit on the same level line.</p></li>\n<li><h3>Drill and anchor</h3><p>Into a stud, drill a small pilot hole and drive the screw directly. Into hollow drywall, skip the small plastic anchors in the box and use <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">heavy-duty drywall anchors</a></strong> such as snap toggles or self-drilling metal anchors, drilled to the size on the package. On tile, put tape over the spot and drill with a carbide or diamond tile bit at slow speed.</p><p><strong>Done right:</strong> each anchor sits flush and spins only when the screw is driven, not on its own.</p></li>\n<li><h3>Mount the brackets and bar</h3><p>Screw the mounting plates to the wall. Slide the bar into the posts, push the posts over the plates, and tighten the set screws underneath with the hex key.</p><p><strong>Done right:</strong> the bar is level and doesn't move when you pull down firmly with both hands.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a handyman if:</strong> you need to drill through glass tile, stone or a fiberglass shower surround, or the drywall around an old towel bar is crumbling and needs patching first.</p></aside>\n<h2>FAQ</h2>\n<h3>How high should a towel bar be?</h3><p>About 48 in from the floor for a bath towel and about 42 in for a hand towel are common heights.</p>\n<h3>What anchor is best for a towel bar?</h3><p>A stud is best. In hollow drywall, snap toggles or heavy-duty self-drilling anchors hold far better than the small plastic anchors that come with most bars.</p>\n<h3>How do I fix a towel bar that pulled out of the wall?</h3><p>Patch or move past the damaged hole, then remount with a toggle anchor, which grips the back of the drywall over a wider area.</p>\n<h3>Can you install a towel bar on tile?</h3><p>Yes. Tape the tile, drill slowly with a carbide or diamond bit, and use anchors that suit the wall behind the tile.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$80"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Stud finder\", \"Level\", \"Tape measure\", \"Pencil\", \"Drill/driver\", \"Drill bits (sized for your anchors)\", \"Hex key (usually included)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Towel bar kit\", \"Heavy-duty drywall anchors or toggles (if no stud)\", \"Painter's tape (for tile)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=iJnogww8ZGc"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-a-towel-bar-hero"
+}

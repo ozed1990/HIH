@@ -292,5 +292,75 @@
     "title": "How to Clean a Dryer Vent (and Prevent Fires)",
     "figures": 0,
     "steps": 6
+  },
+  {
+    "handle": "how-to-install-cabinet-hardware",
+    "blog": "kitchen",
+    "title": "How to Install Cabinet Handles and Knobs (With a Jig)",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-install-a-towel-bar",
+    "blog": "bathroom",
+    "title": "How to Install a Towel Bar That Won't Pull Out",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-replace-a-damaged-vinyl-plank",
+    "blog": "flooring",
+    "title": "How to Replace One Damaged Vinyl Plank",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-paint-baseboards",
+    "blog": "painting-walls",
+    "title": "How to Paint Baseboards for a Smooth Finish",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-replace-a-p-trap",
+    "blog": "plumbing",
+    "title": "How to Replace a Sink P-Trap",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-replace-a-light-fixture",
+    "blog": "electrical",
+    "title": "How to Replace a Light Fixture Safely",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-caulk-exterior-windows",
+    "blog": "doors-windows",
+    "title": "How to Caulk Exterior Windows (and Stop Drafts)",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-pressure-wash-concrete",
+    "blog": "outdoor-garden",
+    "title": "How to Pressure Wash a Concrete Patio or Driveway",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-install-pegboard",
+    "blog": "storage",
+    "title": "How to Install a Pegboard Wall in a Garage",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-clean-refrigerator-coils",
+    "blog": "maintenance",
+    "title": "How to Clean Refrigerator Coils",
+    "figures": 0,
+    "steps": 5
   }
 ]

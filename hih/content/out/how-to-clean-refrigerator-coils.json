@@ -1,0 +1,60 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "How to Clean Refrigerator Coils",
+    "handle": "how-to-clean-refrigerator-coils",
+    "summary": "Clean your refrigerator's condenser coils so it runs cooler and uses less energy: unplug it, find the coils, brush and vacuum the dust, then test.",
+    "tags": [
+      "Beginner",
+      "Home Maintenance",
+      "Appliances",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">The condenser coils release the heat your refrigerator pulls out of the food compartment. When they're coated in dust and pet hair, the fridge runs longer and harder. Cleaning them takes about half an hour, once or twice a year.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> unplug the refrigerator before you reach near the coils or the condenser fan. When moving it, pull it straight out slowly, and be careful not to kink the water line on fridges with an ice maker.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Unplug the refrigerator</h3><p>Pull the fridge out enough to reach the plug, or switch off its breaker. Food stays cold for the 30 minutes this takes if you keep the doors closed.</p><p><strong>Done right:</strong> the inside light stays off when you open the door.</p></li>\n<li><h3>Find the coils</h3><p>Most newer refrigerators have coils underneath, behind the front kick plate (the grille at the bottom). Older models often have them on the back. Check your owner's manual if you're not sure. Snap or unscrew the kick plate off.</p><p><strong>Done right:</strong> you can see the coils or the dusty area in front of them with a flashlight.</p></li>\n<li><h3>Brush the dust loose</h3><p>Slide a long, narrow <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">refrigerator coil brush</a></strong> between and under the coils, working it back and forth gently. Don't bend the thin tubes or fins.</p><p><strong>Done right:</strong> the dust is loosened and pulled toward the front.</p></li>\n<li><h3>Vacuum it up</h3><p>Vacuum the loosened dust from the coils, the floor under the fridge and the kick plate grille with a crevice tool. If you can reach the condenser fan, wipe dust off its blades too.</p><p><strong>Done right:</strong> the coils look metal-colored, not gray and fuzzy.</p></li>\n<li><h3>Reassemble and test</h3><p>Snap the kick plate back on, plug the fridge in and push it back, leaving the gap at the back that the manual calls for so air can circulate. Within a few minutes you should hear the compressor and fan start.</p><p><strong>Done right:</strong> the fridge runs, and air flows freely out of the bottom grille.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call an appliance technician if:</strong> the fridge still doesn't cool after cleaning, the compressor clicks on and off rapidly, you see frost building up on the back wall of the freezer, or you hear loud buzzing or grinding from the fan.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should you clean refrigerator coils?</h3><p>Every 6 to 12 months, or more often if you have pets that shed.</p>\n<h3>Where are the coils on my refrigerator?</h3><p>On most newer models they&#x27;re underneath, behind the front grille. On many older models they&#x27;re on the back.</p>\n<h3>Does cleaning refrigerator coils save energy?</h3><p>Dirty coils make the compressor work harder and longer, so cleaning them helps the fridge run more efficiently and can extend its life.</p>\n<h3>Can I clean refrigerator coils without a brush?</h3><p>A vacuum with a crevice tool gets some of it, but a long coil brush reaches between the tubes much better.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "20–45 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$15"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Refrigerator coil brush\", \"Vacuum with crevice tool\", \"Flashlight\", \"Screwdriver (for some rear panels)\", \"Towel\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Nothing else (optional: dust mask)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=SwA5dMW9bhg"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-clean-refrigerator-coils-hero"
+}

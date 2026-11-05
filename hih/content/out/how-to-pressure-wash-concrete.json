@@ -1,0 +1,60 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Pressure Wash a Concrete Patio or Driveway",
+    "handle": "how-to-pressure-wash-concrete",
+    "summary": "Pressure wash concrete without etching it: pick the right nozzle or surface cleaner, pretreat stains, work in overlapping passes and rinse downhill.",
+    "tags": [
+      "Beginner",
+      "Outdoor & Garden",
+      "Cleaning",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Pressure washing strips years of dirt, algae and grime from concrete in an afternoon. The trick is enough pressure to clean without carving lines into the surface. This guide covers patios, walkways and driveways.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> never point the wand at people, pets or your own feet, and never use the 0° (red) nozzle: it can cut skin and gouge concrete. Wear safety glasses and closed-toe shoes. Run gas washers outdoors only, away from windows, because of carbon monoxide. Plug electric washers into a GFCI outlet.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Clear and prep the area</h3><p>Sweep off loose debris and move furniture and planters. Cover nearby outlets and lights, close windows, and wet nearby plants with a hose so cleaner overspray doesn't harm them.</p><p><strong>Done right:</strong> the surface is clear and nearby plants are wet.</p></li>\n<li><h3>Pretreat stains</h3><p>Apply a concrete cleaner or degreaser on oil spots and dark stains, following the label. Let it sit for the dwell time but don't let it dry. Scrub heavy oil stains with a stiff brush.</p><p><strong>Done right:</strong> the cleaner has worked for the full dwell time and stains look loosened.</p></li>\n<li><h3>Choose the nozzle or surface cleaner</h3><p>A <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">surface cleaner attachment</a></strong> gives even, streak-free results on flat concrete and is the easiest choice. Without one, start with the 25° (green) nozzle and switch to 15° (yellow) only for stubborn spots. Test in a hidden corner first.</p><p><strong>Done right:</strong> the test spot comes clean with no visible lines or roughened surface.</p></li>\n<li><h3>Wash in overlapping passes</h3><p>Hold a wand tip about 8 to 12 in from the surface and sweep it side to side at a steady pace, overlapping each pass by about a third. With a surface cleaner, walk slowly in straight overlapping rows. Work from the highest point toward the lowest, and toward the drain direction.</p><p><strong>Done right:</strong> the cleaned surface is an even color without stripes or swirl marks.</p></li>\n<li><h3>Rinse and let it dry</h3><p>Rinse the whole area with the wide nozzle to push dirty water and loosened grime off the surface. Let the concrete dry fully, at least 24 hours, before sealing it or putting furniture back.</p><p><strong>Done right:</strong> no dirty puddles or cleaner residue remain.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a pro if:</strong> the concrete is cracked or spalling, you're dealing with a large driveway with heavy oil staining, or you want it sealed with a professional-grade product.</p></aside>\n<h2>FAQ</h2>\n<h3>What PSI do you need to clean concrete?</h3><p>Most homeowners do well with about 2,500 to 3,200 psi for concrete. Lighter electric washers work but take longer.</p>\n<h3>Can pressure washing damage concrete?</h3><p>Yes, if the nozzle is too narrow or too close. Avoid the 0° nozzle, keep the tip moving and test in a hidden spot.</p>\n<h3>Should I seal concrete after pressure washing?</h3><p>Sealing helps resist stains and moisture. Wait until the concrete is completely dry, usually at least 24 hours.</p>\n<h3>Do I need a surface cleaner?</h3><p>It isn&#x27;t required, but it cleans flat concrete faster and more evenly than a wand, without stripes.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–3 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$80 (rental or cleaner)"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Pressure washer (about 2,500\\u20133,200 psi for concrete)\", \"15\\u00b0 and 25\\u00b0 nozzles\", \"Surface cleaner attachment (recommended)\", \"Stiff push broom\", \"Safety glasses\", \"Closed-toe shoes\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Concrete cleaner or degreaser\", \"Garden hose\", \"Concrete sealer (optional)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=dmKvo3RFrDk"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-pressure-wash-concrete-hero"
+}

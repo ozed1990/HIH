@@ -1,0 +1,60 @@
+{
+  "blog_handle": "painting-walls",
+  "blog_title": "Painting & Walls",
+  "article": {
+    "title": "How to Paint Baseboards for a Smooth Finish",
+    "handle": "how-to-paint-baseboards",
+    "summary": "Paint baseboards with a smooth, durable finish: clean, scuff-sand, fill and caulk, protect the floor, then brush two thin coats of trim enamel.",
+    "tags": [
+      "Beginner",
+      "Painting & Walls",
+      "Trim",
+      "Painting"
+    ],
+    "body": "<p class=\"guide-intro\">Baseboards take more knocks and dirt than any other trim, so they need good prep and a tough paint. This guide covers repainting painted baseboards and painting over stained wood ones.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear a dust mask when sanding. If your home was built before 1978, the old paint may contain lead: don't sand it until it's been tested, and follow EPA lead-safe practices.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Clean the baseboards</h3><p>Vacuum along the top and the floor edge, then wipe the boards with a degreasing cleaner and rinse with a damp cloth. Paint won't stick well to dust and skin oils.</p><p><strong>Done right:</strong> a white cloth wiped along the board comes away clean.</p></li>\n<li><h3>Scuff-sand and fill</h3><p>Lightly sand the faces with a 180 to 220 grit sponge to dull the old sheen. Fill nail holes and dents with wood filler, let it dry, and sand it flush. Vacuum the dust.</p><p><strong>Done right:</strong> the old finish looks dull rather than shiny, and filled spots feel flush.</p></li>\n<li><h3>Caulk the gaps and prime if needed</h3><p>Run a thin bead of paintable caulk along the top edge where the board meets the wall, and in corner joints. Smooth it with a damp finger. On stained, varnished or glossy oil-based trim, apply a bonding primer before painting.</p><p><strong>Done right:</strong> no dark gap shows along the top edge, and glossy or stained trim is primed.</p></li>\n<li><h3>Protect the floor</h3><p>Run painter's tape along the floor edge on hard floors. On carpet, push the carpet down with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">paint shield</a> or wide putty knife as you paint, moving it along with you.</p><p><strong>Done right:</strong> the floor or carpet edge is covered right up to the bottom of the board.</p></li>\n<li><h3>Brush two thin coats</h3><p>Load the brush with trim enamel and paint the top edge first, then the face, finishing each section with one long, light stroke along the full length to level out brush marks. Let the first coat dry per the label, lightly sand any bumps, and apply a second coat.</p><p><strong>Done right:</strong> the finish is even, with no drips, thin spots or visible brush lines from standing height.</p></li>\n<li><h3>Remove tape and let it cure</h3><p>Pull the tape at a low angle while the last coat is still slightly soft. Avoid scrubbing or bumping the baseboards for several days while the paint hardens.</p><p><strong>Done right:</strong> the paint line along the floor is clean and the tape didn't lift any paint.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a painter if:</strong> the house was built before 1978 and the old paint tests positive for lead, or the trim needs extensive stripping or repair.</p></aside>\n<h2>FAQ</h2>\n<h3>What paint finish is best for baseboards?</h3><p>Semi-gloss or satin. Both clean up easily and resist scuffs better than flat or eggshell paint.</p>\n<h3>Do I need to sand baseboards before painting?</h3><p>A light scuff-sand helps the new paint grip, especially over glossy paint. Glossy or stained trim also needs a bonding primer.</p>\n<h3>Should I paint baseboards or walls first?</h3><p>Many painters do the walls first and the trim last, so any wall paint on the trim gets covered.</p>\n<h3>How do I paint baseboards without getting paint on carpet?</h3><p>Push the carpet down with a paint shield or wide putty knife as you go, and don&#x27;t overload the brush.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "3–5 hours per room + drying"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$30–$70"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"2 in angled sash brush\", \"Sanding sponge (180\\u2013220 grit)\", \"Putty knife\", \"Caulk gun\", \"Painter's tape\", \"Paint shield or wide putty knife\", \"Vacuum\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Semi-gloss or satin trim enamel\", \"Bonding primer (for glossy or stained trim)\", \"Paintable caulk\", \"Wood filler or spackle\", \"Degreasing cleaner\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=pyd8CTETONM"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-paint-baseboards-hero"
+}

@@ -1,0 +1,60 @@
+{
+  "blog_handle": "doors-windows",
+  "blog_title": "Doors & Windows",
+  "article": {
+    "title": "How to Caulk Exterior Windows (and Stop Drafts)",
+    "handle": "how-to-caulk-exterior-windows",
+    "summary": "Caulk exterior windows to stop drafts and water: remove old caulk, fill wide gaps with backer rod, lay a smooth bead and keep weep holes open.",
+    "tags": [
+      "Beginner",
+      "Doors & Windows",
+      "Weatherproofing",
+      "Energy saving"
+    ],
+    "body": "<p class=\"guide-intro\">Cracked or missing caulk around the outside of a window lets in drafts, water and insects. Recaulking is a cheap, high-value job you can do in an afternoon. This guide covers the joint between the window trim and the siding or brick.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> follow ladder safety rules for upper windows: set the base on firm, level ground and keep three points of contact. If your home was built before 1978, old paint on window trim may contain lead; avoid dry-sanding or scraping it heavily without lead-safe precautions.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Pick dry weather and the right sealant</h3><p>Choose a dry day within the temperature range on the label, often about 40 to 90°F. Use an exterior sealant made for windows and doors: polyurethane or hybrid sealants grip well and can be painted, and 100% silicone lasts long but usually can't be painted.</p><p><strong>Done right:</strong> no rain is due for 24 hours and your sealant is rated for exterior windows.</p></li>\n<li><h3>Remove old, failing caulk</h3><p>Cut along both edges of the old bead with a utility knife and pull or scrape it out with a putty knife. Remove anything cracked, loose or shrunken; caulk that's still firmly bonded can stay if you're caulking over the same type.</p><p><strong>Done right:</strong> the joint is clear of loose or cracked caulk.</p></li>\n<li><h3>Clean and fill deep gaps</h3><p>Brush out dirt and wipe the joint with rubbing alcohol. Press <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">foam backer rod</a> into any gap wider than about 1/4 in, so the caulk bead isn't too deep. A good joint is about as deep as it is wide.</p><p><strong>Done right:</strong> the joint is clean and dry, and deep gaps are filled with backer rod to about 1/4 in from the surface.</p></li>\n<li><h3>Lay a steady bead</h3><p>Cut the tube nozzle at a 45-degree angle to make a hole slightly smaller than the gap. Push the bead ahead of the nozzle in one steady pass along each side. Tool it smooth with a wet finger or a caulk tool, pressing it into both surfaces.</p><p><strong>Done right:</strong> the bead is smooth, continuous and bonded to both the trim and the siding.</p></li>\n<li><h3>Leave weep holes and drainage paths open</h3><p>Many windows have small weep holes or slots in the bottom of the frame that let water drain out. Don't caulk over them. Also leave the joint under a drip cap open if the window was built to drain there.</p><p><strong>Done right:</strong> every weep hole and drainage gap is still open.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a window or siding pro if:</strong> trim or the window sill is soft or rotted, water stains show inside around the window, or the window frame itself is cracked. Caulk won't fix rot or failed flashing.</p></aside>\n<h2>FAQ</h2>\n<h3>What kind of caulk is best for exterior windows?</h3><p>An exterior window and door sealant: polyurethane or hybrid sealants for paintable joints, or 100% silicone where you won&#x27;t paint.</p>\n<h3>Should you caulk the bottom of a window?</h3><p>Caulk the trim to the siding, but never block the weep holes in the bottom of the window frame, which let water drain out.</p>\n<h3>How often should exterior window caulk be replaced?</h3><p>Check it every year or two. Replace it when it cracks, shrinks or pulls away, often every 5 to 10 years depending on the product and exposure.</p>\n<h3>Can you caulk over old caulk?</h3><p>Only if the old caulk is firmly bonded and the same type. Cracked or loose caulk should come out first.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes per window"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$15–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Caulk gun\", \"Putty knife or 5-in-1 tool\", \"Utility knife\", \"Stiff brush\", \"Ladder (for upper windows)\", \"Rags\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Exterior window and door sealant (polyurethane, silicone or hybrid)\", \"Foam backer rod for gaps over 1/4 in\", \"Rubbing alcohol\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=GdHfuL64zqw"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-caulk-exterior-windows-hero"
+}

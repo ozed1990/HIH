@@ -1,0 +1,60 @@
+{
+  "blog_handle": "bathroom",
+  "blog_title": "Bathroom",
+  "article": {
+    "title": "How to Remove Mold From Shower Caulk",
+    "handle": "remove-mold-from-shower-caulk",
+    "summary": "Get black mold off shower caulk: try a bleach-soaked towel treatment first, know when the mold is inside the caulk, and stop it coming back.",
+    "tags": [
+      "Beginner",
+      "Bathroom",
+      "Cleaning",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">Black spots along shower caulk are mold or mildew feeding on soap scum and moisture. Surface mold often cleans off. Mold that has grown into the caulk doesn't, and the only real fix is new caulk. This guide shows how to tell the difference.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> open a window and run the fan. Wear gloves and eye protection. Never mix bleach with ammonia, vinegar or other cleaners; the fumes are dangerous. Test bleach on a hidden spot of colored grout or natural stone first.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Clean off soap scum first</h3><p>Scrub the caulk with a mild bathroom cleaner and a soft brush, then rinse and dry it with a towel. Mold treatments work better on clean caulk.</p><p><strong>Done right:</strong> the caulk feels smooth, not slimy, and is dry to the touch.</p></li>\n<li><h3>Apply a bleach soak</h3><p>Mix about 1 part bleach to 4 parts water, or follow the bleach label for mildew. Soak paper towels or cotton pads in it and press them along the caulk line so they stay in contact. Leave them for 30 to 60 minutes. A soak works better than a spray because it doesn't dry out.</p><p><strong>Done right:</strong> the towels stay wet and in place along the whole moldy section.</p></li>\n<li><h3>Remove, scrub and rinse</h3><p>Peel the towels off and throw them away. Scrub gently with a soft brush and rinse the area thoroughly with clean water. Dry it with a towel.</p><p><strong>Done right:</strong> the caulk is bright white or its original color, with no black spots.</p></li>\n<li><h3>Decide whether to replace the caulk</h3><p>If dark spots remain after two treatments, the mold is inside the caulk or behind it. Cleaning won't reach it. Cut out the old caulk, clean and dry the joint, and lay fresh 100% silicone; our <a href=\"/blogs/bathroom/how-to-recaulk-a-bathtub\">bathtub recaulking guide</a> shows each step.</p><p><strong>Done right:</strong> you've either got clean caulk or a plan to replace it.</p></li>\n<li><h3>Keep it from coming back</h3><p>Run the exhaust fan during showers and for about 20 to 30 minutes after. Squeegee the walls and wipe the caulk line dry. Keep shampoo bottles off the tub ledge where water pools.</p><p><strong>Done right:</strong> the caulk line is dry an hour after a shower.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro if:</strong> mold keeps returning within weeks, the wall behind the tile is soft or stained, or there's mold on the ceiling or outside the shower. Those point to a leak or a ventilation problem, which a plumber or HVAC contractor should check.</p></aside>\n<h2>FAQ</h2>\n<h3>Why does mold keep coming back on my shower caulk?</h3><p>Usually because the mold is growing inside the caulk, or the bathroom stays damp. Replace the caulk and improve ventilation.</p>\n<h3>Can you remove black mold from caulk without bleach?</h3><p>Hydrogen peroxide or a commercial mildew cleaner can lighten surface mildew, but none of them reach mold that has grown into the caulk.</p>\n<h3>Is black mold on shower caulk dangerous?</h3><p>Small amounts are common in bathrooms. Clean it promptly, ventilate, and see a doctor if anyone in the home has asthma or allergies that seem worse.</p>\n<h3>What caulk resists mold best?</h3><p>100% silicone labeled for kitchens and baths with a mildew-resistant additive.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours (mostly waiting)"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$5–$15"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Old toothbrush or soft nylon brush\", \"Spray bottle\", \"Rubber gloves\", \"Safety glasses\", \"Squeegee\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Household bleach\", \"Paper towels or cotton pads\", \"Mild bathroom cleaner\", \"Clean water\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Sru5_rrIDdo"
+    }
+  ],
+  "media": [],
+  "hero_slot": "remove-mold-from-shower-caulk-hero"
+}

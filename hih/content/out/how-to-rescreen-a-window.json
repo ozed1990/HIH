@@ -1,0 +1,60 @@
+{
+  "blog_handle": "doors-windows",
+  "blog_title": "Doors & Windows",
+  "article": {
+    "title": "How to Rescreen a Window Screen",
+    "handle": "how-to-rescreen-a-window",
+    "summary": "Replace a torn window screen in about 20 minutes: pull the old spline, lay new screen over the frame, roll in fresh spline and trim the excess.",
+    "tags": [
+      "Beginner",
+      "Doors & Windows",
+      "Repair",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">A torn or saggy window screen takes a few dollars of screen and spline to fix. This guide covers standard aluminum frames with a rubber spline groove, the most common type in U.S. homes.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> remove screens from upper-floor windows from inside, and never lean out. Cut away from your body with the utility knife.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Take out the old spline and screen</h3><p>Lay the screen frame on a flat table. Find the end of the rubber spline in a corner, pry it up with a screwdriver, and pull it out of the groove all the way around. Lift out the old screen. Take a piece of the old spline to the store to match its diameter.</p><p><strong>Done right:</strong> the groove is empty and clean all around the frame.</p></li>\n<li><h3>Lay the new screen over the frame</h3><p>Cut new screen about 1 to 2 in larger than the frame on every side. Lay it over the frame so the weave runs square to the edges. Clamp or weight the middle of the frame's long sides to the table so they can't bow inward as you work.</p><p><strong>Done right:</strong> the screen overlaps the groove on all four sides and the frame is held flat.</p></li>\n<li><h3>Roll in the spline</h3><p>Starting at a corner, use the <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">spline roller</a></strong>: run the convex wheel over the screen first to crease it into the groove, then press the spline in with the concave wheel. Work along one long side, then the opposite side, then the ends, keeping the screen snug but not drum-tight. Use a screwdriver to push the spline into the corners.</p><p><strong>Done right:</strong> the screen is smooth with no wrinkles, and the frame sides are still straight.</p></li>\n<li><h3>Trim the excess</h3><p>Cut off the extra screen with a sharp utility knife, running the blade along the outer edge of the spline at an angle, away from the screen center.</p><p><strong>Done right:</strong> the edge is clean, with no screen poking out past the spline.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Take it to a hardware store or screen shop if:</strong> the frame is bent or a corner is broken, or it's a large patio screen door, which many stores rescreen for a modest fee.</p></aside>\n<h2>FAQ</h2>\n<h3>What size spline do I need?</h3><p>Take a piece of the old spline to the store and match its diameter. Common sizes are around 0.125 to 0.160 in.</p>\n<h3>Fiberglass or aluminum screen?</h3><p>Fiberglass is easier to work with and doesn&#x27;t dent. Aluminum is stiffer and more durable but creases easily during installation.</p>\n<h3>Why is my new screen wrinkled?</h3><p>Usually it was pulled unevenly. Pull the spline back out of one side, smooth the screen and roll it in again.</p>\n<h3>How do I stop the frame from bowing?</h3><p>Clamp or weight the middle of the long sides to the table, and don&#x27;t pull the screen too tight.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "20–40 minutes per screen"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$25"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Spline roller\", \"Utility knife with fresh blades\", \"Flathead screwdriver or awl\", \"Clamps or heavy books\", \"Tape measure\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Fiberglass screen (roll or kit)\", \"New spline in the right diameter\", \"Painter's tape\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=hVY0ofL4UEA"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-rescreen-a-window-hero"
+}

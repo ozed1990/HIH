@@ -1,0 +1,60 @@
+{
+  "blog_handle": "flooring",
+  "blog_title": "Flooring",
+  "article": {
+    "title": "How to Undercut a Door Jamb for New Flooring",
+    "handle": "how-to-undercut-a-door-jamb",
+    "summary": "Undercut door jambs and casing so new flooring slides underneath for a clean edge: use a scrap of your floor as a guide and cut flush with a jamb saw.",
+    "tags": [
+      "Beginner",
+      "Flooring",
+      "Trim",
+      "Prep"
+    ],
+    "body": "<p class=\"guide-intro\">Undercutting means trimming the bottom of the door jamb and casing so the new floor slides underneath. It looks far cleaner than cutting flooring around the trim profile, and it hides the floor's edge. This guide works for vinyl plank, laminate, engineered wood and tile.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear safety glasses and hearing protection. Keep your free hand behind the blade. Older trim may have lead paint; if the house was built before 1978, test before cutting and collect the dust with a vacuum.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Stack a height guide</h3><p>Lay a scrap of underlayment on the subfloor against the jamb, and set a scrap of the new flooring on top, finished side down. For tile, include the thickness of the thinset too. This stack sets the height of your cut.</p><p><strong>Done right:</strong> the stack sits flat against the jamb, matching the finished floor height.</p></li>\n<li><h3>Cut flush along the guide</h3><p>Rest the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">jamb saw</a> or the multi-tool's flush-cut blade on top of the flooring scrap and cut straight through the jamb and casing, keeping the blade flat on the scrap. Cut both sides of the doorway, including the door stop and any casing return.</p><p><strong>Done right:</strong> the cut is level and just above the top of your flooring scrap.</p></li>\n<li><h3>Clear the cut pieces</h3><p>Pry out the cut-off slivers with a putty knife and vacuum the sawdust, so the flooring can slide in without catching.</p><p><strong>Done right:</strong> the opening under the trim is clean and empty.</p></li>\n<li><h3>Test-fit the flooring</h3><p>Slide a scrap of flooring under the jamb. It should go in snugly without lifting the trim. For floating floors, leave the usual expansion gap at the back of the cut, hidden under the trim.</p><p><strong>Done right:</strong> the scrap slides fully under the trim with no forcing.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a flooring installer if:</strong> the doorway has stone or metal thresholds, or the new floor raises the height so much that the door itself needs trimming.</p></aside>\n<h2>FAQ</h2>\n<h3>Why undercut door jambs?</h3><p>It lets the flooring slide under the trim for a clean, professional edge, instead of trying to cut the floor around the trim&#x27;s profile.</p>\n<h3>What tool is best for undercutting door jambs?</h3><p>A jamb saw is fastest for many doorways. An oscillating multi-tool with a flush-cut blade works well for a few.</p>\n<h3>How high should I undercut a door jamb?</h3><p>Exactly the height of the new flooring plus any underlayment or thinset. Use a scrap stack as a guide.</p>\n<h3>Do I need to remove the door to undercut the jamb?</h3><p>No. The door can stay on, but you may need to trim the door bottom if the new floor is much higher.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "10–15 minutes per doorway"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$0–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Jamb saw or oscillating multi-tool with a flush-cut blade\", \"Scrap piece of the new flooring\", \"Scrap of the underlayment\", \"Putty knife\", \"Vacuum\", \"Safety glasses\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Nothing else\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=N14JkCEBPmU"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-undercut-a-door-jamb-hero"
+}

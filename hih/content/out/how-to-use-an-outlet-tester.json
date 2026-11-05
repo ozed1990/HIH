@@ -1,0 +1,60 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "How to Use a Plug-In Outlet Tester",
+    "handle": "how-to-use-an-outlet-tester",
+    "summary": "Check your outlets in seconds with a plug-in tester: what each light pattern means, how to test GFCI protection, and which results mean call a pro.",
+    "tags": [
+      "Beginner",
+      "Electrical",
+      "Safety",
+      "Testing"
+    ],
+    "body": "<p class=\"guide-intro\">A plug-in outlet tester shows whether an outlet is wired correctly, using three small lights. It's one of the most useful $15 tools a homeowner can own, especially after buying a house or replacing an outlet. You don't need to open anything.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> the tester only plugs in; never open an outlet while it's powered. A \"correct\" reading doesn't catch every problem, so warm, buzzing or scorched outlets need an electrician no matter what the tester says.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Read the chart on your tester</h3><p>Every tester prints a chart of light patterns on its body. Patterns vary by brand, so always go by your tester's chart. Most show \"correct\" with two lights on, and use other combinations for faults.</p><p><strong>Done right:</strong> you know which pattern your tester uses for \"correct.\"</p></li>\n<li><h3>Test each outlet</h3><p>Plug the tester into the outlet and compare the lights with the chart. Test both halves of every duplex outlet. Note any result that isn't \"correct,\" along with the room and location.</p><p><strong>Done right:</strong> you have a list of every outlet that showed a fault.</p></li>\n<li><h3>Understand the common faults</h3><p><strong>Open ground:</strong> no working ground connection. <strong>Hot/neutral reversed:</strong> the hot and neutral wires are swapped, so some devices stay energized when switched off. <strong>Open neutral</strong> or <strong>open hot:</strong> a loose or broken connection. No lights at all usually means the outlet has no power: check for a tripped breaker or GFCI.</p><p><strong>Done right:</strong> you know what each fault on your list means.</p></li>\n<li><h3>Test GFCI protection</h3><p>In kitchens, bathrooms, laundry areas, garages and outdoors, outlets should be GFCI-protected. Press the tester's GFCI button. A protected outlet loses power within a moment. Press RESET on the GFCI outlet to restore it.</p><p><strong>Done right:</strong> every outlet in a wet area cuts power when you press the GFCI test button.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a licensed electrician if:</strong> any outlet shows a fault, a wet-area outlet doesn't trip on the GFCI test, an outlet is warm or discolored, or you smell burning. Reversed or open connections are simple for an electrician to fix but shouldn't be left alone.</p></aside>\n<h2>FAQ</h2>\n<h3>What does open ground mean on an outlet tester?</h3><p>The outlet&#x27;s ground connection isn&#x27;t working. It may be a three-prong outlet on an ungrounded circuit, or a loose ground wire.</p>\n<h3>Is hot/neutral reversed dangerous?</h3><p>It can be. Switched devices like lamps may stay energized at the socket when turned off, which raises shock risk. Have it corrected.</p>\n<h3>Can an outlet tester detect every wiring problem?</h3><p>No. It checks the basic connections but can miss things like a shared neutral or a bootleg ground. It&#x27;s a quick screening tool, not a full inspection.</p>\n<h3>Why do I get no lights at all?</h3><p>The outlet probably has no power. Check for a tripped breaker or GFCI. If they&#x27;re fine, have an electrician check for a loose connection.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "15–30 minutes for a whole house"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$25"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Plug-in outlet tester (3-light, with GFCI test button)\", \"Notepad or phone\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Nothing else\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=MUjdliROiUw"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-use-an-outlet-tester-hero"
+}

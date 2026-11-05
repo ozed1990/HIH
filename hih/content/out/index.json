@@ -362,5 +362,75 @@
     "title": "How to Clean Refrigerator Coils",
     "figures": 0,
     "steps": 5
+  },
+  {
+    "handle": "how-to-install-under-cabinet-lighting",
+    "blog": "kitchen",
+    "title": "How to Install Plug-In Under-Cabinet LED Lighting",
+    "figures": 0,
+    "steps": 4
+  },
+  {
+    "handle": "remove-mold-from-shower-caulk",
+    "blog": "bathroom",
+    "title": "How to Remove Mold From Shower Caulk",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-undercut-a-door-jamb",
+    "blog": "flooring",
+    "title": "How to Undercut a Door Jamb for New Flooring",
+    "figures": 0,
+    "steps": 4
+  },
+  {
+    "handle": "how-to-hang-a-heavy-mirror",
+    "blog": "painting-walls",
+    "title": "How to Hang a Heavy Mirror on Drywall Safely",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "unclog-a-toilet-without-a-plunger",
+    "blog": "plumbing",
+    "title": "How to Unclog a Toilet Without a Plunger",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-use-an-outlet-tester",
+    "blog": "electrical",
+    "title": "How to Use a Plug-In Outlet Tester",
+    "figures": 0,
+    "steps": 4
+  },
+  {
+    "handle": "how-to-rescreen-a-window",
+    "blog": "doors-windows",
+    "title": "How to Rescreen a Window Screen",
+    "figures": 0,
+    "steps": 4
+  },
+  {
+    "handle": "how-to-install-solar-path-lights",
+    "blog": "outdoor-garden",
+    "title": "How to Install Solar Path Lights That Actually Work",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-install-pull-out-cabinet-shelves",
+    "blog": "storage",
+    "title": "How to Install Pull-Out Shelves in Kitchen Cabinets",
+    "figures": 0,
+    "steps": 4
+  },
+  {
+    "handle": "fall-home-maintenance-checklist",
+    "blog": "maintenance",
+    "title": "Fall Home Maintenance Checklist (Before Winter)",
+    "figures": 0,
+    "steps": 7
   }
 ]

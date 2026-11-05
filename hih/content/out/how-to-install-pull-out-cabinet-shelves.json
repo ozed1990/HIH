@@ -1,0 +1,60 @@
+{
+  "blog_handle": "storage",
+  "blog_title": "Storage & Organization",
+  "article": {
+    "title": "How to Install Pull-Out Shelves in Kitchen Cabinets",
+    "handle": "how-to-install-pull-out-cabinet-shelves",
+    "summary": "Add pull-out shelves to base cabinets: measure the true opening around hinges and face frames, mount the slides square, and test the clearance.",
+    "tags": [
+      "Beginner",
+      "Storage & Organization",
+      "Kitchen",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Pull-out shelves bring the back of a deep base cabinet within reach, so nothing gets lost behind the pots. Most kits screw to the cabinet floor and need only a drill. The key is measuring the opening correctly.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> check that screws are short enough not to poke through the cabinet floor or sides. Under a sink, shut off and avoid the water lines and drain, and use a kit made to fit around plumbing.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Measure the real opening</h3><p>Measure the opening width at its narrowest point: the face frame edge or the hinges, whichever sticks in more. Measure the depth from the face frame to the back wall, and the height to any shelf above. Note whether the hinges are face-frame or frameless, because hinges often reduce the usable width.</p><p><strong>Done right:</strong> you have width, depth and height measured at the tightest points.</p></li>\n<li><h3>Buy a kit that fits</h3><p>Choose a pull-out whose listed minimum opening is smaller than your measured width, and whose depth is shorter than your cabinet depth. Some kits need about 1/2 to 1 in less than the opening for slide clearance; check the spec.</p><p><strong>Done right:</strong> every dimension on the kit is smaller than your opening.</p></li>\n<li><h3>Position the base or slides</h3><p>Set the unit's base on the cabinet floor and push it back. Use spacer blocks so it sits just behind the face frame and centered side to side. Open the door fully and check that the shelf will clear the door and hinges when pulled out.</p><p><strong>Done right:</strong> the shelf slides out fully without hitting the door, hinges or face frame.</p></li>\n<li><h3>Screw it down and test</h3><p>Mark and drill pilot holes, then screw the base or slides to the cabinet floor with the screws provided. Shim under the base if the floor is uneven. Load the shelf with a few heavy pots and slide it in and out several times.</p><p><strong>Done right:</strong> the shelf glides smoothly, closes fully and doesn't rack sideways under load.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a cabinet installer if:</strong> the cabinet has a center stile in the opening, the floor is damaged by old leaks, or you want custom-built pull-outs sized to the inch.</p></aside>\n<h2>FAQ</h2>\n<h3>How do I measure for pull-out cabinet shelves?</h3><p>Measure the opening width at its narrowest point, including hinges and face frame, plus the depth and the height to any shelf above.</p>\n<h3>Can pull-out shelves be added to existing cabinets?</h3><p>Yes. Most kits are made to retrofit into existing base cabinets and screw to the cabinet floor.</p>\n<h3>Will pull-out shelves fit under a sink?</h3><p>Choose a kit designed for sink cabinets, which fits around the drain and water lines.</p>\n<h3>How much weight can pull-out shelves hold?</h3><p>It depends on the slides. Check the kit&#x27;s weight rating, often listed per shelf.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes per cabinet"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$40–$150 per pull-out"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Drill/driver\", \"Pencil\", \"Level or square\", \"Flashlight\", \"Spacer blocks (scrap wood)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Pull-out shelf or organizer kit\", \"Short wood screws (included, check length)\", \"Shims (if the cabinet floor is uneven)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=ycIAiZl5Re4"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-pull-out-cabinet-shelves-hero"
+}

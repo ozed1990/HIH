@@ -1,0 +1,60 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Install Solar Path Lights That Actually Work",
+    "handle": "how-to-install-solar-path-lights",
+    "summary": "Install solar path lights that shine all night: pick sunny spots, space them evenly, stake them without breaking them and keep the panels clean.",
+    "tags": [
+      "Beginner",
+      "Outdoor & Garden",
+      "Lighting",
+      "Under 1 hour"
+    ],
+    "body": "<p class=\"guide-intro\">Solar path lights need no wiring, no trench and no outlet. Whether they glow all night or fade by 9 p.m. depends mostly on where you put them. This guide covers stake-mounted solar lights along walks, driveways and beds.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> keep lights out of the mower's path and away from spots where people step off the walk. Only push stakes a few inches deep; if you plan to dig deeper anywhere, call 811 first to have buried utility lines marked.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Find spots with full sun</h3><p>Watch the path on a sunny day. Each light's panel needs several hours of direct sun, ideally 6 to 8. Avoid spots shaded by shrubs, eaves or fences, and keep them away from porch lights or streetlights, which can stop the sensor from turning them on.</p><p><strong>Done right:</strong> every planned spot gets direct sun for most of the day.</p></li>\n<li><h3>Plan the spacing</h3><p>Space lights about 6 to 8 ft apart, and stagger them on both sides of the path instead of lining one side like a runway. Mark the spots with the stakes or small flags.</p><p><strong>Done right:</strong> the lights will make even pools of light without dark gaps.</p></li>\n<li><h3>Switch them on and charge them</h3><p>Assemble each light, pull any battery tab and move the switch to ON. Let them charge in full sun for a day or two before judging how long they last.</p><p><strong>Done right:</strong> each light turns on when you cover its panel with your hand.</p></li>\n<li><h3>Stake them without breaking them</h3><p>Plastic stakes snap when hammered into hard soil. Make a pilot hole first with a trowel or screwdriver, then push the stake in by hand, tapping the base gently with a rubber mallet if needed. Keep each light straight and the panel facing up.</p><p><strong>Done right:</strong> the lights stand straight and don't wobble.</p></li>\n<li><h3>Maintain them</h3><p>Wipe the panels with a damp cloth every month or two, because dust and pollen cut charging. Replace the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">rechargeable batteries</a> with the same type and size every year or two when run time drops.</p><p><strong>Done right:</strong> the lights stay on well into the night.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Consider low-voltage lighting if:</strong> your path is mostly shaded or you want brighter, more reliable light. See our <a href=\"/blogs/outdoor-garden/how-to-install-low-voltage-path-lights\">low-voltage path light guide</a>, or hire a landscape lighting installer for a large yard.</p></aside>\n<h2>FAQ</h2>\n<h3>How many hours of sun do solar lights need?</h3><p>Several hours of direct sun, ideally 6 to 8, to run through most of the night.</p>\n<h3>Why do my solar lights stop working?</h3><p>Common causes are shade, dirty panels, worn-out rechargeable batteries, or a nearby light that confuses the sensor.</p>\n<h3>How far apart should solar path lights be?</h3><p>About 6 to 8 ft apart, staggered along both sides of the path.</p>\n<h3>Can I replace solar light batteries?</h3><p>Usually, yes. Use rechargeable batteries of the same type and size. Regular alkaline batteries won&#x27;t recharge.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$30–$120"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Garden trowel or screwdriver (to pre-make holes)\", \"Rubber mallet\", \"String line (optional)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Solar path lights\", \"Spare rechargeable NiMH batteries (matching type and size)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=VYKYdAe6pKM"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-solar-path-lights-hero"
+}

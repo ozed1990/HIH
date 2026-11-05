@@ -20,8 +20,9 @@ def linkify(g):
     or ("phrase", "https://...") when the owner has given the affiliate URL."""
     missing = []
     for s in g['steps']:
-        if '<a ' in s['body']:
-            missing.append(f"inline <a> in step '{s['title']}' (affiliate links come only from AFFILIATE)")
+        # Internal links (href="/...") to other HIH guides are allowed; every other link must come from AFFILIATE.
+        if re.search(r'<a (?![^>]*href="/)', s['body']):
+            missing.append(f"inline external <a> in step '{s['title']}' (affiliate links come only from AFFILIATE)")
     for entry in AFFILIATE.get(g['handle'], []):
         phrase, href = (entry, AFFILIATE_HREF) if isinstance(entry, str) else entry
         if not (href == AFFILIATE_HREF or href.startswith("https://")):

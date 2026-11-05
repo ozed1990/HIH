@@ -1,0 +1,60 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Install Plug-In Under-Cabinet LED Lighting",
+    "handle": "how-to-install-under-cabinet-lighting",
+    "summary": "Add plug-in under-cabinet LED lights with no electrician: plan the layout, mount bars near the front edge, hide the cords and plug into a nearby outlet.",
+    "tags": [
+      "Beginner",
+      "Kitchen",
+      "Lighting",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Under-cabinet lights put bright light right on the counter where you chop and read recipes. Plug-in kits need no wiring inside the wall: they run from an outlet on the backsplash. This guide covers linkable LED bars and LED strip kits.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> use only lights listed for indoor use (look for a UL or ETL mark). Don't run plug-in cords inside walls or cabinets' enclosed cavities, and keep cords away from the cooktop and sink.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Measure and plan the runs</h3><p>Measure the underside of each upper cabinet run and note where the closest outlets are. Plan one light bar per cabinet section, leaving a few inches at each end. Choose warm white (about 2700–3000 K) to match most kitchen lighting, or 4000 K for a brighter, cooler look.</p><p><strong>Done right:</strong> you have a sketch with bar lengths, connector cables and the outlet each run plugs into.</p></li>\n<li><h3>Mount the lights near the front edge</h3><p>Clean the cabinet bottoms with rubbing alcohol. Hold a bar about 1 to 2 in behind the front edge of the cabinet, where most cabinets have a lip that hides the fixture. Placing lights toward the front spreads light across the whole counter and reduces glare on a glossy backsplash. Screw the clips up into the cabinet bottom with the short screws provided.</p><p><strong>Done right:</strong> the bars snap into their clips and can't be seen from a standing position.</p></li>\n<li><h3>Link the bars and route the cords</h3><p>Connect the bars with the kit's linking cables. Run cords along the back corner of the cabinet bottoms and secure them with cord clips every 12 in or so. Drop the power cord down the backsplash corner to the outlet.</p><p><strong>Done right:</strong> no cord hangs loose, and the only visible cord is a short run to the outlet.</p></li>\n<li><h3>Add a switch and test</h3><p>Plug in and test each run. A <strong><a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">smart plug</a></strong> or plug-in switch lets you turn all runs on from one place or on a schedule. Some kits have built-in motion or touch sensors instead.</p><p><strong>Done right:</strong> every bar lights evenly and the counter has no dark spots between bars.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call an electrician if:</strong> you want hardwired lights on a wall switch with no visible cords, or there's no outlet near the cabinets. Adding a switch or junction box means new wiring in the wall, which usually needs a permit.</p></aside>\n<h2>FAQ</h2>\n<h3>Where should under-cabinet lights be placed?</h3><p>Toward the front of the cabinet, about 1 to 2 in behind the front edge. That lights the whole counter and cuts glare on the backsplash.</p>\n<h3>Do plug-in under-cabinet lights need an electrician?</h3><p>No. They plug into a standard outlet. Only hardwired lights need new wiring.</p>\n<h3>What color temperature is best for kitchen under-cabinet lights?</h3><p>Warm white around 2700 to 3000 K blends with most kitchens. 4000 K looks brighter and cooler.</p>\n<h3>How do I hide the cords?</h3><p>Run them along the back of the cabinet bottoms with cord clips, and bring the power cord down in a corner where the backsplash meets the cabinet side.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$40–$150"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Tape measure\", \"Drill/driver with small bits\", \"Pencil\", \"Flashlight\", \"Rubbing alcohol and a cloth\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Plug-in LED light bars or strip kit (linkable)\", \"Mounting clips and screws (usually included)\", \"Cord clips or adhesive cable channels\", \"Smart plug or plug-in switch (optional)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=uVqQ6hdt9Bo"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-under-cabinet-lighting-hero"
+}

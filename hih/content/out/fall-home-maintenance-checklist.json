@@ -1,0 +1,60 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "Fall Home Maintenance Checklist (Before Winter)",
+    "handle": "fall-home-maintenance-checklist",
+    "summary": "Get your home ready for winter with this fall checklist: gutters, heating, outdoor faucets, drafts, safety alarms, chimney, yard and more.",
+    "tags": [
+      "Beginner",
+      "Home Maintenance",
+      "Checklist",
+      "Seasonal"
+    ],
+    "body": "<p class=\"guide-intro\">A few fall chores prevent the most expensive winter problems: burst pipes, ice dams, a heating breakdown and water in the basement. Work through this list in September or October, before the first hard freeze.</p>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> use a stable ladder on firm ground and have someone nearby when you work on gutters or the roof edge. Leave roof walking and chimney work to pros.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Clean the gutters and check the downspouts</h3><p>Clear leaves after most have fallen, and make sure downspouts carry water at least 4 to 6 ft away from the foundation. Our <a href=\"/blogs/maintenance/how-to-clean-gutters\">gutter cleaning guide</a> shows how to do it safely.</p><p><strong>Done right:</strong> water from a hose runs freely through the gutters and out the downspouts.</p></li>\n<li><h3>Service the heating system</h3><p>Replace the furnace or air handler filter and test the heat before the first cold night. Schedule an annual tune-up with an HVAC technician, especially for gas furnaces and boilers. See our <a href=\"/blogs/maintenance/how-to-change-hvac-air-filter\">HVAC filter guide</a>.</p><p><strong>Done right:</strong> the heat runs, the filter is fresh and the tune-up is booked.</p></li>\n<li><h3>Winterize outdoor water</h3><p>Disconnect and drain garden hoses, shut off and drain outdoor faucets, and cover them. Have an irrigation system blown out before freezing weather. Our <a href=\"/blogs/plumbing/how-to-winterize-outdoor-faucets\">outdoor faucet guide</a> covers each step.</p><p><strong>Done right:</strong> no hoses are connected and outdoor faucets are drained and covered.</p></li>\n<li><h3>Seal drafts around doors and windows</h3><p>Feel for drafts on a windy day. Replace worn door weatherstripping and sweeps, and recaulk gaps around exterior window and door trim. See our <a href=\"/blogs/doors-windows/how-to-weatherstrip-a-door\">weatherstripping guide</a> and <a href=\"/blogs/doors-windows/how-to-caulk-exterior-windows\">window caulking guide</a>.</p><p><strong>Done right:</strong> you can't feel air moving around closed doors and windows.</p></li>\n<li><h3>Test smoke and carbon monoxide alarms</h3><p>Heating season raises fire and CO risk. Press the test button on every alarm, replace batteries, and replace any alarm more than 10 years old. Our <a href=\"/blogs/maintenance/how-to-test-and-replace-smoke-alarms\">smoke alarm guide</a> explains how.</p><p><strong>Done right:</strong> every alarm sounds when tested, and there's a CO alarm on each level with fuel-burning appliances.</p></li>\n<li><h3>Have the chimney and fireplace checked</h3><p>If you burn wood, have the chimney inspected and swept by a certified chimney sweep once a year, before you light the first fire. Check that the damper opens and closes.</p><p><strong>Done right:</strong> the inspection is done or scheduled before your first fire.</p></li>\n<li><h3>Put the yard to bed</h3><p>Rake leaves off the lawn, trim branches away from the roof and power lines (call your utility for lines), and store patio cushions. Add fuel stabilizer to gas equipment you're storing, or run it dry per the owner's manual.</p><p><strong>Done right:</strong> no branches touch the roof and outdoor equipment is stored for winter.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a pro for:</strong> furnace or boiler tune-ups, chimney sweeping, roof repairs, tree work near power lines, and irrigation blowouts if you don't have the equipment.</p></aside>\n<h2>FAQ</h2>\n<h3>When should I do fall home maintenance?</h3><p>In September or October, before the first hard freeze in your area.</p>\n<h3>What is the most important fall maintenance task?</h3><p>Winterizing outdoor water lines and getting the heating system checked prevent the costliest problems: burst pipes and no heat.</p>\n<h3>Should I reverse my ceiling fan in winter?</h3><p>Many fans have a reverse switch. Running the fan clockwise on low pushes warm air down from the ceiling without a strong draft.</p>\n<h3>How often should a chimney be inspected?</h3><p>Once a year for wood-burning fireplaces and stoves, before the heating season.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 weekends"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$50–$300 + any service calls"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Ladder\", \"Work gloves\", \"Caulk gun\", \"Flashlight\", \"Screwdriver set\", \"Garden hose\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"HVAC air filters\", \"Exterior caulk and weatherstripping\", \"Insulated faucet covers\", \"Smoke and CO alarm batteries\", \"Fuel stabilizer (for gas equipment)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=wx9so_NaGzI"
+    }
+  ],
+  "media": [],
+  "hero_slot": "fall-home-maintenance-checklist-hero"
+}

@@ -1,0 +1,60 @@
+{
+  "blog_handle": "flooring",
+  "blog_title": "Flooring",
+  "article": {
+    "title": "How to Install Quarter Round Molding",
+    "handle": "how-to-install-quarter-round",
+    "summary": "Install quarter round to hide flooring gaps: measure, cope or miter the corners, nail it to the baseboard (not the floor), then fill, caulk and paint.",
+    "tags": [
+      "Beginner",
+      "Flooring",
+      "Trim",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Quarter round covers the expansion gap between new flooring and the baseboard without pulling the baseboards off. This guide is for floating floors (vinyl plank, laminate) and nail-down hardwood alike.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear safety glasses when you cut and nail. Keep fingers well clear of the blade: quarter round is small, so clamp short pieces or cut them from a longer stick.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Prime and paint the stock first</h3><p>Paint or stain the full lengths before you cut them. It's far faster than painting along the floor afterward, and you'll only need touch-ups at the joints.</p><p><strong>Done right:</strong> every stick is finished and dry before the first cut.</p></li>\n<li><h3>Measure each wall</h3><p>Measure along the bottom of the baseboard from corner to corner. Mark whether each end is an inside corner, outside corner or a stop at a door casing. Cut pieces in order around the room so the grain and color match.</p><p><strong>Done right:</strong> you have a list of lengths with corner types marked.</p></li>\n<li><h3>Cut the corners</h3><p>For outside corners, cut both pieces at 45 degrees so they wrap the corner. For inside corners, run the first piece square into the corner, then cope the second: cut a 45-degree inside miter, then follow the profile line with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">coping saw</a> so it fits over the first piece. Where molding ends at a door casing, cut a small return or a 45-degree end.</p><p><strong>Done right:</strong> dry-fit corners close tight with no visible gap.</p></li>\n<li><h3>Nail it to the baseboard, not the floor</h3><p>Press the piece down lightly to the floor and against the baseboard. Nail every 12 to 16 in, angling the nail into the baseboard. On floating floors this matters: nailing into the floor pins it and stops it from expanding, which leads to buckling.</p><p><strong>Done right:</strong> the molding sits tight to both surfaces, and no nail goes into the flooring.</p></li>\n<li><h3>Fill, caulk and touch up</h3><p>Fill nail holes with wood filler. Run a thin bead of paintable caulk along the top edge where it meets the baseboard, and at corner joints on painted trim. Touch up the paint once the caulk is dry. Don't caulk the bottom edge to a floating floor.</p><p><strong>Done right:</strong> from standing height, you can't see nail holes or gaps.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Hire a finish carpenter if:</strong> baseboards are badly out of plumb or walls are very wavy, so gaps open up along the whole run. A carpenter can scribe the trim to fit.</p></aside>\n<h2>FAQ</h2>\n<h3>Should quarter round be nailed to the floor or the baseboard?</h3><p>To the baseboard. Nailing into a floating floor stops it from expanding and contracting and can cause buckling.</p>\n<h3>Quarter round vs. shoe molding: what&#x27;s the difference?</h3><p>Quarter round is a true quarter circle, usually 3/4 in. Shoe molding is taller than it is deep, so it covers the gap with a slimmer look.</p>\n<h3>Do you need to cope inside corners?</h3><p>A coped joint stays tight when the wood moves, so it&#x27;s the better choice. A mitered inside corner works but tends to open up over time.</p>\n<h3>Can you glue quarter round instead of nailing?</h3><p>Yes, with construction adhesive or trim glue on the baseboard side only, which works well on tile or masonry baseboards.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "3–5 hours per room"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$40–$120 per room"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Miter saw or miter box and saw\", \"Coping saw (for inside corners)\", \"18-gauge brad nailer or hammer and nail set\", \"Tape measure\", \"Pencil\", \"Utility knife\", \"Caulk gun\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Quarter round or shoe molding (room perimeter + 10%)\", \"1-1/4 in 18-gauge brad nails or finish nails\", \"Wood filler\", \"Paintable caulk\", \"Paint or stain to match\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=YrkdraLWlR0"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-install-quarter-round-hero"
+}

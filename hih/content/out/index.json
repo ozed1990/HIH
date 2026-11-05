@@ -222,5 +222,75 @@
     "title": "How to Test and Replace Smoke Alarms",
     "figures": 1,
     "steps": 6
+  },
+  {
+    "handle": "how-to-replace-a-kitchen-faucet",
+    "blog": "kitchen",
+    "title": "How to Replace a Kitchen Faucet (Step by Step)",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-seal-grout",
+    "blog": "bathroom",
+    "title": "How to Seal Grout in a Shower or Bathroom Floor",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-quarter-round",
+    "blog": "flooring",
+    "title": "How to Install Quarter Round Molding",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-cut-in-paint",
+    "blog": "painting-walls",
+    "title": "How to Cut In Paint Without Tape",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-replace-a-toilet-fill-valve",
+    "blog": "plumbing",
+    "title": "How to Replace a Toilet Fill Valve",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-replace-an-outlet",
+    "blog": "electrical",
+    "title": "How to Replace an Electrical Outlet Safely",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-replace-a-door-knob",
+    "blog": "doors-windows",
+    "title": "How to Replace a Door Knob (Interior or Exterior)",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-seal-a-deck",
+    "blog": "outdoor-garden",
+    "title": "How to Clean and Seal a Wood Deck",
+    "figures": 0,
+    "steps": 6
+  },
+  {
+    "handle": "how-to-install-a-closet-shelf-and-rod",
+    "blog": "storage",
+    "title": "How to Install a Closet Shelf and Rod",
+    "figures": 0,
+    "steps": 5
+  },
+  {
+    "handle": "how-to-clean-a-dryer-vent",
+    "blog": "maintenance",
+    "title": "How to Clean a Dryer Vent (and Prevent Fires)",
+    "figures": 0,
+    "steps": 6
   }
 ]

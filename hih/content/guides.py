@@ -1177,3 +1177,8 @@ AFFILIATE.update({
  "how-to-choose-and-install-drywall-anchors": ["snap toggle anchors"],
  "how-to-test-and-replace-smoke-alarms": ["10-year sealed battery smoke alarm"],
 })
+
+# Batch 4 (5 more guides per category), one file per sub-batch
+from guides_b4a import GUIDES_B4A, AFFILIATE_B4A  # noqa: E402
+GUIDES += GUIDES_B4A
+AFFILIATE.update(AFFILIATE_B4A)

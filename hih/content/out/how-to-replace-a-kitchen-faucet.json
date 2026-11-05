@@ -1,0 +1,60 @@
+{
+  "blog_handle": "kitchen",
+  "blog_title": "Kitchen",
+  "article": {
+    "title": "How to Replace a Kitchen Faucet (Step by Step)",
+    "handle": "how-to-replace-a-kitchen-faucet",
+    "summary": "Replace a kitchen faucet in an afternoon: shut off the water, free the old one with a basin wrench, mount the new faucet and test for leaks.",
+    "tags": [
+      "Intermediate",
+      "Kitchen",
+      "Plumbing",
+      "Faucet"
+    ],
+    "body": "<p class=\"guide-intro\">Swapping a kitchen faucet is mostly a matter of reaching the nuts under the sink. This guide covers a standard top-mount faucet on a sink with working shut-off valves, including single-handle, two-handle and pull-down models.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear safety glasses when you work under the sink, because grit and old corrosion fall into your eyes. If the sink has a garbage disposal, unplug it or switch off its breaker before you reach near it.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Check the hole count and buy the right faucet</h3><p>Look under the sink and count the holes in the sink deck: one, two, three or four. A faucet with a deck plate can cover extra holes; a one-hole faucet can't fill a three-hole sink without one. Note whether you need a sprayer, soap dispenser or a pull-down spout that needs clearance under a window.</p><p><strong>Done right:</strong> the new faucet's box lists your hole count and it fits under any window or shelf above the sink.</p></li>\n<li><h3>Shut off the water and relieve pressure</h3><p>Close both shut-off valves under the sink by turning them clockwise. Open the faucet to drain the lines. If a valve won't close fully or drips, close the main water valve instead and plan to replace that valve. Take a photo of all connections before you disconnect anything.</p><p><strong>Done right:</strong> with the faucet open, no water comes out.</p></li>\n<li><h3>Disconnect and remove the old faucet</h3><p>Put a bucket under the valves and loosen the supply line nuts at the valves with an adjustable wrench. Unclip a pull-down hose's weight and quick-connect. Reach up behind the sink with a <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">basin wrench</a> to loosen the mounting nuts, then lift the faucet out from the top. Scrape old putty and grime off the sink deck and wipe it with rubbing alcohol.</p><p><strong>Done right:</strong> the sink deck is clean and dry, and the valves have only their bare outlets left.</p></li>\n<li><h3>Mount the new faucet</h3><p>Follow the faucet's instructions for the seal: most use a rubber or plastic gasket under the base, some call for plumber's putty or silicone. Feed the lines through the hole, set the faucet straight, and have a helper hold it while you tighten the mounting nut or bracket from below. Snug it so the faucet can't twist, but don't crush the gasket.</p><p><strong>Done right:</strong> the faucet sits square to the back of the sink and doesn't rotate when you push the handle.</p></li>\n<li><h3>Connect the water lines</h3><p>Connect hot to the left valve and cold to the right. Most new faucets have attached lines with 3/8 in compression ends; tighten each nut hand-tight plus a quarter to half turn with a wrench, holding the valve body steady with a second wrench. Compression fittings don't need thread tape. For a pull-down, click the hose into the quick-connect and clip on the weight at the mark shown in the instructions.</p><p><strong>Done right:</strong> no line is kinked, and the pull-down hose slides out and retracts smoothly.</p></li>\n<li><h3>Flush, test and check for leaks</h3><p>Remove the aerator or spray head, open the valves slowly, and run water for a minute to flush out debris. Reinstall the aerator. Run hot and cold for a few minutes, then wipe each connection with a dry paper towel and check again an hour later.</p><p><strong>Done right:</strong> the paper towel stays dry at every joint and the spray pattern is even.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the shut-off valves are frozen or leaking, the supply pipes are corroded or soldered straight to the old faucet, or the sink is cracked around the faucet holes. A plumber can replace the valves in the same visit.</p></aside>\n<h2>FAQ</h2>\n<h3>How long does it take to replace a kitchen faucet?</h3><p>About 1.5 to 3 hours for a first-timer. Most of the time goes into loosening old mounting nuts in a tight space.</p>\n<h3>Do I need a basin wrench?</h3><p>Usually, yes. The mounting nuts sit behind the sink bowl where a normal wrench can&#x27;t reach. A basin wrench costs about $15 to $25.</p>\n<h3>Can I install a single-hole faucet on a three-hole sink?</h3><p>Yes, if the faucet comes with or accepts a deck plate (escutcheon) that covers the extra holes.</p>\n<h3>Should I replace the supply lines?</h3><p>If the old lines are more than a few years old or are rigid copper, use new braided stainless lines. Many faucets now come with lines attached.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1.5–3 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$100–$350 (faucet) + $15 parts"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Basin wrench\", \"Adjustable wrench (2)\", \"Flashlight or headlamp\", \"Bucket and towels\", \"Putty knife\", \"Phone camera\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"New kitchen faucet\", \"Two 3/8 in compression supply lines (if not included)\", \"Plumber's putty or silicone (per faucet instructions)\", \"Thread seal tape\", \"Rubbing alcohol\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=riDY_Juwqr4"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-a-kitchen-faucet-hero"
+}

@@ -1,0 +1,60 @@
+{
+  "blog_handle": "electrical",
+  "blog_title": "Electrical Basics",
+  "article": {
+    "title": "How to Replace an Electrical Outlet Safely",
+    "handle": "how-to-replace-an-outlet",
+    "summary": "Replace a worn or broken outlet on an existing circuit: kill the power, verify it's dead, wire the new receptacle correctly and test it before you finish.",
+    "tags": [
+      "Intermediate",
+      "Electrical",
+      "Outlet",
+      "Repair"
+    ],
+    "body": "<p class=\"guide-intro\">A loose, cracked or scorched outlet should be replaced, not taped. This guide covers swapping a standard three-prong receptacle on an existing grounded circuit. It doesn't cover adding new outlets or circuits, which typically needs a permit and an electrician.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> switch off the breaker for the outlet and confirm it's dead with a non-contact tester on every wire in the box, not just one slot. Stop if you find aluminum wiring (dull silver wire), cloth-covered wiring that crumbles, or scorch marks on the wires. Many areas allow homeowners to replace devices, but check your local rules.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Turn off the power and confirm it&#x27;s off</h3><p>Plug a lamp or <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">outlet tester</a> into the outlet, then switch off breakers until it goes dead. Remove the cover plate and the two device screws, and pull the outlet out gently. Touch a non-contact voltage tester to every wire in the box, because a box can hold wires from a second circuit.</p><p><strong>Done right:</strong> the tester stays silent on every wire, and you've confirmed the tester works on a known live outlet.</p></li>\n<li><h3>Photograph and note the wiring</h3><p>Take a clear photo of which wire goes to which screw. Black (hot) wires go to the brass screws, white (neutral) to the silver screws, and bare or green (ground) to the green screw. If two sets of wires connect to the outlet, it is passing power downstream to other outlets.</p><p><strong>Done right:</strong> you have a photo showing every connection.</p></li>\n<li><h3>Choose the right replacement</h3><p>Match the amp rating stamped on the old outlet (15 A or 20 A). Under current electrical code, a replacement outlet must meet today's rules for that location: GFCI protection in kitchens, bathrooms, laundry areas, garages and outdoors, and tamper-resistant receptacles in most living spaces. Buy the right type before you open the wall.</p><p><strong>Done right:</strong> the new outlet matches the old rating and the location's requirements.</p></li>\n<li><h3>Wire the new outlet</h3><p>Loosen the wires from the old outlet. Use the side screws, not the push-in holes on the back: bend each wire into a hook, wrap it clockwise around its screw, and tighten firmly. Connect the ground wire to the green screw. If there are two wires per terminal, use the second set of screws or join them with a short pigtail under a wire nut.</p><p><strong>Done right:</strong> no bare copper shows beyond the screws, and each wire is tight when you tug it.</p></li>\n<li><h3>Mount the outlet and test it</h3><p>Fold the wires neatly into the box, screw the outlet in straight, and attach the cover plate. Turn the breaker on and plug in an outlet tester.</p><p><strong>Done right:</strong> the tester shows the \"correct\" pattern, and the cover plate sits flat and isn't cracked.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a licensed electrician if:</strong> the box has no ground wire, you find aluminum or crumbling old wiring, wires are scorched or melted, the breaker trips again, or you want to add an outlet or move one. Two-prong outlets on ungrounded circuits have specific code options an electrician should handle.</p></aside>\n<h2>FAQ</h2>\n<h3>Can I replace an outlet myself?</h3><p>In many U.S. areas homeowners may replace an outlet like-for-like on their own home, but rules vary. Check with your local building department.</p>\n<h3>Do I need a 15 A or 20 A outlet?</h3><p>Match the old outlet&#x27;s rating. A 20 A outlet has a sideways T-shaped slot. Never install a 20 A outlet on a circuit with a 15 A breaker.</p>\n<h3>Should I use the push-in holes on the back of the outlet?</h3><p>It&#x27;s better to use the side screws. Push-in (backstab) connections loosen over time and are a common cause of outlets that stop working.</p>\n<h3>Why does my new outlet not work?</h3><p>Check the breaker, then any GFCI outlet upstream that may have tripped. If it still doesn&#x27;t work, turn the power off and check that every wire is tight.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "20–45 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$3–$30"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Non-contact voltage tester\", \"Plug-in outlet tester\", \"Insulated screwdrivers (flat and #2 Phillips)\", \"Wire stripper\", \"Needle-nose pliers\", \"Phone camera\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"New receptacle matching the old rating (15 A or 20 A)\", \"Tamper-resistant receptacle where required\", \"Wire nuts and pigtail wire (if needed)\", \"Cover plate\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=WC7F-Ag9fXQ"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-an-outlet-hero"
+}

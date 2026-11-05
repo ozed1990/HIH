@@ -1,0 +1,60 @@
+{
+  "blog_handle": "maintenance",
+  "blog_title": "Home Maintenance",
+  "article": {
+    "title": "How to Clean a Dryer Vent (and Prevent Fires)",
+    "handle": "how-to-clean-a-dryer-vent",
+    "summary": "Clean your dryer vent to dry clothes faster and cut fire risk: disconnect the duct, brush the lint out from both ends, and check the outside flap.",
+    "tags": [
+      "Beginner",
+      "Home Maintenance",
+      "Laundry",
+      "Safety"
+    ],
+    "body": "<p class=\"guide-intro\">Lint that builds up in the dryer duct slows drying and is a leading cause of dryer fires. Cleaning the full vent run once a year takes about an hour. This guide covers electric and gas dryers venting to the outside.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> unplug an electric dryer before you pull it out. For a gas dryer, close the gas valve behind it before moving it, and be careful not to kink or strain the flexible gas line. If you smell gas after you're done, leave the house and call your gas utility.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Spot the warning signs</h3><p>Clean the vent now if clothes need more than one cycle to dry, the dryer or laundry room gets very hot, you smell burning, or the outside flap barely opens when the dryer runs. Otherwise, plan to clean it at least once a year.</p><p><strong>Done right:</strong> you've noted how long a normal load takes to dry, so you can compare after cleaning.</p></li>\n<li><h3>Pull the dryer out and disconnect the duct</h3><p>Unplug the dryer (and close the gas valve for a gas dryer). Slide it away from the wall slowly. Loosen the clamp and pull the duct off the dryer's exhaust outlet and off the wall connection.</p><p><strong>Done right:</strong> the duct is off at both ends and the power is disconnected.</p></li>\n<li><h3>Clean the lint screen housing and dryer outlet</h3><p>Remove the lint screen and vacuum the slot it sits in. Then vacuum the exhaust outlet on the back of the dryer as far as the hose reaches.</p><p><strong>Done right:</strong> no lint is visible in the screen slot or the exhaust outlet.</p></li>\n<li><h3>Brush the vent run from inside and outside</h3><p>Feed the <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">vent brush</a> into the wall duct, adding rods as you go and turning it clockwise (counterclockwise can unscrew the rods). Work it back and forth, then pull it out with the lint. Repeat from the outside vent hood. Vacuum up what comes out.</p><p><strong>Done right:</strong> the brush comes out clean on the last pass and you can see daylight or feel airflow through the duct.</p></li>\n<li><h3>Check the duct and the outside hood</h3><p>Replace any plastic or thin foil duct with rigid or semi-rigid metal duct, which is what dryer makers and building codes call for. Keep the run as short and straight as possible. Make sure the outside flap opens freely and has no screen, because screens trap lint.</p><p><strong>Done right:</strong> the duct is metal with no crushed sections, and the outside flap swings freely.</p></li>\n<li><h3>Reconnect and test</h3><p>Reattach the duct to the wall and dryer with clamps, and seal joints with foil tape, not screws (screws catch lint). Push the dryer back without crushing the duct. Plug it in (open the gas valve), run it on high heat, and check that air blows strongly out of the outside hood.</p><p><strong>Done right:</strong> the outside flap opens wide and a normal load dries in one cycle.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a dryer vent cleaning pro if:</strong> the vent runs a long way through the attic or roof, the duct is crushed inside a wall, a bird or rodent nest blocks it, or airflow is still weak after cleaning.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should you clean a dryer vent?</h3><p>At least once a year, and more often for large households or long vent runs. Clean the lint screen before every load.</p>\n<h3>What are signs of a clogged dryer vent?</h3><p>Clothes take longer than one cycle to dry, the dryer gets very hot, a burning smell, or a weak flow of air at the outside vent.</p>\n<h3>Can I use a leaf blower to clean a dryer vent?</h3><p>Some people do, but a brush kit is more thorough and doesn&#x27;t risk blowing lint into the laundry room. Disconnect the duct either way.</p>\n<h3>What kind of dryer duct should I use?</h3><p>Rigid or semi-rigid metal duct. Plastic and thin foil accordion ducts crush easily, trap lint and aren&#x27;t allowed by most dryer makers or building codes.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "1–2 hours"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$20–$40"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Dryer vent brush kit with extension rods\", \"Vacuum with hose attachment\", \"Screwdriver or nut driver\", \"Flashlight\", \"Work gloves\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Foil tape (UL 181 rated) for duct joints\", \"Replacement semi-rigid or rigid metal duct (if needed)\", \"Hose clamps (if needed)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=hWdj3-OvVEc"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-clean-a-dryer-vent-hero"
+}

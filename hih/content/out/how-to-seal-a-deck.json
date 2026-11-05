@@ -1,0 +1,60 @@
+{
+  "blog_handle": "outdoor-garden",
+  "blog_title": "Outdoor & Garden",
+  "article": {
+    "title": "How to Clean and Seal a Wood Deck",
+    "handle": "how-to-seal-a-deck",
+    "summary": "Clean, brighten and seal a wood deck so it repels water: test the old finish, wash gently, let it dry, and apply thin coats in the right weather.",
+    "tags": [
+      "Intermediate",
+      "Outdoor & Garden",
+      "Deck",
+      "Weekend project"
+    ],
+    "body": "<p class=\"guide-intro\">Sealing keeps water out of the wood, which slows cracking, rot and graying. Done every couple of years, it keeps a deck looking good for much longer. This guide covers pressure-treated, cedar and redwood decks with a clear sealer or semi-transparent stain.</p>\n<aside class=\"callout callout--disclosure\"><p><strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend products we'd use ourselves.</p></aside>\n<aside class=\"callout callout--safety\"><p><strong>Safety:</strong> wear eye protection and gloves when using cleaners and brighteners. Pressure washers can cut skin and gouge wood; keep the tip moving and at least 12 in from the surface. Oil-based finish rags can catch fire on their own: lay them flat to dry outdoors or soak them in water before disposal.</p></aside>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Test whether the deck needs sealing</h3><p>Sprinkle water on a few boards in sunny and shaded spots. If it soaks in within a few minutes and darkens the wood, it's time to seal. If it beads, the old finish still works. Brand-new pressure-treated wood often needs to dry for weeks or months first; check the lumber tag and the sealer label.</p><p><strong>Done right:</strong> you know the deck is absorbing water and the wood is dry enough to take a finish.</p></li>\n<li><h3>Make repairs and protect the area</h3><p>Drive down or replace popped nails with exterior screws, and replace any soft boards. Sweep the deck and clear the gaps between boards with a putty knife. Cover plants with plastic sheeting and tape off siding where the deck meets the house.</p><p><strong>Done right:</strong> no nail heads stick up and the gaps are clear.</p></li>\n<li><h3>Clean the wood</h3><p>Wet the deck, apply an <a href=\"#add-affiliate-link\" rel=\"sponsored noopener\" target=\"_blank\">oxygen-based deck cleaner</a> with a pump sprayer, and let it work for the time on the label. Scrub with a deck brush along the grain, then rinse thoroughly with a hose. If you use a pressure washer, use low pressure and a wide fan tip, keep it moving with the grain, and stay at least 12 in away.</p><p><strong>Done right:</strong> the wood is an even color, with no gray film or furry, raised fibers.</p></li>\n<li><h3>Brighten and let the deck dry</h3><p>Apply a wood brightener to neutralize the cleaner and bring back the wood's color, then rinse. Let the deck dry for at least 48 hours of dry weather, or as long as the sealer label says.</p><p><strong>Done right:</strong> the wood looks uniformly light and feels dry to the touch, even in the shaded areas.</p></li>\n<li><h3>Apply a thin coat in the right weather</h3><p>Pick a dry, mild day: most finishes want temperatures roughly between 50 and 90°F and no rain for at least 24 hours. Stir the finish (don't shake it). Coat two or three boards at a time along their full length with a pad or roller, then back-brush to work it in. Do railings and stair treads first, then the floor, working toward the exit.</p><p><strong>Done right:</strong> the finish soaks in evenly with no puddles, drips or shiny spots after 15 minutes.</p></li>\n<li><h3>Wipe the excess and let it cure</h3><p>Wipe up any finish that hasn't soaked in after the time on the label, because puddles turn sticky. Apply a second coat only if the product calls for it. Keep foot traffic off for about a day and furniture off for the time on the can.</p><p><strong>Done right:</strong> the deck is dry to the touch with no tacky spots, and water beads on it.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a deck contractor if:</strong> you find soft or rotted joists, posts or ledger board (where the deck attaches to the house), loose railings, or rusted structural hardware. Those are safety issues that sealing won't fix.</p></aside>\n<h2>FAQ</h2>\n<h3>How often should you seal a deck?</h3><p>Typically every 1 to 3 years, depending on the product, sun exposure and foot traffic. Use the water test each spring.</p>\n<h3>What&#x27;s the difference between deck sealer and stain?</h3><p>A clear sealer protects against water but not much against UV graying. A semi-transparent or solid stain adds pigment that blocks UV, so it usually lasts longer on sunny decks.</p>\n<h3>Can I seal a new pressure-treated deck right away?</h3><p>Usually not. The wood needs to dry first, often for several weeks or months. Do the water test and follow the lumber and sealer labels.</p>\n<h3>Should I pressure wash my deck?</h3><p>Only on low pressure with a wide tip, held at least 12 in away. A deck cleaner and a scrub brush work well and are gentler on the wood.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Intermediate"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "2 days (cleaning, drying, sealing)"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$80–$250"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Stiff deck brush on a pole\", \"Garden hose with spray nozzle (or pressure washer with a 25\\u201340\\u00b0 tip)\", \"Pump sprayer\", \"Stain pad applicator or roller\", \"Natural or synthetic stain brush\", \"Painter's tape and plastic sheeting\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Oxygen-based deck cleaner\", \"Wood brightener (oxalic acid type)\", \"Exterior deck sealer or semi-transparent stain\", \"Exterior screws (to replace popped nails)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=Endync6z3XM"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-seal-a-deck-hero"
+}

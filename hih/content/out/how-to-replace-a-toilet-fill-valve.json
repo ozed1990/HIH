@@ -1,0 +1,60 @@
+{
+  "blog_handle": "plumbing",
+  "blog_title": "Plumbing Basics",
+  "article": {
+    "title": "How to Replace a Toilet Fill Valve",
+    "handle": "how-to-replace-a-toilet-fill-valve",
+    "summary": "Fix a toilet that runs, hisses or refills slowly by replacing the fill valve: drain the tank, swap the valve, set the height and adjust the water level.",
+    "tags": [
+      "Beginner",
+      "Plumbing",
+      "Toilet",
+      "Repair"
+    ],
+    "body": "<p class=\"guide-intro\">The fill valve is the tall part on the left side of the tank that refills it after a flush. When it hisses, keeps running or refills slowly, replacing it costs a few dollars and takes under an hour. Most universal fill valves fit standard two-piece toilets.</p>\n<h2>Steps</h2>\n<ol class=\"guide-steps\">\n<li><h3>Shut off the water and drain the tank</h3><p>Turn the shut-off valve behind the toilet clockwise until it stops. Flush and hold the handle down to empty the tank, then sponge out the last inch of water into a bucket.</p><p><strong>Done right:</strong> the tank is empty and doesn't refill.</p></li>\n<li><h3>Disconnect the supply line</h3><p>Put a towel under the tank. Unscrew the supply line's nut from the bottom of the tank, where the fill valve's shank comes through. A little water will drip out.</p><p><strong>Done right:</strong> the supply line is off and the towel catches the drips.</p></li>\n<li><h3>Remove the old fill valve</h3><p>Under the tank, unscrew the plastic locknut that holds the fill valve. Pull the refill tube off the overflow tube and lift the old valve straight out.</p><p><strong>Done right:</strong> the hole in the tank bottom is clean, with no old washer stuck to it.</p></li>\n<li><h3>Set the new valve&#x27;s height</h3><p>Adjust the new valve's height (most twist to lengthen or shorten) so its critical level mark, usually labeled CL, sits at least 1 in above the top of the overflow tube. This anti-siphon gap is required by plumbing code.</p><p><strong>Done right:</strong> the CL mark is at least 1 in above the overflow tube, and the top of the valve clears the tank lid.</p></li>\n<li><h3>Install the new valve</h3><p>Push the valve through the hole with its rubber washer inside the tank, then hand-tighten the locknut underneath, plus a quarter turn with pliers. Clip the refill tube to the overflow tube so its end points into the tube, not down inside it. Reconnect the supply line hand-tight plus a quarter turn.</p><p><strong>Done right:</strong> the valve stands straight and doesn't rotate when you push on it.</p></li>\n<li><h3>Turn on the water and set the level</h3><p>Open the shut-off valve slowly. Let the tank fill, then adjust the float (a clip or screw on the valve) so the water stops about 1/2 in below the top of the overflow tube, or at the waterline mark inside the tank. Flush a few times and check underneath for drips.</p><p><strong>Done right:</strong> the tank refills quietly, stops at the right level, and the floor under the tank stays dry.</p></li>\n</ol>\n<aside class=\"callout callout--pro\"><p><strong>Call a plumber if:</strong> the shut-off valve won't close or leaks, the tank is cracked, or water seeps from the bolts that hold the tank to the bowl after you've finished.</p></aside>\n<h2>FAQ</h2>\n<h3>How do I know if the fill valve is bad?</h3><p>Signs include hissing, a tank that refills on its own every so often, slow refilling, or water that keeps running into the overflow tube.</p>\n<h3>Are toilet fill valves universal?</h3><p>Most adjustable fill valves fit standard two-piece toilets. Some low-profile or one-piece toilets need the maker&#x27;s own part.</p>\n<h3>What is the critical level on a fill valve?</h3><p>A mark (CL) on the valve that must sit at least 1 in above the overflow tube, so tank water can&#x27;t siphon back into your drinking water.</p>\n<h3>Where should the water level be in a toilet tank?</h3><p>About 1/2 in below the top of the overflow tube, or at the waterline mark molded inside the tank.</p>",
+    "isPublished": false,
+    "author": {
+      "name": "Home Improvement Hub"
+    }
+  },
+  "metafields": [
+    {
+      "namespace": "guide",
+      "key": "difficulty",
+      "type": "single_line_text_field",
+      "value": "Beginner"
+    },
+    {
+      "namespace": "guide",
+      "key": "time_required",
+      "type": "single_line_text_field",
+      "value": "30–60 minutes"
+    },
+    {
+      "namespace": "guide",
+      "key": "cost_range",
+      "type": "single_line_text_field",
+      "value": "$10–$25"
+    },
+    {
+      "namespace": "guide",
+      "key": "tools",
+      "type": "list.single_line_text_field",
+      "value": "[\"Adjustable wrench or channel-lock pliers\", \"Sponge\", \"Small bucket\", \"Towels\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "materials",
+      "type": "list.single_line_text_field",
+      "value": "[\"Universal toilet fill valve\", \"New toilet supply line (if the old one is more than a few years old)\"]"
+    },
+    {
+      "namespace": "guide",
+      "key": "video_url",
+      "type": "url",
+      "value": "https://www.youtube.com/watch?v=7d7uZYFu_ZA"
+    }
+  ],
+  "media": [],
+  "hero_slot": "how-to-replace-a-toilet-fill-valve-hero"
+}

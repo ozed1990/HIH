@@ -76,7 +76,16 @@
           </figure>
         {%- endif -%}
 
-        <div class="hih-rte">{{ article.content }}</div>
+        {%- comment -%} Affiliate links: the Shopify editor strips rel="sponsored", so add it here (first rel wins). Also drop empty leftover placeholder links. {%- endcomment -%}
+        {%- liquid
+          assign hih_body = article.content
+          assign hih_body = hih_body | replace: '<a href="https://link.amazon', '<a rel="sponsored noopener" href="https://link.amazon'
+          assign hih_body = hih_body | replace: '<a href="https://amzn.to', '<a rel="sponsored noopener" href="https://amzn.to'
+          assign hih_body = hih_body | replace: '<a href="https://www.amazon.com', '<a rel="sponsored noopener" href="https://www.amazon.com'
+          assign hih_empty = '<a href="' | append: '#' | append: 'add-affiliate-link" rel="sponsored noopener" target="_blank"></a>'
+          assign hih_body = hih_body | remove: hih_empty
+        -%}
+        <div class="hih-rte">{{ hih_body }}</div>
         {%- liquid
           assign next_guide = nil
           assign found = false

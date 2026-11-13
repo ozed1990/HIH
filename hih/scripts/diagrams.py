@@ -528,6 +528,44 @@ D["how-to-test-and-replace-smoke-alarms-step-1"] = svg(
     + T(60, 835, "Interconnected alarms are best: when one sounds, they all sound.", 24, 500, MUTED),
     "Smoke alarm placement floor plan")
 
+# Frozen pipes 3: sleeve sizing + mitered elbow
+_FP = "how-to-keep-pipes-from-freezing"
+def _sleeve(cx, y, pipe_r, label, size):
+    return (f'<circle cx="{cx}" cy="{y}" r="{pipe_r + 34}" fill="{SAGE}" stroke="{PRI}" stroke-width="4"/>'
+            f'<circle cx="{cx}" cy="{y}" r="{pipe_r}" fill="{BRASS}" stroke="{PRI}" stroke-width="3"/>'
+            + T(cx, y + pipe_r + 80, label, 26, 700, INK, "middle") + T(cx, y + pipe_r + 116, size, 24, 500, MUTED, "middle"))
+D[f"{_FP}-step-3"] = svg(
+    HEAD("Size the sleeve to the pipe, miter the elbows")
+    + R(60, 140, 500, 600, PAPER, LINE, 3) + T(310, 190, "1. Match the size", 30, 700, PRI, "middle")
+    + _sleeve(190, 360, 22, "1/2 in pipe", "1/2 in sleeve") + _sleeve(430, 360, 30, "3/4 in pipe", "3/4 in sleeve")
+    + T(310, 600, "Pipe (brass) fits snugly", 24, 600, MUTED, "middle") + T(310, 636, "inside the foam (green).", 24, 600, MUTED, "middle")
+    + R(620, 140, 520, 600, PAPER, LINE, 3) + T(880, 190, "2. Cut 45° at elbows", 30, 700, PRI, "middle")
+    + '<path d="M700 640 L860 640 L860 300" fill="none" stroke="' + BRASS + '" stroke-width="22" stroke-linejoin="miter"/>'
+    + '<polygon points="680,612 830,612 888,670 680,670" fill="' + SAGE + '" stroke="' + PRI + '" stroke-width="4"/>'
+    + '<polygon points="832,612 832,260 888,260 888,670" fill="' + SAGE + '" stroke="' + PRI + '" stroke-width="4"/>'
+    + L(832, 612, 888, 670, PRI, 5)
+    + '<rect x="808" y="590" width="104" height="104" fill="none" stroke="' + BRASS + '" stroke-width="4" stroke-dasharray="10 8" rx="10"/>'
+    + LEAD(912, 640, 960, 560, "Tape the joint") + LEAD(888, 400, 960, 400, "No bare pipe")
+    + T(60, 810, "Insulate cold lines and hot lines. Press the self-seal edges closed along the full length.", 26, 600, INK),
+    "Foam pipe sleeve sizing and mitered elbow")
+
+# Frozen pipes 6: cold-night checklist
+def _tile(x, y, title, sub, icon):
+    return R(x, y, 500, 260, PAPER, LINE, 3, 14) + icon + T(x + 200, y + 110, title, 32, 700, PRI) + T(x + 200, y + 160, sub, 24, 500, MUTED)
+_therm = '<circle cx="170" cy="275" r="60" fill="{0}" stroke="{1}" stroke-width="5"/>'.format(SAGE, PRI) + T(170, 287, "55°", 34, 700, PRI, "middle")
+_cab = R(120, 520, 100, 130, SAGE, PRI, 4, 6) + '<path d="M120 520 L80 540 L80 670 L120 650" fill="{0}" stroke="{1}" stroke-width="4"/>'.format(PAPER, PRI) + L(150, 560, 190, 560, BRASS, 6)
+_tap = '<path d="M700 230 h80 v40" fill="none" stroke="{0}" stroke-width="14" stroke-linecap="round"/>'.format(PRI) + "".join(f'<circle cx="780" cy="{y}" r="7" fill="{BRASS}"/>' for y in (300, 325, 350))
+_gar = R(690, 520, 120, 110, SAGE, PRI, 4, 4) + "".join(L(700, y, 800, y, PRI, 3) for y in (545, 570, 595)) + '<polygon points="680,520 750,480 820,520" fill="{0}" stroke="{1}" stroke-width="4"/>'.format(PAPER, PRI)
+D[f"{_FP}-step-6"] = svg(
+    HEAD("Nights at 20°F or colder: four quick moves")
+    + _tile(60, 145, "Thermostat 55°F+", "Same day and night", _therm)
+    + _tile(640, 145, "Drip one faucet", "Farthest from the main", _tap)
+    + _tile(60, 445, "Open cabinets", "Sinks on outside walls", _cab)
+    + _tile(640, 445, "Close the garage", "If pipes run through it", _gar)
+    + T(60, 790, "A slow, steady drip is enough. Wind makes pipes freeze faster, so start early.", 26, 600, INK)
+    + T(60, 835, "Away from home? Keep the heat on and ask someone to check the house.", 24, 500, MUTED),
+    "Cold-night checklist to prevent frozen pipes")
+
 for stem, s in D.items():
     (OUT / f"{stem}.svg").write_text(s)
 print(f"wrote {len(D)} diagrams")

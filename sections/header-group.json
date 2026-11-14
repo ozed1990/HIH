@@ -5,7 +5,8 @@
     "header": {
       "type": "hih-header",
       "settings": {
-        "menu": "hih-categories"
+        "menu": "hih-categories",
+        "featured_page": "tools-we-recommend"
       }
     }
   },

@@ -1,4 +1,5 @@
 {%- assign menu = linklists[section.settings.menu] -%}
+{%- assign feature = section.settings.featured_page -%}
 {%- render 'hih-logo-defs' -%}
 <header class="hih-header">
   <div class="hih-container hih-header__inner">
@@ -12,6 +13,9 @@
 
 
     <div class="hih-header__actions">
+      {%- if feature != blank and feature.url != blank -%}
+        <a class="hih-header__feature" href="{{ feature.url }}"{% if page.id == feature.id %} aria-current="page"{% endif %}>{{ feature.title | escape }}</a>
+      {%- endif -%}
       <a class="hih-icon-btn" href="{{ routes.search_url }}?type=article" aria-label="Search guides">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       </a>
@@ -20,6 +24,9 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
         </summary>
         <nav class="hih-menu__panel" aria-label="Categories, mobile">
+          {%- if feature != blank and feature.url != blank -%}
+            <a class="hih-menu__feature" href="{{ feature.url }}">{{ feature.title | escape }}</a>
+          {%- endif -%}
           {%- for link in menu.links -%}
             <a href="{{ link.url }}"{% if link.active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
           {%- endfor -%}
@@ -42,7 +49,8 @@
   "class": "hih-section-header",
   "settings": [
     { "type": "image_picker", "id": "logo", "label": "Logo image (optional, replaces the built-in HIH logo)" },
-    { "type": "link_list", "id": "menu", "label": "Category menu (use hih-categories)" }
+    { "type": "link_list", "id": "menu", "label": "Category menu (use hih-categories)" },
+    { "type": "page", "id": "featured_page", "label": "Featured page (bold link in the header, e.g. Tools We Recommend)", "info": "Shows only while the page is published." }
   ]
 }
 {% endschema %}

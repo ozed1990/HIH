@@ -451,3 +451,13 @@ img { max-width: 100%; height: auto; }
   .hih-rte .guide-steps figure img { max-height: var(--hih-print-fig); width: auto; }
   a[rel~="sponsored"]::after { content: " (" attr(href) ")"; font-weight: var(--hih-weight-regular); }
 }
+
+/* GEO/AEO: byline, quick answer, author box */
+.hih-byline { margin: var(--hih-space-2) 0 0; font-size: var(--hih-text-sm); color: var(--hih-color-muted); }
+.hih-byline a { color: inherit; }
+.hih-answer { margin: 0 0 var(--hih-space-6); padding: var(--hih-space-4) var(--hih-space-5); border-radius: var(--hih-radius); background: var(--hih-color-mist); box-shadow: inset var(--hih-space-1) 0 0 var(--hih-color-leaf); }
+.hih-answer h2 { margin: 0 0 var(--hih-space-2); font-size: var(--hih-text-sm); font-weight: var(--hih-weight-bold); letter-spacing: 0.04em; text-transform: uppercase; color: var(--hih-color-primary); }
+.hih-answer p { margin: 0; font-size: var(--hih-text-md); line-height: var(--hih-leading-body); }
+.hih-author { margin: var(--hih-space-7) 0 0; padding-top: var(--hih-space-5); border-top: var(--hih-border) solid var(--hih-color-line); }
+.hih-author__name { margin: 0 0 var(--hih-space-1); font-weight: var(--hih-weight-bold); }
+.hih-author__bio { margin: 0; font-size: var(--hih-text-sm); color: var(--hih-color-muted); }

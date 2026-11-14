@@ -8,6 +8,9 @@ import html, json, re, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "content"))
 from guides import GUIDES, AFFILIATE  # noqa: E402
+from answers import ANSWERS  # noqa: E402
+
+AUTHOR = "Mike Carter"  # byline on every guide; bio lives in the theme (hih-author snippet) and the About page
 
 AFFILIATE_HREF = "#add-affiliate-link"
 DISCLOSURE = ("<strong>Affiliate disclosure:</strong> some links in this guide are affiliate links. "
@@ -83,6 +86,9 @@ def validate(g, body):
     for s in g["steps"]:
         if "<strong>Done right:</strong>" not in s["body"]: errs.append(f"step '{s['title']}' lacks a 'Done right' check")
     if not g.get("video", "").startswith("https://www.youtube.com/watch?v="): errs.append("video_url missing or not a YouTube watch URL")
+    ans = ANSWERS.get(g["handle"], "")
+    if not ans: errs.append("quick answer missing in content/answers.py")
+    elif not (35 <= len(ans.split()) <= 60): errs.append(f"quick answer {len(ans.split())} words, need 35–60")
     return errs
 
 failed = False
@@ -99,7 +105,7 @@ for g in GUIDES:
     record = {
         "blog_handle": g["blog"], "blog_title": g["blog_title"],
         "article": {"title": g["title"], "handle": g["handle"], "summary": g["summary"], "tags": g["tags"],
-                    "body": body, "isPublished": False, "author": {"name": "Home Improvement Hub"}},
+                    "body": body, "isPublished": False, "author": {"name": AUTHOR}},
         "metafields": [
             {"namespace": "guide", "key": "difficulty", "type": "single_line_text_field", "value": g["difficulty"]},
             {"namespace": "guide", "key": "time_required", "type": "single_line_text_field", "value": g["time"]},
@@ -107,6 +113,7 @@ for g in GUIDES:
             {"namespace": "guide", "key": "tools", "type": "list.single_line_text_field", "value": json.dumps(g["tools"])},
             {"namespace": "guide", "key": "materials", "type": "list.single_line_text_field", "value": json.dumps(g["materials"])},
             {"namespace": "guide", "key": "video_url", "type": "url", "value": g["video"]},
+            {"namespace": "guide", "key": "quick_answer", "type": "multi_line_text_field", "value": ANSWERS[g["handle"]]},
         ],
         "media": media,
         "hero_slot": f"{g['handle']}-hero",

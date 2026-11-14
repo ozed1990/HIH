@@ -26,6 +26,7 @@
         {%- if g.time_required != blank -%}<li><span class="hih-visually-hidden">Time: </span>{{ g.time_required.value | escape }}</li>{%- endif -%}
         {%- if g.cost_range != blank -%}<li><span class="hih-visually-hidden">Cost: </span>{{ g.cost_range.value | escape }}</li>{%- endif -%}
       </ul>
+      <p class="hih-byline">By <a href="/pages/about#author" rel="author">{{ article.author | escape }}</a> · Updated <time datetime="{{ article.updated_at | date: '%Y-%m-%d' }}">{{ article.updated_at | date: '%B %-d, %Y' }}</time></p>
     </header>
 
     {%- if article.image -%}
@@ -84,8 +85,17 @@
           assign hih_body = hih_body | replace: '<a href="https://www.amazon.com', '<a rel="sponsored noopener" href="https://www.amazon.com'
           assign hih_empty = '<a href="' | append: '#' | append: 'add-affiliate-link" rel="sponsored noopener" target="_blank"></a>'
           assign hih_body = hih_body | remove: hih_empty
+          assign hih_steps_h2 = '<h2>' | append: article.title | append: ', step by step</h2>'
+          assign hih_body = hih_body | replace: '<h2>Steps</h2>', hih_steps_h2 | replace: '<h2>FAQ</h2>', '<h2>Frequently asked questions</h2>'
         -%}
+        {%- if g.quick_answer != blank -%}
+          <section class="hih-answer" aria-labelledby="hih-answer-h">
+            <h2 id="hih-answer-h">Quick answer</h2>
+            <p>{{ g.quick_answer.value | escape }}</p>
+          </section>
+        {%- endif -%}
         <div class="hih-rte">{{ hih_body }}</div>
+        {%- render 'hih-author', name: article.author -%}
         {%- liquid
           assign next_guide = nil
           assign found = false

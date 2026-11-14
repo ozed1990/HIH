@@ -1,0 +1,9 @@
+{%- comment -%}
+  Author box at the end of every guide. The byline name comes from the article's author field
+  (set by build_guides.py AUTHOR); this bio is the one place it is written for guides. Keep it
+  matching the "Who writes the guides" section of the About page.
+{%- endcomment -%}
+<aside class="hih-author" aria-label="About the author">
+  <p class="hih-author__name">Written by {{ name | escape }}</p>
+  <p class="hih-author__bio">{{ name | escape }} writes and updates Home Improvement Hub's guides. Each one is checked against manufacturer instructions, building-code basics and official sources, and says when to call a licensed pro. <a href="/pages/about#author">How we write our guides</a></p>
+</aside>

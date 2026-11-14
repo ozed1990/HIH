@@ -106,18 +106,15 @@
     }
   });
 
-  /* Tools We Recommend: a filter box over the product cards. Enter or the button searches the whole site. */
+  /* Tools We Recommend: a filter box over the product cards. It only filters this page; it never leaves it. */
   const picks = [...document.querySelectorAll('.hih-rte .hih-picks')];
   if (picks.length) {
     const firstHeading = picks[0].parentElement.querySelector('h2');
     const form = document.createElement('form');
     form.className = 'hih-search hih-picks-search';
-    form.action = '/search';
     form.setAttribute('role', 'search');
     form.innerHTML =
       '<input class="hih-input" type="search" name="q" autocomplete="off" aria-label="Search tools" placeholder="Search tools, e.g. drain, paint, stud">' +
-      '<input type="hidden" name="type" value="article">' +
-      '<button class="hih-btn" type="submit">Search all guides</button>' +
       '<p class="hih-picks-status" aria-live="polite"></p>';
     firstHeading.before(form);
     const input = form.querySelector('[name="q"]');
@@ -128,7 +125,7 @@
       intro: list.previousElementSibling,
       items: [...list.children].map((li) => ({ li, text: li.textContent.toLowerCase() })),
     }));
-    let shown = Infinity;
+    let shown = 0;
     input.addEventListener('input', () => {
       const words = input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
       shown = 0;
@@ -142,14 +139,11 @@
         [sec.list, sec.heading, sec.intro].forEach((el) => { if (el) el.hidden = count === 0; });
         shown += count;
       });
-      if (!words.length) { status.textContent = ''; shown = Infinity; }
+      if (!words.length) status.textContent = '';
       else if (shown) status.textContent = `${shown} ${shown === 1 ? 'tool matches' : 'tools match'}.`;
-      else status.textContent = `No tools match “${input.value.trim()}”. Press “Search all guides” to search the whole site.`;
+      else status.textContent = `No tools match “${input.value.trim()}”. Try another word, like drain, paint or saw.`;
     });
-    /* Enter keeps the reader on this page while there are matches; the button always searches the site. */
-    form.addEventListener('submit', (e) => {
-      if (!input.value.trim() || (e.submitter !== form.querySelector('button') && shown > 0 && shown !== Infinity)) e.preventDefault();
-    });
+    form.addEventListener('submit', (e) => e.preventDefault());
   }
 
   /* Guide page */

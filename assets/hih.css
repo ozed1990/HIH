@@ -404,6 +404,10 @@ img { max-width: 100%; height: auto; }
 }
 .hih-page .hih-rte .hih-picks > li > a:first-child { font-size: var(--hih-text-lg); color: var(--hih-color-primary); }
 .hih-page .hih-rte .hih-picks__guide { font-size: var(--hih-text-sm); color: var(--hih-color-muted); }
+.hih-page .hih-rte .hih-picks-search { margin-block: var(--hih-space-6) 0; max-width: none; }
+.hih-page .hih-rte [hidden] { display: none; }
+.hih-page .hih-rte .hih-picks-status { flex-basis: 100%; margin: 0; max-width: none; font-size: var(--hih-text-sm); color: var(--hih-color-muted); }
+.hih-page .hih-rte .hih-picks-status:empty { display: none; }
 .hih-page .hih-rte .page-updated { color: var(--hih-color-muted); font-size: var(--hih-text-sm); }
 
 /* Guide body: classes from the Guide contract (hih-guide-writer) */

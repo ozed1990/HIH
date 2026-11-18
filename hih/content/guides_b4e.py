@@ -351,12 +351,12 @@ GUIDES_B4E = [
 {
  "blog": "maintenance", "blog_title": "Home Maintenance",
  "handle": "water-softener-maintenance",
- "title": "Water Softener Maintenance: Salt, Bridges and Cleaning",
- "summary": "Keep your water softener working: check and add the right salt, break up salt bridges, clean the brine tank and test your water hardness.",
+ "title": "Water Softener Maintenance: How to Clean and Service It",
+ "summary": "Water softener maintenance made simple: add the right salt, break salt bridges, clean the brine tank and resin, check the injector and test hardness.",
  "tags": ["Beginner", "Home Maintenance", "Water", "Under 1 hour"],
- "difficulty": "Beginner", "time": "15–60 minutes", "cost": "$5–$30",
+ "difficulty": "Beginner", "time": "15–90 minutes", "cost": "$5–$30",
  "tools": ["Broom handle or long wooden dowel", "Bucket or wet-dry vacuum", "Scrub brush", "Water hardness test strips"],
- "materials": ["Water softener salt (pellets or crystals)", "Resin cleaner (if your water has iron)", "Mild dish soap"],
+ "materials": ["Water softener salt (pellets or crystals)", "Water softener resin cleaner", "Silicone grease (for injector O-rings)", "Mild dish soap"],
  "video": "https://www.youtube.com/watch?v=wqJ_Vv9w4_o",
  "intro": "A water softener needs only a little attention, but when it runs out of salt or forms a salt bridge, hard water comes right back. This guide covers the routine checks for a standard salt-based softener with a separate brine tank.",
  "safety": "<strong>Safety:</strong> salt bags are heavy; lift with your legs. Put the softener in bypass mode before cleaning the brine tank, and follow your softener's manual.",
@@ -373,12 +373,20 @@ GUIDES_B4E = [
   step("Clean the brine tank once a year",
    "<p>Put the softener in bypass mode. Let the salt run low, scoop or vacuum out the remaining salt and water, scrub the tank with mild soap and water, and rinse. Refill with a few inches of water and fresh salt, as the manual says.</p>"
    "<p><strong>Done right:</strong> the tank is free of sludge, and the softener is back out of bypass mode.</p>"),
+  step("Clean the resin bed with a resin cleaner",
+   "<p>Resin cleaner removes iron and other fouling from the resin beads. Use it every 3 to 12 months: more often if your water has iron or you see rust stains. Pour the dose into the brine well or tank as the cleaner's label directs, then start a manual regeneration so it rinses through the resin.</p>"
+   "<p><strong>Done right:</strong> the softener finished a full regeneration with the cleaner, and the water tests soft the next day.</p>"),
+  step("Check the venturi (injector) and screen",
+   "<p>If the brine tank stays full of water after a regeneration, the small injector that draws brine is often clogged. Put the softener in bypass and release pressure as your manual shows. Remove the injector cap, then rinse the screen and nozzle in warm water. Lubricate the O-rings with silicone grease and reassemble.</p>"
+   "<p><strong>Done right:</strong> after the next regeneration, the water level in the brine tank has dropped.</p>"),
   step("Test your water",
-   "<p>Use hardness test strips on water from a cold kitchen faucet a day after the softener regenerates. If your water has iron, use a resin cleaner as the maker recommends to keep the resin working.</p>"
+   "<p>Use hardness test strips on water from a cold kitchen faucet a day after the softener regenerates.</p>"
    "<p><strong>Done right:</strong> the test shows soft water, and you have no new spotting on glasses or fixtures.</p>"),
  ],
  "pro": "<strong>Call a water treatment technician if:</strong> the water stays hard with plenty of salt and no bridge, the brine tank stays full of water, the control valve leaks, or the softener runs constantly.",
  "faq": [
+  ["How do you clean a water softener?", "Clean the brine tank once a year: bypass the softener, empty the old salt and water, scrub with mild soap and rinse. Run a resin cleaner through a regeneration every 3 to 12 months, and rinse the injector screen if the brine tank stops draining."],
+  ["How often should a water softener be serviced?", "Check the salt monthly, clean the brine tank yearly and use resin cleaner every 3 to 12 months. Have a water treatment technician look at it if the water stays hard or the softener runs constantly."],
   ["How often should I add salt to my water softener?", "Check monthly and keep the tank at least one-third to half full. How often you add depends on your water hardness and use."],
   ["What is a salt bridge?", "A hard crust of salt that forms above the water in the brine tank, so the salt looks full but can't dissolve. Break it up with a broom handle."],
   ["Pellets or crystals?", "Both work. Pellets are popular for tall tanks; crystals suit some two-tank systems. Avoid rock salt."],

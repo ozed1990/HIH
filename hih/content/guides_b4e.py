@@ -389,7 +389,6 @@ GUIDES_B4E = [
   ["How often should a water softener be serviced?", "Check the salt monthly, clean the brine tank yearly and use resin cleaner every 3 to 12 months. Have a water treatment technician look at it if the water stays hard or the softener runs constantly."],
   ["How often should I add salt to my water softener?", "Check monthly and keep the tank at least one-third to half full. How often you add depends on your water hardness and use."],
   ["What is a salt bridge?", "A hard crust of salt that forms above the water in the brine tank, so the salt looks full but can't dissolve. Break it up with a broom handle."],
-  ["Pellets or crystals?", "Both work. Pellets are popular for tall tanks; crystals suit some two-tank systems. Avoid rock salt."],
   ["How do I know my softener is working?", "Use water hardness test strips. Signs of trouble include spotty dishes, scale on fixtures and soap that doesn't lather well."],
  ],
 },

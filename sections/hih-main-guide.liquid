@@ -66,7 +66,7 @@
           <figure class="hih-video">
             <div class="hih-video__frame" data-youtube-id="{{ yt_id | escape }}" data-title="{{ article.title | escape }} video">
               {%- # theme-check-disable RemoteAsset -%}
-              <img src="https://i.ytimg.com/vi/{{ yt_id | escape }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" class="hih-fade">
+              <img src="https://i.ytimg.com/vi/{{ yt_id | escape }}/hqdefault.jpg" alt="Video: {{ article.title | escape }}" width="480" height="360" loading="lazy" class="hih-fade">
               {%- # theme-check-enable RemoteAsset -%}
               <button class="hih-video__play" type="button">
                 <span class="hih-video__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
@@ -152,6 +152,23 @@
 </article>
 
 <script type="application/ld+json">{{ article | structured_data }}</script>
+{%- comment -%} FAQPage schema built from the body's FAQ section (h3 question + p answer), per the guide contract. {%- endcomment -%}
+{%- assign faq_parts = article.content | split: '<h2>FAQ</h2>' -%}
+{%- if faq_parts.size > 1 -%}
+  {%- assign faq_qs = faq_parts.last | split: '<h3>' -%}
+  {%- capture faq_items -%}
+    {%- for chunk in faq_qs offset: 1 -%}
+      {%- assign qa = chunk | split: '</h3>' -%}
+      {%- if qa.size > 1 -%}
+        {%- unless forloop.first -%},{%- endunless -%}
+        {"@type":"Question","name":{{ qa.first | strip_html | strip | json }},"acceptedAnswer":{"@type":"Answer","text":{{ qa.last | strip_html | strip | json }}}}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if faq_items != blank -%}
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{{ faq_items }}]}</script>
+  {%- endif -%}
+{%- endif -%}
 
 {% schema %}
 {

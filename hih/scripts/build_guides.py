@@ -114,6 +114,7 @@ for g in GUIDES:
             {"namespace": "guide", "key": "materials", "type": "list.single_line_text_field", "value": json.dumps(g["materials"])},
             {"namespace": "guide", "key": "video_url", "type": "url", "value": g["video"]},
             {"namespace": "guide", "key": "quick_answer", "type": "multi_line_text_field", "value": ANSWERS[g["handle"]]},
+            {"namespace": "global", "key": "description_tag", "type": "single_line_text_field", "value": g["summary"]},
         ],
         "media": media,
         "hero_slot": f"{g['handle']}-hero",

@@ -146,6 +146,41 @@
     form.addEventListener('submit', (e) => e.preventDefault());
   }
 
+  /* Book slide-in: our own planner for this category, shown at most once every 14 days, after the reader
+     is 60% through the guide or has spent 45 s on it. Never while the phone step bar or the end-of-guide box is on screen. */
+  const slide = document.querySelector('[data-bookslide]');
+  if (slide) {
+    const key = 'hih:book-slide';
+    let seenAt = 0;
+    try { seenAt = Number(localStorage.getItem(key) || 0); } catch (e) { /* storage off: show once per page */ }
+    const quiet = Date.now() - seenAt < 14 * 24 * 3600 * 1000;
+    const box = document.querySelector('.hih-book');
+    let boxVisible = false;
+    if (box && 'IntersectionObserver' in window) {
+      new IntersectionObserver((es) => { boxVisible = es[0].isIntersecting; if (boxVisible) slide.hidden = true; }).observe(box);
+    }
+    let shown = false;
+    let timeUp = false;
+    const article = document.querySelector('.hih-rte') || document.body;
+    const show = () => {
+      if (shown || quiet || boxVisible) return;
+      if (document.querySelector('.hih-stepbar:not([hidden])') && window.matchMedia('(max-width: 61.99em)').matches) return;
+      const r = article.getBoundingClientRect();
+      const read = (window.innerHeight - r.top) / Math.max(r.height, 1);
+      if (read < 0.6 && !timeUp) return;
+      shown = true;
+      slide.hidden = false;
+      try { localStorage.setItem(key, String(Date.now())); } catch (e) { /* ignore */ }
+    };
+    const onScroll = () => { show(); if (shown) window.removeEventListener('scroll', onScroll); };
+    if (!quiet) {
+      window.addEventListener('scroll', onScroll, { passive: true });
+      setTimeout(() => { timeUp = true; show(); }, 45000);
+    }
+    slide.querySelector('[data-bookslide-close]').addEventListener('click', () => { slide.hidden = true; });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !slide.hidden) slide.hidden = true; });
+  }
+
   /* Guide page */
   const guide = document.querySelector('[data-guide-id]');
   if (!guide) return;

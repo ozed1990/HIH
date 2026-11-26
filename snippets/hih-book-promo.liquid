@@ -1,0 +1,32 @@
+{%- comment -%}
+  Our own KDP planner for this guide's category (a "book" block of the guide section).
+  Renders the end-of-guide box and the slide-in that hih.js may show once (see "Book slide-in").
+  Usage: {% render 'hih-book-promo', book: book %}
+{%- endcomment -%}
+{%- liquid
+  assign s = book.settings
+  assign cover_alt = s.title | append: ' book cover'
+-%}
+<aside class="hih-book" aria-label="Our planner for this project" {{ book.shopify_attributes }}>
+  {%- if s.cover != blank -%}
+    {{- s.cover | image_url: width: 360 | image_tag: widths: '180, 360', sizes: '(min-width: 40em) 10rem, 7rem', loading: 'lazy', class: 'hih-book__cover', alt: cover_alt -}}
+  {%- endif -%}
+  <div class="hih-book__body">
+    <p class="hih-book__kicker">Our own planner</p>
+    <p class="hih-book__title">{{ s.title | escape }}</p>
+    {%- if s.blurb != blank -%}<p class="hih-book__blurb">{{ s.blurb | escape }}</p>{%- endif -%}
+    <a class="hih-book__cta" href="{{ s.url }}" target="_blank" rel="noopener" data-book-link="box">See it on Amazon<span class="hih-visually-hidden"> (opens in a new tab)</span></a>
+  </div>
+</aside>
+<aside class="hih-bookslide" data-bookslide hidden aria-label="Our planner for this project">
+  {%- if s.cover != blank -%}
+    {{- s.cover | image_url: width: 160 | image_tag: widths: '80, 160', sizes: '5rem', loading: 'lazy', class: 'hih-bookslide__cover', alt: '' -}}
+  {%- endif -%}
+  <div class="hih-bookslide__body">
+    <p class="hih-bookslide__line">{{ s.slide_line | default: s.title | escape }}</p>
+    <a class="hih-bookslide__cta" href="{{ s.url }}" target="_blank" rel="noopener" data-book-link="slide">{{ s.title | escape }}<span class="hih-visually-hidden"> on Amazon (opens in a new tab)</span></a>
+  </div>
+  <button type="button" class="hih-bookslide__close" data-bookslide-close aria-label="Close">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+</aside>

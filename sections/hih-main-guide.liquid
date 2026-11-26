@@ -95,6 +95,22 @@
           </section>
         {%- endif -%}
         <div class="hih-rte">{{ hih_body }}</div>
+        {%- liquid
+          comment
+            Our own book for this category: the first "book" block whose blogs list has this blog's handle.
+          endcomment
+          assign book = nil
+          for b in section.blocks
+            assign book_blogs = b.settings.blogs | split: ','
+            for h in book_blogs
+              assign hh = h | strip
+              if book == nil and hh == blog.handle and b.settings.url != blank
+                assign book = b
+              endif
+            endfor
+          endfor
+        -%}
+        {%- if book -%}{%- render 'hih-book-promo', book: book -%}{%- endif -%}
         {%- render 'hih-author', name: article.author -%}
         {%- liquid
           assign next_guide = nil
@@ -173,6 +189,20 @@
 {% schema %}
 {
   "name": "HIH guide page",
-  "settings": []
+  "settings": [],
+  "blocks": [
+    {
+      "type": "book",
+      "name": "Our book",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Book title" },
+        { "type": "text", "id": "blogs", "label": "Show on these categories", "info": "Blog handles, comma-separated (e.g. flooring, bathroom)." },
+        { "type": "image_picker", "id": "cover", "label": "Front cover" },
+        { "type": "textarea", "id": "blurb", "label": "One-line pitch (end of guide)" },
+        { "type": "text", "id": "slide_line", "label": "Slide-in line", "info": "Short question, e.g. Planning a flooring project?" },
+        { "type": "url", "id": "url", "label": "Amazon link" }
+      ]
+    }
+  ]
 }
 {% endschema %}

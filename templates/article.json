@@ -2,6 +2,58 @@
   "sections": {
     "main": {
       "type": "hih-main-guide",
+      "blocks": {
+        "book_flooring_project_planner": {
+          "type": "book",
+          "settings": {
+            "title": "Flooring Project Planner",
+            "blogs": "flooring",
+            "cover": "shopify://shop_images/hih-book-flooring-project-planner.jpg",
+            "blurb": "Measure every room, estimate materials, compare floor types and track your install, all in one workbook.",
+            "slide_line": "Planning a flooring project?",
+            "url": "https://www.amazon.com/dp/B0HS62QV4J"
+          }
+        },
+        "book_bathroom_remodel_planner": {
+          "type": "book",
+          "settings": {
+            "title": "Bathroom Remodel Planner",
+            "blogs": "bathroom",
+            "cover": "shopify://shop_images/hih-book-bathroom-remodel-planner.jpg",
+            "blurb": "Plan your remodel step by step, from budget and layout to tile, vanity and shower.",
+            "slide_line": "Planning a bathroom remodel?",
+            "url": "https://www.amazon.com/dp/B0HR72VRFM"
+          }
+        },
+        "book_doors_windows_record_book": {
+          "type": "book",
+          "settings": {
+            "title": "Doors & Windows Record Book",
+            "blogs": "doors-windows",
+            "cover": "shopify://shop_images/hih-book-doors-windows-record-book.jpg",
+            "blurb": "Keep every size, lock and key on record, and plan window and door replacements room by room.",
+            "slide_line": "Replacing doors or windows?",
+            "url": "https://www.amazon.com/dp/B0HR7M2SD2"
+          }
+        },
+        "book_garden_yard_planner": {
+          "type": "book",
+          "settings": {
+            "title": "Garden & Yard Planner",
+            "blogs": "outdoor-garden",
+            "cover": "shopify://shop_images/hih-book-garden-yard-planner.jpg",
+            "blurb": "Plan your beds, track every planting and keep lawn care and outdoor projects organized through the seasons.",
+            "slide_line": "Planning your yard this year?",
+            "url": "https://www.amazon.com/dp/B0HS5MTL5M"
+          }
+        }
+      },
+      "block_order": [
+        "book_flooring_project_planner",
+        "book_bathroom_remodel_planner",
+        "book_doors_windows_record_book",
+        "book_garden_yard_planner"
+      ],
       "settings": {}
     }
   },

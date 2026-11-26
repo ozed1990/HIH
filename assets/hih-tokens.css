@@ -70,6 +70,9 @@
   --hih-form-max: 51.2rem;
   --hih-footer-text: 41.6rem;
   --hih-check-box: 1.8rem;       /* 18: checklist box */
+  --hih-book-cover: 12rem;       /* 120: our book cover, end of guide */
+  --hih-book-cover-sm: 4.8rem;   /* 48: our book cover, slide-in */
+  --hih-book-slide: 36rem;       /* 360: slide-in width, wide screens */
   --hih-toc-num: 2rem;           /* 20: TOC number column */
   --hih-logo-ratio: 2013 / 398;  /* must match the viewBox in snippets/hih-logo.liquid */
   --hih-logo-h: 4.4rem;          /* 44: header logo height */

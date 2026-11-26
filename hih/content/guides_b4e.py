@@ -357,7 +357,7 @@ GUIDES_B4E = [
  "difficulty": "Beginner", "time": "15–90 minutes", "cost": "$5–$30",
  "tools": ["Broom handle or long wooden dowel", "Bucket or wet-dry vacuum", "Scrub brush", "Water hardness test strips"],
  "materials": ["Water softener salt (pellets or crystals)", "Water softener resin cleaner", "Silicone grease (for injector O-rings)", "Mild dish soap"],
- "video": "https://www.youtube.com/watch?v=wqJ_Vv9w4_o",
+ "video": "https://www.youtube.com/watch?v=dE4SHSlPGs8",
  "intro": "A water softener needs only a little attention, but when it runs out of salt or forms a salt bridge, hard water comes right back. This guide covers the routine checks for a standard salt-based softener with a separate brine tank.",
  "safety": "<strong>Safety:</strong> salt bags are heavy; lift with your legs. Put the softener in bypass mode before cleaning the brine tank, and follow your softener's manual.",
  "steps": [

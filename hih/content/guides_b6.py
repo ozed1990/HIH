@@ -99,6 +99,6 @@ GUIDES_B6 = [
 ]
 
 AFFILIATE_B6 = {
- "winterize-outdoor-faucet-without-shut-off-valve": [("insulated faucet cover", "https://link.amazon/B09OMF804"), "frost-free sillcock"],
+ "winterize-outdoor-faucet-without-shut-off-valve": [("insulated faucet cover", "https://link.amazon/B09OMF804"), ("frost-free sillcock", "https://www.amazon.com/dp/B0DBKW26CG?tag=homeimprovementhub-20&linkCode=ll2")],
  "water-softener-not-using-salt": ["hardness test strips"],
 }
